@@ -3,7 +3,7 @@ import re
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv(sys.argv[1], header=0, delimiter='\t', dtype=str,index_col=False)
+data = pd.read_csv(sys.argv[1], header=0, delimiter='\t', dtype=str)
 data['syllabified'] = np.zeros(data.shape[0],)
 
 for index, row in data.iterrows():

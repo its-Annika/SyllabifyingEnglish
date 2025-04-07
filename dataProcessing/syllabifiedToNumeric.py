@@ -13,6 +13,6 @@ for index, row in syllabified.iterrows():
     done = re.sub(r'[^1]', '0', boundaries)
     syllabified.at[index,'numeric'] = done
 
-syllabified.to_csv(sys.argv[2], sep='\t')
+syllabified.to_csv(sys.argv[2], sep='\t',index=False)
     
 
