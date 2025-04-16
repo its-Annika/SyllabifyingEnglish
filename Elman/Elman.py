@@ -496,6 +496,15 @@ def main():
     conf_matrix = generate_confusion_matrix(model, test_loader, tag_vocab, device)
     plot_confusion_matrix(conf_matrix, tag_vocab)
     print('Confusion matrix saved to confusion_matrix.png')
+
+    with open("Elman/details.txt", "w") as d:
+        d.write("Paramters: " + ", ".join(map(str, best_config)) + "\n")
+        d.write("Test Accuracy: " + str(test_acc)+ '\n')
+        d.write("Confusion Matrix:  \n")
+        d.write(" ".join(map(str,conf_matrix[0])) + '\n')
+        d.write(" ".join(map(str,conf_matrix[1])) + '\n')
+    
+    d.close()
     
     write_all_output(model, test_loader, graph_vocab, tag_vocab, device)
     write_all_errors(model, test_loader, graph_vocab, tag_vocab, device)
