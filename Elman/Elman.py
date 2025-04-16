@@ -11,7 +11,6 @@ from collections import Counter
 import pandas as pd
 from itertools import product
 
-
 #vocabulary class
 class Vocabulary:
     #don't need an UNK, as the entire alphabet is in training
@@ -394,7 +393,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='RNN POS Tagger')
     
     parser.add_argument('--data_dir', type=str, default='processedData', help='Directory with CoNLL-U files')
-    parser.add_argument('--model_path', type=str, default='Elman/Elaman_Syllable_RNN.pt', help='Path to save model')
+    parser.add_argument('--model_path', type=str, default='Elman/Elman_Syllable_RNN.pt', help='Path to save model')
     parser.add_argument('--embedding_dim', type=int, default=100, help='Word embedding dimension')
     parser.add_argument('--hidden_dim', type=int, default=128, help='LSTM hidden dimension')
     parser.add_argument('--batch_size', type=int, default=32, help='Batch size')
@@ -411,9 +410,14 @@ def main():
     random.seed(42)
     np.random.seed(42)
     torch.manual_seed(42)
-    
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    print(f'Using device: {device}')
+
+ 
+    if torch.backends.mps.is_available() and torch.backends.mps.is_built():
+        device = torch.device("mps")
+        print("MPS is available -- Using Apple GPU.")
+    else:
+        device = torch.device("cpu")
+        print("MPS not available -- Using CPU.")
     
     train_file = os.path.join(args.data_dir, 'train.tsv')
     dev_file = os.path.join(args.data_dir, 'dev.tsv')
@@ -442,65 +446,67 @@ def main():
     test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False, collate_fn=collate_fn)
 
     #adding a manual gridSearch loop:
-    # embedding_dims = [50]
-    # hidden_dims = [64]
-    # l_rs = [0.001]
-    # epochs = [1]
+    embedding_dims = [32, 64, 96]
+    hidden_dims = [96, 128, 192]
+    l_rs = [0.01, 0.001, 0.0001]
+    epochs = [5,10,15]
 
-    # best_acc = 0
-    # best_config = None
-    # best_model = None
+    best_acc = 0
+    best_config = None
+    best_model = None
 
-    # for emb_dim, hid_dim, lr, epochs in product(embedding_dims, hidden_dims, l_rs, epochs):
-    #     print(f"Trying: emb_dim={emb_dim}, hid_dim={hid_dim}, lr={lr}, epochs={epochs}")
+    index = 0
 
-    #     model = SyllableRNN(len(graph_vocab), len(tag_vocab), emb_dim, hid_dim).to(device)
+    for emb_dim, hid_dim, lr, epochs in product(embedding_dims, hidden_dims, l_rs, epochs):
+        print(f"Round: {index}")
+        print(f"Trying: emb_dim={emb_dim}, hid_dim={hid_dim}, lr={lr}, epochs={epochs}")
+
+        model = SyllableRNN(len(graph_vocab), len(tag_vocab), emb_dim, hid_dim).to(device)
     
-    #     args.embedding_dim = emb_dim
-    #     args.hidden_dim = hid_dim
-    #     args.lr = lr
-    #     args.epochs = epochs
+        args.embedding_dim = emb_dim
+        args.hidden_dim = hid_dim
+        args.lr = lr
+        args.epochs = epochs
         
-    #     acc = train(model, train_loader, dev_loader, args, device)
+        acc = train(model, train_loader, dev_loader, args, device)
         
-    #     if acc > best_acc:
-    #         best_acc = acc
-    #         best_config = (emb_dim, hid_dim, lr)
-    #         best_model = model
+        if acc > best_acc:
+            best_acc = acc
+            best_config = (emb_dim, hid_dim, lr, epochs)
+            best_model = model
+        
+        index += 1
     
-    # print(best_config)
-    # torch.save(best_model.state_dict(), args.model_path)
-    # print(f'Model saved to {args.model_path}')
+    print(best_config)
+    torch.save(best_model.state_dict(), args.model_path)
+    print(f'Model saved to {args.model_path}')
     
-
 
     #if you need to the load the model after it's trained
-    embedding_dim = 50
-    hidden_dim = 64
+    # embedding_dim = 96
+    # hidden_dim = 192
 
-    print('Loading best model...')
-    model = SyllableRNN(
-        vocab_size=len(graph_vocab),
-        tagset_size=len(tag_vocab),
-        embedding_dim = embedding_dim,
-        hidden_dim = hidden_dim,
-    ).to(device)
-    model.load_state_dict(torch.load(args.model_path))
+    # print('Loading best model...')
+    # model = SyllableRNN(
+    #     vocab_size=len(graph_vocab),
+    #     tagset_size=len(tag_vocab),
+    #     embedding_dim = embedding_dim,
+    #     hidden_dim = hidden_dim,
+    # ).to(device)
+    # model.load_state_dict(torch.load(args.model_path))
                                
 
-    # print('Evaluating on test set...')
-    # test_acc, (all_preds, all_targets) = evaluate(model, test_loader, device)
-    # print(f'Test Accuracy: {test_acc:.4f}')
+    print('Evaluating on test set...')
+    test_acc, (all_preds, all_targets) = evaluate(model, test_loader, device)
+    print(f'Test Accuracy: {test_acc:.4f}')
     
-    # print('Generating confusion matrix...')
-    # conf_matrix = generate_confusion_matrix(model, test_loader, tag_vocab, device)
-    # plot_confusion_matrix(conf_matrix, tag_vocab)
-    # print('Confusion matrix saved to confusion_matrix.png')
+    print('Generating confusion matrix...')
+    conf_matrix = generate_confusion_matrix(model, test_loader, tag_vocab, device)
+    plot_confusion_matrix(conf_matrix, tag_vocab)
+    print('Confusion matrix saved to confusion_matrix.png')
     
     write_all_output(model, dev_loader, graph_vocab, tag_vocab, device)
     write_all_errors(model, dev_loader, graph_vocab, tag_vocab, device)
-
-    # print('Done!')
 
 
 if __name__ == "__main__":
