@@ -360,6 +360,7 @@ def write_all_output(model, data_loader, graph_vocab, tag_vocab, device):
     
     model.eval()
     with open("Elman/allOutput.txt", 'w') as f:
+        f.write("notSyllabified\tnumeric\n")
         for batch in data_loader:
             tokens = batch['tokens']
             true_tags = batch['tags']
@@ -374,19 +375,10 @@ def write_all_output(model, data_loader, graph_vocab, tag_vocab, device):
             for i, length in enumerate(lengths):
                 # Get token and tag strings
                 token_strs = [graph_vocab.idx_to_token(idx.item()) for idx in tokens[i, :length]]
-                true_tag_strs = [tag_vocab.idx_to_token(idx.item()) for idx in true_tags[i, :length]]
                 pred_tag_strs = [tag_vocab.idx_to_token(idx.item()) for idx in pred_tags[i, :length]]
 
                     
-                f.write("\nword:  " + "".join(token_strs))
-                f.write("\nGold:  ")
-                for t, tag in zip(token_strs, true_tag_strs):
-                    f.write(t + "/" + tag + " ")
-                    
-                f.write("\nPred:  ")
-                for t, tag in zip(token_strs, pred_tag_strs):
-                    f.write(t + "/" + tag + " ")
-                f.write("\n")
+                f.write("".join(token_strs) + '\t ' + "".join(pred_tag_strs) + "\n")
     f.close()
                 
 def parse_args():
@@ -505,8 +497,8 @@ def main():
     plot_confusion_matrix(conf_matrix, tag_vocab)
     print('Confusion matrix saved to confusion_matrix.png')
     
-    write_all_output(model, dev_loader, graph_vocab, tag_vocab, device)
-    write_all_errors(model, dev_loader, graph_vocab, tag_vocab, device)
+    write_all_output(model, test_loader, graph_vocab, tag_vocab, device)
+    write_all_errors(model, test_loader, graph_vocab, tag_vocab, device)
 
 
 if __name__ == "__main__":
