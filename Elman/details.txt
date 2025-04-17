@@ -1,0 +1,5 @@
+Paramters: 96, 192, 0.001, 15
+Test Accuracy: 0.8785863471474112
+Confusion Matrix:  
+13666 802
+1407 2319
