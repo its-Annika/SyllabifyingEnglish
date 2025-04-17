@@ -1,14 +1,14 @@
 # SyllabifyingEnglish
 
----
+Project Description/Goal: TODO
 
-### Data
-[25,000 syllabified words list](https://github.com/gautesolheim/25000-syllabified-words-list)
 
----
+## Implementation 
 
-### Elman Model
- An RNN with an embedding layer, one hidden layer and one linear output layer. Fully connected. Masking was performed.
+**Data**: [25,000 syllabified words list](https://github.com/gautesolheim/25000-syllabified-words-list)
+
+
+**Elman Model**: An RNN with an embedding layer, one hidden layer and one linear output layer. Fully connected. Masking was performed.
 
 Manual grid search was performed targeting: 
 * embedding_dims = [32, 64, 96]
