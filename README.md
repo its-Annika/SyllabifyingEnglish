@@ -16,7 +16,7 @@ Manual grid search was performed targeting:
 * l_rs = [0.01, 0.001, 0.0001]
 * epochs = [5,10,15]
 
-Best model paramters: 
+Best model parameters: 
 * embedding_dim = 96
 * hidden_dim = 192
 * l_r = 0.001
