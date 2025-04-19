@@ -402,6 +402,7 @@ def main():
     random.seed(42)
     np.random.seed(42)
     torch.manual_seed(42)
+    torch.cuda.manual_seed_all(42)
 
  
     if torch.backends.mps.is_available() and torch.backends.mps.is_built():
@@ -489,11 +490,11 @@ def main():
                                
 
     print('Evaluating on test set...')
-    test_acc, (all_preds, all_targets) = evaluate(model, test_loader, device)
+    test_acc, (all_preds, all_targets) = evaluate(best_model, test_loader, device)
     print(f'Test Accuracy: {test_acc:.4f}')
     
     print('Generating confusion matrix...')
-    conf_matrix = generate_confusion_matrix(model, test_loader, tag_vocab, device)
+    conf_matrix = generate_confusion_matrix(best_model, test_loader, tag_vocab, device)
     plot_confusion_matrix(conf_matrix, tag_vocab)
     print('Confusion matrix saved to confusion_matrix.png')
 
@@ -506,8 +507,8 @@ def main():
     
     d.close()
     
-    write_all_output(model, test_loader, graph_vocab, tag_vocab, device)
-    write_all_errors(model, test_loader, graph_vocab, tag_vocab, device)
+    write_all_output(best_model, test_loader, graph_vocab, tag_vocab, device)
+    write_all_errors(best_model, test_loader, graph_vocab, tag_vocab, device)
 
 
 if __name__ == "__main__":
