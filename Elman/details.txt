@@ -1,5 +1,5 @@
 Paramters: 96, 192, 0.001, 15
-Test Accuracy: 0.8785863471474112
+Test Accuracy: 0.8947455205012641
 Confusion Matrix:  
-13666 802
-1407 2319
+13758 710
+1205 2521

@@ -9,11 +9,15 @@ Pred:  f/0 o/0 r/0 g/1 i/0 v/0 e/0 N/0 e/0 s/0 s/0
 
 word:  rawhide
 Gold:  r/0 a/0 w/0 h/1 i/0 d/0 e/0 
-Pred:  r/0 a/0 w/0 H/0 I/1 d/0 e/0 
+Pred:  r/0 a/0 w/0 H/0 i/0 d/0 e/0 
 
 word:  curvature
 Gold:  c/0 u/0 r/0 v/1 a/0 t/1 u/0 r/0 e/0 
 Pred:  c/0 u/0 r/0 V/0 a/0 t/1 u/0 r/0 e/0 
+
+word:  bandicoot
+Gold:  b/0 a/0 n/0 d/1 i/0 c/1 o/0 o/0 t/0 
+Pred:  b/0 a/0 n/0 D/0 I/1 c/1 o/0 o/0 t/0 
 
 word:  centenary
 Gold:  c/0 e/0 n/0 t/1 e/0 n/1 a/0 r/0 y/1 
@@ -31,37 +35,37 @@ word:  mains
 Gold:  m/0 a/0 i/0 n/0 s/0 
 Pred:  m/0 a/0 i/0 n/0 S/1 
 
+word:  salvia
+Gold:  s/0 a/0 l/0 v/1 i/0 a/1 
+Pred:  s/0 a/0 l/0 V/0 I/1 a/1 
+
 word:  cosmology
 Gold:  c/0 o/0 s/0 m/1 o/0 l/0 o/1 g/1 y/0 
 Pred:  c/0 o/0 s/0 m/1 o/0 l/0 O/0 g/1 y/0 
 
 word:  placenta
 Gold:  p/0 l/0 a/0 c/1 e/0 n/0 t/1 a/0 
-Pred:  p/0 l/0 a/0 C/0 e/0 n/0 t/1 a/0 
+Pred:  p/0 l/0 a/0 C/0 e/0 n/0 T/0 a/0 
 
 word:  omit
 Gold:  o/0 m/1 i/0 t/0 
-Pred:  o/0 M/0 i/0 T/1 
+Pred:  o/0 M/0 i/0 t/0 
 
 word:  polarizing
 Gold:  p/0 o/0 l/1 a/0 r/0 i/1 z/0 i/1 n/0 g/0 
-Pred:  p/0 o/0 L/0 a/0 r/0 i/1 Z/1 i/1 n/0 g/0 
+Pred:  p/0 o/0 L/0 a/0 r/0 i/1 z/0 i/1 n/0 g/0 
 
 word:  speedometer
 Gold:  s/0 p/0 e/0 e/0 d/0 o/1 m/0 e/1 t/1 e/0 r/0 
-Pred:  s/0 p/0 e/0 e/0 d/0 o/1 m/0 E/0 T/0 e/0 r/0 
+Pred:  s/0 p/0 e/0 e/0 d/0 o/1 m/0 E/0 t/1 e/0 r/0 
 
 word:  eleven
 Gold:  e/0 l/1 e/0 v/0 e/1 n/0 
-Pred:  e/0 L/0 e/0 v/0 E/0 n/0 
-
-word:  oust
-Gold:  o/0 u/0 s/0 t/0 
-Pred:  o/0 u/0 s/0 T/1 
+Pred:  e/0 l/1 e/0 V/1 e/1 n/0 
 
 word:  nave
 Gold:  n/0 a/0 v/0 e/0 
-Pred:  n/0 a/0 V/1 e/0 
+Pred:  n/0 a/0 V/1 E/1 
 
 word:  crotch
 Gold:  c/0 r/0 o/0 t/0 c/0 h/0 
@@ -69,15 +73,15 @@ Pred:  c/0 r/0 o/0 T/1 c/0 h/0
 
 word:  intercity
 Gold:  i/0 n/0 t/1 e/0 r/0 c/1 i/0 t/0 y/1 
-Pred:  i/0 n/0 t/1 e/0 r/0 c/1 i/0 T/1 Y/0 
+Pred:  i/0 n/0 t/1 e/0 r/0 c/1 i/0 t/0 Y/0 
+
+word:  urban
+Gold:  u/0 r/0 b/1 a/0 n/0 
+Pred:  u/0 R/1 b/1 a/0 n/0 
 
 word:  endemic
 Gold:  e/0 n/0 d/0 e/0 m/0 i/0 c/0 
-Pred:  e/0 n/0 D/1 e/0 M/1 I/1 C/1 
-
-word:  snooze
-Gold:  s/0 n/0 o/0 o/0 z/0 e/0 
-Pred:  s/0 n/0 o/0 o/0 z/0 E/1 
+Pred:  e/0 n/0 D/1 e/0 M/1 I/1 c/0 
 
 word:  vengeance
 Gold:  v/0 e/0 n/0 g/0 e/0 a/1 n/0 c/0 e/0 
@@ -85,7 +89,7 @@ Pred:  v/0 e/0 n/0 G/1 e/0 A/0 n/0 c/0 e/0
 
 word:  merging
 Gold:  m/0 e/0 r/0 g/0 i/1 n/0 g/0 
-Pred:  m/0 e/0 r/0 G/1 I/0 n/0 g/0 
+Pred:  m/0 e/0 r/0 g/0 I/0 n/0 g/0 
 
 word:  verse
 Gold:  v/0 e/0 r/0 s/0 e/0 
@@ -93,39 +97,35 @@ Pred:  v/0 e/0 r/0 S/1 e/0
 
 word:  craziness
 Gold:  c/0 r/0 a/0 z/1 i/0 n/1 e/0 s/0 s/0 
-Pred:  c/0 r/0 a/0 Z/0 I/1 N/0 e/0 s/0 s/0 
-
-word:  modernism
-Gold:  m/0 o/0 d/0 e/1 r/0 n/0 i/1 s/0 m/0 
-Pred:  m/0 o/0 d/0 e/1 r/0 N/1 I/0 s/0 m/0 
+Pred:  c/0 r/0 a/0 Z/0 i/0 N/0 e/0 s/0 s/0 
 
 word:  epos
 Gold:  e/0 p/0 o/1 s/0 
 Pred:  e/0 p/0 O/0 s/0 
 
+word:  instalment
+Gold:  i/0 n/0 s/1 t/0 a/0 l/0 m/1 e/0 n/0 t/0 
+Pred:  i/0 n/0 s/1 t/0 a/0 l/0 M/0 e/0 n/0 t/0 
+
 word:  penitentiary
 Gold:  p/0 e/0 n/0 i/1 t/1 e/0 n/0 t/1 i/0 a/0 r/1 y/0 
-Pred:  p/0 e/0 n/0 i/1 t/1 e/0 n/0 T/0 i/0 a/0 R/0 Y/1 
-
-word:  lamp
-Gold:  l/0 a/0 m/0 p/0 
-Pred:  l/0 a/0 m/0 P/1 
+Pred:  p/0 e/0 n/0 i/1 t/1 e/0 n/0 T/0 i/0 a/0 R/0 y/0 
 
 word:  chico
 Gold:  c/0 h/0 i/0 c/1 o/0 
-Pred:  c/0 h/0 i/0 C/0 o/0 
+Pred:  c/0 h/0 i/0 C/0 O/1 
 
 word:  paprika
 Gold:  p/0 a/0 p/0 r/1 i/0 k/1 a/0 
-Pred:  p/0 a/0 p/0 R/0 i/0 k/1 a/0 
+Pred:  p/0 a/0 P/1 R/0 i/0 k/1 a/0 
 
-word:  watery
-Gold:  w/0 a/0 t/1 e/0 r/0 y/1 
-Pred:  w/0 a/0 T/0 e/0 r/0 y/1 
+word:  androgen
+Gold:  a/0 n/0 d/1 r/0 o/0 g/1 e/0 n/0 
+Pred:  a/0 n/0 d/1 r/0 o/0 G/0 e/0 n/0 
 
 word:  designed
 Gold:  d/0 e/0 s/1 i/0 g/0 n/0 e/0 d/0 
-Pred:  d/0 e/0 S/0 i/0 g/0 n/0 e/0 d/0 
+Pred:  d/0 e/0 s/1 i/0 g/0 N/1 e/0 d/0 
 
 word:  brutally
 Gold:  b/0 r/0 u/0 t/1 a/0 l/0 l/1 y/0 
@@ -133,7 +133,7 @@ Pred:  b/0 r/0 u/0 T/0 a/0 l/0 l/1 y/0
 
 word:  acorn
 Gold:  a/0 c/1 o/0 r/0 n/0 
-Pred:  a/0 C/0 o/0 r/0 N/1 
+Pred:  a/0 C/0 o/0 r/0 n/0 
 
 word:  saucer
 Gold:  s/0 a/0 u/0 c/1 e/0 r/0 
@@ -145,7 +145,11 @@ Pred:  l/0 a/0 n/0 C/0 e/0 t/0
 
 word:  antistatic
 Gold:  a/0 n/0 t/1 i/0 s/1 t/0 a/0 t/0 i/1 c/0 
-Pred:  a/0 n/0 t/1 i/0 S/0 T/1 a/0 T/1 I/0 c/0 
+Pred:  a/0 n/0 t/1 i/0 s/1 T/1 a/0 t/0 I/0 c/0 
+
+word:  aesthetics
+Gold:  a/0 e/0 s/0 t/1 h/0 e/0 t/0 i/1 c/0 s/0 
+Pred:  a/0 e/0 S/1 T/0 h/0 e/0 t/0 i/1 c/0 s/0 
 
 word:  gooseneck
 Gold:  g/0 o/0 o/0 s/0 e/0 n/1 e/0 c/0 k/0 
@@ -157,7 +161,7 @@ Pred:  s/0 y/0 n/0 o/1 N/0 Y/1 M/1
 
 word:  unsaturated
 Gold:  u/0 n/0 s/1 a/0 t/0 u/1 r/1 a/0 t/0 e/1 d/0 
-Pred:  u/0 n/0 s/1 a/0 t/0 U/0 R/0 a/0 T/1 E/0 d/0 
+Pred:  u/0 n/0 s/1 a/0 t/0 u/1 R/0 a/0 t/0 E/0 d/0 
 
 word:  nonsense
 Gold:  n/0 o/0 n/0 s/1 e/0 n/0 s/0 e/0 
@@ -165,15 +169,15 @@ Pred:  n/0 o/0 n/0 s/1 e/0 n/0 S/1 e/0
 
 word:  regulated
 Gold:  r/0 e/0 g/0 u/1 l/1 a/0 t/0 e/1 d/0 
-Pred:  r/0 e/0 G/1 U/0 L/0 a/0 t/0 e/1 d/0 
+Pred:  r/0 e/0 G/1 U/0 l/1 a/0 t/0 e/1 d/0 
 
 word:  socialization
 Gold:  s/0 o/0 c/1 i/0 a/0 l/0 i/1 z/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  s/0 o/0 c/1 i/0 A/1 l/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  s/0 o/0 c/1 i/0 a/0 l/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0 
 
 word:  confederacy
 Gold:  c/0 o/0 n/0 f/1 e/0 d/0 e/1 r/0 a/1 c/1 y/0 
-Pred:  c/0 o/0 n/0 f/1 e/0 d/0 E/0 r/0 a/1 C/0 y/0 
+Pred:  c/0 o/0 n/0 f/1 e/0 D/1 E/0 r/0 a/1 C/0 y/0 
 
 word:  obsession
 Gold:  o/0 b/0 s/1 e/0 s/0 s/1 i/0 o/0 n/0 
@@ -183,37 +187,41 @@ word:  depleted
 Gold:  d/0 e/0 p/1 l/0 e/0 t/0 e/1 d/0 
 Pred:  d/0 e/0 p/1 l/0 e/0 t/0 E/0 d/0 
 
-word:  luminaries
-Gold:  l/0 u/0 m/1 i/0 n/1 a/0 r/0 i/1 e/0 s/0 
-Pred:  l/0 u/0 M/0 i/0 n/1 a/0 r/0 i/1 e/0 s/0 
+word:  reclaim
+Gold:  r/0 e/0 c/1 l/0 a/0 i/0 m/0 
+Pred:  r/0 e/0 C/0 l/0 a/0 i/0 m/0 
+
+word:  fervor
+Gold:  f/0 e/0 r/0 v/1 o/0 r/0 
+Pred:  f/0 e/0 r/0 v/1 o/0 R/1 
 
 word:  stardust
 Gold:  s/0 t/0 a/0 r/0 d/1 u/0 s/0 t/0 
-Pred:  s/0 t/0 a/0 r/0 D/0 U/1 s/0 t/0 
+Pred:  s/0 t/0 a/0 r/0 D/0 u/0 s/0 T/1 
+
+word:  dextrose
+Gold:  d/0 e/0 x/0 t/1 r/0 o/0 s/0 e/0 
+Pred:  d/0 e/0 x/0 t/1 r/0 o/0 S/1 e/0 
+
+word:  browser
+Gold:  b/0 r/0 o/0 w/0 s/0 e/1 r/0 
+Pred:  b/0 r/0 o/0 w/0 s/0 E/0 r/0 
 
 word:  notwithstanding
 Gold:  n/0 o/0 t/0 w/1 i/0 t/0 h/0 s/1 t/0 a/0 n/0 d/0 i/1 n/0 g/0 
-Pred:  n/0 o/0 T/1 w/1 i/0 T/1 h/0 s/1 t/0 a/0 n/0 d/0 i/1 n/0 g/0 
+Pred:  n/0 o/0 T/1 w/1 i/0 T/1 h/0 S/0 t/0 a/0 n/0 d/0 i/1 n/0 g/0 
 
 word:  ens
 Gold:  e/0 n/0 s/0 
 Pred:  e/0 n/0 S/1 
 
-word:  solstice
-Gold:  s/0 o/0 l/0 s/1 t/0 i/0 c/0 e/0 
-Pred:  s/0 o/0 l/0 S/0 t/0 i/0 c/0 e/0 
+word:  bedtime
+Gold:  b/0 e/0 d/0 t/1 i/0 m/0 e/0 
+Pred:  b/0 e/0 d/0 t/1 i/0 M/1 e/0 
 
-word:  crucially
-Gold:  c/0 r/0 u/0 c/1 i/0 a/0 l/0 l/1 y/0 
-Pred:  c/0 r/0 u/0 C/0 i/0 A/1 l/0 l/1 y/0 
-
-word:  sanctum
-Gold:  s/0 a/0 n/0 c/0 t/1 u/0 m/0 
-Pred:  s/0 a/0 n/0 C/1 t/1 u/0 m/0 
-
-word:  inducing
-Gold:  i/0 n/0 d/1 u/0 c/0 i/1 n/0 g/0 
-Pred:  i/0 n/0 d/1 u/0 c/0 I/0 n/0 g/0 
+word:  raping
+Gold:  r/0 a/0 p/0 i/1 n/0 g/0 
+Pred:  r/0 a/0 p/0 I/0 n/0 g/0 
 
 word:  statically
 Gold:  s/0 t/0 a/0 t/0 i/1 c/1 a/0 l/0 l/1 y/0 
@@ -221,7 +229,7 @@ Pred:  s/0 t/0 a/0 t/0 I/0 C/0 a/0 l/0 l/1 y/0
 
 word:  sorption
 Gold:  s/0 o/0 r/0 p/0 t/1 i/0 o/0 n/0 
-Pred:  s/0 o/0 r/0 P/1 T/0 i/0 o/0 n/0 
+Pred:  s/0 o/0 r/0 P/1 t/1 i/0 o/0 n/0 
 
 word:  speedily
 Gold:  s/0 p/0 e/0 e/0 d/0 i/1 l/1 y/0 
@@ -231,9 +239,9 @@ word:  hydrating
 Gold:  h/0 y/0 d/1 r/0 a/0 t/0 i/1 n/0 g/0 
 Pred:  h/0 y/0 d/1 r/0 a/0 T/1 I/0 n/0 g/0 
 
-word:  physical
-Gold:  p/0 h/0 y/0 s/0 i/1 c/1 a/0 l/0 
-Pred:  p/0 h/0 y/0 S/1 i/1 C/0 a/0 l/0 
+word:  consummation
+Gold:  c/0 o/0 n/0 s/1 u/0 m/0 m/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  c/0 o/0 n/0 s/1 u/0 m/0 m/1 a/0 T/0 I/1 o/0 n/0 
 
 word:  sheila
 Gold:  s/0 h/0 e/0 i/0 l/1 a/0 
@@ -243,9 +251,13 @@ word:  repetition
 Gold:  r/0 e/0 p/0 e/1 t/1 i/0 t/1 i/0 o/0 n/0 
 Pred:  r/0 e/0 P/1 E/0 T/0 I/1 t/1 i/0 o/0 n/0 
 
+word:  myron
+Gold:  m/0 y/0 r/1 o/0 n/0 
+Pred:  m/0 y/0 R/0 o/0 N/1 
+
 word:  damages
 Gold:  d/0 a/0 m/0 a/1 g/0 e/1 s/0 
-Pred:  d/0 a/0 m/0 A/0 g/0 E/0 s/0 
+Pred:  d/0 a/0 m/0 a/1 g/0 E/0 s/0 
 
 word:  cunnilingus
 Gold:  c/0 u/0 n/0 n/1 i/0 l/1 i/0 n/0 g/1 u/0 s/0 
@@ -253,35 +265,19 @@ Pred:  c/0 u/0 n/0 n/1 i/0 L/0 I/1 n/0 G/0 u/0 s/0
 
 word:  naught
 Gold:  n/0 a/0 u/0 g/0 h/0 t/0 
-Pred:  n/0 a/0 u/0 G/1 h/0 t/0 
-
-word:  resubmit
-Gold:  r/0 e/0 s/1 u/0 b/0 m/1 i/0 t/0 
-Pred:  r/0 e/0 s/1 u/0 B/1 m/1 i/0 T/1 
-
-word:  pierce
-Gold:  p/0 i/0 e/0 r/0 c/0 e/0 
-Pred:  p/0 i/0 e/0 r/0 C/1 e/0 
-
-word:  till
-Gold:  t/0 i/0 l/0 l/0 
-Pred:  t/0 i/0 l/0 L/1 
+Pred:  n/0 a/0 u/0 g/0 h/0 T/1 
 
 word:  customize
 Gold:  c/0 u/0 s/0 t/1 o/0 m/0 i/1 z/0 e/0 
 Pred:  c/0 u/0 s/0 t/1 o/0 m/0 i/1 Z/1 e/0 
 
-word:  luxury
-Gold:  l/0 u/0 x/0 u/1 r/1 y/0 
-Pred:  l/0 u/0 x/0 u/1 R/0 y/0 
-
 word:  calender
 Gold:  c/0 a/0 l/0 e/1 n/0 d/1 e/0 r/0 
 Pred:  c/0 a/0 l/0 E/0 n/0 d/1 e/0 r/0 
 
-word:  benchmark
-Gold:  b/0 e/0 n/0 c/0 h/0 m/1 a/0 r/0 k/0 
-Pred:  b/0 e/0 n/0 C/1 h/0 m/1 a/0 r/0 k/0 
+word:  filibuster
+Gold:  f/0 i/0 l/0 i/1 b/1 u/0 s/0 t/1 e/0 r/0 
+Pred:  f/0 i/0 l/0 i/1 b/1 u/0 s/0 T/0 E/1 r/0 
 
 word:  apa
 Gold:  a/0 p/1 a/0 
@@ -293,27 +289,15 @@ Pred:  b/0 o/0 u/0 r/0 g/1 e/0 o/0 i/0 S/0 I/1 e/0
 
 word:  cavernous
 Gold:  c/0 a/0 v/0 e/1 r/0 n/0 o/1 u/0 s/0 
-Pred:  c/0 a/0 V/1 E/0 r/0 N/1 O/0 u/0 s/0 
+Pred:  c/0 a/0 V/1 E/0 r/0 n/0 O/0 u/0 s/0 
 
 word:  thanksgiving
 Gold:  t/0 h/0 a/0 n/0 k/0 s/0 g/1 i/0 v/0 i/1 n/0 g/0 
-Pred:  t/0 h/0 a/0 n/0 k/0 S/1 G/0 i/0 v/0 i/1 n/0 g/0 
-
-word:  phylogenetic
-Gold:  p/0 h/0 y/0 l/1 o/0 g/1 e/0 n/1 e/0 t/0 i/1 c/0 
-Pred:  p/0 h/0 y/0 l/1 o/0 G/0 e/0 N/0 e/0 t/0 i/1 c/0 
-
-word:  cornea
-Gold:  c/0 o/0 r/0 n/1 e/0 a/1 
-Pred:  c/0 o/0 r/0 n/1 e/0 A/0 
+Pred:  t/0 h/0 a/0 n/0 k/0 s/0 G/0 i/0 v/0 i/1 n/0 g/0 
 
 word:  chasm
 Gold:  c/0 h/0 a/0 s/0 m/0 
 Pred:  c/0 h/0 a/0 s/0 M/1 
-
-word:  thermodynamics
-Gold:  t/0 h/0 e/0 r/0 m/1 o/0 d/1 y/0 n/1 a/0 m/0 i/1 c/0 s/0 
-Pred:  t/0 h/0 e/0 r/0 m/1 o/0 D/0 y/0 N/0 a/0 m/0 i/1 c/0 s/0 
 
 word:  cons
 Gold:  c/0 o/0 n/0 s/0 
@@ -325,19 +309,7 @@ Pred:  h/0 a/0 l/0 t/0 E/0 r/0
 
 word:  dissociation
 Gold:  d/0 i/0 s/0 s/1 o/0 c/1 i/0 a/1 t/1 i/0 o/0 n/0 
-Pred:  d/0 i/0 s/0 s/1 o/0 C/0 i/0 a/1 t/1 i/0 o/0 n/0 
-
-word:  reckon
-Gold:  r/0 e/0 c/0 k/0 o/1 n/0 
-Pred:  r/0 e/0 C/1 k/0 O/0 n/0 
-
-word:  seafront
-Gold:  s/0 e/0 a/0 f/1 r/0 o/0 n/0 t/0 
-Pred:  s/0 e/0 a/0 F/0 r/0 o/0 n/0 t/0 
-
-word:  rhyme
-Gold:  r/0 h/0 y/0 m/0 e/0 
-Pred:  r/0 h/0 y/0 M/1 e/0 
+Pred:  d/0 i/0 s/0 s/1 o/0 c/1 i/0 A/0 T/0 i/0 o/0 n/0 
 
 word:  progressive
 Gold:  p/0 r/0 o/0 g/1 r/0 e/0 s/0 s/1 i/0 v/0 e/0 
@@ -345,15 +317,15 @@ Pred:  p/0 r/0 o/0 g/1 r/0 e/0 s/0 S/0 i/0 v/0 e/0
 
 word:  tracheal
 Gold:  t/0 r/0 a/0 c/1 h/0 e/0 a/1 l/0 
-Pred:  t/0 r/0 a/0 C/0 h/0 e/0 A/0 l/0 
-
-word:  readability
-Gold:  r/0 e/0 a/0 d/0 a/1 b/1 i/0 l/0 i/1 t/1 y/0 
-Pred:  r/0 e/0 A/1 d/0 a/1 b/1 i/0 l/0 i/1 t/1 y/0 
+Pred:  t/0 r/0 a/0 C/0 h/0 e/0 a/1 l/0 
 
 word:  negligent
 Gold:  n/0 e/0 g/0 l/1 i/0 g/1 e/0 n/0 t/0 
-Pred:  n/0 e/0 g/0 l/1 i/0 G/0 e/0 n/0 t/0 
+Pred:  n/0 e/0 G/1 l/1 i/0 g/1 e/0 n/0 t/0 
+
+word:  multiplied
+Gold:  m/0 u/0 l/0 t/1 i/0 p/1 l/0 i/0 e/0 d/0 
+Pred:  m/0 u/0 l/0 t/1 i/0 p/1 l/0 i/0 E/1 d/0 
 
 word:  contr
 Gold:  c/0 o/0 n/0 t/0 r/0 
@@ -361,23 +333,23 @@ Pred:  c/0 o/0 n/0 T/1 r/0
 
 word:  doctrinal
 Gold:  d/0 o/0 c/0 t/1 r/0 i/0 n/1 a/0 l/0 
-Pred:  d/0 o/0 c/0 t/1 r/0 i/0 N/0 a/0 l/0 
+Pred:  d/0 o/0 c/0 t/1 r/0 i/0 N/0 A/1 l/0 
 
 word:  banyan
 Gold:  b/0 a/0 n/0 y/1 a/0 n/0 
-Pred:  b/0 a/0 n/0 y/1 A/1 n/0 
+Pred:  b/0 a/0 n/0 Y/0 a/0 n/0 
 
 word:  mobilisation
 Gold:  m/0 o/0 b/1 i/0 l/1 i/0 s/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  m/0 o/0 B/0 I/1 L/0 I/1 S/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  m/0 o/0 B/0 i/0 l/1 i/0 S/0 a/0 t/1 i/0 o/0 n/0 
 
 word:  vela
 Gold:  v/0 e/0 l/1 a/0 
-Pred:  v/0 e/0 L/0 a/0 
+Pred:  v/0 e/0 L/0 A/1 
 
 word:  bandits
 Gold:  b/0 a/0 n/0 d/1 i/0 t/0 s/0 
-Pred:  b/0 a/0 n/0 d/1 i/0 T/1 s/0 
+Pred:  b/0 a/0 n/0 D/0 I/1 T/1 s/0 
 
 word:  shanti
 Gold:  s/0 h/0 a/0 n/0 t/1 i/0 
@@ -393,7 +365,7 @@ Pred:  f/0 u/0 n/0 n/1 i/0 E/0 r/0
 
 word:  novelty
 Gold:  n/0 o/0 v/0 e/1 l/0 t/1 y/0 
-Pred:  n/0 o/0 v/0 E/0 l/0 T/0 y/0 
+Pred:  n/0 o/0 v/0 e/1 l/0 T/0 Y/1 
 
 word:  orgasm
 Gold:  o/0 r/0 g/1 a/0 s/0 m/0 
@@ -407,17 +379,9 @@ word:  phantom
 Gold:  p/0 h/0 a/0 n/0 t/1 o/0 m/0 
 Pred:  p/0 h/0 a/0 n/0 t/1 o/0 M/1 
 
-word:  exponent
-Gold:  e/0 x/0 p/1 o/0 n/1 e/0 n/0 t/0 
-Pred:  e/0 x/0 p/1 o/0 N/0 e/0 n/0 t/0 
-
 word:  brigadier
 Gold:  b/0 r/0 i/0 g/0 a/1 d/1 i/0 e/0 r/0 
-Pred:  b/0 r/0 i/0 g/0 A/0 D/0 I/1 e/0 r/0 
-
-word:  odious
-Gold:  o/0 d/1 i/0 o/1 u/0 s/0 
-Pred:  o/0 D/0 i/0 o/1 u/0 s/0 
+Pred:  b/0 r/0 i/0 g/0 A/0 D/0 i/0 e/0 r/0 
 
 word:  gestalt
 Gold:  g/0 e/0 s/1 t/0 a/0 l/0 t/0 
@@ -431,53 +395,53 @@ word:  discredit
 Gold:  d/0 i/0 s/0 c/1 r/0 e/0 d/0 i/1 t/0 
 Pred:  d/0 i/0 s/0 c/1 r/0 e/0 d/0 i/1 T/1 
 
-word:  incubated
-Gold:  i/0 n/0 c/1 u/0 b/1 a/0 t/0 e/1 d/0 
-Pred:  i/0 n/0 c/1 u/0 b/1 a/0 T/1 E/0 d/0 
-
 word:  painstakingly
 Gold:  p/0 a/0 i/0 n/0 s/0 t/1 a/0 k/0 i/1 n/0 g/0 l/1 y/0 
-Pred:  p/0 a/0 i/0 n/0 S/1 T/0 a/0 k/0 i/1 n/0 g/0 l/1 y/0 
+Pred:  p/0 a/0 i/0 n/0 s/0 T/0 a/0 k/0 i/1 n/0 g/0 l/1 y/0 
 
 word:  engender
 Gold:  e/0 n/0 g/1 e/0 n/0 d/1 e/0 r/0 
-Pred:  e/0 n/0 g/1 e/0 n/0 D/0 e/0 r/0 
+Pred:  e/0 n/0 g/1 e/0 n/0 D/0 E/1 r/0 
 
 word:  paleontology
 Gold:  p/0 a/0 l/1 e/0 o/1 n/0 t/1 o/0 l/0 o/1 g/1 y/0 
-Pred:  p/0 a/0 L/0 e/0 o/1 n/0 T/0 o/0 l/0 o/1 g/1 y/0 
+Pred:  p/0 a/0 L/0 e/0 o/1 n/0 t/1 o/0 l/0 o/1 g/1 y/0 
 
 word:  literature
 Gold:  l/0 i/0 t/0 e/1 r/0 a/1 t/1 u/0 r/0 e/0 
-Pred:  l/0 i/0 t/0 E/0 r/0 a/1 t/1 u/0 r/0 e/0 
+Pred:  l/0 i/0 t/0 e/1 r/0 a/1 T/0 u/0 r/0 e/0 
 
 word:  maintenance
 Gold:  m/0 a/0 i/0 n/0 t/1 e/0 n/1 a/0 n/0 c/0 e/0 
-Pred:  m/0 a/0 i/0 n/0 t/1 e/0 N/0 a/0 n/0 c/0 e/0 
-
-word:  band
-Gold:  b/0 a/0 n/0 d/0 
-Pred:  b/0 a/0 n/0 D/1 
+Pred:  m/0 a/0 i/0 n/0 T/0 e/0 N/0 A/1 n/0 c/0 e/0 
 
 word:  fussy
 Gold:  f/0 u/0 s/0 s/0 y/1 
-Pred:  f/0 u/0 s/0 S/1 Y/0 
+Pred:  f/0 u/0 s/0 s/0 Y/0 
+
+word:  shade
+Gold:  s/0 h/0 a/0 d/0 e/0 
+Pred:  s/0 h/0 a/0 d/0 E/1 
 
 word:  oxidation
 Gold:  o/0 x/0 i/1 d/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  o/0 x/0 i/1 D/0 a/0 T/0 i/0 o/0 n/0 
-
-word:  compulsion
-Gold:  c/0 o/0 m/0 p/1 u/0 l/0 s/1 i/0 o/0 n/0 
-Pred:  c/0 o/0 m/0 p/1 u/0 L/1 S/0 i/0 o/0 n/0 
+Pred:  o/0 x/0 i/1 d/1 a/0 T/0 i/0 o/0 n/0 
 
 word:  rendition
 Gold:  r/0 e/0 n/0 d/1 i/0 t/1 i/0 o/0 n/0 
-Pred:  r/0 e/0 N/1 D/0 i/0 t/1 i/0 o/0 n/0 
+Pred:  r/0 e/0 N/1 d/1 i/0 t/1 i/0 o/0 n/0 
+
+word:  applied
+Gold:  a/0 p/0 p/1 l/0 i/0 e/0 d/0 
+Pred:  a/0 p/0 p/1 l/0 i/0 E/1 d/0 
+
+word:  dissection
+Gold:  d/0 i/0 s/0 s/1 e/0 c/0 t/1 i/0 o/0 n/0 
+Pred:  d/0 i/0 s/0 s/1 e/0 c/0 T/0 i/0 o/0 n/0 
 
 word:  linac
 Gold:  l/0 i/0 n/0 a/1 c/0 
-Pred:  l/0 i/0 n/0 A/0 c/0 
+Pred:  l/0 i/0 n/0 A/0 C/1 
 
 word:  ant
 Gold:  a/0 n/0 t/0 
@@ -485,7 +449,7 @@ Pred:  a/0 n/0 T/1
 
 word:  china
 Gold:  c/0 h/0 i/0 n/1 a/0 
-Pred:  c/0 h/0 i/0 N/0 A/1 
+Pred:  c/0 h/0 i/0 N/0 a/0 
 
 word:  server
 Gold:  s/0 e/0 r/0 v/0 e/1 r/0 
@@ -493,31 +457,23 @@ Pred:  s/0 e/0 r/0 v/0 E/0 r/0
 
 word:  anticipating
 Gold:  a/0 n/0 t/1 i/0 c/0 i/1 p/1 a/0 t/0 i/1 n/0 g/0 
-Pred:  a/0 n/0 t/1 i/0 C/1 I/0 P/0 a/0 T/1 I/0 n/0 g/0 
-
-word:  dispersal
-Gold:  d/0 i/0 s/0 p/1 e/0 r/0 s/1 a/0 l/0 
-Pred:  d/0 i/0 s/0 p/1 e/0 r/0 S/0 a/0 l/0 
-
-word:  thrilling
-Gold:  t/0 h/0 r/0 i/0 l/0 l/0 i/1 n/0 g/0 
-Pred:  t/0 h/0 r/0 i/0 l/0 l/0 I/0 n/0 g/0 
-
-word:  commanding
-Gold:  c/0 o/0 m/0 m/1 a/0 n/0 d/0 i/1 n/0 g/0 
-Pred:  c/0 o/0 m/0 m/1 a/0 n/0 d/0 I/0 n/0 g/0 
+Pred:  a/0 n/0 t/1 i/0 c/0 i/1 p/1 a/0 t/0 I/0 n/0 g/0 
 
 word:  stationary
 Gold:  s/0 t/0 a/0 t/1 i/0 o/0 n/0 a/1 r/0 y/1 
 Pred:  s/0 t/0 a/0 T/0 i/0 o/0 n/0 a/1 r/0 y/1 
 
+word:  mount
+Gold:  m/0 o/0 u/0 n/0 t/0 
+Pred:  m/0 o/0 u/0 n/0 T/1 
+
 word:  bullish
 Gold:  b/0 u/0 l/0 l/0 i/1 s/0 h/0 
-Pred:  b/0 u/0 l/0 l/0 I/0 s/0 h/0 
+Pred:  b/0 u/0 l/0 L/1 I/0 s/0 h/0 
 
 word:  ellipsis
 Gold:  e/0 l/0 l/1 i/0 p/0 s/1 i/0 s/0 
-Pred:  e/0 l/0 l/1 i/0 p/0 S/0 i/0 s/0 
+Pred:  e/0 L/1 l/1 i/0 p/0 S/0 i/0 s/0 
 
 word:  perturbative
 Gold:  p/0 e/0 r/0 t/1 u/0 r/0 b/1 a/0 t/1 i/0 v/0 e/0 
@@ -527,13 +483,13 @@ word:  artwork
 Gold:  a/0 r/0 t/0 w/1 o/0 r/0 k/0 
 Pred:  a/0 r/0 T/1 w/1 o/0 r/0 k/0 
 
+word:  mise
+Gold:  m/0 i/0 s/0 e/0 
+Pred:  m/0 i/0 s/0 E/1 
+
 word:  primavera
 Gold:  p/0 r/0 i/0 m/1 a/0 v/1 e/0 r/1 a/0 
 Pred:  p/0 r/0 i/0 M/0 a/0 v/1 e/0 R/0 A/1 
-
-word:  yogi
-Gold:  y/0 o/0 g/1 i/0 
-Pred:  y/0 o/0 G/0 I/1 
 
 word:  kaiser
 Gold:  k/0 a/0 i/0 s/1 e/0 r/0 
@@ -541,19 +497,19 @@ Pred:  k/0 a/0 i/0 S/0 e/0 r/0
 
 word:  insecure
 Gold:  i/0 n/0 s/1 e/0 c/1 u/0 r/0 e/0 
-Pred:  i/0 n/0 s/1 e/0 C/0 u/0 r/0 e/0 
+Pred:  i/0 n/0 s/1 e/0 C/0 U/1 r/0 e/0 
 
 word:  closest
 Gold:  c/0 l/0 o/0 s/0 e/1 s/0 t/0 
 Pred:  c/0 l/0 o/0 s/0 E/0 s/0 t/0 
 
+word:  niche
+Gold:  n/0 i/0 c/0 h/0 e/0 
+Pred:  n/0 i/0 c/0 h/0 E/1 
+
 word:  metastasis
 Gold:  m/0 e/0 t/1 a/0 s/0 t/1 a/0 s/1 i/0 s/0 
-Pred:  m/0 e/0 T/0 a/0 s/0 T/0 a/0 S/0 i/0 s/0 
-
-word:  agonizing
-Gold:  a/0 g/0 o/1 n/1 i/0 z/0 i/1 n/0 g/0 
-Pred:  a/0 g/0 O/0 N/0 I/1 z/0 i/1 n/0 g/0 
+Pred:  m/0 e/0 T/0 A/1 S/1 T/0 a/0 S/0 i/0 s/0 
 
 word:  arching
 Gold:  a/0 r/0 c/0 h/0 i/1 n/0 g/0 
@@ -565,7 +521,7 @@ Pred:  r/0 e/0 S/1 t/0
 
 word:  dynamism
 Gold:  d/0 y/0 n/1 a/0 m/1 i/0 s/0 m/0 
-Pred:  d/0 y/0 N/0 a/0 M/0 I/1 s/0 m/0 
+Pred:  d/0 y/0 n/1 a/0 M/0 I/1 s/0 m/0 
 
 word:  ornithine
 Gold:  o/0 r/0 n/1 i/0 t/1 h/0 i/0 n/0 e/0 
@@ -573,19 +529,15 @@ Pred:  o/0 r/0 n/1 i/0 t/1 h/0 I/1 n/0 e/0
 
 word:  courageously
 Gold:  c/0 o/0 u/0 r/1 a/0 g/1 e/0 o/0 u/0 s/0 l/1 y/0 
-Pred:  c/0 o/0 u/0 R/0 A/1 G/0 e/0 O/1 u/0 s/0 l/1 y/0 
+Pred:  c/0 o/0 u/0 R/0 a/0 G/0 e/0 o/0 u/0 s/0 l/1 y/0 
 
 word:  corticosteroid
 Gold:  c/0 o/0 r/0 t/1 i/0 c/1 o/0 s/1 t/0 e/0 r/0 o/1 i/0 d/0 
-Pred:  c/0 o/0 r/0 t/1 i/0 c/1 o/0 S/0 t/0 e/0 r/0 o/1 i/0 d/0 
+Pred:  c/0 o/0 r/0 t/1 i/0 C/0 o/0 S/0 t/0 e/0 r/0 o/1 i/0 d/0 
 
 word:  stimulation
 Gold:  s/0 t/0 i/0 m/0 u/1 l/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  s/0 t/0 i/0 m/0 u/1 l/1 a/0 T/0 I/1 o/0 n/0 
-
-word:  incidental
-Gold:  i/0 n/0 c/1 i/0 d/1 e/0 n/0 t/1 a/0 l/0 
-Pred:  i/0 n/0 c/1 i/0 D/0 e/0 n/0 T/0 a/0 l/0 
+Pred:  s/0 t/0 i/0 m/0 u/1 l/1 a/0 T/0 i/0 o/0 n/0 
 
 word:  closer
 Gold:  c/0 l/0 o/0 s/0 e/1 r/0 
@@ -593,7 +545,7 @@ Pred:  c/0 l/0 o/0 s/0 E/0 r/0
 
 word:  monumental
 Gold:  m/0 o/0 n/0 u/1 m/1 e/0 n/0 t/1 a/0 l/0 
-Pred:  m/0 o/0 n/0 u/1 M/0 e/0 n/0 T/0 a/0 l/0 
+Pred:  m/0 o/0 n/0 u/1 m/1 e/0 n/0 T/0 a/0 l/0 
 
 word:  judo
 Gold:  j/0 u/0 d/1 o/0 
@@ -601,39 +553,31 @@ Pred:  j/0 u/0 D/0 o/0
 
 word:  eclipse
 Gold:  e/0 c/1 l/0 i/0 p/0 s/0 e/0 
-Pred:  e/0 C/0 l/0 i/0 p/0 s/0 e/0 
+Pred:  e/0 C/0 L/1 i/0 p/0 s/0 e/0 
 
 word:  diabolical
 Gold:  d/0 i/0 a/1 b/1 o/0 l/0 i/1 c/1 a/0 l/0 
-Pred:  d/0 i/0 a/1 b/1 o/0 l/0 i/1 C/0 a/0 l/0 
+Pred:  d/0 i/0 a/1 b/1 o/0 l/0 I/0 C/0 a/0 l/0 
 
 word:  basil
 Gold:  b/0 a/0 s/0 i/1 l/0 
 Pred:  b/0 a/0 s/0 I/0 l/0 
 
-word:  stopwatch
-Gold:  s/0 t/0 o/0 p/0 w/1 a/0 t/0 c/0 h/0 
-Pred:  s/0 t/0 o/0 p/0 w/1 a/0 T/1 c/0 h/0 
-
 word:  bullpen
 Gold:  b/0 u/0 l/0 l/0 p/1 e/0 n/0 
-Pred:  b/0 u/0 l/0 l/0 P/0 e/0 n/0 
+Pred:  b/0 u/0 l/0 L/1 p/1 e/0 n/0 
 
 word:  silex
 Gold:  s/0 i/0 l/1 e/0 x/0 
 Pred:  s/0 i/0 L/0 e/0 x/0 
 
-word:  coherent
-Gold:  c/0 o/0 h/1 e/0 r/0 e/1 n/0 t/0 
-Pred:  c/0 o/0 H/0 e/0 r/0 E/0 n/0 t/0 
-
 word:  humane
 Gold:  h/0 u/0 m/1 a/0 n/0 e/0 
-Pred:  h/0 u/0 M/0 a/0 n/0 e/0 
+Pred:  h/0 u/0 m/1 a/0 n/0 E/1 
 
 word:  everyday
 Gold:  e/0 v/0 e/0 r/1 y/0 d/1 a/0 y/0 
-Pred:  e/0 V/1 e/0 R/0 Y/1 D/0 a/0 y/0 
+Pred:  e/0 V/1 e/0 R/0 y/0 d/1 a/0 y/0 
 
 word:  dysphagia
 Gold:  d/0 y/0 s/0 p/1 h/0 a/0 g/1 i/0 a/0 
@@ -643,29 +587,33 @@ word:  haughty
 Gold:  h/0 a/0 u/0 g/0 h/0 t/1 y/0 
 Pred:  h/0 a/0 u/0 g/0 h/0 T/0 y/0 
 
+word:  potter
+Gold:  p/0 o/0 t/0 t/1 e/0 r/0 
+Pred:  p/0 o/0 T/1 t/1 e/0 r/0 
+
 word:  eternally
 Gold:  e/0 t/1 e/0 r/0 n/1 a/0 l/0 l/1 y/0 
 Pred:  e/0 T/0 e/0 r/0 n/1 a/0 l/0 l/1 y/0 
 
 word:  substantiate
 Gold:  s/0 u/0 b/0 s/1 t/0 a/0 n/0 t/1 i/0 a/1 t/0 e/0 
-Pred:  s/0 u/0 b/0 s/1 t/0 a/0 n/0 T/0 i/0 A/0 t/0 E/1 
+Pred:  s/0 u/0 b/0 s/1 t/0 a/0 n/0 t/1 i/0 A/0 t/0 e/0 
 
 word:  multilingual
 Gold:  m/0 u/0 l/0 t/1 i/0 l/1 i/0 n/0 g/1 u/0 a/0 l/0 
-Pred:  m/0 u/0 l/0 t/1 i/0 l/1 I/1 n/0 G/0 u/0 a/0 l/0 
+Pred:  m/0 u/0 l/0 t/1 i/0 l/1 i/0 n/0 G/0 u/0 A/1 l/0 
 
 word:  fuselage
 Gold:  f/0 u/0 s/1 e/0 l/1 a/0 g/0 e/0 
 Pred:  f/0 u/0 S/0 e/0 l/1 a/0 g/0 e/0 
 
-word:  last
-Gold:  l/0 a/0 s/0 t/0 
-Pred:  l/0 a/0 s/0 T/1 
+word:  potty
+Gold:  p/0 o/0 t/0 t/1 y/0 
+Pred:  p/0 o/0 T/1 t/1 y/0 
 
 word:  isthmus
 Gold:  i/0 s/0 t/0 h/0 m/1 u/0 s/0 
-Pred:  i/0 s/0 T/1 h/0 M/0 u/0 s/0 
+Pred:  i/0 S/1 T/1 h/0 M/0 u/0 S/1 
 
 word:  buoyancy
 Gold:  b/0 u/0 o/0 y/0 a/1 n/0 c/1 y/0 
@@ -675,9 +623,9 @@ word:  segmentation
 Gold:  s/0 e/0 g/0 m/1 e/0 n/0 t/1 a/0 t/1 i/0 o/0 n/0 
 Pred:  s/0 e/0 g/0 m/1 e/0 n/0 T/0 a/0 t/1 i/0 o/0 n/0 
 
-word:  coaster
-Gold:  c/0 o/0 a/0 s/0 t/0 e/1 r/0 
-Pred:  c/0 o/0 a/0 s/0 t/0 E/0 r/0 
+word:  termination
+Gold:  t/0 e/0 r/0 m/1 i/0 n/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  t/0 e/0 r/0 m/1 i/0 n/1 a/0 T/0 i/0 o/0 n/0 
 
 word:  progressively
 Gold:  p/0 r/0 o/0 g/1 r/0 e/0 s/0 s/1 i/0 v/0 e/0 l/1 y/0 
@@ -685,15 +633,11 @@ Pred:  p/0 r/0 o/0 g/1 r/0 e/0 s/0 S/0 i/0 v/0 e/0 l/1 y/0
 
 word:  lira
 Gold:  l/0 i/0 r/1 a/0 
-Pred:  l/0 i/0 R/0 A/1 
+Pred:  l/0 i/0 R/0 a/0 
 
 word:  trumpeter
 Gold:  t/0 r/0 u/0 m/0 p/1 e/0 t/0 e/1 r/0 
 Pred:  t/0 r/0 u/0 m/0 P/0 e/0 t/0 E/0 r/0 
-
-word:  ineffective
-Gold:  i/0 n/0 e/1 f/0 f/1 e/0 c/0 t/1 i/0 v/0 e/0 
-Pred:  i/0 n/0 e/1 F/1 f/1 e/0 c/0 t/1 i/0 v/0 e/0 
 
 word:  station
 Gold:  s/0 t/0 a/0 t/1 i/0 o/0 n/0 
@@ -701,15 +645,19 @@ Pred:  s/0 t/0 a/0 T/0 i/0 o/0 n/0
 
 word:  bollocks
 Gold:  b/0 o/0 l/0 l/1 o/0 c/0 k/0 s/0 
-Pred:  b/0 o/0 l/0 l/1 o/0 C/1 k/0 S/1 
+Pred:  b/0 o/0 l/0 L/0 o/0 C/1 k/0 s/0 
 
 word:  misrepresentation
 Gold:  m/0 i/0 s/0 r/1 e/0 p/0 r/1 e/0 s/1 e/0 n/0 t/1 a/0 t/1 i/0 o/0 n/0 
 Pred:  m/0 i/0 s/0 r/1 e/0 p/0 R/0 e/0 S/0 e/0 n/0 T/0 a/0 t/1 i/0 o/0 n/0 
 
-word:  preclinical
-Gold:  p/0 r/0 e/0 c/1 l/0 i/0 n/0 i/1 c/1 a/0 l/0 
-Pred:  p/0 r/0 e/0 c/1 l/0 i/0 n/0 i/1 C/0 a/0 l/0 
+word:  focusing
+Gold:  f/0 o/0 c/1 u/0 s/0 i/1 n/0 g/0 
+Pred:  f/0 o/0 c/1 u/0 s/0 I/0 n/0 g/0 
+
+word:  nomination
+Gold:  n/0 o/0 m/0 i/1 n/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  n/0 o/0 m/0 i/1 n/1 a/0 T/0 i/0 o/0 n/0 
 
 word:  finesse
 Gold:  f/0 i/0 n/1 e/0 s/0 s/0 e/0 
@@ -717,7 +665,7 @@ Pred:  f/0 i/0 N/0 e/0 s/0 s/0 e/0
 
 word:  fascination
 Gold:  f/0 a/0 s/0 c/1 i/0 n/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  f/0 a/0 s/0 c/1 i/0 N/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  f/0 a/0 s/0 c/1 i/0 N/0 a/0 T/0 i/0 o/0 n/0 
 
 word:  temperament
 Gold:  t/0 e/0 m/0 p/1 e/0 r/0 a/1 m/1 e/0 n/0 t/0 
@@ -725,31 +673,23 @@ Pred:  t/0 e/0 m/0 p/1 e/0 r/0 a/1 M/0 e/0 n/0 t/0
 
 word:  motivated
 Gold:  m/0 o/0 t/1 i/0 v/1 a/0 t/0 e/1 d/0 
-Pred:  m/0 o/0 t/1 i/0 V/0 a/0 T/1 E/0 d/0 
+Pred:  m/0 o/0 T/0 i/0 v/1 a/0 T/1 E/0 d/0 
 
 word:  extrinsic
 Gold:  e/0 x/0 t/1 r/0 i/0 n/0 s/1 i/0 c/0 
-Pred:  e/0 x/0 t/1 r/0 i/0 n/0 S/0 I/1 c/0 
+Pred:  e/0 x/0 t/1 r/0 i/0 n/0 S/0 i/0 c/0 
+
+word:  procession
+Gold:  p/0 r/0 o/0 c/1 e/0 s/0 s/1 i/0 o/0 n/0 
+Pred:  p/0 r/0 o/0 c/1 e/0 s/0 S/0 i/0 o/0 n/0 
 
 word:  opacity
 Gold:  o/0 p/1 a/0 c/0 i/1 t/1 y/0 
-Pred:  o/0 P/0 a/0 c/0 I/0 t/1 y/0 
-
-word:  chloride
-Gold:  c/0 h/0 l/0 o/0 r/1 i/0 d/0 e/0 
-Pred:  c/0 h/0 l/0 o/0 R/0 i/0 D/1 e/0 
-
-word:  mauve
-Gold:  m/0 a/0 u/0 v/0 e/0 
-Pred:  m/0 a/0 u/0 V/1 e/0 
+Pred:  o/0 P/0 a/0 c/0 i/1 t/1 y/0 
 
 word:  bullshit
 Gold:  b/0 u/0 l/0 l/0 s/1 h/0 i/0 t/0 
-Pred:  b/0 u/0 l/0 l/0 S/0 h/0 i/0 t/0 
-
-word:  roundhouse
-Gold:  r/0 o/0 u/0 n/0 d/0 h/1 o/0 u/0 s/0 e/0 
-Pred:  r/0 o/0 u/0 n/0 d/0 H/0 o/0 u/0 s/0 e/0 
+Pred:  b/0 u/0 l/0 L/1 s/1 h/0 i/0 T/1 
 
 word:  landowner
 Gold:  l/0 a/0 n/0 d/0 o/1 w/0 n/0 e/1 r/0 
@@ -758,10 +698,6 @@ Pred:  l/0 a/0 n/0 d/0 O/0 w/0 n/0 E/0 r/0
 word:  wahoo
 Gold:  w/0 a/0 h/1 o/0 o/0 
 Pred:  w/0 a/0 H/0 o/0 o/0 
-
-word:  ream
-Gold:  r/0 e/0 a/0 m/0 
-Pred:  r/0 e/0 A/1 m/0 
 
 word:  product
 Gold:  p/0 r/0 o/0 d/0 u/1 c/0 t/0 
@@ -773,47 +709,27 @@ Pred:  m/0 a/0 r/0 k/0 E/0 r/0
 
 word:  typographical
 Gold:  t/0 y/0 p/1 o/0 g/1 r/0 a/0 p/0 h/0 i/1 c/1 a/0 l/0 
-Pred:  t/0 y/0 P/0 o/0 g/1 r/0 a/0 P/1 h/0 i/1 C/0 a/0 l/0 
-
-word:  stiffness
-Gold:  s/0 t/0 i/0 f/0 f/0 n/1 e/0 s/0 s/0 
-Pred:  s/0 t/0 i/0 f/0 f/0 N/0 e/0 s/0 s/0 
+Pred:  t/0 y/0 P/0 o/0 g/1 r/0 a/0 p/0 h/0 i/1 C/0 a/0 l/0 
 
 word:  courtroom
 Gold:  c/0 o/0 u/0 r/0 t/0 r/1 o/0 o/0 m/0 
 Pred:  c/0 o/0 u/0 r/0 t/0 R/0 o/0 o/0 m/0 
 
-word:  precursor
-Gold:  p/0 r/0 e/0 c/1 u/0 r/0 s/1 o/0 r/0 
-Pred:  p/0 r/0 e/0 c/1 u/0 r/0 S/0 o/0 r/0 
-
 word:  shaman
 Gold:  s/0 h/0 a/0 m/0 a/1 n/0 
 Pred:  s/0 h/0 a/0 m/0 A/0 n/0 
 
-word:  dangerously
-Gold:  d/0 a/0 n/0 g/1 e/0 r/0 o/1 u/0 s/0 l/1 y/0 
-Pred:  d/0 a/0 n/0 G/0 e/0 r/0 o/1 u/0 s/0 l/1 y/0 
+word:  hugely
+Gold:  h/0 u/0 g/0 e/0 l/1 y/0 
+Pred:  h/0 u/0 g/0 e/0 L/0 y/0 
 
-word:  fossil
-Gold:  f/0 o/0 s/0 s/1 i/0 l/0 
-Pred:  f/0 o/0 s/0 S/0 i/0 l/0 
-
-word:  glorious
-Gold:  g/0 l/0 o/0 r/1 i/0 o/1 u/0 s/0 
-Pred:  g/0 l/0 o/0 R/0 i/0 o/1 u/0 s/0 
+word:  crankshaft
+Gold:  c/0 r/0 a/0 n/0 k/0 s/1 h/0 a/0 f/0 t/0 
+Pred:  c/0 r/0 a/0 n/0 k/0 S/0 h/0 a/0 f/0 t/0 
 
 word:  mounting
 Gold:  m/0 o/0 u/0 n/0 t/0 i/1 n/0 g/0 
-Pred:  m/0 o/0 u/0 n/0 t/0 I/0 n/0 g/0 
-
-word:  eruption
-Gold:  e/0 r/1 u/0 p/0 t/1 i/0 o/0 n/0 
-Pred:  e/0 R/0 u/0 p/0 t/1 i/0 o/0 n/0 
-
-word:  lawyer
-Gold:  l/0 a/0 w/0 y/1 e/0 r/0 
-Pred:  l/0 a/0 w/0 Y/0 e/0 r/0 
+Pred:  m/0 o/0 u/0 n/0 T/1 I/0 n/0 g/0 
 
 word:  predecessor
 Gold:  p/0 r/0 e/0 d/0 e/1 c/1 e/0 s/0 s/1 o/0 r/0 
@@ -821,7 +737,11 @@ Pred:  p/0 r/0 e/0 D/1 E/0 C/0 e/0 s/0 S/0 o/0 r/0
 
 word:  locator
 Gold:  l/0 o/0 c/1 a/0 t/1 o/0 r/0 
-Pred:  l/0 o/0 C/0 a/0 t/1 o/0 r/0 
+Pred:  l/0 o/0 c/1 a/0 T/0 o/0 r/0 
+
+word:  dealership
+Gold:  d/0 e/0 a/0 l/0 e/1 r/0 s/1 h/0 i/0 p/0 
+Pred:  d/0 e/0 a/0 l/0 E/0 r/0 S/0 h/0 i/0 p/0 
 
 word:  mixed
 Gold:  m/0 i/0 x/0 e/0 d/0 
@@ -833,11 +753,11 @@ Pred:  s/0 y/0 n/0 d/1 i/0 c/1 a/0 t/0 E/0 d/0
 
 word:  municipal
 Gold:  m/0 u/0 n/1 i/0 c/0 i/1 p/1 a/0 l/0 
-Pred:  m/0 u/0 N/0 i/0 C/1 I/0 P/0 a/0 l/0 
+Pred:  m/0 u/0 N/0 i/0 c/0 I/0 p/1 a/0 l/0 
 
 word:  confederate
 Gold:  c/0 o/0 n/0 f/1 e/0 d/0 e/1 r/0 a/1 t/0 e/0 
-Pred:  c/0 o/0 n/0 f/1 e/0 d/0 E/0 r/0 a/1 T/1 e/0 
+Pred:  c/0 o/0 n/0 f/1 e/0 D/1 E/0 r/0 a/1 t/0 e/0 
 
 word:  whaler
 Gold:  w/0 h/0 a/0 l/0 e/1 r/0 
@@ -863,65 +783,49 @@ word:  miraculous
 Gold:  m/0 i/0 r/1 a/0 c/0 u/1 l/1 o/0 u/0 s/0 
 Pred:  m/0 i/0 R/0 a/0 c/0 u/1 l/1 o/0 u/0 s/0 
 
-word:  newsreader
-Gold:  n/0 e/0 w/0 s/0 r/1 e/0 a/0 d/0 e/1 r/0 
-Pred:  n/0 e/0 w/0 s/0 R/0 e/0 a/0 d/0 e/1 r/0 
-
 word:  apt
 Gold:  a/0 p/0 t/0 
 Pred:  a/0 p/0 T/1 
 
 word:  penetrate
 Gold:  p/0 e/0 n/0 e/1 t/1 r/0 a/0 t/0 e/0 
-Pred:  p/0 e/0 n/0 e/1 T/0 r/0 a/0 T/1 e/0 
+Pred:  p/0 e/0 n/0 e/1 t/1 r/0 a/0 T/1 e/0 
 
-word:  coenzyme
-Gold:  c/0 o/0 e/1 n/0 z/1 y/0 m/0 e/0 
-Pred:  c/0 o/0 E/0 n/0 z/1 y/0 M/1 e/0 
-
-word:  sedation
-Gold:  s/0 e/0 d/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  s/0 e/0 D/0 a/0 t/1 i/0 o/0 n/0 
+word:  baryon
+Gold:  b/0 a/0 r/0 y/1 o/1 n/0 
+Pred:  b/0 a/0 r/0 y/1 O/0 n/0 
 
 word:  instantiate
 Gold:  i/0 n/0 s/1 t/0 a/0 n/0 t/1 i/0 a/1 t/0 e/0 
-Pred:  i/0 n/0 s/1 t/0 a/0 n/0 T/0 i/0 A/0 t/0 E/1 
+Pred:  i/0 n/0 s/1 t/0 a/0 n/0 T/0 i/0 A/0 t/0 e/0 
 
 word:  imposing
 Gold:  i/0 m/0 p/1 o/0 s/0 i/1 n/0 g/0 
-Pred:  i/0 m/0 p/1 o/0 s/0 I/0 n/0 g/0 
+Pred:  i/0 m/0 p/1 o/0 S/1 I/0 n/0 g/0 
+
+word:  propensity
+Gold:  p/0 r/0 o/0 p/1 e/0 n/0 s/1 i/0 t/1 y/0 
+Pred:  p/0 r/0 o/0 p/1 E/1 n/0 s/1 i/0 t/1 y/0 
 
 word:  amir
 Gold:  a/0 m/1 i/0 r/0 
-Pred:  a/0 M/0 I/1 r/0 
+Pred:  a/0 M/0 i/0 R/1 
 
 word:  accommodating
 Gold:  a/0 c/0 c/1 o/0 m/0 m/1 o/0 d/1 a/0 t/0 i/1 n/0 g/0 
-Pred:  a/0 c/0 c/1 o/0 m/0 m/1 o/0 D/0 a/0 T/1 I/0 n/0 g/0 
+Pred:  a/0 c/0 c/1 o/0 m/0 m/1 o/0 d/1 a/0 t/0 I/0 n/0 g/0 
 
 word:  celebrated
 Gold:  c/0 e/0 l/0 e/1 b/1 r/0 a/0 t/0 e/1 d/0 
-Pred:  c/0 e/0 l/0 E/0 b/1 r/0 a/0 T/1 E/0 d/0 
-
-word:  inadequately
-Gold:  i/0 n/0 a/1 d/0 e/1 q/1 u/0 a/0 t/0 e/0 l/1 y/0 
-Pred:  i/0 n/0 a/1 d/0 E/0 Q/0 u/0 a/0 T/1 E/1 l/1 y/0 
+Pred:  c/0 e/0 l/0 e/1 b/1 r/0 a/0 t/0 E/0 d/0 
 
 word:  reservoir
 Gold:  r/0 e/0 s/0 e/1 r/0 v/1 o/0 i/0 r/0 
-Pred:  r/0 e/0 S/1 E/0 r/0 V/0 o/0 i/0 r/0 
-
-word:  engineer
-Gold:  e/0 n/0 g/1 i/0 n/1 e/0 e/0 r/0 
-Pred:  e/0 n/0 g/1 i/0 N/0 e/0 e/0 r/0 
+Pred:  r/0 e/0 S/1 E/0 r/0 V/0 O/1 i/0 r/0 
 
 word:  suffice
 Gold:  s/0 u/0 f/0 f/1 i/0 c/0 e/0 
 Pred:  s/0 u/0 f/0 f/1 i/0 C/1 e/0 
-
-word:  rescission
-Gold:  r/0 e/0 s/1 c/0 i/0 s/0 s/1 i/0 o/0 n/0 
-Pred:  r/0 e/0 s/1 C/1 i/0 s/0 S/0 i/0 o/0 n/0 
 
 word:  creatively
 Gold:  c/0 r/0 e/0 a/1 t/1 i/0 v/0 e/0 l/1 y/0 
@@ -929,19 +833,19 @@ Pred:  c/0 r/0 e/0 A/0 T/0 i/0 v/0 e/0 l/1 y/0
 
 word:  psychologically
 Gold:  p/0 s/0 y/0 c/1 h/0 o/0 l/1 o/0 g/0 i/1 c/1 a/0 l/0 l/1 y/0 
-Pred:  p/0 s/0 y/0 c/1 h/0 o/0 l/1 O/1 G/1 i/1 C/0 a/0 l/0 l/1 y/0 
+Pred:  p/0 s/0 y/0 c/1 h/0 o/0 L/0 O/1 G/1 i/1 c/1 a/0 l/0 l/1 y/0 
 
 word:  pliers
 Gold:  p/0 l/0 i/0 e/1 r/0 s/0 
-Pred:  p/0 l/0 i/0 E/0 r/0 S/1 
+Pred:  p/0 l/0 i/0 E/0 r/0 s/0 
 
 word:  democratic
 Gold:  d/0 e/0 m/0 o/1 c/1 r/0 a/0 t/0 i/1 c/0 
-Pred:  d/0 e/0 M/1 O/0 c/1 r/0 a/0 T/1 I/0 c/0 
+Pred:  d/0 e/0 M/1 O/0 c/1 r/0 a/0 t/0 I/0 c/0 
 
 word:  victimization
 Gold:  v/0 i/0 c/0 t/1 i/0 m/0 i/1 z/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  v/0 i/0 C/1 t/1 i/0 m/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  v/0 i/0 c/0 t/1 i/0 m/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0 
 
 word:  seeing
 Gold:  s/0 e/0 e/0 i/1 n/0 g/0 
@@ -949,7 +853,11 @@ Pred:  s/0 e/0 e/0 I/0 n/0 g/0
 
 word:  marine
 Gold:  m/0 a/0 r/1 i/0 n/0 e/0 
-Pred:  m/0 a/0 R/0 I/1 n/0 e/0 
+Pred:  m/0 a/0 R/0 I/1 N/1 e/0 
+
+word:  tinderbox
+Gold:  t/0 i/0 n/0 d/1 e/0 r/0 b/1 o/0 x/0 
+Pred:  t/0 i/0 n/0 D/0 E/1 r/0 b/1 o/0 x/0 
 
 word:  adj
 Gold:  a/0 d/0 j/0 
@@ -959,17 +867,17 @@ word:  carve
 Gold:  c/0 a/0 r/0 v/0 e/0 
 Pred:  c/0 a/0 r/0 V/1 e/0 
 
-word:  impartial
-Gold:  i/0 m/0 p/1 a/0 r/0 t/1 i/0 a/0 l/0 
-Pred:  i/0 m/0 p/1 a/0 r/0 T/0 i/0 a/0 l/0 
+word:  constriction
+Gold:  c/0 o/0 n/0 s/1 t/0 r/0 i/0 c/0 t/1 i/0 o/0 n/0 
+Pred:  c/0 o/0 n/0 s/1 t/0 r/0 i/0 c/0 T/0 i/0 o/0 n/0 
 
 word:  interdepartmental
 Gold:  i/0 n/0 t/1 e/0 r/0 d/1 e/0 p/1 a/0 r/0 t/0 m/1 e/0 n/0 t/1 a/0 l/0 
-Pred:  i/0 n/0 t/1 e/0 r/0 d/1 e/0 P/0 a/0 r/0 t/0 m/1 e/0 n/0 T/0 a/0 l/0 
+Pred:  i/0 n/0 t/1 e/0 r/0 d/1 e/0 p/1 a/0 r/0 t/0 m/1 e/0 n/0 T/0 a/0 l/0 
 
 word:  transcriptional
 Gold:  t/0 r/0 a/0 n/0 s/1 c/0 r/0 i/0 p/0 t/1 i/0 o/0 n/0 a/1 l/0 
-Pred:  t/0 r/0 a/0 n/0 S/0 C/1 r/0 i/0 p/0 t/1 i/0 o/0 n/0 a/1 l/0 
+Pred:  t/0 r/0 a/0 n/0 S/0 c/0 r/0 i/0 p/0 T/0 i/0 o/0 n/0 a/1 l/0 
 
 word:  amorous
 Gold:  a/0 m/0 o/1 r/1 o/0 u/0 s/0 
@@ -977,7 +885,11 @@ Pred:  a/0 m/0 O/0 R/0 O/1 u/0 s/0
 
 word:  divestiture
 Gold:  d/0 i/0 v/1 e/0 s/0 t/0 i/1 t/1 u/0 r/0 e/0 
-Pred:  d/0 i/0 v/1 e/0 s/0 T/1 I/0 t/1 u/0 r/0 e/0 
+Pred:  d/0 i/0 v/1 e/0 s/0 t/0 I/0 t/1 u/0 r/0 e/0 
+
+word:  dentist
+Gold:  d/0 e/0 n/0 t/1 i/0 s/0 t/0 
+Pred:  d/0 e/0 n/0 T/0 i/0 s/0 t/0 
 
 word:  blade
 Gold:  b/0 l/0 a/0 d/0 e/0 
@@ -987,13 +899,13 @@ word:  factoring
 Gold:  f/0 a/0 c/0 t/1 o/0 r/0 i/1 n/0 g/0 
 Pred:  f/0 a/0 c/0 t/1 o/0 r/0 I/0 n/0 g/0 
 
-word:  inherently
-Gold:  i/0 n/0 h/1 e/0 r/0 e/1 n/0 t/0 l/1 y/0 
-Pred:  i/0 n/0 h/1 e/0 r/0 E/0 n/0 t/0 l/1 y/0 
-
 word:  tele
 Gold:  t/0 e/0 l/0 e/0 
 Pred:  t/0 e/0 l/0 E/1 
+
+word:  their
+Gold:  t/0 h/0 e/0 i/0 r/0 
+Pred:  t/0 h/0 e/0 I/1 r/0 
 
 word:  defamer
 Gold:  d/0 e/0 f/1 a/0 m/0 e/1 r/0 
@@ -1003,9 +915,17 @@ word:  timid
 Gold:  t/0 i/0 m/0 i/1 d/0 
 Pred:  t/0 i/0 m/0 i/1 D/1 
 
+word:  provoking
+Gold:  p/0 r/0 o/0 v/1 o/0 k/0 i/1 n/0 g/0 
+Pred:  p/0 r/0 o/0 V/0 O/1 k/0 i/1 n/0 g/0 
+
+word:  ischia
+Gold:  i/0 s/0 c/1 h/0 i/0 a/1 
+Pred:  i/0 S/1 c/1 h/0 i/0 a/1 
+
 word:  developer
 Gold:  d/0 e/0 v/1 e/0 l/0 o/1 p/0 e/1 r/0 
-Pred:  d/0 e/0 v/1 e/0 l/0 O/0 p/0 E/0 r/0 
+Pred:  d/0 e/0 v/1 e/0 l/0 o/1 p/0 E/0 r/0 
 
 word:  adsorption
 Gold:  a/0 d/0 s/1 o/0 r/0 p/0 t/1 i/0 o/0 n/0 
@@ -1021,11 +941,11 @@ Pred:  c/0 a/0 R/0 e/0 e/0 r/0
 
 word:  phylogeny
 Gold:  p/0 h/0 y/0 l/1 o/0 g/0 e/1 n/1 y/0 
-Pred:  p/0 h/0 y/0 l/1 o/0 g/0 E/0 N/0 y/0 
+Pred:  p/0 h/0 y/0 l/1 o/0 G/1 E/0 n/1 y/0 
 
 word:  bazaar
 Gold:  b/0 a/0 z/1 a/0 a/0 r/0 
-Pred:  b/0 a/0 Z/0 a/0 a/0 r/0 
+Pred:  b/0 a/0 z/1 a/0 a/0 R/1 
 
 word:  around
 Gold:  a/0 r/1 o/0 u/0 n/0 d/0 
@@ -1033,7 +953,7 @@ Pred:  a/0 R/0 o/0 u/0 n/0 d/0
 
 word:  proclamation
 Gold:  p/0 r/0 o/0 c/0 l/1 a/0 m/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  p/0 r/0 o/0 C/1 L/0 a/0 M/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  p/0 r/0 o/0 C/1 L/0 a/0 M/0 a/0 T/0 i/0 o/0 n/0 
 
 word:  impala
 Gold:  i/0 m/0 p/1 a/0 l/0 a/1 
@@ -1041,23 +961,15 @@ Pred:  i/0 m/0 p/1 a/0 l/0 A/0
 
 word:  pyramidal
 Gold:  p/0 y/0 r/1 a/0 m/0 i/1 d/1 a/0 l/0 
-Pred:  p/0 y/0 R/0 a/0 m/0 i/1 d/1 a/0 l/0 
-
-word:  duly
-Gold:  d/0 u/0 l/1 y/0 
-Pred:  d/0 u/0 L/0 y/0 
+Pred:  p/0 y/0 r/1 a/0 m/0 i/1 D/0 a/0 l/0 
 
 word:  audacity
 Gold:  a/0 u/0 d/1 a/0 c/0 i/1 t/1 y/0 
-Pred:  a/0 u/0 d/1 a/0 c/0 I/0 t/1 y/0 
+Pred:  a/0 u/0 d/1 a/0 C/1 I/0 t/1 y/0 
 
 word:  condenser
 Gold:  c/0 o/0 n/0 d/1 e/0 n/0 s/0 e/1 r/0 
 Pred:  c/0 o/0 n/0 d/1 e/0 n/0 S/1 E/0 r/0 
-
-word:  pleasure
-Gold:  p/0 l/0 e/0 a/0 s/0 u/1 r/0 e/0 
-Pred:  p/0 l/0 e/0 a/0 s/0 U/0 r/0 e/0 
 
 word:  jointed
 Gold:  j/0 o/0 i/0 n/0 t/0 e/1 d/0 
@@ -1065,7 +977,7 @@ Pred:  j/0 o/0 i/0 n/0 t/0 E/0 d/0
 
 word:  polygonal
 Gold:  p/0 o/0 l/1 y/0 g/0 o/1 n/1 a/0 l/0 
-Pred:  p/0 o/0 L/0 y/0 G/1 O/0 N/0 a/0 l/0 
+Pred:  p/0 o/0 L/0 Y/1 G/1 O/0 N/0 a/0 l/0 
 
 word:  consumable
 Gold:  c/0 o/0 n/0 s/1 u/0 m/0 a/1 b/1 l/0 e/0 
@@ -1073,7 +985,7 @@ Pred:  c/0 o/0 n/0 s/1 u/0 m/0 A/0 b/1 l/0 e/0
 
 word:  acetyl
 Gold:  a/0 c/0 e/1 t/1 y/0 l/0 
-Pred:  a/0 c/0 E/0 T/0 y/0 l/0 
+Pred:  a/0 c/0 e/1 T/0 y/0 l/0 
 
 word:  budgeted
 Gold:  b/0 u/0 d/0 g/0 e/1 t/0 e/1 d/0 
@@ -1082,10 +994,6 @@ Pred:  b/0 u/0 d/0 g/0 E/0 t/0 e/1 d/0
 word:  prevalent
 Gold:  p/0 r/0 e/0 v/0 a/1 l/1 e/0 n/0 t/0 
 Pred:  p/0 r/0 e/0 V/1 A/0 L/0 e/0 n/0 t/0 
-
-word:  expect
-Gold:  e/0 x/0 p/1 e/0 c/0 t/0 
-Pred:  e/0 x/0 p/1 e/0 c/0 T/1 
 
 word:  berserk
 Gold:  b/0 e/0 r/0 s/1 e/0 r/0 k/0 
@@ -1103,73 +1011,45 @@ word:  torpedo
 Gold:  t/0 o/0 r/0 p/1 e/0 d/1 o/0 
 Pred:  t/0 o/0 r/0 p/1 e/0 D/0 o/0 
 
-word:  citizen
-Gold:  c/0 i/0 t/0 i/1 z/1 e/0 n/0 
-Pred:  c/0 i/0 t/0 i/1 Z/0 e/0 n/0 
-
-word:  extractions
-Gold:  e/0 x/0 t/1 r/0 a/0 c/0 t/1 i/0 o/0 n/0 s/0 
-Pred:  e/0 x/0 t/1 r/0 a/0 c/0 t/1 i/0 o/0 n/0 S/1 
-
-word:  exchangeable
-Gold:  e/0 x/0 c/1 h/0 a/0 n/0 g/0 e/0 a/1 b/1 l/0 e/0 
-Pred:  e/0 x/0 c/1 h/0 a/0 n/0 g/0 e/0 A/0 b/1 l/0 e/0 
-
 word:  orthopedic
 Gold:  o/0 r/0 t/1 h/0 o/0 p/1 e/0 d/1 i/0 c/0 
-Pred:  o/0 r/0 t/1 h/0 o/0 p/1 e/0 D/0 I/1 c/0 
+Pred:  o/0 r/0 t/1 h/0 o/0 p/1 e/0 D/0 i/0 c/0 
 
 word:  axe
 Gold:  a/0 x/0 e/0 
 Pred:  a/0 x/0 E/1 
 
-word:  interviewer
-Gold:  i/0 n/0 t/1 e/0 r/0 v/1 i/0 e/0 w/0 e/1 r/0 
-Pred:  i/0 n/0 t/1 e/0 r/0 v/1 i/0 e/0 w/0 E/0 r/0 
-
 word:  barb
 Gold:  b/0 a/0 r/0 b/0 
 Pred:  b/0 a/0 r/0 B/1 
 
-word:  pajamas
-Gold:  p/0 a/0 j/1 a/0 m/0 a/1 s/0 
-Pred:  p/0 a/0 j/1 a/0 m/0 A/0 s/0 
+word:  overtime
+Gold:  o/0 v/1 e/0 r/0 t/1 i/0 m/0 e/0 
+Pred:  o/0 v/1 e/0 r/0 T/0 i/0 M/1 e/0 
 
 word:  bora
 Gold:  b/0 o/0 r/1 a/0 
-Pred:  b/0 o/0 R/0 A/1 
+Pred:  b/0 o/0 R/0 a/0 
+
+word:  lube
+Gold:  l/0 u/0 b/0 e/0 
+Pred:  l/0 u/0 B/1 e/0 
 
 word:  horticultural
 Gold:  h/0 o/0 r/0 t/1 i/0 c/1 u/0 l/0 t/1 u/0 r/0 a/1 l/0 
-Pred:  h/0 o/0 r/0 T/0 i/0 c/1 u/0 L/1 T/0 u/0 r/0 a/1 l/0 
+Pred:  h/0 o/0 r/0 T/0 i/0 C/0 U/1 L/1 T/0 u/0 r/0 a/1 l/0 
 
 word:  transcribed
 Gold:  t/0 r/0 a/0 n/0 s/1 c/0 r/0 i/0 b/0 e/0 d/0 
-Pred:  t/0 r/0 a/0 n/0 S/0 C/1 r/0 i/0 b/0 e/0 d/0 
-
-word:  embezzlement
-Gold:  e/0 m/0 b/1 e/0 z/0 z/1 l/0 e/0 m/1 e/0 n/0 t/0 
-Pred:  e/0 m/0 b/1 e/0 z/0 Z/0 l/0 e/0 M/0 e/0 n/0 t/0 
+Pred:  t/0 r/0 a/0 n/0 S/0 c/0 r/0 i/0 b/0 e/0 d/0 
 
 word:  singles
 Gold:  s/0 i/0 n/0 g/1 l/0 e/0 s/0 
-Pred:  s/0 i/0 n/0 G/0 L/1 e/0 s/0 
-
-word:  myth
-Gold:  m/0 y/0 t/0 h/0 
-Pred:  m/0 y/0 T/1 h/0 
-
-word:  inconceivable
-Gold:  i/0 n/0 c/1 o/0 n/0 c/1 e/0 i/0 v/0 a/1 b/1 l/0 e/0 
-Pred:  i/0 n/0 c/1 o/0 n/0 c/1 e/0 i/0 v/0 A/0 b/1 l/0 e/0 
+Pred:  s/0 i/0 n/0 G/0 l/0 e/0 s/0 
 
 word:  amortization
 Gold:  a/0 m/0 o/1 r/0 t/1 i/0 z/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  a/0 m/0 O/0 r/0 t/1 i/0 z/1 a/0 t/1 i/0 o/0 n/0 
-
-word:  ridgeway
-Gold:  r/0 i/0 d/0 g/0 e/0 w/1 a/0 y/0 
-Pred:  r/0 i/0 d/0 g/0 e/0 W/0 a/0 y/0 
+Pred:  a/0 m/0 O/0 r/0 t/1 i/0 Z/0 a/0 t/1 i/0 o/0 n/0 
 
 word:  ejaculation
 Gold:  e/0 j/1 a/0 c/0 u/1 l/1 a/0 t/1 i/0 o/0 n/0 
@@ -1181,11 +1061,7 @@ Pred:  c/0 o/0 r/0 R/1
 
 word:  elimination
 Gold:  e/0 l/1 i/0 m/0 i/1 n/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  e/0 L/0 i/0 m/0 i/1 N/0 a/0 T/0 i/0 o/0 n/0 
-
-word:  lent
-Gold:  l/0 e/0 n/0 t/0 
-Pred:  l/0 e/0 n/0 T/1 
+Pred:  e/0 l/1 i/0 m/0 i/1 n/1 a/0 T/0 i/0 o/0 n/0 
 
 word:  oyez
 Gold:  o/0 y/1 e/0 z/0 
@@ -1195,9 +1071,13 @@ word:  arse
 Gold:  a/0 r/0 s/0 e/0 
 Pred:  a/0 r/0 S/1 e/0 
 
+word:  harmful
+Gold:  h/0 a/0 r/0 m/0 f/1 u/0 l/0 
+Pred:  h/0 a/0 r/0 M/1 f/1 u/0 l/0 
+
 word:  blatantly
 Gold:  b/0 l/0 a/0 t/1 a/0 n/0 t/0 l/1 y/0 
-Pred:  b/0 l/0 a/0 T/0 A/1 n/0 t/0 l/1 y/0 
+Pred:  b/0 l/0 a/0 T/0 a/0 n/0 t/0 l/1 y/0 
 
 word:  create
 Gold:  c/0 r/0 e/0 a/1 t/0 e/0 
@@ -1205,7 +1085,7 @@ Pred:  c/0 r/0 e/0 A/0 t/0 E/1
 
 word:  optimization
 Gold:  o/0 p/0 t/1 i/0 m/1 i/0 z/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  o/0 p/0 t/1 i/0 m/1 I/1 z/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  o/0 p/0 t/1 i/0 m/1 i/0 Z/0 a/0 t/1 i/0 o/0 n/0 
 
 word:  former
 Gold:  f/0 o/0 r/0 m/0 e/1 r/0 
@@ -1213,23 +1093,19 @@ Pred:  f/0 o/0 r/0 M/1 E/0 r/0
 
 word:  cylinder
 Gold:  c/0 y/0 l/0 i/1 n/0 d/1 e/0 r/0 
-Pred:  c/0 y/0 l/0 I/0 n/0 D/0 e/0 r/0 
+Pred:  c/0 y/0 l/0 I/0 n/0 D/0 E/1 r/0 
 
 word:  digitally
 Gold:  d/0 i/0 g/0 i/1 t/0 a/1 l/0 l/1 y/0 
-Pred:  d/0 i/0 g/0 i/1 T/1 A/0 l/0 l/1 y/0 
+Pred:  d/0 i/0 G/1 i/1 t/0 A/0 l/0 l/1 y/0 
 
 word:  invalidate
 Gold:  i/0 n/0 v/1 a/0 l/0 i/1 d/1 a/0 t/0 e/0 
-Pred:  i/0 n/0 v/1 a/0 l/0 i/1 D/0 a/0 T/1 e/0 
+Pred:  i/0 n/0 v/1 a/0 l/0 i/1 D/0 a/0 t/0 e/0 
 
-word:  bartender
-Gold:  b/0 a/0 r/0 t/1 e/0 n/0 d/0 e/1 r/0 
-Pred:  b/0 a/0 r/0 t/1 e/0 n/0 d/0 E/0 r/0 
-
-word:  bumper
-Gold:  b/0 u/0 m/0 p/0 e/1 r/0 
-Pred:  b/0 u/0 m/0 p/0 E/0 r/0 
+word:  tourney
+Gold:  t/0 o/0 u/0 r/0 n/1 e/0 y/0 
+Pred:  t/0 o/0 u/0 r/0 N/0 e/0 y/0 
 
 word:  guanine
 Gold:  g/0 u/0 a/0 n/1 i/0 n/0 e/0 
@@ -1237,7 +1113,7 @@ Pred:  g/0 u/0 a/0 N/0 I/1 n/0 e/0
 
 word:  inefficiency
 Gold:  i/0 n/0 e/1 f/0 f/1 i/0 c/1 i/0 e/0 n/0 c/1 y/0 
-Pred:  i/0 n/0 e/1 F/1 f/1 i/0 c/1 i/0 e/0 n/0 C/0 y/0 
+Pred:  i/0 n/0 e/1 f/0 f/1 i/0 c/1 i/0 e/0 n/0 C/0 y/0 
 
 word:  rumour
 Gold:  r/0 u/0 m/1 o/0 u/0 r/0 
@@ -1249,35 +1125,31 @@ Pred:  c/0 l/0 a/0 s/0 s/1 i/0 C/0 a/0 l/0
 
 word:  lazy
 Gold:  l/0 a/0 z/1 y/0 
-Pred:  l/0 a/0 Z/0 Y/1 
+Pred:  l/0 a/0 Z/0 y/0 
 
 word:  chevalier
 Gold:  c/0 h/0 e/0 v/0 a/1 l/1 i/0 e/0 r/0 
 Pred:  c/0 h/0 e/0 v/0 a/1 L/0 I/1 e/0 r/0 
 
-word:  owl
-Gold:  o/0 w/0 l/0 
-Pred:  o/0 w/0 L/1 
-
 word:  ding
 Gold:  d/0 i/0 n/0 g/0 
 Pred:  d/0 i/0 n/0 G/1 
 
+word:  due
+Gold:  d/0 u/0 e/0 
+Pred:  d/0 u/0 E/1 
+
 word:  tiller
 Gold:  t/0 i/0 l/0 l/0 e/1 r/0 
-Pred:  t/0 i/0 l/0 L/1 E/0 r/0 
+Pred:  t/0 i/0 l/0 l/0 E/0 r/0 
 
 word:  microbiological
 Gold:  m/0 i/0 c/1 r/0 o/0 b/1 i/0 o/1 l/1 o/0 g/0 i/1 c/1 a/0 l/0 
-Pred:  m/0 i/0 C/0 r/0 o/0 b/1 i/0 O/0 L/0 O/1 g/0 i/1 C/0 a/0 l/0 
-
-word:  tomb
-Gold:  t/0 o/0 m/0 b/0 
-Pred:  t/0 o/0 m/0 B/1 
+Pred:  m/0 i/0 c/1 r/0 o/0 b/1 i/0 o/1 L/0 O/1 G/1 i/1 c/1 a/0 l/0 
 
 word:  calorimeter
 Gold:  c/0 a/0 l/0 o/1 r/1 i/0 m/0 e/1 t/1 e/0 r/0 
-Pred:  c/0 a/0 l/0 o/1 R/0 I/1 M/1 E/0 T/0 E/1 r/0 
+Pred:  c/0 a/0 l/0 O/0 R/0 i/0 m/0 E/0 T/0 e/0 r/0 
 
 word:  conceptualization
 Gold:  c/0 o/0 n/0 c/1 e/0 p/0 t/1 u/0 a/1 l/0 i/1 z/1 a/0 t/1 i/0 o/0 n/0 
@@ -1285,7 +1157,7 @@ Pred:  c/0 o/0 n/0 c/1 e/0 p/0 t/1 u/0 a/1 l/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0
 
 word:  selfless
 Gold:  s/0 e/0 l/0 f/0 l/1 e/0 s/0 s/0 
-Pred:  s/0 e/0 l/0 F/1 L/0 e/0 s/0 s/0 
+Pred:  s/0 e/0 L/1 f/0 l/1 e/0 s/0 s/0 
 
 word:  carte
 Gold:  c/0 a/0 r/0 t/0 e/0 
@@ -1293,51 +1165,39 @@ Pred:  c/0 a/0 r/0 T/1 e/0
 
 word:  generating
 Gold:  g/0 e/0 n/0 e/1 r/0 a/1 t/0 i/1 n/0 g/0 
-Pred:  g/0 e/0 n/0 e/1 r/0 a/1 T/1 I/0 n/0 g/0 
-
-word:  briefly
-Gold:  b/0 r/0 i/0 e/0 f/0 l/1 y/0 
-Pred:  b/0 r/0 i/0 e/0 f/0 L/0 y/0 
-
-word:  synoptic
-Gold:  s/0 y/0 n/0 o/1 p/0 t/1 i/0 c/0 
-Pred:  s/0 y/0 n/0 o/1 p/0 t/1 i/0 C/1 
-
-word:  town
-Gold:  t/0 o/0 w/0 n/0 
-Pred:  t/0 o/0 w/0 N/1 
+Pred:  g/0 e/0 n/0 e/1 r/0 a/1 t/0 I/0 n/0 g/0 
 
 word:  corolla
 Gold:  c/0 o/0 r/1 o/0 l/0 l/1 a/0 
-Pred:  c/0 o/0 R/0 O/1 L/1 l/1 a/0 
+Pred:  c/0 o/0 R/0 O/1 l/0 l/1 a/0 
 
 word:  gases
 Gold:  g/0 a/0 s/0 e/1 s/0 
 Pred:  g/0 a/0 s/0 E/0 s/0 
 
-word:  cortisol
-Gold:  c/0 o/0 r/0 t/1 i/0 s/1 o/0 l/0 
-Pred:  c/0 o/0 r/0 t/1 i/0 S/0 o/0 l/0 
-
 word:  buffer
 Gold:  b/0 u/0 f/0 f/0 e/1 r/0 
 Pred:  b/0 u/0 f/0 F/1 E/0 r/0 
 
-word:  catchy
-Gold:  c/0 a/0 t/0 c/0 h/0 y/1 
-Pred:  c/0 a/0 t/0 C/1 h/0 y/1 
+word:  dalton
+Gold:  d/0 a/0 l/0 t/1 o/0 n/0 
+Pred:  d/0 a/0 l/0 T/0 o/0 n/0 
 
 word:  specialise
 Gold:  s/0 p/0 e/0 c/1 i/0 a/0 l/0 i/1 s/0 e/0 
-Pred:  s/0 p/0 e/0 C/0 i/0 A/1 l/0 i/1 s/0 e/0 
+Pred:  s/0 p/0 e/0 C/0 i/0 a/0 l/0 i/1 s/0 e/0 
 
 word:  itchy
 Gold:  i/0 t/0 c/0 h/0 y/1 
 Pred:  i/0 t/0 C/1 h/0 Y/0 
 
+word:  psychic
+Gold:  p/0 s/0 y/0 c/1 h/0 i/0 c/0 
+Pred:  p/0 s/0 y/0 c/1 h/0 i/0 C/1 
+
 word:  stardom
 Gold:  s/0 t/0 a/0 r/0 d/1 o/0 m/0 
-Pred:  s/0 t/0 a/0 r/0 D/0 O/1 m/0 
+Pred:  s/0 t/0 a/0 r/0 D/0 o/0 m/0 
 
 word:  ep
 Gold:  e/0 p/1 
@@ -1345,15 +1205,15 @@ Pred:  e/0 P/0
 
 word:  phosphorylated
 Gold:  p/0 h/0 o/0 s/0 p/1 h/0 o/0 r/1 y/0 l/0 a/1 t/0 e/1 d/0 
-Pred:  p/0 h/0 o/0 s/0 p/1 h/0 o/0 R/0 y/0 l/0 A/0 t/0 E/0 d/0 
+Pred:  p/0 h/0 o/0 s/0 p/1 h/0 o/0 r/1 y/0 l/0 a/1 t/0 E/0 d/0 
+
+word:  somber
+Gold:  s/0 o/0 m/0 b/1 e/0 r/0 
+Pred:  s/0 o/0 m/0 B/0 e/0 r/0 
 
 word:  count
 Gold:  c/0 o/0 u/0 n/0 t/0 
 Pred:  c/0 o/0 u/0 n/0 T/1 
-
-word:  catcher
-Gold:  c/0 a/0 t/0 c/0 h/0 e/1 r/0 
-Pred:  c/0 a/0 t/0 C/1 h/0 E/0 r/0 
 
 word:  della
 Gold:  d/0 e/0 l/0 l/1 a/0 
@@ -1361,23 +1221,23 @@ Pred:  d/0 e/0 L/1 L/0 a/0
 
 word:  viticulture
 Gold:  v/0 i/0 t/0 i/1 c/1 u/0 l/0 t/1 u/0 r/0 e/0 
-Pred:  v/0 i/0 t/0 I/0 C/0 u/0 L/1 T/0 u/0 r/0 e/0 
+Pred:  v/0 i/0 t/0 I/0 c/1 U/1 l/0 t/1 u/0 r/0 e/0 
 
-word:  airtight
-Gold:  a/0 i/0 r/0 t/1 i/0 g/0 h/0 t/0 
-Pred:  a/0 i/0 r/0 T/0 i/0 g/0 h/0 t/0 
+word:  fallow
+Gold:  f/0 a/0 l/0 l/1 o/0 w/0 
+Pred:  f/0 a/0 l/0 L/0 o/0 w/0 
 
 word:  matinee
 Gold:  m/0 a/0 t/0 i/1 n/1 e/0 e/0 
-Pred:  m/0 a/0 t/0 I/0 N/0 e/0 e/0 
+Pred:  m/0 a/0 t/0 I/0 n/1 e/0 e/0 
+
+word:  stamina
+Gold:  s/0 t/0 a/0 m/0 i/1 n/1 a/0 
+Pred:  s/0 t/0 a/0 m/0 i/1 N/0 a/0 
 
 word:  ism
 Gold:  i/0 s/0 m/0 
-Pred:  i/0 s/0 M/1 
-
-word:  racing
-Gold:  r/0 a/0 c/0 i/1 n/0 g/0 
-Pred:  r/0 a/0 c/0 I/0 n/0 g/0 
+Pred:  i/0 S/1 M/1 
 
 word:  stormy
 Gold:  s/0 t/0 o/0 r/0 m/0 y/1 
@@ -1385,7 +1245,7 @@ Pred:  s/0 t/0 o/0 r/0 m/0 Y/0
 
 word:  revitalization
 Gold:  r/0 e/0 v/1 i/0 t/1 a/0 l/0 i/1 z/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  r/0 e/0 v/1 i/0 t/1 a/0 l/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  r/0 e/0 v/1 i/0 T/0 a/0 l/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0 
 
 word:  obverse
 Gold:  o/0 b/0 v/1 e/0 r/0 s/0 e/0 
@@ -1399,33 +1259,25 @@ word:  itch
 Gold:  i/0 t/0 c/0 h/0 
 Pred:  i/0 t/0 C/1 h/0 
 
-word:  libertarianism
-Gold:  l/0 i/0 b/0 e/1 r/0 t/1 a/0 r/0 i/1 a/1 n/0 i/1 s/0 m/0 
-Pred:  l/0 i/0 b/0 E/0 r/0 t/1 a/0 r/0 i/1 a/1 n/0 i/1 s/0 m/0 
+word:  cordon
+Gold:  c/0 o/0 r/0 d/1 o/0 n/0 
+Pred:  c/0 o/0 r/0 D/0 o/0 n/0 
 
 word:  pavement
 Gold:  p/0 a/0 v/0 e/0 m/1 e/0 n/0 t/0 
-Pred:  p/0 a/0 V/1 e/0 M/0 e/0 n/0 t/0 
+Pred:  p/0 a/0 V/1 e/0 m/1 e/0 n/0 t/0 
 
 word:  doings
 Gold:  d/0 o/0 i/1 n/0 g/0 s/0 
-Pred:  d/0 o/0 I/0 n/0 G/1 s/0 
+Pred:  d/0 o/0 I/0 n/0 g/0 s/0 
 
 word:  parapsychology
 Gold:  p/0 a/0 r/0 a/1 p/1 s/0 y/0 c/1 h/0 o/0 l/0 o/1 g/1 y/0 
-Pred:  p/0 a/0 r/0 a/1 p/1 s/0 y/0 c/1 h/0 o/0 l/0 o/1 G/0 y/0 
+Pred:  p/0 a/0 r/0 a/1 p/1 s/0 y/0 C/0 h/0 o/0 l/0 o/1 g/1 y/0 
 
-word:  conservatively
-Gold:  c/0 o/0 n/0 s/1 e/0 r/0 v/0 a/1 t/1 i/0 v/0 e/0 l/1 y/0 
-Pred:  c/0 o/0 n/0 s/1 e/0 r/0 v/0 A/0 t/1 i/0 v/0 e/0 l/1 y/0 
-
-word:  inefficient
-Gold:  i/0 n/0 e/1 f/0 f/1 i/0 c/1 i/0 e/0 n/0 t/0 
-Pred:  i/0 n/0 e/1 F/1 f/1 i/0 c/1 i/0 e/0 n/0 t/0 
-
-word:  organising
-Gold:  o/0 r/0 g/1 a/0 n/0 i/1 s/0 i/1 n/0 g/0 
-Pred:  o/0 r/0 g/1 a/0 n/0 i/1 s/0 I/0 n/0 g/0 
+word:  signalling
+Gold:  s/0 i/0 g/0 n/1 a/0 l/0 l/1 i/0 n/0 g/0 
+Pred:  s/0 i/0 g/0 n/1 a/0 l/0 L/0 i/0 n/0 g/0 
 
 word:  chaff
 Gold:  c/0 h/0 a/0 f/0 f/0 
@@ -1433,35 +1285,31 @@ Pred:  c/0 h/0 a/0 f/0 F/1
 
 word:  piano
 Gold:  p/0 i/0 a/0 n/1 o/0 
-Pred:  p/0 i/0 A/1 N/0 o/0 
+Pred:  p/0 i/0 A/1 N/0 O/1 
 
 word:  retribution
 Gold:  r/0 e/0 t/0 r/1 i/0 b/1 u/0 t/1 i/0 o/0 n/0 
-Pred:  r/0 e/0 T/1 R/0 i/0 b/1 u/0 T/0 i/0 o/0 n/0 
+Pred:  r/0 e/0 T/1 R/0 i/0 B/0 U/1 T/0 i/0 o/0 n/0 
 
 word:  nomad
 Gold:  n/0 o/0 m/1 a/0 d/0 
 Pred:  n/0 o/0 M/0 a/0 D/1 
 
-word:  noticing
-Gold:  n/0 o/0 t/1 i/0 c/0 i/1 n/0 g/0 
-Pred:  n/0 o/0 t/1 i/0 c/0 I/0 n/0 g/0 
+word:  harpoon
+Gold:  h/0 a/0 r/0 p/1 o/0 o/0 n/0 
+Pred:  h/0 a/0 r/0 P/0 o/0 o/0 n/0 
 
 word:  nanometer
 Gold:  n/0 a/0 n/1 o/0 m/1 e/0 t/1 e/0 r/0 
-Pred:  n/0 a/0 N/0 O/1 m/1 e/0 t/1 e/0 r/0 
+Pred:  n/0 a/0 N/0 o/0 M/0 e/0 t/1 e/0 r/0 
 
 word:  jess
 Gold:  j/0 e/0 s/0 s/0 
 Pred:  j/0 e/0 s/0 S/1 
 
-word:  flagpole
-Gold:  f/0 l/0 a/0 g/0 p/1 o/0 l/0 e/0 
-Pred:  f/0 l/0 a/0 g/0 p/1 o/0 L/1 e/0 
-
 word:  bandwagon
 Gold:  b/0 a/0 n/0 d/0 w/1 a/0 g/0 o/1 n/0 
-Pred:  b/0 a/0 n/0 D/1 w/1 a/0 g/0 O/0 n/0 
+Pred:  b/0 a/0 n/0 d/0 w/1 a/0 g/0 O/0 n/0 
 
 word:  uniformed
 Gold:  u/0 n/1 i/0 f/1 o/0 r/0 m/0 e/0 d/0 
@@ -1471,21 +1319,25 @@ word:  imagines
 Gold:  i/0 m/1 a/0 g/1 i/0 n/1 e/0 s/0 
 Pred:  i/0 M/0 A/1 G/0 I/1 N/0 e/0 s/0 
 
+word:  dirk
+Gold:  d/0 i/0 r/0 k/0 
+Pred:  d/0 i/0 R/1 k/0 
+
+word:  thorax
+Gold:  t/0 h/0 o/0 r/0 a/1 x/0 
+Pred:  t/0 h/0 o/0 r/0 A/0 x/0 
+
 word:  communicated
 Gold:  c/0 o/0 m/0 m/1 u/0 n/1 i/0 c/1 a/0 t/0 e/1 d/0 
-Pred:  c/0 o/0 m/0 m/1 u/0 n/1 i/0 c/1 a/0 T/1 E/0 d/0 
+Pred:  c/0 o/0 m/0 m/1 u/0 N/0 i/0 c/1 a/0 T/1 E/0 d/0 
 
 word:  obesity
 Gold:  o/0 b/1 e/0 s/0 i/1 t/1 y/0 
-Pred:  o/0 B/0 e/0 s/0 I/0 t/1 y/0 
-
-word:  curl
-Gold:  c/0 u/0 r/0 l/0 
-Pred:  c/0 u/0 r/0 L/1 
+Pred:  o/0 B/0 e/0 s/0 I/0 T/0 y/0 
 
 word:  diligent
 Gold:  d/0 i/0 l/0 i/1 g/1 e/0 n/0 t/0 
-Pred:  d/0 i/0 l/0 i/1 G/0 e/0 n/0 t/0 
+Pred:  d/0 i/0 L/1 I/0 G/0 e/0 n/0 t/0 
 
 word:  prednisone
 Gold:  p/0 r/0 e/0 d/0 n/1 i/0 s/1 o/0 n/0 e/0 
@@ -1493,15 +1345,15 @@ Pred:  p/0 r/0 e/0 D/1 n/1 i/0 S/0 o/0 n/0 e/0
 
 word:  corduroy
 Gold:  c/0 o/0 r/0 d/1 u/0 r/1 o/0 y/0 
-Pred:  c/0 o/0 r/0 d/1 u/0 R/0 o/0 y/0 
+Pred:  c/0 o/0 r/0 D/0 u/0 R/0 o/0 y/0 
 
 word:  nonviolence
 Gold:  n/0 o/0 n/0 v/1 i/0 o/1 l/1 e/0 n/0 c/0 e/0 
 Pred:  n/0 o/0 n/0 v/1 i/0 o/1 L/0 e/0 n/0 c/0 e/0 
 
-word:  micra
-Gold:  m/0 i/0 c/1 r/0 a/0 
-Pred:  m/0 i/0 C/0 r/0 a/0 
+word:  humming
+Gold:  h/0 u/0 m/0 m/1 i/0 n/0 g/0 
+Pred:  h/0 u/0 M/1 m/1 i/0 n/0 g/0 
 
 word:  jesse
 Gold:  j/0 e/0 s/0 s/0 e/0 
@@ -1513,11 +1365,11 @@ Pred:  s/0 h/0 a/0 R/0 I/1 a/1
 
 word:  landslide
 Gold:  l/0 a/0 n/0 d/0 s/1 l/0 i/0 d/0 e/0 
-Pred:  l/0 a/0 n/0 d/0 S/0 l/0 i/0 d/0 e/0 
+Pred:  l/0 a/0 n/0 d/0 s/1 l/0 i/0 d/0 E/1 
 
 word:  monophonic
 Gold:  m/0 o/0 n/0 o/1 p/1 h/0 o/0 n/0 i/1 c/0 
-Pred:  m/0 o/0 n/0 o/1 P/0 h/0 o/0 n/0 i/1 c/0 
+Pred:  m/0 o/0 n/0 o/1 P/0 h/0 o/0 N/1 i/1 c/0 
 
 word:  fulfilling
 Gold:  f/0 u/0 l/0 f/1 i/0 l/0 l/1 i/0 n/0 g/0 
@@ -1527,21 +1379,17 @@ word:  composition
 Gold:  c/0 o/0 m/0 p/1 o/0 s/1 i/0 t/1 i/0 o/0 n/0 
 Pred:  c/0 o/0 m/0 p/1 o/0 S/0 i/0 t/1 i/0 o/0 n/0 
 
-word:  advisable
-Gold:  a/0 d/0 v/1 i/0 s/0 a/1 b/1 l/0 e/0 
-Pred:  a/0 d/0 v/1 i/0 s/0 A/0 b/1 l/0 e/0 
+word:  mounted
+Gold:  m/0 o/0 u/0 n/0 t/0 e/1 d/0 
+Pred:  m/0 o/0 u/0 n/0 T/1 E/0 d/0 
 
 word:  swimsuit
 Gold:  s/0 w/0 i/0 m/0 s/1 u/0 i/0 t/0 
-Pred:  s/0 w/0 i/0 m/0 S/0 u/0 i/0 T/1 
+Pred:  s/0 w/0 i/0 m/0 s/1 u/0 i/0 T/1 
 
 word:  pulsar
 Gold:  p/0 u/0 l/0 s/1 a/0 r/0 
 Pred:  p/0 u/0 l/0 S/0 a/0 r/0 
-
-word:  sessions
-Gold:  s/0 e/0 s/0 s/1 i/0 o/0 n/0 s/0 
-Pred:  s/0 e/0 s/0 s/1 i/0 o/0 n/0 S/1 
 
 word:  estimated
 Gold:  e/0 s/0 t/1 i/0 m/1 a/0 t/0 e/1 d/0 
@@ -1549,7 +1397,7 @@ Pred:  e/0 s/0 t/1 i/0 m/1 a/0 t/0 E/0 d/0
 
 word:  reinstated
 Gold:  r/0 e/0 i/1 n/0 s/1 t/0 a/0 t/0 e/1 d/0 
-Pred:  r/0 e/0 i/1 n/0 s/1 t/0 a/0 T/1 E/0 d/0 
+Pred:  r/0 e/0 i/1 n/0 s/1 t/0 a/0 t/0 E/0 d/0 
 
 word:  coincide
 Gold:  c/0 o/0 i/1 n/0 c/1 i/0 d/0 e/0 
@@ -1565,7 +1413,7 @@ Pred:  h/0 i/0 s/0 t/1 a/0 M/0 I/1 n/0 e/0
 
 word:  render
 Gold:  r/0 e/0 n/0 d/0 e/1 r/0 
-Pred:  r/0 e/0 N/1 d/0 E/0 r/0 
+Pred:  r/0 e/0 N/1 D/1 E/0 r/0 
 
 word:  reseller
 Gold:  r/0 e/0 s/1 e/0 l/0 l/0 e/1 r/0 
@@ -1573,15 +1421,15 @@ Pred:  r/0 e/0 s/1 e/0 l/0 l/0 E/0 r/0
 
 word:  sinuses
 Gold:  s/0 i/0 n/1 u/0 s/0 e/1 s/0 
-Pred:  s/0 i/0 N/0 U/1 s/0 E/0 s/0 
+Pred:  s/0 i/0 N/0 u/0 s/0 E/0 s/0 
 
 word:  equities
 Gold:  e/0 q/0 u/1 i/0 t/1 i/0 e/0 s/0 
 Pred:  e/0 Q/1 U/0 i/0 t/1 i/0 e/0 s/0 
 
-word:  sanctity
-Gold:  s/0 a/0 n/0 c/0 t/1 i/0 t/1 y/0 
-Pred:  s/0 a/0 n/0 C/1 t/1 i/0 t/1 y/0 
+word:  infrequent
+Gold:  i/0 n/0 f/1 r/0 e/0 q/1 u/0 e/0 n/0 t/0 
+Pred:  i/0 n/0 f/1 r/0 e/0 Q/0 u/0 e/0 n/0 t/0 
 
 word:  mutter
 Gold:  m/0 u/0 t/0 t/1 e/0 r/0 
@@ -1599,9 +1447,13 @@ word:  sexiest
 Gold:  s/0 e/0 x/0 i/1 e/1 s/0 t/0 
 Pred:  s/0 e/0 x/0 i/1 E/0 s/0 t/0 
 
+word:  acceptor
+Gold:  a/0 c/0 c/1 e/0 p/0 t/1 o/0 r/0 
+Pred:  a/0 c/0 c/1 e/0 p/0 T/0 o/0 r/0 
+
 word:  promising
 Gold:  p/0 r/0 o/0 m/0 i/1 s/0 i/1 n/0 g/0 
-Pred:  p/0 r/0 o/0 M/1 I/0 s/0 i/1 n/0 g/0 
+Pred:  p/0 r/0 o/0 m/0 I/0 s/0 I/0 n/0 g/0 
 
 word:  mint
 Gold:  m/0 i/0 n/0 t/0 
@@ -1609,91 +1461,79 @@ Pred:  m/0 i/0 n/0 T/1
 
 word:  bureaucratic
 Gold:  b/0 u/0 r/1 e/0 a/0 u/0 c/1 r/0 a/0 t/0 i/1 c/0 
-Pred:  b/0 u/0 R/0 e/0 A/1 u/0 c/1 r/0 a/0 T/1 I/0 c/0 
+Pred:  b/0 u/0 R/0 e/0 a/0 u/0 C/0 r/0 a/0 t/0 I/0 c/0 
 
-word:  boxers
-Gold:  b/0 o/0 x/0 e/1 r/0 s/0 
-Pred:  b/0 o/0 x/0 e/1 r/0 S/1 
-
-word:  opcode
-Gold:  o/0 p/0 c/1 o/0 d/0 e/0 
-Pred:  o/0 p/0 c/1 o/0 d/0 E/1 
+word:  alteration
+Gold:  a/0 l/0 t/1 e/0 r/0 a/1 t/1 i/0 o/0 n/0 
+Pred:  a/0 l/0 t/1 e/0 r/0 a/1 T/0 i/0 o/0 n/0 
 
 word:  bigotry
 Gold:  b/0 i/0 g/0 o/1 t/0 r/1 y/0 
-Pred:  b/0 i/0 g/0 O/0 t/0 R/0 y/0 
-
-word:  appendix
-Gold:  a/0 p/0 p/1 e/0 n/0 d/1 i/0 x/0 
-Pred:  a/0 p/0 p/1 e/0 n/0 D/0 I/1 x/0 
+Pred:  b/0 i/0 g/0 o/1 t/0 R/0 y/0 
 
 word:  stanhope
 Gold:  s/0 t/0 a/0 n/0 h/1 o/0 p/0 e/0 
-Pred:  s/0 t/0 a/0 n/0 H/0 o/0 p/0 e/0 
+Pred:  s/0 t/0 a/0 n/0 H/0 o/0 P/1 e/0 
 
 word:  astronaut
 Gold:  a/0 s/0 t/1 r/0 o/0 n/1 a/0 u/0 t/0 
 Pred:  a/0 s/0 t/1 r/0 o/0 N/0 a/0 u/0 T/1 
 
-word:  landscape
-Gold:  l/0 a/0 n/0 d/0 s/1 c/0 a/0 p/0 e/0 
-Pred:  l/0 a/0 n/0 d/0 S/0 c/0 a/0 p/0 e/0 
-
 word:  doughty
 Gold:  d/0 o/0 u/0 g/0 h/0 t/1 y/0 
-Pred:  d/0 o/0 u/0 g/0 h/0 T/0 y/0 
+Pred:  d/0 o/0 u/0 g/0 h/0 T/0 Y/1 
 
 word:  rhinoplasty
 Gold:  r/0 h/0 i/0 n/1 o/0 p/1 l/0 a/0 s/0 t/1 y/0 
-Pred:  r/0 h/0 i/0 N/0 o/0 P/0 L/1 a/0 s/0 T/0 y/0 
-
-word:  besieged
-Gold:  b/0 e/0 s/1 i/0 e/0 g/0 e/0 d/0 
-Pred:  b/0 e/0 S/0 i/0 e/0 g/0 e/0 d/0 
+Pred:  r/0 h/0 i/0 n/1 o/0 P/0 l/0 a/0 s/0 t/1 y/0 
 
 word:  proprietor
 Gold:  p/0 r/0 o/0 p/1 r/0 i/0 e/1 t/1 o/0 r/0 
-Pred:  p/0 r/0 o/0 p/1 r/0 i/0 E/0 T/0 o/0 r/0 
+Pred:  p/0 r/0 o/0 p/1 r/0 i/0 e/1 T/0 o/0 r/0 
 
 word:  reunited
 Gold:  r/0 e/0 u/1 n/1 i/0 t/0 e/1 d/0 
-Pred:  r/0 e/0 U/0 N/0 i/0 T/1 E/0 d/0 
+Pred:  r/0 e/0 u/1 N/0 i/0 T/1 E/0 d/0 
 
 word:  indeterminate
 Gold:  i/0 n/0 d/1 e/0 t/1 e/0 r/0 m/1 i/0 n/1 a/0 t/0 e/0 
-Pred:  i/0 n/0 d/1 e/0 T/0 e/0 r/0 m/1 i/0 N/0 a/0 T/1 e/0 
+Pred:  i/0 n/0 d/1 e/0 t/1 e/0 r/0 m/1 i/0 N/0 a/0 T/1 e/0 
 
 word:  nature
 Gold:  n/0 a/0 t/1 u/0 r/0 e/0 
-Pred:  n/0 a/0 T/0 u/0 r/0 e/0 
+Pred:  n/0 a/0 t/1 u/0 R/1 e/0 
 
 word:  mela
 Gold:  m/0 e/0 l/1 a/0 
-Pred:  m/0 e/0 L/0 a/0 
+Pred:  m/0 e/0 L/0 A/1 
 
 word:  adept
 Gold:  a/0 d/0 e/1 p/0 t/0 
-Pred:  a/0 d/0 E/0 p/0 T/1 
+Pred:  a/0 d/0 e/1 p/0 T/1 
 
 word:  favorite
 Gold:  f/0 a/0 v/1 o/0 r/0 i/1 t/0 e/0 
 Pred:  f/0 a/0 v/1 o/0 r/0 i/1 T/1 e/0 
 
+word:  balloon
+Gold:  b/0 a/0 l/0 l/1 o/0 o/0 n/0 
+Pred:  b/0 a/0 l/0 L/0 o/0 o/0 n/0 
+
 word:  adage
 Gold:  a/0 d/0 a/1 g/0 e/0 
-Pred:  a/0 d/0 A/0 g/0 e/0 
+Pred:  a/0 d/0 A/0 G/1 e/0 
 
 word:  collaborative
 Gold:  c/0 o/0 l/0 l/1 a/0 b/0 o/1 r/1 a/0 t/1 i/0 v/0 e/0 
-Pred:  c/0 o/0 l/0 l/1 a/0 B/1 O/0 R/0 a/0 t/1 i/0 v/0 e/0 
+Pred:  c/0 o/0 l/0 l/1 a/0 b/0 o/1 r/1 a/0 T/0 i/0 v/0 e/0 
 
 word:  aesthetically
 Gold:  a/0 e/0 s/0 t/1 h/0 e/0 t/0 i/1 c/1 a/0 l/0 l/1 y/0 
-Pred:  a/0 e/0 s/0 t/1 h/0 e/0 t/0 i/1 C/0 a/0 l/0 l/1 y/0 
+Pred:  a/0 e/0 S/1 T/0 h/0 e/0 t/0 i/1 C/0 a/0 l/0 l/1 y/0 
 
 word:  acyl
 Gold:  a/0 c/0 y/1 l/0 
-Pred:  a/0 c/0 y/1 L/1 
+Pred:  a/0 c/0 Y/0 L/1 
 
 word:  vital
 Gold:  v/0 i/0 t/1 a/0 l/0 
@@ -1701,47 +1541,47 @@ Pred:  v/0 i/0 T/0 a/0 l/0
 
 word:  turtleneck
 Gold:  t/0 u/0 r/0 t/1 l/0 e/0 n/1 e/0 c/0 k/0 
-Pred:  t/0 u/0 r/0 T/0 L/1 e/0 N/0 e/0 c/0 k/0 
+Pred:  t/0 u/0 r/0 t/1 l/0 e/0 N/0 e/0 c/0 k/0 
 
 word:  supernatural
 Gold:  s/0 u/0 p/1 e/0 r/0 n/1 a/0 t/0 u/1 r/1 a/0 l/0 
 Pred:  s/0 u/0 P/0 e/0 r/0 n/1 a/0 T/1 U/0 R/0 a/0 l/0 
 
+word:  application
+Gold:  a/0 p/0 p/1 l/0 i/0 c/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  a/0 p/0 p/1 l/0 i/0 c/1 a/0 T/0 i/0 o/0 n/0 
+
 word:  discontinuation
 Gold:  d/0 i/0 s/0 c/1 o/0 n/0 t/1 i/0 n/0 u/1 a/1 t/1 i/0 o/0 n/0 
-Pred:  d/0 i/0 s/0 c/1 o/0 n/0 t/1 i/0 n/0 U/0 a/1 t/1 i/0 o/0 n/0 
+Pred:  d/0 i/0 s/0 c/1 o/0 n/0 t/1 i/0 n/0 u/1 a/1 T/0 i/0 o/0 n/0 
 
 word:  dowry
 Gold:  d/0 o/0 w/0 r/1 y/0 
-Pred:  d/0 o/0 w/0 R/0 y/0 
+Pred:  d/0 o/0 w/0 R/0 Y/1 
 
-word:  erasure
-Gold:  e/0 r/1 a/0 s/0 u/1 r/0 e/0 
-Pred:  e/0 R/0 a/0 s/0 U/0 r/0 e/0 
+word:  forbearance
+Gold:  f/0 o/0 r/0 b/1 e/0 a/0 r/0 a/1 n/0 c/0 e/0 
+Pred:  f/0 o/0 r/0 b/1 e/0 A/1 r/0 a/1 n/0 c/0 e/0 
 
 word:  peavey
 Gold:  p/0 e/0 a/0 v/1 e/0 y/0 
 Pred:  p/0 e/0 a/0 V/0 e/0 y/0 
 
+word:  module
+Gold:  m/0 o/0 d/0 u/1 l/0 e/0 
+Pred:  m/0 o/0 d/0 u/1 L/1 e/0 
+
 word:  mosquito
 Gold:  m/0 o/0 s/0 q/1 u/0 i/0 t/1 o/0 
-Pred:  m/0 o/0 s/0 q/1 u/0 i/0 T/0 o/0 
+Pred:  m/0 o/0 s/0 Q/0 u/0 i/0 T/0 o/0 
 
 word:  bustle
 Gold:  b/0 u/0 s/0 t/1 l/0 e/0 
-Pred:  b/0 u/0 s/0 t/1 L/1 e/0 
+Pred:  b/0 u/0 s/0 T/0 L/1 e/0 
 
 word:  jordan
 Gold:  j/0 o/0 r/0 d/1 a/0 n/0 
 Pred:  j/0 o/0 r/0 D/0 a/0 n/0 
-
-word:  code
-Gold:  c/0 o/0 d/0 e/0 
-Pred:  c/0 o/0 d/0 E/1 
-
-word:  gammon
-Gold:  g/0 a/0 m/0 m/1 o/0 n/0 
-Pred:  g/0 a/0 m/0 m/1 o/0 N/1 
 
 word:  garrison
 Gold:  g/0 a/0 r/0 r/1 i/0 s/1 o/0 n/0 
@@ -1751,13 +1591,17 @@ word:  finitely
 Gold:  f/0 i/0 n/1 i/0 t/0 e/0 l/1 y/0 
 Pred:  f/0 i/0 N/0 I/1 T/1 e/0 l/1 y/0 
 
+word:  savant
+Gold:  s/0 a/0 v/1 a/0 n/0 t/0 
+Pred:  s/0 a/0 v/1 a/0 n/0 T/1 
+
 word:  psych
 Gold:  p/0 s/0 y/0 c/0 h/0 
 Pred:  p/0 s/0 y/0 C/1 h/0 
 
 word:  unmoderated
 Gold:  u/0 n/0 m/1 o/0 d/0 e/1 r/0 a/1 t/0 e/1 d/0 
-Pred:  u/0 n/0 m/1 o/0 d/0 E/0 r/0 a/1 T/1 E/0 d/0 
+Pred:  u/0 n/0 m/1 o/0 d/0 E/0 r/0 a/1 t/0 E/0 d/0 
 
 word:  matador
 Gold:  m/0 a/0 t/0 a/1 d/1 o/0 r/0 
@@ -1767,9 +1611,9 @@ word:  parasol
 Gold:  p/0 a/0 r/0 a/1 s/1 o/0 l/0 
 Pred:  p/0 a/0 r/0 a/1 S/0 o/0 l/0 
 
-word:  flags
-Gold:  f/0 l/0 a/0 g/0 s/0 
-Pred:  f/0 l/0 a/0 g/0 S/1 
+word:  recalculate
+Gold:  r/0 e/0 c/1 a/0 l/0 c/1 u/0 l/1 a/0 t/0 e/0 
+Pred:  r/0 e/0 C/0 a/0 l/0 c/1 u/0 l/1 a/0 t/0 E/1 
 
 word:  jubilee
 Gold:  j/0 u/0 b/1 i/0 l/1 e/0 e/0 
@@ -1777,15 +1621,7 @@ Pred:  j/0 u/0 B/0 i/0 L/0 e/0 e/0
 
 word:  plenum
 Gold:  p/0 l/0 e/0 n/1 u/0 m/0 
-Pred:  p/0 l/0 e/0 N/0 U/1 m/0 
-
-word:  abl
-Gold:  a/0 b/0 l/0 
-Pred:  a/0 B/1 L/1 
-
-word:  nationalism
-Gold:  n/0 a/0 t/1 i/0 o/0 n/0 a/1 l/0 i/1 s/0 m/0 
-Pred:  n/0 a/0 T/0 i/0 o/0 n/0 a/1 l/0 i/1 s/0 m/0 
+Pred:  p/0 l/0 e/0 N/0 u/0 m/0 
 
 word:  aside
 Gold:  a/0 s/1 i/0 d/0 e/0 
@@ -1793,7 +1629,11 @@ Pred:  a/0 S/0 i/0 d/0 e/0
 
 word:  finalize
 Gold:  f/0 i/0 n/1 a/0 l/0 i/1 z/0 e/0 
-Pred:  f/0 i/0 N/0 a/0 l/0 i/1 z/0 e/0 
+Pred:  f/0 i/0 N/0 a/0 l/0 I/0 z/0 e/0 
+
+word:  sincerity
+Gold:  s/0 i/0 n/0 c/1 e/0 r/0 i/1 t/1 y/0 
+Pred:  s/0 i/0 n/0 C/0 e/0 r/0 i/1 T/0 y/0 
 
 word:  ign
 Gold:  i/0 g/0 n/0 
@@ -1801,7 +1641,7 @@ Pred:  i/0 g/0 N/1
 
 word:  freedom
 Gold:  f/0 r/0 e/0 e/0 d/1 o/0 m/0 
-Pred:  f/0 r/0 e/0 e/0 D/0 O/1 m/0 
+Pred:  f/0 r/0 e/0 e/0 D/0 o/0 m/0 
 
 word:  benjamin
 Gold:  b/0 e/0 n/0 j/1 a/0 m/1 i/0 n/0 
@@ -1809,7 +1649,7 @@ Pred:  b/0 e/0 n/0 j/1 a/0 M/0 I/1 n/0
 
 word:  dancing
 Gold:  d/0 a/0 n/0 c/0 i/1 n/0 g/0 
-Pred:  d/0 a/0 n/0 C/1 I/0 n/0 g/0 
+Pred:  d/0 a/0 n/0 c/0 I/0 n/0 g/0 
 
 word:  forecasted
 Gold:  f/0 o/0 r/0 e/0 c/1 a/0 s/0 t/0 e/1 d/0 
@@ -1817,19 +1657,19 @@ Pred:  f/0 o/0 r/0 e/0 c/1 a/0 s/0 t/0 E/0 d/0
 
 word:  maduro
 Gold:  m/0 a/0 d/1 u/0 r/1 o/0 
-Pred:  m/0 a/0 D/0 U/1 R/0 o/0 
+Pred:  m/0 a/0 D/0 u/0 R/0 o/0 
 
 word:  fabricating
 Gold:  f/0 a/0 b/0 r/1 i/0 c/1 a/0 t/0 i/1 n/0 g/0 
-Pred:  f/0 a/0 B/1 R/0 i/0 c/1 a/0 T/1 I/0 n/0 g/0 
+Pred:  f/0 a/0 b/0 r/1 i/0 c/1 a/0 t/0 I/0 n/0 g/0 
 
 word:  defense
 Gold:  d/0 e/0 f/1 e/0 n/0 s/0 e/0 
 Pred:  d/0 e/0 f/1 e/0 n/0 S/1 e/0 
 
-word:  etch
-Gold:  e/0 t/0 c/0 h/0 
-Pred:  e/0 t/0 C/1 h/0 
+word:  randy
+Gold:  r/0 a/0 n/0 d/0 y/1 
+Pred:  r/0 a/0 n/0 d/0 Y/0 
 
 word:  pass
 Gold:  p/0 a/0 s/0 s/0 
@@ -1845,7 +1685,7 @@ Pred:  r/0 e/0 N/1 T/1 E/0 r/0
 
 word:  finally
 Gold:  f/0 i/0 n/1 a/0 l/0 l/1 y/0 
-Pred:  f/0 i/0 N/0 a/0 l/0 l/1 y/0 
+Pred:  f/0 i/0 N/0 a/0 l/0 L/0 y/0 
 
 word:  brochure
 Gold:  b/0 r/0 o/0 c/1 h/0 u/0 r/0 e/0 
@@ -1853,15 +1693,15 @@ Pred:  b/0 r/0 o/0 C/0 h/0 u/0 r/0 e/0
 
 word:  promissory
 Gold:  p/0 r/0 o/0 m/0 i/1 s/0 s/1 o/0 r/1 y/0 
-Pred:  p/0 r/0 o/0 M/1 I/0 s/0 s/1 o/0 R/0 y/0 
+Pred:  p/0 r/0 o/0 m/0 I/0 s/0 s/1 o/0 R/0 y/0 
 
 word:  insufficiency
 Gold:  i/0 n/0 s/1 u/0 f/0 f/1 i/0 c/1 i/0 e/0 n/0 c/1 y/0 
-Pred:  i/0 n/0 s/1 u/0 f/0 f/1 i/0 C/0 i/0 e/0 n/0 C/0 y/0 
+Pred:  i/0 n/0 s/1 u/0 f/0 f/1 i/0 c/1 i/0 e/0 n/0 C/0 y/0 
 
-word:  influenza
-Gold:  i/0 n/0 f/1 l/0 u/0 e/1 n/0 z/1 a/0 
-Pred:  i/0 n/0 f/1 l/0 u/0 E/0 n/0 Z/0 a/0 
+word:  rehearsing
+Gold:  r/0 e/0 h/1 e/0 a/0 r/0 s/0 i/1 n/0 g/0 
+Pred:  r/0 e/0 h/1 e/0 a/0 r/0 s/0 I/0 n/0 g/0 
 
 word:  doublet
 Gold:  d/0 o/0 u/0 b/1 l/0 e/0 t/0 
@@ -1873,11 +1713,7 @@ Pred:  n/0 i/0 T/1 t/1 y/0
 
 word:  rating
 Gold:  r/0 a/0 t/0 i/1 n/0 g/0 
-Pred:  r/0 a/0 t/0 I/0 n/0 g/0 
-
-word:  concerned
-Gold:  c/0 o/0 n/0 c/1 e/0 r/0 n/0 e/0 d/0 
-Pred:  c/0 o/0 n/0 c/1 e/0 r/0 N/1 e/0 d/0 
+Pred:  r/0 a/0 t/0 I/0 N/1 g/0 
 
 word:  messy
 Gold:  m/0 e/0 s/0 s/0 y/1 
@@ -1895,21 +1731,21 @@ word:  universe
 Gold:  u/0 n/1 i/0 v/1 e/0 r/0 s/0 e/0 
 Pred:  u/0 N/0 I/1 v/1 e/0 r/0 S/1 e/0 
 
+word:  coon
+Gold:  c/0 o/0 o/0 n/0 
+Pred:  c/0 o/0 O/1 n/0 
+
 word:  victorious
 Gold:  v/0 i/0 c/0 t/1 o/0 r/1 i/0 o/1 u/0 s/0 
-Pred:  v/0 i/0 C/1 t/1 o/0 R/0 I/1 o/1 u/0 s/0 
+Pred:  v/0 i/0 c/0 t/1 o/0 R/0 i/0 o/1 u/0 s/0 
 
 word:  bailey
 Gold:  b/0 a/0 i/0 l/1 e/0 y/0 
-Pred:  b/0 a/0 i/0 L/0 e/0 y/0 
+Pred:  b/0 a/0 i/0 L/0 E/1 y/0 
 
 word:  auxiliary
 Gold:  a/0 u/0 x/0 i/1 l/0 i/1 a/0 r/1 y/0 
-Pred:  a/0 u/0 x/0 i/1 l/0 I/0 A/1 R/0 Y/1 
-
-word:  mahatma
-Gold:  m/0 a/0 h/1 a/0 t/0 m/1 a/0 
-Pred:  m/0 a/0 h/1 a/0 T/1 m/1 a/0 
+Pred:  a/0 u/0 x/0 i/1 l/0 I/0 a/0 R/0 Y/1 
 
 word:  analytics
 Gold:  a/0 n/0 a/1 l/1 y/0 t/0 i/1 c/0 s/0 
@@ -1917,11 +1753,7 @@ Pred:  a/0 n/0 a/1 L/0 y/0 t/0 i/1 c/0 s/0
 
 word:  amiss
 Gold:  a/0 m/1 i/0 s/0 s/0 
-Pred:  a/0 M/0 I/1 s/0 S/1 
-
-word:  converged
-Gold:  c/0 o/0 n/0 v/1 e/0 r/0 g/0 e/0 d/0 
-Pred:  c/0 o/0 n/0 v/1 e/0 r/0 G/1 e/0 d/0 
+Pred:  a/0 M/0 i/0 S/1 S/1 
 
 word:  edp
 Gold:  e/0 d/0 p/0 
@@ -1933,15 +1765,15 @@ Pred:  p/0 r/0 e/0 p/1 a/0 r/0 A/0 t/1 o/0 R/0 y/0
 
 word:  lanai
 Gold:  l/0 a/0 n/1 a/0 i/1 
-Pred:  l/0 a/0 N/0 a/0 i/1 
+Pred:  l/0 a/0 N/0 a/0 I/0 
 
 word:  dildo
 Gold:  d/0 i/0 l/0 d/1 o/0 
-Pred:  d/0 i/0 l/0 D/0 o/0 
+Pred:  d/0 i/0 L/1 d/1 o/0 
 
 word:  copilot
 Gold:  c/0 o/0 p/1 i/0 l/1 o/0 t/0 
-Pred:  c/0 o/0 P/0 I/1 L/0 o/0 t/0 
+Pred:  c/0 o/0 P/0 I/1 l/1 o/0 t/0 
 
 word:  launcher
 Gold:  l/0 a/0 u/0 n/0 c/0 h/0 e/1 r/0 
@@ -1953,51 +1785,43 @@ Pred:  p/0 a/0 L/0 a/0 z/0 z/1 o/0
 
 word:  singular
 Gold:  s/0 i/0 n/0 g/1 u/0 l/1 a/0 r/0 
-Pred:  s/0 i/0 n/0 G/0 u/0 L/0 a/0 r/0 
+Pred:  s/0 i/0 n/0 G/0 u/0 l/1 a/0 r/0 
 
-word:  caste
-Gold:  c/0 a/0 s/0 t/0 e/0 
-Pred:  c/0 a/0 s/0 T/1 e/0 
-
-word:  clustered
-Gold:  c/0 l/0 u/0 s/0 t/1 e/0 r/0 e/0 d/0 
-Pred:  c/0 l/0 u/0 s/0 t/1 E/1 r/0 e/0 d/0 
-
-word:  abr
-Gold:  a/0 b/0 r/0 
-Pred:  a/0 B/1 r/0 
+word:  talisman
+Gold:  t/0 a/0 l/0 i/1 s/0 m/1 a/0 n/0 
+Pred:  t/0 a/0 l/0 i/1 s/0 M/0 a/0 n/0 
 
 word:  detonated
 Gold:  d/0 e/0 t/0 o/1 n/1 a/0 t/0 e/1 d/0 
-Pred:  d/0 e/0 T/1 O/0 N/0 A/1 T/1 E/0 d/0 
-
-word:  minimise
-Gold:  m/0 i/0 n/0 i/1 m/1 i/0 s/0 e/0 
-Pred:  m/0 i/0 n/0 i/1 m/1 I/1 s/0 e/0 
+Pred:  d/0 e/0 T/1 O/0 n/1 a/0 t/0 E/0 d/0 
 
 word:  lyric
 Gold:  l/0 y/0 r/0 i/1 c/0 
-Pred:  l/0 y/0 r/0 I/0 c/0 
+Pred:  l/0 y/0 r/0 I/0 C/1 
 
 word:  indignation
 Gold:  i/0 n/0 d/1 i/0 g/0 n/1 a/0 t/1 i/0 o/0 n/0 
 Pred:  i/0 n/0 d/1 i/0 G/1 n/1 a/0 t/1 i/0 o/0 n/0 
 
+word:  don
+Gold:  d/0 o/0 n/0 
+Pred:  d/0 o/0 N/1 
+
 word:  forsake
 Gold:  f/0 o/0 r/0 s/1 a/0 k/0 e/0 
-Pred:  f/0 o/0 r/0 S/0 a/0 k/0 e/0 
+Pred:  f/0 o/0 r/0 s/1 a/0 k/0 E/1 
 
 word:  veritas
 Gold:  v/0 e/0 r/1 i/0 t/1 a/0 s/0 
 Pred:  v/0 e/0 R/0 I/1 t/1 a/0 s/0 
 
-word:  influencing
-Gold:  i/0 n/0 f/1 l/0 u/0 e/1 n/0 c/0 i/1 n/0 g/0 
-Pred:  i/0 n/0 f/1 l/0 u/0 E/0 n/0 c/0 I/0 n/0 g/0 
+word:  bestiary
+Gold:  b/0 e/0 s/0 t/1 i/0 a/1 r/0 y/1 
+Pred:  b/0 e/0 S/1 T/0 i/0 A/0 r/0 y/1 
 
 word:  anonymity
 Gold:  a/0 n/0 o/1 n/1 y/0 m/0 i/1 t/1 y/0 
-Pred:  a/0 n/0 o/1 N/0 Y/1 M/1 I/0 t/1 y/0 
+Pred:  a/0 n/0 o/1 N/0 Y/1 M/1 I/0 T/0 y/0 
 
 word:  prairie
 Gold:  p/0 r/0 a/0 i/0 r/1 i/0 e/0 
@@ -2013,7 +1837,7 @@ Pred:  p/0 r/0 e/0 p/1 o/0 s/0 T/0 e/0 r/0 o/1 u/0 s/0
 
 word:  maranatha
 Gold:  m/0 a/0 r/0 a/1 n/1 a/0 t/0 h/0 a/1 
-Pred:  m/0 a/0 r/0 a/1 N/0 a/0 T/1 h/0 A/0 
+Pred:  m/0 a/0 r/0 a/1 N/0 a/0 t/0 h/0 A/0 
 
 word:  photocopier
 Gold:  p/0 h/0 o/0 t/1 o/0 c/1 o/0 p/0 i/1 e/1 r/0 
@@ -2021,19 +1845,15 @@ Pred:  p/0 h/0 o/0 t/1 o/0 c/1 o/0 p/0 i/1 E/0 r/0
 
 word:  climatology
 Gold:  c/0 l/0 i/0 m/1 a/0 t/1 o/0 l/0 o/1 g/1 y/0 
-Pred:  c/0 l/0 i/0 M/0 a/0 t/1 o/0 l/0 O/0 g/1 y/0 
+Pred:  c/0 l/0 i/0 M/0 a/0 T/0 o/0 l/0 O/0 g/1 y/0 
 
 word:  completion
 Gold:  c/0 o/0 m/0 p/1 l/0 e/0 t/1 i/0 o/0 n/0 
 Pred:  c/0 o/0 m/0 p/1 l/0 e/0 T/0 I/1 o/0 n/0 
 
-word:  ghostly
-Gold:  g/0 h/0 o/0 s/0 t/0 l/1 y/0 
-Pred:  g/0 h/0 o/0 s/0 T/1 l/1 y/0 
-
 word:  assassinated
 Gold:  a/0 s/0 s/1 a/0 s/0 s/1 i/0 n/1 a/0 t/0 e/1 d/0 
-Pred:  a/0 s/0 s/1 a/0 s/0 S/0 i/0 N/0 a/0 T/1 E/0 d/0 
+Pred:  a/0 s/0 s/1 a/0 s/0 s/1 i/0 N/0 a/0 t/0 E/0 d/0 
 
 word:  gazebo
 Gold:  g/0 a/0 z/1 e/0 b/1 o/0 
@@ -2041,7 +1861,7 @@ Pred:  g/0 a/0 Z/0 e/0 b/1 o/0
 
 word:  seldom
 Gold:  s/0 e/0 l/0 d/1 o/0 m/0 
-Pred:  s/0 e/0 l/0 D/0 O/1 m/0 
+Pred:  s/0 e/0 L/1 D/0 O/1 M/1 
 
 word:  snorkel
 Gold:  s/0 n/0 o/0 r/0 k/1 e/0 l/0 
@@ -2049,59 +1869,47 @@ Pred:  s/0 n/0 o/0 r/0 K/0 E/1 l/0
 
 word:  satanic
 Gold:  s/0 a/0 t/1 a/0 n/0 i/1 c/0 
-Pred:  s/0 a/0 T/0 a/0 n/0 I/0 c/0 
+Pred:  s/0 a/0 T/0 A/1 N/1 I/0 c/0 
 
 word:  physician
 Gold:  p/0 h/0 y/0 s/1 i/0 c/1 i/0 a/0 n/0 
-Pred:  p/0 h/0 y/0 s/1 I/1 C/0 I/1 a/0 n/0 
+Pred:  p/0 h/0 y/0 S/0 I/1 c/1 i/0 a/0 n/0 
+
+word:  ballon
+Gold:  b/0 a/0 l/0 l/1 o/0 n/0 
+Pred:  b/0 a/0 l/0 L/0 o/0 n/0 
 
 word:  earnestly
 Gold:  e/0 a/0 r/0 n/1 e/0 s/0 t/0 l/1 y/0 
 Pred:  e/0 a/0 r/0 N/0 e/0 s/0 t/0 l/1 y/0 
 
-word:  lettered
-Gold:  l/0 e/0 t/0 t/1 e/0 r/0 e/0 d/0 
-Pred:  l/0 e/0 t/0 t/1 e/0 r/0 E/1 d/0 
-
 word:  doubletree
 Gold:  d/0 o/0 u/0 b/1 l/0 e/0 t/1 r/0 e/0 e/0 
-Pred:  d/0 o/0 u/0 B/0 l/0 e/0 T/0 r/0 e/0 e/0 
+Pred:  d/0 o/0 u/0 B/0 l/0 e/0 T/0 R/1 e/0 e/0 
 
 word:  supersede
 Gold:  s/0 u/0 p/1 e/0 r/0 s/1 e/0 d/0 e/0 
-Pred:  s/0 u/0 P/0 e/0 r/0 s/1 e/0 d/0 e/0 
+Pred:  s/0 u/0 P/0 e/0 r/0 s/1 e/0 d/0 E/1 
 
 word:  acidity
 Gold:  a/0 c/1 i/0 d/0 i/1 t/1 y/0 
 Pred:  a/0 C/0 I/1 d/0 i/1 t/1 y/0 
 
-word:  aggregated
-Gold:  a/0 g/0 g/1 r/0 e/0 g/1 a/0 t/0 e/1 d/0 
-Pred:  a/0 g/0 g/1 r/0 e/0 G/0 a/0 T/1 E/0 d/0 
-
-word:  mosque
-Gold:  m/0 o/0 s/0 q/0 u/0 e/0 
-Pred:  m/0 o/0 s/0 Q/1 u/0 e/0 
-
-word:  unusual
-Gold:  u/0 n/0 u/1 s/1 u/0 a/1 l/0 
-Pred:  u/0 n/0 u/1 S/0 u/0 A/0 l/0 
+word:  activation
+Gold:  a/0 c/0 t/1 i/0 v/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  a/0 c/0 t/1 i/0 V/0 a/0 T/0 i/0 o/0 n/0 
 
 word:  desegregation
 Gold:  d/0 e/0 s/1 e/0 g/0 r/1 e/0 g/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  d/0 e/0 S/0 e/0 G/1 R/0 e/0 G/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  d/0 e/0 s/1 e/0 G/1 R/0 e/0 g/1 a/0 T/0 i/0 o/0 n/0 
 
 word:  nana
 Gold:  n/0 a/0 n/1 a/0 
-Pred:  n/0 a/0 N/0 A/1 
+Pred:  n/0 a/0 N/0 a/0 
 
 word:  criteria
 Gold:  c/0 r/0 i/0 t/1 e/0 r/1 i/0 a/1 
 Pred:  c/0 r/0 i/0 T/0 e/0 R/0 I/1 a/1 
-
-word:  yoghurt
-Gold:  y/0 o/0 g/1 h/0 u/0 r/0 t/0 
-Pred:  y/0 o/0 G/0 h/0 u/0 r/0 t/0 
 
 word:  gorge
 Gold:  g/0 o/0 r/0 g/0 e/0 
@@ -2109,27 +1917,31 @@ Pred:  g/0 o/0 r/0 G/1 e/0
 
 word:  arose
 Gold:  a/0 r/1 o/0 s/0 e/0 
-Pred:  a/0 R/0 o/0 s/0 e/0 
+Pred:  a/0 R/0 o/0 S/1 e/0 
 
 word:  disproportionate
 Gold:  d/0 i/0 s/0 p/1 r/0 o/0 p/1 o/0 r/0 t/1 i/0 o/0 n/0 a/1 t/0 e/0 
-Pred:  d/0 i/0 s/0 p/1 r/0 o/0 p/1 o/0 r/0 T/0 i/0 o/0 n/0 a/1 t/0 e/0 
+Pred:  d/0 i/0 s/0 p/1 r/0 o/0 P/0 o/0 r/0 t/1 i/0 o/0 n/0 a/1 t/0 e/0 
 
 word:  successfully
 Gold:  s/0 u/0 c/0 c/1 e/0 s/0 s/0 f/1 u/0 l/0 l/1 y/0 
 Pred:  s/0 u/0 c/0 c/1 e/0 s/0 S/1 f/1 u/0 l/0 l/1 y/0 
 
-word:  wretch
-Gold:  w/0 r/0 e/0 t/0 c/0 h/0 
-Pred:  w/0 r/0 e/0 t/0 C/1 h/0 
+word:  sequoia
+Gold:  s/0 e/0 q/1 u/0 o/0 i/0 a/1 
+Pred:  s/0 e/0 q/1 u/0 o/0 I/1 a/1 
+
+word:  pebble
+Gold:  p/0 e/0 b/0 b/1 l/0 e/0 
+Pred:  p/0 e/0 B/1 b/1 l/0 e/0 
 
 word:  itineraries
 Gold:  i/0 t/1 i/0 n/0 e/1 r/0 a/1 r/0 i/1 e/0 s/0 
-Pred:  i/0 T/0 i/0 n/0 E/0 r/0 a/1 r/0 i/1 e/0 s/0 
+Pred:  i/0 T/0 i/0 n/0 e/1 r/0 a/1 r/0 i/1 e/0 s/0 
 
 word:  listener
 Gold:  l/0 i/0 s/0 t/1 e/0 n/0 e/1 r/0 
-Pred:  l/0 i/0 s/0 t/1 e/0 n/0 E/0 r/0 
+Pred:  l/0 i/0 s/0 T/0 e/0 n/0 E/0 r/0 
 
 word:  goldfields
 Gold:  g/0 o/0 l/0 d/0 f/1 i/0 e/0 l/0 d/0 s/0 
@@ -2137,23 +1949,23 @@ Pred:  g/0 o/0 l/0 d/0 f/1 i/0 e/0 l/0 d/0 S/1
 
 word:  deportation
 Gold:  d/0 e/0 p/1 o/0 r/0 t/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  d/0 e/0 p/1 o/0 r/0 T/0 a/0 t/1 i/0 o/0 n/0 
-
-word:  accidental
-Gold:  a/0 c/0 c/1 i/0 d/1 e/0 n/0 t/1 a/0 l/0 
-Pred:  a/0 c/0 c/1 i/0 d/1 e/0 n/0 T/0 a/0 l/0 
+Pred:  d/0 e/0 p/1 o/0 r/0 T/0 A/1 t/1 i/0 o/0 n/0 
 
 word:  abigail
 Gold:  a/0 b/0 i/1 g/1 a/0 i/0 l/0 
-Pred:  a/0 B/1 I/0 G/0 a/0 i/0 l/0 
+Pred:  a/0 b/0 I/0 g/1 a/0 i/0 l/0 
 
 word:  philosophically
 Gold:  p/0 h/0 i/0 l/0 o/1 s/1 o/0 p/0 h/0 i/1 c/1 a/0 l/0 l/1 y/0 
-Pred:  p/0 h/0 i/0 l/0 O/0 S/0 o/0 p/0 h/0 i/1 C/0 a/0 l/0 l/1 y/0 
+Pred:  p/0 h/0 i/0 l/0 O/0 S/0 O/1 p/0 h/0 i/1 C/0 a/0 l/0 l/1 y/0 
 
 word:  topology
 Gold:  t/0 o/0 p/1 o/0 l/0 o/1 g/1 y/0 
-Pred:  t/0 o/0 P/0 o/0 L/1 O/0 g/1 y/0 
+Pred:  t/0 o/0 P/0 o/0 l/0 o/1 g/1 y/0 
+
+word:  testa
+Gold:  t/0 e/0 s/0 t/1 a/0 
+Pred:  t/0 e/0 s/0 T/0 a/0 
 
 word:  demonstrator
 Gold:  d/0 e/0 m/0 o/1 n/0 s/1 t/0 r/0 a/0 t/1 o/0 r/0 
@@ -2169,11 +1981,7 @@ Pred:  v/0 e/0 N/0 O/1 u/0 s/0
 
 word:  bolo
 Gold:  b/0 o/0 l/1 o/0 
-Pred:  b/0 o/0 L/0 O/1 
-
-word:  fortunately
-Gold:  f/0 o/0 r/0 t/1 u/0 n/1 a/0 t/0 e/0 l/1 y/0 
-Pred:  f/0 o/0 r/0 t/1 u/0 N/0 a/0 T/1 e/0 l/1 y/0 
+Pred:  b/0 o/0 L/0 o/0 
 
 word:  frontier
 Gold:  f/0 r/0 o/0 n/0 t/1 i/0 e/0 r/0 
@@ -2181,31 +1989,23 @@ Pred:  f/0 r/0 o/0 n/0 T/0 i/0 e/0 r/0
 
 word:  realtor
 Gold:  r/0 e/0 a/1 l/0 t/1 o/0 r/0 
-Pred:  r/0 e/0 a/1 l/0 T/0 o/0 R/1 
-
-word:  stupidity
-Gold:  s/0 t/0 u/0 p/1 i/0 d/0 i/1 t/1 y/0 
-Pred:  s/0 t/0 u/0 P/0 i/0 d/0 i/1 t/1 y/0 
+Pred:  r/0 e/0 A/0 l/0 T/0 o/0 R/1 
 
 word:  aseptic
 Gold:  a/0 s/1 e/0 p/0 t/1 i/0 c/0 
-Pred:  a/0 S/0 e/0 p/0 t/1 i/0 C/1 
-
-word:  without
-Gold:  w/0 i/0 t/0 h/0 o/1 u/0 t/0 
-Pred:  w/0 i/0 t/0 h/0 O/0 u/0 t/0 
+Pred:  a/0 S/0 e/0 P/1 t/1 i/0 c/0 
 
 word:  sugary
 Gold:  s/0 u/0 g/0 a/1 r/0 y/1 
-Pred:  s/0 u/0 g/0 a/1 r/0 Y/0 
+Pred:  s/0 u/0 g/0 A/0 r/0 Y/0 
 
 word:  homogenous
 Gold:  h/0 o/0 m/1 o/0 g/0 e/1 n/1 o/0 u/0 s/0 
-Pred:  h/0 o/0 M/0 O/1 G/1 E/0 N/0 o/0 u/0 s/0 
+Pred:  h/0 o/0 M/0 o/0 G/1 E/0 N/0 o/0 u/0 s/0 
 
 word:  mediums
 Gold:  m/0 e/0 d/1 i/0 u/1 m/0 s/0 
-Pred:  m/0 e/0 D/0 I/1 u/1 m/0 s/0 
+Pred:  m/0 e/0 d/1 i/0 u/1 m/0 S/1 
 
 word:  racy
 Gold:  r/0 a/0 c/0 y/1 
@@ -2213,47 +2013,71 @@ Pred:  r/0 a/0 c/0 Y/0
 
 word:  singularity
 Gold:  s/0 i/0 n/0 g/1 u/0 l/1 a/0 r/0 i/1 t/1 y/0 
-Pred:  s/0 i/0 n/0 G/0 u/0 L/0 a/0 r/0 i/1 t/1 y/0 
+Pred:  s/0 i/0 n/0 G/0 u/0 l/1 a/0 r/0 i/1 t/1 y/0 
 
 word:  amygdala
 Gold:  a/0 m/1 y/0 g/0 d/1 a/0 l/1 a/0 
-Pred:  a/0 M/0 Y/1 G/1 d/1 a/0 L/0 a/0 
+Pred:  a/0 M/0 y/0 G/1 D/0 a/0 L/0 a/0 
+
+word:  provoke
+Gold:  p/0 r/0 o/0 v/1 o/0 k/0 e/0 
+Pred:  p/0 r/0 o/0 V/0 O/1 k/0 e/0 
+
+word:  autism
+Gold:  a/0 u/0 t/1 i/0 s/0 m/0 
+Pred:  a/0 u/0 t/1 i/0 S/1 m/0 
 
 word:  hallelujah
 Gold:  h/0 a/0 l/0 l/1 e/0 l/1 u/0 j/1 a/0 h/0 
-Pred:  h/0 a/0 l/0 L/0 e/0 l/1 u/0 j/1 a/0 h/0 
+Pred:  h/0 a/0 l/0 L/0 e/0 L/0 u/0 j/1 a/0 h/0 
+
+word:  invitation
+Gold:  i/0 n/0 v/1 i/0 t/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  i/0 n/0 v/1 i/0 T/0 a/0 t/1 i/0 o/0 n/0 
+
+word:  weave
+Gold:  w/0 e/0 a/0 v/0 e/0 
+Pred:  w/0 e/0 a/0 v/0 E/1 
 
 word:  legalize
 Gold:  l/0 e/0 g/1 a/0 l/0 i/1 z/0 e/0 
 Pred:  l/0 e/0 G/0 a/0 l/0 i/1 z/0 e/0 
 
-word:  channeling
-Gold:  c/0 h/0 a/0 n/0 n/1 e/0 l/0 i/1 n/0 g/0 
-Pred:  c/0 h/0 a/0 n/0 n/1 e/0 l/0 I/0 n/0 g/0 
-
 word:  expediting
 Gold:  e/0 x/0 p/1 e/0 d/1 i/0 t/0 i/1 n/0 g/0 
-Pred:  e/0 x/0 p/1 e/0 D/0 I/1 T/1 I/0 n/0 g/0 
+Pred:  e/0 x/0 p/1 e/0 d/1 i/0 T/1 I/0 n/0 g/0 
 
 word:  splendour
 Gold:  s/0 p/0 l/0 e/0 n/0 d/1 o/0 u/0 r/0 
 Pred:  s/0 p/0 l/0 e/0 n/0 D/0 o/0 u/0 r/0 
 
+word:  slide
+Gold:  s/0 l/0 i/0 d/0 e/0 
+Pred:  s/0 l/0 i/0 d/0 E/1 
+
+word:  ode
+Gold:  o/0 d/0 e/0 
+Pred:  o/0 D/1 e/0 
+
 word:  institute
 Gold:  i/0 n/0 s/1 t/0 i/0 t/1 u/0 t/0 e/0 
 Pred:  i/0 n/0 s/1 t/0 i/0 t/1 u/0 T/1 e/0 
 
+word:  circumcised
+Gold:  c/0 i/0 r/0 c/1 u/0 m/0 c/1 i/0 s/0 e/0 d/0 
+Pred:  c/0 i/0 r/0 c/1 u/0 m/0 c/1 i/0 S/1 e/0 d/0 
+
 word:  veto
 Gold:  v/0 e/0 t/1 o/0 
-Pred:  v/0 e/0 T/0 o/0 
+Pred:  v/0 e/0 T/0 O/1 
 
 word:  ecology
 Gold:  e/0 c/1 o/0 l/0 o/1 g/1 y/0 
-Pred:  e/0 C/0 o/0 l/0 O/0 g/1 y/0 
+Pred:  e/0 C/0 o/0 l/0 o/1 g/1 y/0 
 
 word:  brasil
 Gold:  b/0 r/0 a/0 s/1 i/0 l/0 
-Pred:  b/0 r/0 a/0 S/0 I/1 l/0 
+Pred:  b/0 r/0 a/0 S/0 I/1 L/1 
 
 word:  carrot
 Gold:  c/0 a/0 r/0 r/1 o/0 t/0 
@@ -2271,13 +2095,13 @@ word:  olivet
 Gold:  o/0 l/0 i/1 v/1 e/0 t/0 
 Pred:  o/0 l/0 I/0 v/1 e/0 t/0 
 
-word:  vertigo
-Gold:  v/0 e/0 r/0 t/1 i/0 g/1 o/0 
-Pred:  v/0 e/0 r/0 t/1 i/0 G/0 o/0 
-
 word:  receivable
 Gold:  r/0 e/0 c/1 e/0 i/0 v/0 a/1 b/1 l/0 e/0 
-Pred:  r/0 e/0 c/1 e/0 i/0 v/0 A/0 b/1 l/0 e/0 
+Pred:  r/0 e/0 C/0 e/0 i/0 v/0 a/1 b/1 l/0 e/0 
+
+word:  heh
+Gold:  h/0 e/0 h/0 
+Pred:  h/0 e/0 H/1 
 
 word:  discriminatory
 Gold:  d/0 i/0 s/0 c/1 r/0 i/0 m/0 i/1 n/1 a/0 t/1 o/0 r/1 y/0 
@@ -2295,17 +2119,9 @@ word:  alert
 Gold:  a/0 l/1 e/0 r/0 t/0 
 Pred:  a/0 L/0 e/0 r/0 T/1 
 
-word:  militarily
-Gold:  m/0 i/0 l/0 i/1 t/1 a/0 r/0 i/1 l/1 y/0 
-Pred:  m/0 i/0 l/0 i/1 t/1 a/0 r/0 i/1 L/0 y/0 
-
 word:  singleton
 Gold:  s/0 i/0 n/0 g/1 l/0 e/0 t/1 o/0 n/0 
-Pred:  s/0 i/0 n/0 G/0 L/1 e/0 T/0 o/0 n/0 
-
-word:  preoccupied
-Gold:  p/0 r/0 e/0 o/1 c/0 c/1 u/0 p/1 i/0 e/0 d/0 
-Pred:  p/0 r/0 e/0 o/1 C/1 c/1 u/0 p/1 i/0 e/0 d/0 
+Pred:  s/0 i/0 n/0 G/0 l/0 e/0 T/0 o/0 n/0 
 
 word:  percentage
 Gold:  p/0 e/0 r/0 c/1 e/0 n/0 t/0 a/1 g/0 e/0 
@@ -2313,11 +2129,15 @@ Pred:  p/0 e/0 r/0 c/1 e/0 n/0 T/1 A/0 g/0 e/0
 
 word:  spatial
 Gold:  s/0 p/0 a/0 t/1 i/0 a/0 l/0 
-Pred:  s/0 p/0 a/0 T/0 i/0 A/1 l/0 
+Pred:  s/0 p/0 a/0 T/0 i/0 a/0 l/0 
 
-word:  postcard
-Gold:  p/0 o/0 s/0 t/0 c/1 a/0 r/0 d/0 
-Pred:  p/0 o/0 s/0 T/1 c/1 a/0 r/0 d/0 
+word:  recertified
+Gold:  r/0 e/0 c/1 e/0 r/0 t/1 i/0 f/1 i/0 e/0 d/0 
+Pred:  r/0 e/0 C/0 e/0 r/0 T/0 i/0 f/1 i/0 e/0 d/0 
+
+word:  regress
+Gold:  r/0 e/0 g/1 r/0 e/0 s/0 s/0 
+Pred:  r/0 e/0 g/1 r/0 e/0 s/0 S/1 
 
 word:  acidosis
 Gold:  a/0 c/0 i/1 d/1 o/0 s/1 i/0 s/0 
@@ -2325,15 +2145,11 @@ Pred:  a/0 c/0 i/1 D/0 o/0 S/0 i/0 s/0
 
 word:  utile
 Gold:  u/0 t/1 i/0 l/0 e/0 
-Pred:  u/0 T/0 i/0 l/0 e/0 
-
-word:  vogue
-Gold:  v/0 o/0 g/0 u/0 e/0 
-Pred:  v/0 o/0 g/0 U/1 e/0 
+Pred:  u/0 t/1 i/0 L/1 e/0 
 
 word:  nutmeg
 Gold:  n/0 u/0 t/0 m/1 e/0 g/0 
-Pred:  n/0 u/0 T/1 M/0 e/0 g/0 
+Pred:  n/0 u/0 t/0 m/1 e/0 G/1 
 
 word:  rattlesnake
 Gold:  r/0 a/0 t/0 t/1 l/0 e/0 s/1 n/0 a/0 k/0 e/0 
@@ -2349,15 +2165,11 @@ Pred:  n/0 a/0 B/1
 
 word:  reconstructed
 Gold:  r/0 e/0 c/1 o/0 n/0 s/1 t/0 r/0 u/0 c/0 t/0 e/1 d/0 
-Pred:  r/0 e/0 c/1 o/0 n/0 s/1 t/0 r/0 u/0 c/0 T/1 E/0 d/0 
+Pred:  r/0 e/0 C/0 o/0 n/0 s/1 t/0 r/0 u/0 c/0 T/1 e/1 d/0 
 
 word:  adrenal
 Gold:  a/0 d/0 r/1 e/0 n/1 a/0 l/0 
-Pred:  a/0 d/0 r/1 e/0 N/0 a/0 l/0 
-
-word:  seascape
-Gold:  s/0 e/0 a/0 s/1 c/0 a/0 p/0 e/0 
-Pred:  s/0 e/0 a/0 S/0 C/1 a/0 p/0 e/0 
+Pred:  a/0 d/0 R/0 e/0 N/0 A/1 l/0 
 
 word:  deft
 Gold:  d/0 e/0 f/0 t/0 
@@ -2365,15 +2177,23 @@ Pred:  d/0 e/0 F/1 t/0
 
 word:  unquestionably
 Gold:  u/0 n/0 q/1 u/0 e/0 s/0 t/1 i/0 o/0 n/0 a/1 b/1 l/0 y/0 
-Pred:  u/0 n/0 q/1 u/0 e/0 s/0 T/0 i/0 o/0 n/0 a/1 b/1 l/0 y/0 
+Pred:  u/0 n/0 q/1 u/0 e/0 s/0 T/0 I/1 o/0 n/0 a/1 b/1 l/0 y/0 
 
 word:  motivation
 Gold:  m/0 o/0 t/1 i/0 v/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  m/0 o/0 t/1 i/0 V/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  m/0 o/0 T/0 i/0 v/1 a/0 t/1 i/0 o/0 n/0 
 
 word:  unscented
 Gold:  u/0 n/0 s/1 c/0 e/0 n/0 t/0 e/1 d/0 
-Pred:  u/0 n/0 s/1 c/0 e/0 n/0 T/1 E/0 d/0 
+Pred:  u/0 n/0 s/1 c/0 e/0 N/1 t/0 E/0 d/0 
+
+word:  abused
+Gold:  a/0 b/1 u/0 s/0 e/0 d/0 
+Pred:  a/0 B/0 u/0 s/0 e/0 d/0 
+
+word:  widely
+Gold:  w/0 i/0 d/0 e/0 l/1 y/0 
+Pred:  w/0 i/0 d/0 E/1 L/0 y/0 
 
 word:  hadith
 Gold:  h/0 a/0 d/1 i/0 t/0 h/0 
@@ -2381,15 +2201,11 @@ Pred:  h/0 a/0 D/0 I/1 T/1 h/0
 
 word:  regulator
 Gold:  r/0 e/0 g/0 u/1 l/1 a/0 t/1 o/0 r/0 
-Pred:  r/0 e/0 G/1 U/0 L/0 a/0 T/0 o/0 r/0 
-
-word:  equipment
-Gold:  e/0 q/1 u/0 i/0 p/0 m/1 e/0 n/0 t/0 
-Pred:  e/0 q/1 u/0 i/0 P/1 m/1 e/0 n/0 t/0 
+Pred:  r/0 e/0 G/1 U/0 l/1 a/0 T/0 o/0 r/0 
 
 word:  harmonic
 Gold:  h/0 a/0 r/0 m/1 o/0 n/0 i/1 c/0 
-Pred:  h/0 a/0 r/0 M/0 o/0 n/0 i/1 c/0 
+Pred:  h/0 a/0 r/0 m/1 o/0 N/1 I/0 c/0 
 
 word:  raiser
 Gold:  r/0 a/0 i/0 s/0 e/1 r/0 
@@ -2397,19 +2213,15 @@ Pred:  r/0 a/0 i/0 s/0 E/0 r/0
 
 word:  promote
 Gold:  p/0 r/0 o/0 m/1 o/0 t/0 e/0 
-Pred:  p/0 r/0 o/0 m/1 o/0 T/1 e/0 
+Pred:  p/0 r/0 o/0 M/0 o/0 T/1 e/0 
 
 word:  artiste
 Gold:  a/0 r/0 t/1 i/0 s/0 t/0 e/0 
-Pred:  a/0 r/0 t/1 i/0 s/0 T/1 e/0 
+Pred:  a/0 r/0 t/1 i/0 S/1 T/1 e/0 
 
-word:  pimp
-Gold:  p/0 i/0 m/0 p/0 
-Pred:  p/0 i/0 m/0 P/1 
-
-word:  limited
-Gold:  l/0 i/0 m/0 i/1 t/0 e/1 d/0 
-Pred:  l/0 i/0 m/0 i/1 T/1 E/0 d/0 
+word:  batteries
+Gold:  b/0 a/0 t/0 t/1 e/0 r/0 i/1 e/0 s/0 
+Pred:  b/0 a/0 t/0 t/1 e/0 r/0 I/0 e/0 s/0 
 
 word:  bookseller
 Gold:  b/0 o/0 o/0 k/0 s/1 e/0 l/0 l/1 e/0 r/0 
@@ -2419,21 +2231,17 @@ word:  hyperbole
 Gold:  h/0 y/0 p/1 e/0 r/0 b/1 o/0 l/1 e/0 
 Pred:  h/0 y/0 p/1 e/0 r/0 b/1 o/0 L/0 e/0 
 
-word:  telescoping
-Gold:  t/0 e/0 l/0 e/1 s/1 c/0 o/0 p/0 i/1 n/0 g/0 
-Pred:  t/0 e/0 l/0 e/1 S/0 C/1 o/0 p/0 i/1 n/0 g/0 
-
 word:  adhesion
 Gold:  a/0 d/0 h/1 e/0 s/1 i/0 o/0 n/0 
-Pred:  a/0 d/0 H/0 e/0 S/0 I/1 o/0 n/0 
+Pred:  a/0 d/0 h/1 e/0 S/0 i/0 o/0 n/0 
 
 word:  clement
 Gold:  c/0 l/0 e/0 m/0 e/1 n/0 t/0 
-Pred:  c/0 l/0 e/0 m/0 E/0 n/0 T/1 
+Pred:  c/0 l/0 e/0 m/0 e/1 n/0 T/1 
 
 word:  prescriber
 Gold:  p/0 r/0 e/0 s/1 c/0 r/0 i/0 b/0 e/1 r/0 
-Pred:  p/0 r/0 e/0 S/0 C/1 r/0 i/0 b/0 E/0 r/0 
+Pred:  p/0 r/0 e/0 s/1 c/0 r/0 i/0 b/0 E/0 r/0 
 
 word:  dependency
 Gold:  d/0 e/0 p/1 e/0 n/0 d/0 e/1 n/0 c/1 y/0 
@@ -2443,53 +2251,49 @@ word:  deferred
 Gold:  d/0 e/0 f/1 e/0 r/0 r/0 e/0 d/0 
 Pred:  d/0 e/0 f/1 e/0 r/0 R/1 e/0 d/0 
 
-word:  stirring
-Gold:  s/0 t/0 i/0 r/0 r/1 i/0 n/0 g/0 
-Pred:  s/0 t/0 i/0 r/0 R/0 i/0 n/0 g/0 
+word:  harm
+Gold:  h/0 a/0 r/0 m/0 
+Pred:  h/0 a/0 r/0 M/1 
+
+word:  impersonation
+Gold:  i/0 m/0 p/1 e/0 r/0 s/1 o/0 n/0 a/1 t/1 i/0 o/0 n/0 
+Pred:  i/0 m/0 p/1 e/0 r/0 s/1 o/0 n/0 a/1 T/0 i/0 o/0 n/0 
 
 word:  ecologically
 Gold:  e/0 c/0 o/1 l/1 o/0 g/0 i/1 c/1 a/0 l/0 l/1 y/0 
-Pred:  e/0 c/0 O/0 L/0 o/0 G/1 i/1 c/1 a/0 l/0 l/1 y/0 
+Pred:  e/0 c/0 O/0 L/0 O/1 G/1 I/0 c/1 a/0 l/0 l/1 y/0 
 
 word:  olympiad
 Gold:  o/0 l/1 y/0 m/0 p/1 i/0 a/1 d/0 
-Pred:  o/0 L/0 y/0 M/1 p/1 i/0 a/1 d/0 
-
-word:  label
-Gold:  l/0 a/0 b/1 e/0 l/0 
-Pred:  l/0 a/0 B/0 e/0 l/0 
+Pred:  o/0 L/0 y/0 M/1 P/0 i/0 a/1 d/0 
 
 word:  hypocrite
 Gold:  h/0 y/0 p/0 o/1 c/1 r/0 i/0 t/0 e/0 
 Pred:  h/0 y/0 P/1 O/0 c/1 r/0 i/0 T/1 e/0 
 
-word:  quiescent
-Gold:  q/0 u/0 i/0 e/1 s/0 c/1 e/0 n/0 t/0 
-Pred:  q/0 u/0 i/0 E/0 s/0 c/1 e/0 n/0 t/0 
+word:  ling
+Gold:  l/0 i/0 n/0 g/0 
+Pred:  l/0 i/0 n/0 G/1 
+
+word:  confess
+Gold:  c/0 o/0 n/0 f/1 e/0 s/0 s/0 
+Pred:  c/0 o/0 n/0 f/1 e/0 s/0 S/1 
 
 word:  participated
 Gold:  p/0 a/0 r/0 t/1 i/0 c/0 i/1 p/1 a/0 t/0 e/1 d/0 
-Pred:  p/0 a/0 r/0 t/1 i/0 C/1 I/0 P/0 a/0 T/1 E/0 d/0 
-
-word:  remit
-Gold:  r/0 e/0 m/1 i/0 t/0 
-Pred:  r/0 e/0 m/1 i/0 T/1 
+Pred:  p/0 a/0 r/0 t/1 i/0 c/0 i/1 p/1 a/0 t/0 E/0 d/0 
 
 word:  eureka
 Gold:  e/0 u/0 r/1 e/0 k/1 a/0 
-Pred:  e/0 u/0 r/1 e/0 K/0 A/1 
+Pred:  e/0 u/0 r/1 e/0 K/0 a/0 
 
 word:  semaphore
 Gold:  s/0 e/0 m/0 a/1 p/1 h/0 o/0 r/0 e/0 
-Pred:  s/0 e/0 m/0 a/1 P/0 h/0 o/0 r/0 e/0 
+Pred:  s/0 e/0 m/0 A/0 P/0 h/0 o/0 R/1 e/0 
 
 word:  rah
 Gold:  r/0 a/0 h/0 
 Pred:  r/0 a/0 H/1 
-
-word:  theoretic
-Gold:  t/0 h/0 e/0 o/1 r/1 e/0 t/0 i/1 c/0 
-Pred:  t/0 h/0 e/0 o/1 R/0 e/0 t/0 i/1 c/0 
 
 word:  gossamer
 Gold:  g/0 o/0 s/0 s/1 a/0 m/1 e/0 r/0 
@@ -2497,35 +2301,39 @@ Pred:  g/0 o/0 s/0 s/1 a/0 M/0 e/0 r/0
 
 word:  scenic
 Gold:  s/0 c/0 e/0 n/1 i/0 c/0 
-Pred:  s/0 c/0 e/0 N/0 I/1 c/0 
+Pred:  s/0 c/0 e/0 N/0 i/0 c/0 
+
+word:  hummer
+Gold:  h/0 u/0 m/0 m/1 e/0 r/0 
+Pred:  h/0 u/0 M/1 m/1 e/0 r/0 
 
 word:  researcher
 Gold:  r/0 e/0 s/1 e/0 a/0 r/0 c/0 h/0 e/1 r/0 
 Pred:  r/0 e/0 s/1 e/0 a/0 r/0 c/0 h/0 E/0 r/0 
 
-word:  deliciously
-Gold:  d/0 e/0 l/1 i/0 c/1 i/0 o/0 u/0 s/0 l/1 y/0 
-Pred:  d/0 e/0 l/1 i/0 C/0 I/1 o/0 u/0 s/0 l/1 y/0 
+word:  applicator
+Gold:  a/0 p/0 p/1 l/0 i/0 c/1 a/0 t/1 o/0 r/0 
+Pred:  a/0 p/0 p/1 l/0 i/0 c/1 a/0 T/0 o/0 r/0 
 
 word:  tracks
 Gold:  t/0 r/0 a/0 c/0 k/0 s/0 
 Pred:  t/0 r/0 a/0 c/0 k/0 S/1 
 
+word:  herbarium
+Gold:  h/0 e/0 r/0 b/1 a/0 r/0 i/1 u/1 m/0 
+Pred:  h/0 e/0 r/0 B/0 a/0 r/0 i/1 u/1 m/0 
+
 word:  espionage
 Gold:  e/0 s/0 p/1 i/0 o/1 n/1 a/0 g/0 e/0 
 Pred:  e/0 s/0 p/1 i/0 o/1 N/0 A/1 g/0 e/0 
 
+word:  fungicide
+Gold:  f/0 u/0 n/0 g/1 i/0 c/1 i/0 d/0 e/0 
+Pred:  f/0 u/0 n/0 g/1 i/0 C/0 i/0 d/0 e/0 
+
 word:  pronto
 Gold:  p/0 r/0 o/0 n/0 t/1 o/0 
-Pred:  p/0 r/0 o/0 n/0 T/0 o/0 
-
-word:  hypotension
-Gold:  h/0 y/0 p/1 o/0 t/1 e/0 n/0 s/1 i/0 o/0 n/0 
-Pred:  h/0 y/0 p/1 o/0 T/0 e/0 n/0 S/0 i/0 o/0 n/0 
-
-word:  watering
-Gold:  w/0 a/0 t/1 e/0 r/0 i/1 n/0 g/0 
-Pred:  w/0 a/0 T/0 e/0 r/0 i/1 n/0 g/0 
+Pred:  p/0 r/0 o/0 N/1 T/0 o/0 
 
 word:  arisen
 Gold:  a/0 r/1 i/0 s/0 e/1 n/0 
@@ -2533,23 +2341,15 @@ Pred:  a/0 R/0 I/1 s/0 E/0 n/0
 
 word:  acoustical
 Gold:  a/0 c/1 o/0 u/0 s/0 t/1 i/0 c/1 a/0 l/0 
-Pred:  a/0 C/0 o/0 u/0 s/0 T/0 i/0 C/0 a/0 l/0 
-
-word:  suspension
-Gold:  s/0 u/0 s/0 p/1 e/0 n/0 s/1 i/0 o/0 n/0 
-Pred:  s/0 u/0 s/0 p/1 e/0 n/0 S/0 i/0 o/0 n/0 
+Pred:  a/0 C/0 o/0 u/0 s/0 t/1 i/0 C/0 a/0 l/0 
 
 word:  sociological
 Gold:  s/0 o/0 c/1 i/0 o/1 l/1 o/0 g/0 i/1 c/1 a/0 l/0 
-Pred:  s/0 o/0 c/1 i/0 O/0 l/1 o/0 G/1 i/1 C/0 a/0 l/0 
-
-word:  homesite
-Gold:  h/0 o/0 m/0 e/0 s/1 i/0 t/0 e/0 
-Pred:  h/0 o/0 m/0 e/0 S/0 i/0 T/1 e/0 
+Pred:  s/0 o/0 c/1 i/0 o/1 L/0 O/1 G/1 i/1 c/1 a/0 l/0 
 
 word:  manipulative
 Gold:  m/0 a/0 n/1 i/0 p/0 u/1 l/1 a/0 t/1 i/0 v/0 e/0 
-Pred:  m/0 a/0 N/0 I/1 P/1 u/1 l/1 a/0 T/0 i/0 v/0 e/0 
+Pred:  m/0 a/0 N/0 i/0 p/0 u/1 l/1 a/0 T/0 i/0 v/0 e/0 
 
 word:  friendlier
 Gold:  f/0 r/0 i/0 e/0 n/0 d/0 l/1 i/0 e/1 r/0 
@@ -2561,11 +2361,19 @@ Pred:  b/0 u/0 d/0 g/0 E/0 t/0
 
 word:  vino
 Gold:  v/0 i/0 n/1 o/0 
-Pred:  v/0 i/0 N/0 O/1 
+Pred:  v/0 i/0 N/0 o/0 
+
+word:  elev
+Gold:  e/0 l/0 e/0 v/0 
+Pred:  e/0 L/1 e/0 V/1 
 
 word:  juxtaposition
 Gold:  j/0 u/0 x/0 t/1 a/0 p/1 o/0 s/1 i/0 t/1 i/0 o/0 n/0 
 Pred:  j/0 u/0 x/0 t/1 a/0 P/0 o/0 S/0 i/0 t/1 i/0 o/0 n/0 
+
+word:  boundless
+Gold:  b/0 o/0 u/0 n/0 d/0 l/1 e/0 s/0 s/0 
+Pred:  b/0 o/0 u/0 n/0 d/0 L/0 e/0 s/0 s/0 
 
 word:  stoney
 Gold:  s/0 t/0 o/0 n/0 e/1 y/0 
@@ -2573,27 +2381,35 @@ Pred:  s/0 t/0 o/0 n/0 E/0 y/0
 
 word:  savior
 Gold:  s/0 a/0 v/0 i/1 o/0 r/0 
-Pred:  s/0 a/0 V/1 i/1 o/0 r/0 
+Pred:  s/0 a/0 V/1 I/0 o/0 r/0 
 
 word:  corps
 Gold:  c/0 o/0 r/0 p/0 s/0 
 Pred:  c/0 o/0 r/0 P/1 s/0 
 
+word:  protruding
+Gold:  p/0 r/0 o/0 t/1 r/0 u/0 d/0 i/1 n/0 g/0 
+Pred:  p/0 r/0 o/0 t/1 r/0 u/0 d/0 I/0 n/0 g/0 
+
+word:  worried
+Gold:  w/0 o/0 r/0 r/1 i/0 e/0 d/0 
+Pred:  w/0 o/0 r/0 r/1 i/0 E/1 d/0 
+
 word:  specified
 Gold:  s/0 p/0 e/0 c/0 i/1 f/1 i/0 e/0 d/0 
-Pred:  s/0 p/0 e/0 c/0 I/0 f/1 i/0 e/0 d/0 
+Pred:  s/0 p/0 e/0 c/0 I/0 f/1 I/1 e/0 d/0 
 
 word:  regulation
 Gold:  r/0 e/0 g/0 u/1 l/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  r/0 e/0 G/1 U/0 L/0 a/0 T/0 I/1 o/0 n/0 
+Pred:  r/0 e/0 G/1 U/0 l/1 a/0 T/0 i/0 o/0 n/0 
 
 word:  pipa
 Gold:  p/0 i/0 p/1 a/0 
-Pred:  p/0 i/0 P/0 A/1 
+Pred:  p/0 i/0 P/0 a/0 
 
 word:  renegade
 Gold:  r/0 e/0 n/0 e/1 g/1 a/0 d/0 e/0 
-Pred:  r/0 e/0 N/1 E/0 G/0 a/0 d/0 e/0 
+Pred:  r/0 e/0 N/1 E/0 g/1 a/0 d/0 e/0 
 
 word:  unsupervised
 Gold:  u/0 n/0 s/1 u/0 p/1 e/0 r/0 v/1 i/0 s/0 e/0 d/0 
@@ -2605,7 +2421,7 @@ Pred:  s/0 a/0 s/0 S/1
 
 word:  ergonomics
 Gold:  e/0 r/0 g/1 o/0 n/1 o/0 m/0 i/1 c/0 s/0 
-Pred:  e/0 r/0 g/1 o/0 N/0 O/1 m/0 i/1 C/1 s/0 
+Pred:  e/0 R/1 G/0 o/0 n/1 o/0 m/0 i/1 C/1 s/0 
 
 word:  grained
 Gold:  g/0 r/0 a/0 i/0 n/0 e/0 d/0 
@@ -2615,21 +2431,33 @@ word:  superscript
 Gold:  s/0 u/0 p/1 e/0 r/0 s/1 c/0 r/0 i/0 p/0 t/0 
 Pred:  s/0 u/0 P/0 e/0 r/0 s/1 c/0 r/0 i/0 p/0 T/1 
 
-word:  kemp
-Gold:  k/0 e/0 m/0 p/0 
-Pred:  k/0 e/0 m/0 P/1 
+word:  humpty
+Gold:  h/0 u/0 m/0 p/0 t/1 y/0 
+Pred:  h/0 u/0 M/1 p/0 t/1 y/0 
 
 word:  mater
 Gold:  m/0 a/0 t/1 e/0 r/0 
 Pred:  m/0 a/0 T/0 e/0 r/0 
 
+word:  glebe
+Gold:  g/0 l/0 e/0 b/0 e/0 
+Pred:  g/0 l/0 e/0 B/1 e/0 
+
+word:  ping
+Gold:  p/0 i/0 n/0 g/0 
+Pred:  p/0 i/0 n/0 G/1 
+
 word:  interrogatories
 Gold:  i/0 n/0 t/1 e/0 r/0 r/1 o/0 g/0 a/1 t/1 o/0 r/1 i/0 e/0 s/0 
-Pred:  i/0 n/0 t/1 e/0 r/0 r/1 o/0 G/1 A/0 t/1 o/0 R/0 I/1 e/0 s/0 
+Pred:  i/0 n/0 t/1 e/0 r/0 r/1 o/0 G/1 A/0 T/0 o/0 R/0 i/0 e/0 s/0 
 
 word:  foster
 Gold:  f/0 o/0 s/0 t/1 e/0 r/0 
 Pred:  f/0 o/0 s/0 T/0 e/0 r/0 
+
+word:  retin
+Gold:  r/0 e/0 t/1 i/0 n/0 
+Pred:  r/0 e/0 t/1 i/0 N/1 
 
 word:  transposition
 Gold:  t/0 r/0 a/0 n/0 s/0 p/1 o/0 s/1 i/0 t/1 i/0 o/0 n/0 
@@ -2637,27 +2465,19 @@ Pred:  t/0 r/0 a/0 n/0 s/0 p/1 o/0 S/0 I/1 t/1 i/0 o/0 n/0
 
 word:  collaborator
 Gold:  c/0 o/0 l/0 l/1 a/0 b/0 o/1 r/1 a/0 t/1 o/0 r/0 
-Pred:  c/0 o/0 l/0 l/1 a/0 B/1 O/0 R/0 a/0 t/1 o/0 r/0 
+Pred:  c/0 o/0 l/0 l/1 a/0 b/0 o/1 r/1 a/0 T/0 o/0 r/0 
 
-word:  vineland
-Gold:  v/0 i/0 n/0 e/0 l/1 a/0 n/0 d/0 
-Pred:  v/0 i/0 n/0 E/1 L/0 a/0 n/0 d/0 
-
-word:  isotype
-Gold:  i/0 s/1 o/0 t/1 y/0 p/0 e/0 
-Pred:  i/0 S/0 o/0 t/1 y/0 p/0 e/0 
-
-word:  sensuous
-Gold:  s/0 e/0 n/0 s/1 u/0 o/1 u/0 s/0 
-Pred:  s/0 e/0 n/0 s/1 u/0 O/0 u/0 s/0 
+word:  cookies
+Gold:  c/0 o/0 o/0 k/0 i/1 e/0 s/0 
+Pred:  c/0 o/0 O/1 k/0 i/1 e/0 s/0 
 
 word:  inference
 Gold:  i/0 n/0 f/1 e/0 r/0 e/1 n/0 c/0 e/0 
-Pred:  i/0 n/0 f/1 e/0 r/0 E/0 n/0 c/0 e/0 
+Pred:  i/0 n/0 f/1 e/0 r/0 e/1 n/0 C/1 e/0 
 
 word:  anticoagulant
 Gold:  a/0 n/0 t/1 i/0 c/1 o/0 a/1 g/0 u/1 l/1 a/0 n/0 t/0 
-Pred:  a/0 n/0 t/1 i/0 c/1 o/0 A/0 g/0 U/0 l/1 a/0 n/0 t/0 
+Pred:  a/0 n/0 t/1 i/0 C/0 o/0 A/0 g/0 U/0 l/1 a/0 n/0 t/0 
 
 word:  beyond
 Gold:  b/0 e/0 y/1 o/0 n/0 d/0 
@@ -2665,7 +2485,7 @@ Pred:  b/0 e/0 Y/0 O/1 n/0 d/0
 
 word:  kindred
 Gold:  k/0 i/0 n/0 d/1 r/0 e/0 d/0 
-Pred:  k/0 i/0 n/0 D/0 r/0 e/0 d/0 
+Pred:  k/0 i/0 N/1 D/0 r/0 e/0 d/0 
 
 word:  chagrin
 Gold:  c/0 h/0 a/0 g/1 r/0 i/0 n/0 
@@ -2673,43 +2493,31 @@ Pred:  c/0 h/0 a/0 G/0 r/0 i/0 n/0
 
 word:  taxonomic
 Gold:  t/0 a/0 x/0 o/1 n/1 o/0 m/0 i/1 c/0 
-Pred:  t/0 a/0 x/0 o/1 N/0 o/0 m/0 i/1 C/1 
+Pred:  t/0 a/0 x/0 o/1 N/0 o/0 m/0 i/1 c/0 
 
 word:  naturalized
 Gold:  n/0 a/0 t/0 u/1 r/1 a/0 l/0 i/1 z/0 e/0 d/0 
-Pred:  n/0 a/0 t/0 U/0 R/0 a/0 l/0 i/1 z/0 e/0 d/0 
+Pred:  n/0 a/0 T/1 U/0 r/1 a/0 l/0 i/1 z/0 e/0 d/0 
 
 word:  missy
 Gold:  m/0 i/0 s/0 s/0 y/1 
 Pred:  m/0 i/0 s/0 S/1 Y/0 
 
-word:  potion
-Gold:  p/0 o/0 t/1 i/0 o/0 n/0 
-Pred:  p/0 o/0 T/0 i/0 o/0 n/0 
-
-word:  granulated
-Gold:  g/0 r/0 a/0 n/0 u/1 l/1 a/0 t/0 e/1 d/0 
-Pred:  g/0 r/0 a/0 n/0 U/0 l/1 a/0 t/0 E/0 d/0 
-
 word:  legitimacy
 Gold:  l/0 e/0 g/1 i/0 t/0 i/1 m/1 a/0 c/1 y/0 
-Pred:  l/0 e/0 G/0 I/1 T/1 I/0 M/0 a/0 C/0 y/0 
+Pred:  l/0 e/0 G/0 I/1 T/1 I/0 m/1 a/0 C/0 y/0 
 
 word:  brier
 Gold:  b/0 r/0 i/0 e/1 r/0 
 Pred:  b/0 r/0 i/0 E/0 r/0 
 
-word:  ornament
-Gold:  o/0 r/0 n/1 a/0 m/1 e/0 n/0 t/0 
-Pred:  o/0 r/0 n/1 a/0 M/0 e/0 n/0 t/0 
-
 word:  metrology
 Gold:  m/0 e/0 t/1 r/0 o/0 l/0 o/1 g/1 y/0 
-Pred:  m/0 e/0 T/0 R/1 o/0 L/1 O/0 g/1 y/0 
+Pred:  m/0 e/0 T/0 R/1 o/0 l/0 O/0 g/1 y/0 
 
 word:  insulate
 Gold:  i/0 n/0 s/1 u/0 l/1 a/0 t/0 e/0 
-Pred:  i/0 n/0 s/1 u/0 L/0 a/0 T/1 e/0 
+Pred:  i/0 n/0 s/1 u/0 l/1 a/0 t/0 E/1 
 
 word:  ar
 Gold:  a/0 r/1 
@@ -2717,7 +2525,7 @@ Pred:  a/0 R/0
 
 word:  mausoleum
 Gold:  m/0 a/0 u/0 s/1 o/0 l/1 e/0 u/1 m/0 
-Pred:  m/0 a/0 u/0 S/0 o/0 l/1 e/0 U/0 m/0 
+Pred:  m/0 a/0 u/0 S/0 o/0 L/0 e/0 u/1 m/0 
 
 word:  thyme
 Gold:  t/0 h/0 y/0 m/0 e/0 
@@ -2725,19 +2533,11 @@ Pred:  t/0 h/0 y/0 M/1 e/0
 
 word:  meritorious
 Gold:  m/0 e/0 r/0 i/1 t/1 o/0 r/1 i/0 o/1 u/0 s/0 
-Pred:  m/0 e/0 r/0 i/1 t/1 o/0 R/0 I/1 o/1 u/0 s/0 
-
-word:  endoscopic
-Gold:  e/0 n/0 d/1 o/0 s/1 c/0 o/0 p/0 i/1 c/0 
-Pred:  e/0 n/0 d/1 o/0 S/0 C/1 o/0 p/0 i/1 c/0 
+Pred:  m/0 e/0 r/0 i/1 T/0 o/0 R/0 i/0 o/1 u/0 s/0 
 
 word:  cavalry
 Gold:  c/0 a/0 v/0 a/1 l/0 r/1 y/0 
-Pred:  c/0 a/0 V/1 A/0 l/0 R/0 y/0 
-
-word:  cost
-Gold:  c/0 o/0 s/0 t/0 
-Pred:  c/0 o/0 s/0 T/1 
+Pred:  c/0 a/0 V/1 A/0 l/0 r/1 y/0 
 
 word:  untrained
 Gold:  u/0 n/0 t/1 r/0 a/0 i/0 n/0 e/0 d/0 
@@ -2749,7 +2549,7 @@ Pred:  s/0 i/0 L/0 o/0
 
 word:  cliche
 Gold:  c/0 l/0 i/0 c/1 h/0 e/0 
-Pred:  c/0 l/0 i/0 C/0 h/0 e/0 
+Pred:  c/0 l/0 i/0 C/0 h/0 E/1 
 
 word:  samp
 Gold:  s/0 a/0 m/0 p/0 
@@ -2757,7 +2557,7 @@ Pred:  s/0 a/0 m/0 P/1
 
 word:  comedian
 Gold:  c/0 o/0 m/1 e/0 d/1 i/0 a/1 n/0 
-Pred:  c/0 o/0 M/0 E/1 D/0 I/1 a/1 n/0 
+Pred:  c/0 o/0 M/0 e/0 d/1 i/0 a/1 n/0 
 
 word:  icons
 Gold:  i/0 c/1 o/0 n/0 s/0 
@@ -2765,11 +2565,15 @@ Pred:  i/0 C/0 o/0 n/0 S/1
 
 word:  investigational
 Gold:  i/0 n/0 v/1 e/0 s/0 t/1 i/0 g/1 a/0 t/1 i/0 o/0 n/0 a/1 l/0 
-Pred:  i/0 n/0 v/1 e/0 s/0 t/1 i/0 G/0 a/0 t/1 i/0 o/0 n/0 a/1 l/0 
+Pred:  i/0 n/0 v/1 e/0 s/0 t/1 i/0 g/1 a/0 T/0 i/0 o/0 n/0 a/1 l/0 
 
 word:  daughter
 Gold:  d/0 a/0 u/0 g/0 h/0 t/1 e/0 r/0 
-Pred:  d/0 a/0 u/0 g/0 h/0 T/0 e/0 r/0 
+Pred:  d/0 a/0 u/0 g/0 h/0 T/0 E/1 r/0 
+
+word:  maximized
+Gold:  m/0 a/0 x/0 i/1 m/1 i/0 z/0 e/0 d/0 
+Pred:  m/0 a/0 x/0 i/1 m/1 I/1 z/0 e/0 d/0 
 
 word:  thievery
 Gold:  t/0 h/0 i/0 e/0 v/0 e/1 r/0 y/1 
@@ -2781,27 +2585,27 @@ Pred:  o/0 n/0 i/1 O/1 n/0
 
 word:  booby
 Gold:  b/0 o/0 o/0 b/1 y/0 
-Pred:  b/0 o/0 o/0 B/0 Y/1 
+Pred:  b/0 o/0 o/0 B/0 y/0 
+
+word:  mayonnaise
+Gold:  m/0 a/0 y/0 o/1 n/0 n/1 a/0 i/0 s/0 e/0 
+Pred:  m/0 a/0 y/0 O/0 n/0 n/1 a/0 i/0 s/0 e/0 
 
 word:  semantically
 Gold:  s/0 e/0 m/1 a/0 n/0 t/1 i/0 c/1 a/0 l/0 l/1 y/0 
-Pred:  s/0 e/0 M/0 A/1 n/0 t/1 i/0 C/0 a/0 l/0 l/1 y/0 
+Pred:  s/0 e/0 M/0 a/0 n/0 t/1 i/0 C/0 a/0 l/0 l/1 y/0 
 
 word:  horrific
 Gold:  h/0 o/0 r/0 r/1 i/0 f/0 i/1 c/0 
 Pred:  h/0 o/0 r/0 r/1 i/0 F/1 I/0 C/1 
 
-word:  sneakers
-Gold:  s/0 n/0 e/0 a/0 k/0 e/1 r/0 s/0 
-Pred:  s/0 n/0 e/0 a/0 k/0 e/1 r/0 S/1 
-
-word:  starlight
-Gold:  s/0 t/0 a/0 r/0 l/1 i/0 g/0 h/0 t/0 
-Pred:  s/0 t/0 a/0 r/0 L/0 i/0 g/0 h/0 t/0 
-
 word:  necessitated
 Gold:  n/0 e/0 c/1 e/0 s/0 s/1 i/0 t/1 a/0 t/0 e/1 d/0 
-Pred:  n/0 e/0 C/0 e/0 s/0 s/1 i/0 t/1 a/0 T/1 E/0 d/0 
+Pred:  n/0 e/0 C/0 E/1 s/0 s/1 i/0 t/1 a/0 T/1 e/1 d/0 
+
+word:  bronze
+Gold:  b/0 r/0 o/0 n/0 z/0 e/0 
+Pred:  b/0 r/0 o/0 n/0 Z/1 e/0 
 
 word:  wasted
 Gold:  w/0 a/0 s/0 t/0 e/1 d/0 
@@ -2813,7 +2617,7 @@ Pred:  r/0 e/0 s/1 t/0 o/0 C/1 k/0
 
 word:  myelin
 Gold:  m/0 y/0 e/1 l/1 i/0 n/0 
-Pred:  m/0 y/0 E/0 L/0 i/0 n/0 
+Pred:  m/0 y/0 E/0 l/1 i/0 n/0 
 
 word:  homage
 Gold:  h/0 o/0 m/0 a/1 g/0 e/0 
@@ -2821,27 +2625,31 @@ Pred:  h/0 o/0 m/0 A/0 g/0 e/0
 
 word:  profitable
 Gold:  p/0 r/0 o/0 f/0 i/1 t/0 a/1 b/1 l/0 e/0 
-Pred:  p/0 r/0 o/0 F/1 I/0 T/1 A/0 b/1 l/0 e/0 
+Pred:  p/0 r/0 o/0 F/1 I/0 t/0 a/1 b/1 l/0 e/0 
 
 word:  telemetry
 Gold:  t/0 e/0 l/1 e/0 m/0 e/1 t/1 r/0 y/0 
 Pred:  t/0 e/0 L/0 E/1 M/1 E/0 T/0 r/0 y/0 
 
+word:  imminent
+Gold:  i/0 m/0 m/1 i/0 n/1 e/0 n/0 t/0 
+Pred:  i/0 m/0 m/1 i/0 N/0 e/0 n/0 T/1 
+
 word:  diminished
 Gold:  d/0 i/0 m/1 i/0 n/0 i/1 s/0 h/0 e/0 d/0 
-Pred:  d/0 i/0 M/0 I/1 N/1 i/1 s/0 h/0 e/0 d/0 
+Pred:  d/0 i/0 m/1 i/0 n/0 i/1 s/0 h/0 E/1 d/0 
 
 word:  lengthen
 Gold:  l/0 e/0 n/0 g/0 t/0 h/0 e/1 n/0 
-Pred:  l/0 e/0 n/0 G/1 t/0 h/0 E/0 n/0 
+Pred:  l/0 e/0 n/0 g/0 t/0 h/0 E/0 n/0 
 
 word:  elucidate
 Gold:  e/0 l/1 u/0 c/1 i/0 d/1 a/0 t/0 e/0 
-Pred:  e/0 L/0 u/0 C/0 I/1 D/0 a/0 T/1 e/0 
+Pred:  e/0 l/1 u/0 C/0 i/0 D/0 a/0 T/1 e/0 
 
 word:  renderer
 Gold:  r/0 e/0 n/0 d/1 e/0 r/0 e/1 r/0 
-Pred:  r/0 e/0 N/1 D/0 e/0 r/0 e/1 r/0 
+Pred:  r/0 e/0 N/1 d/1 e/0 r/0 e/1 r/0 
 
 word:  consulting
 Gold:  c/0 o/0 n/0 s/1 u/0 l/0 t/0 i/1 n/0 g/0 
@@ -2849,15 +2657,11 @@ Pred:  c/0 o/0 n/0 s/1 u/0 l/0 t/0 I/0 n/0 g/0
 
 word:  punishable
 Gold:  p/0 u/0 n/0 i/1 s/0 h/0 a/1 b/1 l/0 e/0 
-Pred:  p/0 u/0 n/0 I/0 s/0 h/0 A/0 b/1 l/0 e/0 
+Pred:  p/0 u/0 n/0 I/0 s/0 h/0 a/1 b/1 l/0 e/0 
 
 word:  gaucho
 Gold:  g/0 a/0 u/0 c/1 h/0 o/0 
 Pred:  g/0 a/0 u/0 C/0 h/0 o/0 
-
-word:  eliminate
-Gold:  e/0 l/1 i/0 m/0 i/1 n/1 a/0 t/0 e/0 
-Pred:  e/0 L/0 i/0 m/0 i/1 N/0 a/0 t/0 e/0 
 
 word:  father
 Gold:  f/0 a/0 t/1 h/0 e/0 r/0 
@@ -2871,33 +2675,25 @@ word:  incomparable
 Gold:  i/0 n/0 c/1 o/0 m/0 p/1 a/0 r/1 a/0 b/1 l/0 e/0 
 Pred:  i/0 n/0 c/1 o/0 m/0 p/1 a/0 R/0 A/1 b/1 l/0 e/0 
 
-word:  temporarily
-Gold:  t/0 e/0 m/0 p/1 o/0 r/1 a/0 r/0 i/1 l/1 y/0 
-Pred:  t/0 e/0 m/0 p/1 o/0 R/0 a/0 r/0 i/1 L/0 y/0 
-
-word:  doubtful
-Gold:  d/0 o/0 u/0 b/0 t/0 f/1 u/0 l/0 
-Pred:  d/0 o/0 u/0 b/0 T/1 f/1 u/0 l/0 
-
 word:  arrowhead
 Gold:  a/0 r/0 r/1 o/0 w/0 h/1 e/0 a/0 d/0 
-Pred:  a/0 r/0 r/1 o/0 w/0 H/0 e/0 a/0 d/0 
-
-word:  ethylene
-Gold:  e/0 t/0 h/0 y/1 l/0 e/1 n/0 e/0 
-Pred:  e/0 t/0 h/0 y/1 L/1 E/0 n/0 e/0 
+Pred:  a/0 r/0 r/1 o/0 w/0 H/0 e/0 A/1 d/0 
 
 word:  selva
 Gold:  s/0 e/0 l/0 v/1 a/0 
-Pred:  s/0 e/0 l/0 V/0 a/0 
+Pred:  s/0 e/0 L/1 V/0 A/1 
 
 word:  mythological
 Gold:  m/0 y/0 t/0 h/0 o/1 l/1 o/0 g/0 i/1 c/1 a/0 l/0 
-Pred:  m/0 y/0 T/1 h/0 O/0 l/1 o/0 G/1 i/1 C/0 a/0 l/0 
+Pred:  m/0 y/0 t/0 h/0 O/0 L/0 O/1 G/1 i/1 c/1 a/0 l/0 
 
 word:  cabriolet
 Gold:  c/0 a/0 b/0 r/1 i/0 o/1 l/1 e/0 t/0 
-Pred:  c/0 a/0 b/0 R/0 i/0 o/1 L/0 e/0 t/0 
+Pred:  c/0 a/0 b/0 R/0 i/0 o/1 l/1 e/0 t/0 
+
+word:  estuary
+Gold:  e/0 s/0 t/1 u/0 a/1 r/0 y/1 
+Pred:  e/0 s/0 t/1 u/0 a/1 r/0 Y/0 
 
 word:  pomp
 Gold:  p/0 o/0 m/0 p/0 
@@ -2905,15 +2701,15 @@ Pred:  p/0 o/0 m/0 P/1
 
 word:  consecrated
 Gold:  c/0 o/0 n/0 s/1 e/0 c/1 r/0 a/0 t/0 e/1 d/0 
-Pred:  c/0 o/0 n/0 s/1 e/0 C/0 r/0 a/0 T/1 E/0 d/0 
+Pred:  c/0 o/0 n/0 s/1 e/0 C/0 R/1 a/0 T/1 E/0 d/0 
 
 word:  complicating
 Gold:  c/0 o/0 m/0 p/1 l/0 i/0 c/1 a/0 t/0 i/1 n/0 g/0 
-Pred:  c/0 o/0 m/0 p/1 l/0 i/0 c/1 a/0 T/1 I/0 n/0 g/0 
+Pred:  c/0 o/0 m/0 p/1 l/0 i/0 c/1 a/0 t/0 I/0 n/0 g/0 
 
 word:  landau
 Gold:  l/0 a/0 n/0 d/1 a/0 u/0 
-Pred:  l/0 a/0 n/0 D/0 a/0 u/0 
+Pred:  l/0 a/0 n/0 D/0 A/1 u/0 
 
 word:  plasminogen
 Gold:  p/0 l/0 a/0 s/0 m/1 i/0 n/0 o/1 g/1 e/0 n/0 
@@ -2921,19 +2717,15 @@ Pred:  p/0 l/0 a/0 s/0 m/1 i/0 n/0 O/0 g/1 e/0 n/0
 
 word:  devastation
 Gold:  d/0 e/0 v/0 a/1 s/0 t/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  d/0 e/0 V/1 A/0 s/0 T/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  d/0 e/0 V/1 A/0 s/0 t/1 a/0 T/0 i/0 o/0 n/0 
 
 word:  laborer
 Gold:  l/0 a/0 b/1 o/0 r/0 e/1 r/0 
-Pred:  l/0 a/0 B/0 o/0 r/0 E/0 r/0 
+Pred:  l/0 a/0 b/1 o/0 R/1 E/0 r/0 
 
 word:  thereafter
 Gold:  t/0 h/0 e/0 r/0 e/0 a/1 f/0 t/1 e/0 r/0 
 Pred:  t/0 h/0 e/0 r/0 e/0 a/1 f/0 T/0 e/0 r/0 
-
-word:  arrhythmia
-Gold:  a/0 r/0 r/1 h/0 y/0 t/0 h/0 m/1 i/0 a/1 
-Pred:  a/0 r/0 r/1 h/0 y/0 t/0 h/0 m/1 i/0 A/0 
 
 word:  girly
 Gold:  g/0 i/0 r/0 l/0 y/1 
@@ -2943,10 +2735,6 @@ word:  gringo
 Gold:  g/0 r/0 i/0 n/0 g/1 o/0 
 Pred:  g/0 r/0 i/0 n/0 G/0 o/0 
 
-word:  bowls
-Gold:  b/0 o/0 w/0 l/0 s/0 
-Pred:  b/0 o/0 w/0 L/1 s/0 
-
 word:  coinsurance
 Gold:  c/0 o/0 i/1 n/0 s/1 u/0 r/0 a/1 n/0 c/0 e/0 
 Pred:  c/0 o/0 I/0 n/0 s/1 u/0 r/0 a/1 n/0 c/0 e/0 
@@ -2955,21 +2743,13 @@ word:  advisory
 Gold:  a/0 d/0 v/1 i/0 s/1 o/0 r/1 y/0 
 Pred:  a/0 d/0 v/1 i/0 S/0 o/0 R/0 y/0 
 
-word:  predominant
-Gold:  p/0 r/0 e/0 d/1 o/0 m/0 i/1 n/1 a/0 n/0 t/0 
-Pred:  p/0 r/0 e/0 d/1 o/0 m/0 i/1 N/0 a/0 n/0 t/0 
-
 word:  realistically
 Gold:  r/0 e/0 a/1 l/0 i/1 s/0 t/1 i/0 c/1 a/0 l/0 l/1 y/0 
-Pred:  r/0 e/0 a/1 l/0 i/1 s/0 T/0 i/0 C/0 a/0 l/0 l/1 y/0 
+Pred:  r/0 e/0 A/0 l/0 i/1 s/0 t/1 i/0 C/0 a/0 l/0 l/1 y/0 
 
-word:  balm
-Gold:  b/0 a/0 l/0 m/0 
-Pred:  b/0 a/0 l/0 M/1 
-
-word:  remover
-Gold:  r/0 e/0 m/1 o/0 v/0 e/1 r/0 
-Pred:  r/0 e/0 m/1 o/0 v/0 E/0 r/0 
+word:  varied
+Gold:  v/0 a/0 r/0 i/1 e/0 d/0 
+Pred:  v/0 a/0 r/0 i/1 E/1 d/0 
 
 word:  syrup
 Gold:  s/0 y/0 r/0 u/1 p/0 
@@ -2983,37 +2763,25 @@ word:  flamenco
 Gold:  f/0 l/0 a/0 m/1 e/0 n/0 c/1 o/0 
 Pred:  f/0 l/0 a/0 M/0 e/0 n/0 C/0 o/0 
 
-word:  warm
-Gold:  w/0 a/0 r/0 m/0 
-Pred:  w/0 a/0 r/0 M/1 
+word:  hardship
+Gold:  h/0 a/0 r/0 d/0 s/1 h/0 i/0 p/0 
+Pred:  h/0 a/0 r/0 d/0 S/0 h/0 i/0 p/0 
 
 word:  crescendo
 Gold:  c/0 r/0 e/0 s/1 c/0 e/0 n/0 d/1 o/0 
 Pred:  c/0 r/0 e/0 S/0 C/1 e/0 n/0 D/0 o/0 
 
-word:  corrosion
-Gold:  c/0 o/0 r/0 r/1 o/0 s/1 i/0 o/0 n/0 
-Pred:  c/0 o/0 r/0 r/1 o/0 S/0 i/0 o/0 n/0 
-
-word:  injustice
-Gold:  i/0 n/0 j/1 u/0 s/0 t/1 i/0 c/0 e/0 
-Pred:  i/0 n/0 j/1 u/0 s/0 T/0 i/0 c/0 e/0 
-
 word:  militarism
 Gold:  m/0 i/0 l/0 i/1 t/1 a/0 r/1 i/0 s/0 m/0 
 Pred:  m/0 i/0 l/0 i/1 t/1 a/0 R/0 I/1 s/0 m/0 
 
-word:  dalles
-Gold:  d/0 a/0 l/0 l/0 e/0 s/0 
-Pred:  d/0 a/0 l/0 L/1 e/0 s/0 
-
 word:  ephedrine
 Gold:  e/0 p/1 h/0 e/0 d/0 r/1 i/0 n/0 e/0 
-Pred:  e/0 P/0 h/0 e/0 d/0 r/1 i/0 n/0 e/0 
+Pred:  e/0 P/0 h/0 e/0 d/0 R/0 i/0 n/0 e/0 
 
 word:  graham
 Gold:  g/0 r/0 a/0 h/1 a/0 m/0 
-Pred:  g/0 r/0 a/0 H/0 a/0 m/0 
+Pred:  g/0 r/0 a/0 H/0 a/0 M/1 
 
 word:  coincidental
 Gold:  c/0 o/0 i/1 n/0 c/1 i/0 d/1 e/0 n/0 t/1 a/0 l/0 
@@ -3025,15 +2793,11 @@ Pred:  i/0 R/0 I/1 s/0
 
 word:  neurologist
 Gold:  n/0 e/0 u/0 r/1 o/0 l/0 o/1 g/1 i/0 s/0 t/0 
-Pred:  n/0 e/0 u/0 r/1 o/0 L/1 o/1 g/1 I/1 s/0 t/0 
+Pred:  n/0 e/0 u/0 r/1 o/0 l/0 o/1 g/1 I/1 s/0 t/0 
 
 word:  synchronization
 Gold:  s/0 y/0 n/0 c/1 h/0 r/0 o/0 n/1 i/0 z/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  s/0 y/0 n/0 c/1 h/0 r/0 o/0 N/0 i/0 Z/0 a/0 t/1 i/0 o/0 n/0 
-
-word:  extradition
-Gold:  e/0 x/0 t/1 r/0 a/0 d/1 i/0 t/1 i/0 o/0 n/0 
-Pred:  e/0 x/0 t/1 r/0 a/0 D/0 I/1 t/1 i/0 o/0 n/0 
+Pred:  s/0 y/0 n/0 c/1 h/0 r/0 o/0 n/1 i/0 Z/0 a/0 t/1 i/0 o/0 n/0 
 
 word:  romance
 Gold:  r/0 o/0 m/1 a/0 n/0 c/0 e/0 
@@ -3047,65 +2811,61 @@ word:  subscript
 Gold:  s/0 u/0 b/0 s/1 c/0 r/0 i/0 p/0 t/0 
 Pred:  s/0 u/0 b/0 s/1 c/0 r/0 i/0 p/0 T/1 
 
-word:  distract
-Gold:  d/0 i/0 s/0 t/1 r/0 a/0 c/0 t/0 
-Pred:  d/0 i/0 s/0 t/1 r/0 a/0 c/0 T/1 
-
 word:  analyzer
 Gold:  a/0 n/0 a/1 l/1 y/0 z/0 e/1 r/0 
-Pred:  a/0 n/0 a/1 L/0 y/0 z/0 e/1 r/0 
+Pred:  a/0 n/0 a/1 L/0 y/0 z/0 E/0 r/0 
 
 word:  comp
 Gold:  c/0 o/0 m/0 p/0 
 Pred:  c/0 o/0 m/0 P/1 
 
-word:  leeway
-Gold:  l/0 e/0 e/0 w/1 a/0 y/0 
-Pred:  l/0 e/0 e/0 W/0 A/1 y/0 
-
-word:  expression
-Gold:  e/0 x/0 p/1 r/0 e/0 s/0 s/1 i/0 o/0 n/0 
-Pred:  e/0 x/0 p/1 r/0 e/0 s/0 S/0 i/0 o/0 n/0 
-
 word:  stencil
 Gold:  s/0 t/0 e/0 n/0 c/1 i/0 l/0 
-Pred:  s/0 t/0 e/0 n/0 C/0 i/0 l/0 
+Pred:  s/0 t/0 e/0 n/0 C/0 I/1 l/0 
 
 word:  nefarious
 Gold:  n/0 e/0 f/1 a/0 r/0 i/1 o/1 u/0 s/0 
-Pred:  n/0 e/0 F/0 a/0 r/0 i/1 o/1 u/0 s/0 
+Pred:  n/0 e/0 F/0 a/0 R/1 I/0 o/1 u/0 s/0 
 
 word:  timothy
 Gold:  t/0 i/0 m/0 o/1 t/1 h/0 y/0 
 Pred:  t/0 i/0 m/0 O/0 t/1 h/0 y/0 
 
-word:  juridical
-Gold:  j/0 u/0 r/1 i/0 d/0 i/1 c/1 a/0 l/0 
-Pred:  j/0 u/0 R/0 i/0 D/1 i/1 c/1 a/0 l/0 
-
-word:  circuit
-Gold:  c/0 i/0 r/0 c/1 u/0 i/0 t/0 
-Pred:  c/0 i/0 r/0 c/1 u/0 I/1 T/1 
+word:  harassed
+Gold:  h/0 a/0 r/0 a/1 s/0 s/0 e/0 d/0 
+Pred:  h/0 a/0 r/0 a/1 s/0 S/1 e/0 d/0 
 
 word:  bonanza
 Gold:  b/0 o/0 n/1 a/0 n/0 z/1 a/0 
-Pred:  b/0 o/0 N/0 A/1 n/0 z/1 a/0 
+Pred:  b/0 o/0 N/0 a/0 n/0 z/1 a/0 
 
 word:  macadamia
 Gold:  m/0 a/0 c/0 a/1 d/1 a/0 m/1 i/0 a/1 
-Pred:  m/0 a/0 c/0 A/0 D/0 a/0 M/0 I/1 a/1 
+Pred:  m/0 a/0 c/0 A/0 d/1 a/0 M/0 I/1 a/1 
+
+word:  avion
+Gold:  a/0 v/1 i/0 o/0 n/0 
+Pred:  a/0 v/1 i/0 O/1 n/0 
+
+word:  flor
+Gold:  f/0 l/0 o/0 r/0 
+Pred:  f/0 l/0 o/0 R/1 
 
 word:  hedonism
 Gold:  h/0 e/0 d/1 o/0 n/0 i/1 s/0 m/0 
-Pred:  h/0 e/0 D/0 o/0 n/0 i/1 s/0 m/0 
+Pred:  h/0 e/0 D/0 O/1 n/0 i/1 s/0 m/0 
 
 word:  scavenger
 Gold:  s/0 c/0 a/0 v/0 e/1 n/0 g/1 e/0 r/0 
 Pred:  s/0 c/0 a/0 v/0 E/0 n/0 G/0 e/0 r/0 
 
+word:  late
+Gold:  l/0 a/0 t/0 e/0 
+Pred:  l/0 a/0 t/0 E/1 
+
 word:  busily
 Gold:  b/0 u/0 s/0 i/1 l/1 y/0 
-Pred:  b/0 u/0 s/0 I/0 L/0 y/0 
+Pred:  b/0 u/0 s/0 I/0 l/1 y/0 
 
 word:  sporty
 Gold:  s/0 p/0 o/0 r/0 t/0 y/1 
@@ -3113,19 +2873,11 @@ Pred:  s/0 p/0 o/0 r/0 t/0 Y/0
 
 word:  sitar
 Gold:  s/0 i/0 t/1 a/0 r/0 
-Pred:  s/0 i/0 T/0 a/0 r/0 
-
-word:  dreamt
-Gold:  d/0 r/0 e/0 a/0 m/0 t/0 
-Pred:  d/0 r/0 e/0 a/0 m/0 T/1 
-
-word:  paranormal
-Gold:  p/0 a/0 r/0 a/1 n/1 o/0 r/0 m/1 a/0 l/0 
-Pred:  p/0 a/0 r/0 a/1 N/0 o/0 r/0 m/1 a/0 l/0 
+Pred:  s/0 i/0 T/0 A/1 R/1 
 
 word:  policyholder
 Gold:  p/0 o/0 l/0 i/1 c/1 y/0 h/1 o/0 l/0 d/0 e/1 r/0 
-Pred:  p/0 o/0 l/0 i/1 C/0 y/0 h/1 o/0 l/0 d/0 e/1 r/0 
+Pred:  p/0 o/0 l/0 I/0 C/0 y/0 h/1 o/0 l/0 d/0 e/1 r/0 
 
 word:  supposedly
 Gold:  s/0 u/0 p/0 p/1 o/0 s/0 e/1 d/0 l/1 y/0 
@@ -3141,7 +2893,7 @@ Pred:  b/0 r/0 a/0 Z/0 e/0 n/0
 
 word:  hydrology
 Gold:  h/0 y/0 d/1 r/0 o/0 l/0 o/1 g/1 y/0 
-Pred:  h/0 y/0 d/1 r/0 o/0 L/1 O/0 G/0 y/0 
+Pred:  h/0 y/0 d/1 r/0 o/0 L/1 O/0 g/1 y/0 
 
 word:  compensate
 Gold:  c/0 o/0 m/0 p/1 e/0 n/0 s/1 a/0 t/0 e/0 
@@ -3153,11 +2905,11 @@ Pred:  o/0 o/0 p/0 S/1
 
 word:  colophon
 Gold:  c/0 o/0 l/0 o/1 p/1 h/0 o/0 n/0 
-Pred:  c/0 o/0 l/0 o/1 P/0 h/0 o/0 n/0 
+Pred:  c/0 o/0 l/0 O/0 P/0 h/0 o/0 n/0 
 
 word:  biographical
 Gold:  b/0 i/0 o/1 g/1 r/0 a/0 p/0 h/0 i/1 c/1 a/0 l/0 
-Pred:  b/0 i/0 o/1 G/0 r/0 a/0 p/0 h/0 i/1 C/0 a/0 l/0 
+Pred:  b/0 i/0 o/1 g/1 r/0 a/0 p/0 h/0 i/1 C/0 a/0 l/0 
 
 word:  ignited
 Gold:  i/0 g/0 n/1 i/0 t/0 e/1 d/0 
@@ -3169,11 +2921,11 @@ Pred:  t/0 r/0 i/0 b/0 u/1 T/0 a/0 r/0 y/1
 
 word:  navigational
 Gold:  n/0 a/0 v/0 i/1 g/1 a/0 t/1 i/0 o/0 n/0 a/1 l/0 
-Pred:  n/0 a/0 V/1 i/1 G/0 a/0 t/1 i/0 o/0 n/0 a/1 l/0 
+Pred:  n/0 a/0 V/1 i/1 g/1 a/0 T/0 i/0 o/0 n/0 a/1 l/0 
 
 word:  cataract
 Gold:  c/0 a/0 t/0 a/1 r/1 a/0 c/0 t/0 
-Pred:  c/0 a/0 t/0 A/0 R/0 a/0 c/0 T/1 
+Pred:  c/0 a/0 t/0 A/0 r/1 a/0 C/1 T/1 
 
 word:  characterization
 Gold:  c/0 h/0 a/0 r/0 a/1 c/0 t/1 e/0 r/0 i/1 z/1 a/0 t/1 i/0 o/0 n/0 
@@ -3181,15 +2933,11 @@ Pred:  c/0 h/0 a/0 r/0 a/1 c/0 t/1 e/0 r/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0
 
 word:  amuse
 Gold:  a/0 m/1 u/0 s/0 e/0 
-Pred:  a/0 M/0 u/0 s/0 e/0 
+Pred:  a/0 M/0 u/0 S/1 e/0 
 
 word:  nomenclature
 Gold:  n/0 o/0 m/1 e/0 n/0 c/1 l/0 a/0 t/1 u/0 r/0 e/0 
-Pred:  n/0 o/0 M/0 e/0 n/0 c/1 l/0 a/0 t/1 u/0 r/0 e/0 
-
-word:  medium
-Gold:  m/0 e/0 d/1 i/0 u/1 m/0 
-Pred:  m/0 e/0 D/0 I/1 u/1 m/0 
+Pred:  n/0 o/0 M/0 e/0 n/0 C/0 l/0 a/0 T/0 u/0 r/0 e/0 
 
 word:  linearly
 Gold:  l/0 i/0 n/0 e/1 a/1 r/0 l/1 y/0 
@@ -3197,59 +2945,51 @@ Pred:  l/0 i/0 n/0 E/0 a/1 r/0 l/1 y/0
 
 word:  metabolite
 Gold:  m/0 e/0 t/1 a/0 b/0 o/1 l/1 i/0 t/0 e/0 
-Pred:  m/0 e/0 T/0 a/0 B/1 O/0 L/0 I/1 T/1 e/0 
+Pred:  m/0 e/0 T/0 A/1 B/1 O/0 L/0 i/0 T/1 e/0 
 
-word:  traceability
-Gold:  t/0 r/0 a/0 c/0 e/0 a/1 b/1 i/0 l/0 i/1 t/1 y/0 
-Pred:  t/0 r/0 a/0 c/0 e/0 A/0 b/1 i/0 l/0 i/1 t/1 y/0 
+word:  puzzle
+Gold:  p/0 u/0 z/0 z/1 l/0 e/0 
+Pred:  p/0 u/0 z/0 Z/0 l/0 e/0 
+
+word:  candidate
+Gold:  c/0 a/0 n/0 d/1 i/0 d/1 a/0 t/0 e/0 
+Pred:  c/0 a/0 n/0 d/1 i/0 D/0 a/0 t/0 e/0 
 
 word:  mediocrity
 Gold:  m/0 e/0 d/1 i/0 o/1 c/0 r/1 i/0 t/1 y/0 
-Pred:  m/0 e/0 D/0 I/1 o/1 C/1 R/0 i/0 t/1 y/0 
-
-word:  companion
-Gold:  c/0 o/0 m/0 p/1 a/0 n/0 i/1 o/0 n/0 
-Pred:  c/0 o/0 m/0 p/1 a/0 n/0 i/1 O/1 n/0 
+Pred:  m/0 e/0 d/1 i/0 o/1 C/1 R/0 i/0 t/1 y/0 
 
 word:  tantalum
 Gold:  t/0 a/0 n/0 t/1 a/0 l/1 u/0 m/0 
-Pred:  t/0 a/0 n/0 t/1 a/0 L/0 U/1 M/1 
+Pred:  t/0 a/0 n/0 t/1 a/0 L/0 u/0 m/0 
+
+word:  chord
+Gold:  c/0 h/0 o/0 r/0 d/0 
+Pred:  c/0 h/0 o/0 R/1 d/0 
 
 word:  harassment
 Gold:  h/0 a/0 r/0 a/1 s/0 s/0 m/1 e/0 n/0 t/0 
-Pred:  h/0 a/0 r/0 a/1 s/0 s/0 M/0 e/0 n/0 t/0 
-
-word:  eastern
-Gold:  e/0 a/0 s/0 t/0 e/1 r/0 n/0 
-Pred:  e/0 a/0 s/0 t/0 E/0 r/0 n/0 
-
-word:  went
-Gold:  w/0 e/0 n/0 t/0 
-Pred:  w/0 e/0 n/0 T/1 
-
-word:  mend
-Gold:  m/0 e/0 n/0 d/0 
-Pred:  m/0 e/0 n/0 D/1 
+Pred:  h/0 a/0 r/0 a/1 s/0 S/1 m/1 e/0 n/0 t/0 
 
 word:  tragedy
 Gold:  t/0 r/0 a/0 g/0 e/1 d/1 y/0 
 Pred:  t/0 r/0 a/0 g/0 E/0 D/0 Y/1 
 
+word:  finch
+Gold:  f/0 i/0 n/0 c/0 h/0 
+Pred:  f/0 i/0 n/0 C/1 h/0 
+
 word:  fourteen
 Gold:  f/0 o/0 u/0 r/0 t/1 e/0 e/0 n/0 
-Pred:  f/0 o/0 u/0 r/0 T/0 E/1 e/0 n/0 
+Pred:  f/0 o/0 u/0 r/0 T/0 e/0 e/0 n/0 
 
 word:  radiologist
 Gold:  r/0 a/0 d/1 i/0 o/1 l/0 o/1 g/1 i/0 s/0 t/0 
-Pred:  r/0 a/0 d/1 i/0 o/1 l/0 O/0 g/1 I/1 s/0 t/0 
+Pred:  r/0 a/0 d/1 i/0 o/1 L/1 O/0 g/1 I/1 s/0 t/0 
 
 word:  nuances
 Gold:  n/0 u/0 a/1 n/0 c/0 e/1 s/0 
-Pred:  n/0 u/0 a/1 n/0 C/1 E/0 s/0 
-
-word:  glass
-Gold:  g/0 l/0 a/0 s/0 s/0 
-Pred:  g/0 l/0 a/0 s/0 S/1 
+Pred:  n/0 u/0 a/1 n/0 c/0 E/0 s/0 
 
 word:  tableau
 Gold:  t/0 a/0 b/0 l/1 e/0 a/0 u/0 
@@ -3257,11 +2997,11 @@ Pred:  t/0 a/0 b/0 L/0 e/0 a/0 u/0
 
 word:  proliferate
 Gold:  p/0 r/0 o/0 l/1 i/0 f/0 e/1 r/0 a/1 t/0 e/0 
-Pred:  p/0 r/0 o/0 l/1 i/0 F/1 E/0 r/0 a/1 T/1 e/0 
+Pred:  p/0 r/0 o/0 l/1 i/0 f/0 e/1 r/0 a/1 T/1 e/0 
 
 word:  profusion
 Gold:  p/0 r/0 o/0 f/1 u/0 s/1 i/0 o/0 n/0 
-Pred:  p/0 r/0 o/0 f/1 u/0 S/0 I/1 o/0 n/0 
+Pred:  p/0 r/0 o/0 f/1 u/0 S/0 i/0 o/0 n/0 
 
 word:  budgetary
 Gold:  b/0 u/0 d/0 g/0 e/1 t/0 a/1 r/0 y/1 
@@ -3269,59 +3009,43 @@ Pred:  b/0 u/0 d/0 g/0 E/0 t/0 A/0 r/0 y/1
 
 word:  copolymer
 Gold:  c/0 o/0 p/1 o/0 l/0 y/1 m/1 e/0 r/0 
-Pred:  c/0 o/0 P/0 O/1 l/0 Y/0 m/1 e/0 r/0 
+Pred:  c/0 o/0 P/0 o/0 l/0 Y/0 m/1 e/0 r/0 
 
 word:  dinette
 Gold:  d/0 i/0 n/1 e/0 t/0 t/0 e/0 
-Pred:  d/0 i/0 N/0 e/0 t/0 T/1 e/0 
-
-word:  chancellor
-Gold:  c/0 h/0 a/0 n/0 c/1 e/0 l/0 l/1 o/0 r/0 
-Pred:  c/0 h/0 a/0 n/0 C/0 e/0 l/0 l/1 o/0 r/0 
+Pred:  d/0 i/0 N/0 E/1 t/0 T/1 e/0 
 
 word:  interdisciplinary
 Gold:  i/0 n/0 t/1 e/0 r/0 d/1 i/0 s/0 c/1 i/0 p/1 l/0 i/0 n/1 a/0 r/0 y/1 
-Pred:  i/0 n/0 t/1 e/0 r/0 d/1 i/0 s/0 c/1 i/0 P/0 l/0 i/0 N/0 a/0 r/0 y/1 
+Pred:  i/0 n/0 t/1 e/0 r/0 d/1 i/0 s/0 c/1 i/0 p/1 l/0 i/0 N/0 a/0 r/0 y/1 
 
 word:  appreciating
 Gold:  a/0 p/0 p/1 r/0 e/0 c/1 i/0 a/1 t/0 i/1 n/0 g/0 
-Pred:  a/0 p/0 p/1 r/0 e/0 c/1 i/0 A/0 T/1 I/0 n/0 g/0 
-
-word:  fist
-Gold:  f/0 i/0 s/0 t/0 
-Pred:  f/0 i/0 s/0 T/1 
-
-word:  median
-Gold:  m/0 e/0 d/1 i/0 a/1 n/0 
-Pred:  m/0 e/0 D/0 I/1 a/1 n/0 
+Pred:  a/0 p/0 p/1 r/0 e/0 c/1 i/0 a/1 t/0 I/0 n/0 g/0 
 
 word:  recent
 Gold:  r/0 e/0 c/1 e/0 n/0 t/0 
-Pred:  r/0 e/0 c/1 e/0 n/0 T/1 
+Pred:  r/0 e/0 C/0 e/0 n/0 t/0 
 
 word:  racecourse
 Gold:  r/0 a/0 c/0 e/0 c/1 o/0 u/0 r/0 s/0 e/0 
-Pred:  r/0 a/0 c/0 e/0 C/0 o/0 u/0 r/0 s/0 e/0 
+Pred:  r/0 a/0 c/0 E/1 c/1 o/0 u/0 r/0 s/0 e/0 
 
 word:  handlebar
 Gold:  h/0 a/0 n/0 d/1 l/0 e/0 b/1 a/0 r/0 
-Pred:  h/0 a/0 n/0 D/0 L/1 e/0 b/1 a/0 r/0 
+Pred:  h/0 a/0 n/0 D/0 l/0 e/0 b/1 a/0 r/0 
 
 word:  undetectable
 Gold:  u/0 n/0 d/1 e/0 t/1 e/0 c/0 t/0 a/1 b/1 l/0 e/0 
-Pred:  u/0 n/0 d/1 e/0 t/1 e/0 c/0 T/1 A/0 b/1 l/0 e/0 
+Pred:  u/0 n/0 d/1 e/0 t/1 e/0 c/0 T/1 a/1 b/1 l/0 e/0 
 
 word:  gyro
 Gold:  g/0 y/0 r/1 o/0 
 Pred:  g/0 y/0 R/0 o/0 
 
-word:  freely
-Gold:  f/0 r/0 e/0 e/0 l/1 y/0 
-Pred:  f/0 r/0 e/0 e/0 L/0 y/0 
-
 word:  sclerosis
 Gold:  s/0 c/0 l/0 e/0 r/1 o/0 s/1 i/0 s/0 
-Pred:  s/0 c/0 l/0 e/0 R/0 O/1 S/0 i/0 s/0 
+Pred:  s/0 c/0 l/0 e/0 R/0 O/1 s/1 i/0 s/0 
 
 word:  sockeye
 Gold:  s/0 o/0 c/0 k/0 e/1 y/0 e/0 
@@ -3331,37 +3055,29 @@ word:  solder
 Gold:  s/0 o/0 l/0 d/1 e/0 r/0 
 Pred:  s/0 o/0 l/0 D/0 E/1 r/0 
 
+word:  nutritious
+Gold:  n/0 u/0 t/1 r/0 i/0 t/1 i/0 o/0 u/0 s/0 
+Pred:  n/0 u/0 T/0 r/0 i/0 t/1 i/0 o/0 u/0 s/0 
+
 word:  difficulty
 Gold:  d/0 i/0 f/0 f/1 i/0 c/1 u/0 l/0 t/1 y/0 
-Pred:  d/0 i/0 f/0 f/1 i/0 c/1 u/0 L/1 T/0 y/0 
-
-word:  rolling
-Gold:  r/0 o/0 l/0 l/0 i/1 n/0 g/0 
-Pred:  r/0 o/0 l/0 l/0 I/0 n/0 g/0 
+Pred:  d/0 i/0 f/0 f/1 i/0 c/1 u/0 L/1 t/1 y/0 
 
 word:  roulette
 Gold:  r/0 o/0 u/0 l/1 e/0 t/0 t/0 e/0 
-Pred:  r/0 o/0 u/0 L/0 e/0 t/0 T/1 e/0 
+Pred:  r/0 o/0 u/0 L/0 e/0 t/0 t/0 e/0 
 
 word:  unjustified
 Gold:  u/0 n/0 j/1 u/0 s/0 t/1 i/0 f/1 i/0 e/0 d/0 
 Pred:  u/0 n/0 j/1 u/0 s/0 T/0 i/0 f/1 i/0 e/0 d/0 
 
-word:  advancing
-Gold:  a/0 d/0 v/1 a/0 n/0 c/0 i/1 n/0 g/0 
-Pred:  a/0 d/0 v/1 a/0 n/0 c/0 I/0 n/0 g/0 
-
 word:  requiem
 Gold:  r/0 e/0 q/0 u/1 i/0 e/1 m/0 
-Pred:  r/0 e/0 Q/1 U/0 i/0 E/0 m/0 
-
-word:  uptown
-Gold:  u/0 p/0 t/1 o/0 w/0 n/0 
-Pred:  u/0 p/0 t/1 o/0 w/0 N/1 
+Pred:  r/0 e/0 Q/1 U/0 i/0 e/1 m/0 
 
 word:  abrupt
 Gold:  a/0 b/0 r/1 u/0 p/0 t/0 
-Pred:  a/0 B/1 R/0 u/0 P/1 T/1 
+Pred:  a/0 b/0 R/0 u/0 p/0 T/1 
 
 word:  doss
 Gold:  d/0 o/0 s/0 s/0 
@@ -3369,7 +3085,7 @@ Pred:  d/0 o/0 s/0 S/1
 
 word:  recommend
 Gold:  r/0 e/0 c/0 o/1 m/0 m/1 e/0 n/0 d/0 
-Pred:  r/0 e/0 C/1 O/0 m/0 m/1 e/0 n/0 d/0 
+Pred:  r/0 e/0 c/0 O/0 m/0 m/1 e/0 n/0 d/0 
 
 word:  brokerage
 Gold:  b/0 r/0 o/0 k/1 e/0 r/0 a/1 g/0 e/0 
@@ -3381,7 +3097,7 @@ Pred:  u/0 n/0 w/1 a/0 n/0 t/0 E/0 d/0
 
 word:  trampoline
 Gold:  t/0 r/0 a/0 m/0 p/1 o/0 l/1 i/0 n/0 e/0 
-Pred:  t/0 r/0 a/0 m/0 P/0 o/0 L/0 I/1 n/0 e/0 
+Pred:  t/0 r/0 a/0 m/0 P/0 o/0 L/0 i/0 n/0 e/0 
 
 word:  reggae
 Gold:  r/0 e/0 g/0 g/1 a/0 e/0 
@@ -3389,7 +3105,7 @@ Pred:  r/0 e/0 G/1 g/1 a/0 e/0
 
 word:  difficulties
 Gold:  d/0 i/0 f/0 f/0 i/0 c/0 u/0 l/0 t/1 i/0 e/0 s/0 
-Pred:  d/0 i/0 f/0 F/1 i/0 C/1 u/0 L/1 T/0 i/0 e/0 s/0 
+Pred:  d/0 i/0 f/0 F/1 i/0 C/1 u/0 L/1 t/1 i/0 e/0 s/0 
 
 word:  orch
 Gold:  o/0 r/0 c/0 h/0 
@@ -3399,65 +3115,37 @@ word:  eventful
 Gold:  e/0 v/1 e/0 n/0 t/0 f/1 u/0 l/0 
 Pred:  e/0 v/1 e/0 n/0 T/1 f/1 u/0 l/0 
 
-word:  ingenious
-Gold:  i/0 n/0 g/1 e/0 n/0 i/1 o/0 u/0 s/0 
-Pred:  i/0 n/0 g/1 e/0 n/0 i/1 O/1 u/0 s/0 
-
-word:  dispersion
-Gold:  d/0 i/0 s/0 p/1 e/0 r/0 s/1 i/0 o/0 n/0 
-Pred:  d/0 i/0 s/0 p/1 e/0 r/0 S/0 i/0 o/0 n/0 
-
 word:  parasite
 Gold:  p/0 a/0 r/0 a/1 s/1 i/0 t/0 e/0 
-Pred:  p/0 a/0 r/0 a/1 S/0 i/0 T/1 e/0 
-
-word:  paperwork
-Gold:  p/0 a/0 p/1 e/0 r/0 w/1 o/0 r/0 k/0 
-Pred:  p/0 a/0 P/0 e/0 r/0 w/1 o/0 r/0 k/0 
-
-word:  hurry
-Gold:  h/0 u/0 r/0 r/1 y/0 
-Pred:  h/0 u/0 r/0 R/0 y/0 
+Pred:  p/0 a/0 r/0 a/1 S/0 i/0 t/0 e/0 
 
 word:  hazelnut
 Gold:  h/0 a/0 z/1 e/0 l/0 n/1 u/0 t/0 
-Pred:  h/0 a/0 Z/0 e/0 l/0 N/0 u/0 t/0 
+Pred:  h/0 a/0 Z/0 e/0 l/0 N/0 u/0 T/1 
 
 word:  omitting
 Gold:  o/0 m/1 i/0 t/0 t/1 i/0 n/0 g/0 
-Pred:  o/0 M/0 i/0 T/1 t/1 i/0 n/0 g/0 
+Pred:  o/0 M/0 i/0 t/0 t/1 i/0 n/0 g/0 
 
 word:  precipitate
 Gold:  p/0 r/0 e/0 c/1 i/0 p/0 i/1 t/1 a/0 t/0 e/0 
 Pred:  p/0 r/0 e/0 c/1 i/0 p/0 i/1 t/1 a/0 T/1 e/0 
 
-word:  contend
-Gold:  c/0 o/0 n/0 t/1 e/0 n/0 d/0 
-Pred:  c/0 o/0 n/0 t/1 e/0 n/0 D/1 
-
 word:  perch
 Gold:  p/0 e/0 r/0 c/0 h/0 
 Pred:  p/0 e/0 r/0 C/1 h/0 
 
-word:  glycogen
-Gold:  g/0 l/0 y/0 c/1 o/0 g/1 e/0 n/0 
-Pred:  g/0 l/0 y/0 c/1 o/0 G/0 e/0 n/0 
-
 word:  undistributed
 Gold:  u/0 n/0 d/1 i/0 s/0 t/1 r/0 i/0 b/0 u/1 t/0 e/1 d/0 
-Pred:  u/0 n/0 d/1 i/0 s/0 t/1 r/0 i/0 B/1 u/1 t/0 E/0 d/0 
+Pred:  u/0 n/0 d/1 i/0 s/0 t/1 r/0 i/0 b/0 u/1 t/0 E/0 d/0 
 
 word:  absent
 Gold:  a/0 b/0 s/1 e/0 n/0 t/0 
-Pred:  a/0 B/1 s/1 e/0 n/0 T/1 
-
-word:  thriller
-Gold:  t/0 h/0 r/0 i/0 l/0 l/0 e/1 r/0 
-Pred:  t/0 h/0 r/0 i/0 l/0 l/0 E/0 r/0 
+Pred:  a/0 b/0 s/1 e/0 n/0 T/1 
 
 word:  clover
 Gold:  c/0 l/0 o/0 v/1 e/0 r/0 
-Pred:  c/0 l/0 o/0 V/0 E/1 r/0 
+Pred:  c/0 l/0 o/0 V/0 e/0 r/0 
 
 word:  jello
 Gold:  j/0 e/0 l/0 l/0 o/1 
@@ -3477,7 +3165,7 @@ Pred:  s/0 w/0 e/0 e/0 p/0 S/1
 
 word:  strangeness
 Gold:  s/0 t/0 r/0 a/0 n/0 g/0 e/0 n/1 e/0 s/0 s/0 
-Pred:  s/0 t/0 r/0 a/0 n/0 g/0 e/0 N/0 e/0 s/0 s/0 
+Pred:  s/0 t/0 r/0 a/0 n/0 g/0 E/1 N/0 E/1 s/0 s/0 
 
 word:  gatherer
 Gold:  g/0 a/0 t/0 h/0 e/1 r/0 e/1 r/0 
@@ -3487,53 +3175,45 @@ word:  apricot
 Gold:  a/0 p/0 r/1 i/0 c/1 o/0 t/0 
 Pred:  a/0 p/0 R/0 i/0 c/1 o/0 t/0 
 
+word:  advection
+Gold:  a/0 d/0 v/1 e/0 c/0 t/1 i/0 o/0 n/0 
+Pred:  a/0 d/0 v/1 e/0 c/0 T/0 i/0 o/0 n/0 
+
 word:  cadmium
 Gold:  c/0 a/0 d/0 m/1 i/0 u/1 m/0 
-Pred:  c/0 a/0 d/0 m/1 i/0 U/0 m/0 
+Pred:  c/0 a/0 D/1 m/1 i/0 u/1 m/0 
 
 word:  fundamentalism
 Gold:  f/0 u/0 n/0 d/1 a/0 m/1 e/0 n/0 t/1 a/0 l/0 i/1 s/0 m/0 
-Pred:  f/0 u/0 n/0 d/1 a/0 M/0 e/0 n/0 T/0 a/0 l/0 i/1 s/0 m/0 
-
-word:  troubleshooting
-Gold:  t/0 r/0 o/0 u/0 b/1 l/0 e/0 s/1 h/0 o/0 o/0 t/0 i/1 n/0 g/0 
-Pred:  t/0 r/0 o/0 u/0 B/0 l/0 e/0 S/0 h/0 o/0 o/0 t/0 i/1 n/0 g/0 
+Pred:  f/0 u/0 n/0 d/1 a/0 m/1 e/0 n/0 T/0 a/0 l/0 i/1 s/0 m/0 
 
 word:  assistive
 Gold:  a/0 s/0 s/1 i/0 s/0 t/0 i/1 v/0 e/0 
 Pred:  a/0 s/0 s/1 i/0 s/0 t/0 I/0 v/0 e/0 
 
-word:  describing
-Gold:  d/0 e/0 s/1 c/0 r/0 i/0 b/0 i/1 n/0 g/0 
-Pred:  d/0 e/0 S/0 C/1 r/0 i/0 b/0 i/1 n/0 g/0 
-
 word:  atomic
 Gold:  a/0 t/1 o/0 m/0 i/1 c/0 
-Pred:  a/0 T/0 o/0 M/1 i/1 C/1 
+Pred:  a/0 T/0 o/0 m/0 i/1 C/1 
 
 word:  proximity
 Gold:  p/0 r/0 o/0 x/0 i/1 m/0 i/1 t/1 y/0 
-Pred:  p/0 r/0 o/0 x/0 i/1 M/1 I/0 t/1 y/0 
+Pred:  p/0 r/0 o/0 x/0 i/1 M/1 I/0 T/0 y/0 
 
 word:  skating
 Gold:  s/0 k/0 a/0 t/0 i/1 n/0 g/0 
 Pred:  s/0 k/0 a/0 t/0 I/0 n/0 g/0 
 
-word:  piecemeal
-Gold:  p/0 i/0 e/0 c/0 e/0 m/1 e/0 a/0 l/0 
-Pred:  p/0 i/0 e/0 c/0 e/0 M/0 e/0 a/0 l/0 
-
 word:  panache
 Gold:  p/0 a/0 n/1 a/0 c/0 h/0 e/0 
-Pred:  p/0 a/0 N/0 a/0 C/1 h/0 e/0 
+Pred:  p/0 a/0 N/0 A/1 c/0 h/0 e/0 
 
-word:  aggressively
-Gold:  a/0 g/0 g/1 r/0 e/0 s/0 s/1 i/0 v/0 e/0 l/1 y/0 
-Pred:  a/0 g/0 g/1 r/0 e/0 s/0 S/0 I/1 v/0 e/0 l/1 y/0 
+word:  tonal
+Gold:  t/0 o/0 n/0 a/1 l/0 
+Pred:  t/0 o/0 n/0 A/0 l/0 
 
 word:  lullaby
 Gold:  l/0 u/0 l/0 l/0 a/1 b/1 y/0 
-Pred:  l/0 u/0 l/0 L/1 A/0 b/1 y/0 
+Pred:  l/0 u/0 l/0 l/0 A/0 b/1 y/0 
 
 word:  achiever
 Gold:  a/0 c/1 h/0 i/0 e/0 v/0 e/1 r/0 
@@ -3541,11 +3221,7 @@ Pred:  a/0 C/0 h/0 i/0 e/0 v/0 E/0 r/0
 
 word:  indulgence
 Gold:  i/0 n/0 d/1 u/0 l/0 g/1 e/0 n/0 c/0 e/0 
-Pred:  i/0 n/0 d/1 u/0 L/1 G/0 e/0 n/0 c/0 e/0 
-
-word:  cole
-Gold:  c/0 o/0 l/0 e/0 
-Pred:  c/0 o/0 l/0 E/1 
+Pred:  i/0 n/0 d/1 u/0 l/0 G/0 e/0 n/0 c/0 e/0 
 
 word:  hungry
 Gold:  h/0 u/0 n/0 g/1 r/0 y/0 
@@ -3565,7 +3241,7 @@ Pred:  k/0 a/0 R/0 o/0 o/0
 
 word:  peculiar
 Gold:  p/0 e/0 c/1 u/0 l/1 i/0 a/0 r/0 
-Pred:  p/0 e/0 C/0 U/1 l/1 i/0 A/1 r/0 
+Pred:  p/0 e/0 C/0 u/0 l/1 i/0 a/0 r/0 
 
 word:  cloister
 Gold:  c/0 l/0 o/0 i/0 s/0 t/1 e/0 r/0 
@@ -3575,49 +3251,49 @@ word:  maple
 Gold:  m/0 a/0 p/1 l/0 e/0 
 Pred:  m/0 a/0 P/0 L/1 e/0 
 
-word:  undecided
-Gold:  u/0 n/0 d/1 e/0 c/1 i/0 d/0 e/1 d/0 
-Pred:  u/0 n/0 d/1 e/0 C/0 i/0 d/0 E/0 d/0 
-
 word:  duff
 Gold:  d/0 u/0 f/0 f/0 
 Pred:  d/0 u/0 f/0 F/1 
+
+word:  bier
+Gold:  b/0 i/0 e/0 r/0 
+Pred:  b/0 i/0 E/1 r/0 
 
 word:  atmospheric
 Gold:  a/0 t/0 m/1 o/0 s/0 p/1 h/0 e/0 r/0 i/1 c/0 
 Pred:  a/0 t/0 m/1 o/0 s/0 P/0 h/0 e/0 r/0 i/1 c/0 
 
+word:  permutation
+Gold:  p/0 e/0 r/0 m/1 u/0 t/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  p/0 e/0 r/0 m/1 u/0 T/0 a/0 t/1 i/0 o/0 n/0 
+
 word:  noteworthy
 Gold:  n/0 o/0 t/0 e/0 w/1 o/0 r/0 t/1 h/0 y/0 
-Pred:  n/0 o/0 T/1 e/0 w/1 o/0 r/0 T/0 h/0 y/0 
+Pred:  n/0 o/0 T/1 e/0 w/1 o/0 r/0 T/0 h/0 Y/1 
 
 word:  marge
 Gold:  m/0 a/0 r/0 g/0 e/0 
 Pred:  m/0 a/0 r/0 G/1 e/0 
 
+word:  compute
+Gold:  c/0 o/0 m/0 p/1 u/0 t/0 e/0 
+Pred:  c/0 o/0 m/0 p/1 u/0 t/0 E/1 
+
 word:  afraid
 Gold:  a/0 f/1 r/0 a/0 i/0 d/0 
 Pred:  a/0 F/0 r/0 a/0 i/0 d/0 
 
-word:  alcoholic
-Gold:  a/0 l/0 c/1 o/0 h/1 o/0 l/0 i/1 c/0 
-Pred:  a/0 l/0 c/1 o/0 h/1 o/0 l/0 i/1 C/1 
-
 word:  astrometric
 Gold:  a/0 s/0 t/1 r/0 o/0 m/1 e/0 t/0 r/1 i/0 c/0 
-Pred:  a/0 s/0 t/1 r/0 o/0 M/0 e/0 T/1 R/0 i/0 c/0 
-
-word:  psychotherapist
-Gold:  p/0 s/0 y/0 c/1 h/0 o/0 t/1 h/0 e/0 r/0 a/1 p/1 i/0 s/0 t/0 
-Pred:  p/0 s/0 y/0 c/1 h/0 o/0 t/1 h/0 e/0 r/0 a/1 P/0 I/1 s/0 t/0 
+Pred:  a/0 s/0 t/1 r/0 o/0 m/1 e/0 T/1 R/0 i/0 c/0 
 
 word:  compromising
 Gold:  c/0 o/0 m/0 p/1 r/0 o/0 m/1 i/0 s/0 i/1 n/0 g/0 
-Pred:  c/0 o/0 m/0 p/1 r/0 o/0 m/1 I/1 s/0 I/0 n/0 g/0 
+Pred:  c/0 o/0 m/0 p/1 r/0 o/0 m/1 i/0 s/0 I/0 n/0 g/0 
 
 word:  coordination
 Gold:  c/0 o/0 o/1 r/0 d/1 i/0 n/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  c/0 o/0 O/0 r/0 d/1 i/0 N/0 a/0 T/0 i/0 o/0 n/0 
+Pred:  c/0 o/0 o/1 r/0 d/1 i/0 n/1 a/0 T/0 i/0 o/0 n/0 
 
 word:  debtor
 Gold:  d/0 e/0 b/0 t/0 o/1 r/0 
@@ -3625,11 +3301,7 @@ Pred:  d/0 e/0 B/1 T/1 O/0 r/0
 
 word:  liza
 Gold:  l/0 i/0 z/1 a/0 
-Pred:  l/0 i/0 Z/0 A/1 
-
-word:  hardball
-Gold:  h/0 a/0 r/0 d/0 b/1 a/0 l/0 l/0 
-Pred:  h/0 a/0 r/0 d/0 b/1 a/0 l/0 L/1 
+Pred:  l/0 i/0 Z/0 a/0 
 
 word:  contentment
 Gold:  c/0 o/0 n/0 t/1 e/0 n/0 t/0 m/1 e/0 n/0 t/0 
@@ -3639,17 +3311,17 @@ word:  spicy
 Gold:  s/0 p/0 i/0 c/0 y/1 
 Pred:  s/0 p/0 i/0 c/0 Y/0 
 
+word:  cairn
+Gold:  c/0 a/0 i/0 r/0 n/0 
+Pred:  c/0 a/0 i/0 r/0 N/1 
+
 word:  zing
 Gold:  z/0 i/0 n/0 g/0 
 Pred:  z/0 i/0 n/0 G/1 
 
-word:  phenotype
-Gold:  p/0 h/0 e/0 n/1 o/0 t/1 y/0 p/0 e/0 
-Pred:  p/0 h/0 e/0 N/0 o/0 t/1 y/0 p/0 e/0 
-
 word:  hirsute
 Gold:  h/0 i/0 r/0 s/1 u/0 t/0 e/0 
-Pred:  h/0 i/0 r/0 S/0 u/0 T/1 e/0 
+Pred:  h/0 i/0 r/0 S/0 u/0 t/0 e/0 
 
 word:  prudent
 Gold:  p/0 r/0 u/0 d/1 e/0 n/0 t/0 
@@ -3671,6 +3343,10 @@ word:  pissed
 Gold:  p/0 i/0 s/0 s/0 e/0 d/0 
 Pred:  p/0 i/0 s/0 S/1 e/0 d/0 
 
+word:  maritime
+Gold:  m/0 a/0 r/0 i/1 t/1 i/0 m/0 e/0 
+Pred:  m/0 a/0 r/0 i/1 t/1 i/0 M/1 e/0 
+
 word:  misguided
 Gold:  m/0 i/0 s/0 g/1 u/0 i/0 d/0 e/1 d/0 
 Pred:  m/0 i/0 s/0 g/1 u/0 i/0 d/0 E/0 d/0 
@@ -3685,43 +3361,43 @@ Pred:  m/0 a/0 g/0 n/1 i/0 F/1 I/0 c/1 e/0 n/0 c/0 e/0
 
 word:  equivalently
 Gold:  e/0 q/1 u/0 i/0 v/0 a/1 l/1 e/0 n/0 t/0 l/1 y/0 
-Pred:  e/0 q/1 u/0 i/0 V/1 A/0 L/0 E/1 n/0 t/0 l/1 y/0 
+Pred:  e/0 q/1 u/0 i/0 V/1 A/0 L/0 e/0 n/0 t/0 l/1 y/0 
 
-word:  indigestion
-Gold:  i/0 n/0 d/1 i/0 g/1 e/0 s/0 t/1 i/0 o/0 n/0 
-Pred:  i/0 n/0 d/1 i/0 g/1 e/0 s/0 T/0 i/0 o/0 n/0 
+word:  typist
+Gold:  t/0 y/0 p/0 i/1 s/0 t/0 
+Pred:  t/0 y/0 p/0 i/1 s/0 T/1 
 
 word:  perishable
 Gold:  p/0 e/0 r/0 i/1 s/0 h/0 a/1 b/1 l/0 e/0 
-Pred:  p/0 e/0 r/0 i/1 s/0 h/0 A/0 b/1 l/0 e/0 
+Pred:  p/0 e/0 r/0 I/0 s/0 h/0 A/0 b/1 l/0 e/0 
 
 word:  privacy
 Gold:  p/0 r/0 i/0 v/1 a/0 c/1 y/0 
-Pred:  p/0 r/0 i/0 V/0 a/0 C/0 y/0 
+Pred:  p/0 r/0 i/0 V/0 a/0 c/1 y/0 
 
-word:  hetero
-Gold:  h/0 e/0 t/0 e/1 r/0 o/1 
-Pred:  h/0 e/0 t/0 E/0 r/0 o/1 
+word:  billionaire
+Gold:  b/0 i/0 l/0 l/1 i/0 o/0 n/0 a/1 i/0 r/0 e/0 
+Pred:  b/0 i/0 l/0 L/0 i/0 o/0 n/0 a/1 i/0 r/0 e/0 
 
 word:  musically
 Gold:  m/0 u/0 s/1 i/0 c/1 a/0 l/0 l/1 y/0 
 Pred:  m/0 u/0 S/0 i/0 c/1 a/0 l/0 l/1 y/0 
 
-word:  digest
-Gold:  d/0 i/0 g/1 e/0 s/0 t/0 
-Pred:  d/0 i/0 G/0 e/0 s/0 T/1 
-
 word:  sarcoma
 Gold:  s/0 a/0 r/0 c/1 o/0 m/1 a/0 
 Pred:  s/0 a/0 r/0 c/1 o/0 M/0 a/0 
 
+word:  taxpayer
+Gold:  t/0 a/0 x/0 p/1 a/0 y/0 e/1 r/0 
+Pred:  t/0 a/0 x/0 p/1 a/0 y/0 E/0 r/0 
+
 word:  placental
 Gold:  p/0 l/0 a/0 c/1 e/0 n/0 t/1 a/0 l/0 
-Pred:  p/0 l/0 a/0 C/0 e/0 n/0 t/1 a/0 l/0 
+Pred:  p/0 l/0 a/0 C/0 e/0 n/0 T/0 a/0 l/0 
 
-word:  armament
-Gold:  a/0 r/0 m/1 a/0 m/1 e/0 n/0 t/0 
-Pred:  a/0 r/0 m/1 a/0 m/1 e/0 n/0 T/1 
+word:  pylon
+Gold:  p/0 y/0 l/1 o/0 n/0 
+Pred:  p/0 y/0 L/0 o/0 n/0 
 
 word:  rondo
 Gold:  r/0 o/0 n/0 d/1 o/0 
@@ -3735,17 +3411,25 @@ word:  heretical
 Gold:  h/0 e/0 r/1 e/0 t/0 i/1 c/1 a/0 l/0 
 Pred:  h/0 e/0 R/0 e/0 T/1 I/0 C/0 a/0 l/0 
 
+word:  visage
+Gold:  v/0 i/0 s/0 a/1 g/0 e/0 
+Pred:  v/0 i/0 s/0 A/0 g/0 e/0 
+
 word:  renormalization
 Gold:  r/0 e/0 n/1 o/0 r/0 m/1 a/0 l/0 i/1 z/1 a/0 t/1 i/0 o/0 n/0 
 Pred:  r/0 e/0 n/1 o/0 r/0 M/0 a/0 l/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0 
 
+word:  stove
+Gold:  s/0 t/0 o/0 v/0 e/0 
+Pred:  s/0 t/0 o/0 v/0 E/1 
+
 word:  michigan
 Gold:  m/0 i/0 c/0 h/0 i/1 g/1 a/0 n/0 
-Pred:  m/0 i/0 c/0 h/0 i/1 G/0 a/0 n/0 
+Pred:  m/0 i/0 C/1 h/0 I/0 g/1 a/0 n/0 
 
-word:  prescribed
-Gold:  p/0 r/0 e/0 s/1 c/0 r/0 i/0 b/0 e/0 d/0 
-Pred:  p/0 r/0 e/0 S/0 C/1 r/0 i/0 b/0 e/0 d/0 
+word:  crumble
+Gold:  c/0 r/0 u/0 m/0 b/1 l/0 e/0 
+Pred:  c/0 r/0 u/0 m/0 B/0 l/0 e/0 
 
 word:  trustworthiness
 Gold:  t/0 r/0 u/0 s/0 t/0 w/1 o/0 r/0 t/1 h/0 i/0 n/1 e/0 s/0 s/0 
@@ -3757,15 +3441,11 @@ Pred:  n/0 a/0 i/0 l/0 E/0 r/0
 
 word:  propulsion
 Gold:  p/0 r/0 o/0 p/1 u/0 l/0 s/1 i/0 o/0 n/0 
-Pred:  p/0 r/0 o/0 p/1 u/0 l/0 S/0 i/0 o/0 n/0 
-
-word:  custodial
-Gold:  c/0 u/0 s/0 t/1 o/0 d/1 i/0 a/1 l/0 
-Pred:  c/0 u/0 s/0 t/1 o/0 D/0 I/1 a/1 l/0 
+Pred:  p/0 r/0 o/0 p/1 u/0 L/1 S/0 i/0 o/0 n/0 
 
 word:  telecommunication
 Gold:  t/0 e/0 l/0 e/1 c/1 o/0 m/0 m/1 u/0 n/1 i/0 c/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  t/0 e/0 l/0 e/1 C/0 o/0 m/0 m/1 u/0 N/0 i/0 C/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  t/0 e/0 l/0 e/1 c/1 o/0 m/0 m/1 u/0 N/0 i/0 c/1 a/0 t/1 i/0 o/0 n/0 
 
 word:  ejaculating
 Gold:  e/0 j/1 a/0 c/0 u/1 l/1 a/0 t/0 i/1 n/0 g/0 
@@ -3777,19 +3457,27 @@ Pred:  s/0 p/0 i/0 r/0 A/0 l/0
 
 word:  maturity
 Gold:  m/0 a/0 t/1 u/0 r/0 i/1 t/1 y/0 
-Pred:  m/0 a/0 T/0 u/0 r/0 I/0 t/1 y/0 
+Pred:  m/0 a/0 T/0 u/0 R/1 I/0 t/1 y/0 
+
+word:  precaution
+Gold:  p/0 r/0 e/0 c/1 a/0 u/0 t/1 i/0 o/0 n/0 
+Pred:  p/0 r/0 e/0 c/1 a/0 u/0 T/0 i/0 o/0 n/0 
 
 word:  reposition
 Gold:  r/0 e/0 p/1 o/0 s/1 i/0 t/1 i/0 o/0 n/0 
 Pred:  r/0 e/0 p/1 o/0 S/0 I/1 t/1 i/0 o/0 n/0 
 
-word:  heller
-Gold:  h/0 e/0 l/0 l/0 e/1 r/0 
-Pred:  h/0 e/0 l/0 l/0 E/0 r/0 
+word:  apples
+Gold:  a/0 p/0 p/1 l/0 e/0 s/0 
+Pred:  a/0 p/0 p/1 l/0 e/0 S/1 
 
 word:  neoplasm
 Gold:  n/0 e/0 o/1 p/1 l/0 a/0 s/0 m/0 
 Pred:  n/0 e/0 o/1 p/1 l/0 a/0 s/0 M/1 
+
+word:  yell
+Gold:  y/0 e/0 l/0 l/0 
+Pred:  y/0 e/0 l/0 L/1 
 
 word:  shamanism
 Gold:  s/0 h/0 a/0 m/1 a/0 n/0 i/1 s/0 m/0 
@@ -3801,7 +3489,11 @@ Pred:  c/0 a/0 l/0 E/0 n/0 d/1 a/0 r/0
 
 word:  premature
 Gold:  p/0 r/0 e/0 m/0 a/1 t/1 u/0 r/0 e/0 
-Pred:  p/0 r/0 e/0 M/1 A/0 T/0 u/0 r/0 e/0 
+Pred:  p/0 r/0 e/0 m/0 A/0 T/0 u/0 r/0 e/0 
+
+word:  accrued
+Gold:  a/0 c/0 c/1 r/0 u/0 e/0 d/0 
+Pred:  a/0 c/0 c/1 r/0 u/0 E/1 d/0 
 
 word:  graciously
 Gold:  g/0 r/0 a/0 c/1 i/0 o/0 u/0 s/0 l/1 y/0 
@@ -3811,17 +3503,17 @@ word:  enlarger
 Gold:  e/0 n/0 l/1 a/0 r/0 g/0 e/1 r/0 
 Pred:  e/0 n/0 l/1 a/0 r/0 g/0 E/0 r/0 
 
-word:  choral
-Gold:  c/0 h/0 o/0 r/1 a/0 l/0 
-Pred:  c/0 h/0 o/0 R/0 a/0 l/0 
+word:  elsewhere
+Gold:  e/0 l/0 s/0 e/0 w/1 h/0 e/0 r/0 e/0 
+Pred:  e/0 L/1 s/0 e/0 W/0 h/0 e/0 r/0 e/0 
 
 word:  isle
 Gold:  i/0 s/0 l/0 e/0 
-Pred:  i/0 s/0 L/1 e/0 
+Pred:  i/0 S/1 L/1 e/0 
 
 word:  distributable
 Gold:  d/0 i/0 s/0 t/1 r/0 i/0 b/0 u/1 t/0 a/1 b/1 l/0 e/0 
-Pred:  d/0 i/0 s/0 t/1 r/0 i/0 B/1 u/1 t/0 A/0 b/1 l/0 e/0 
+Pred:  d/0 i/0 s/0 t/1 r/0 i/0 b/0 u/1 t/0 A/0 b/1 l/0 e/0 
 
 word:  searcher
 Gold:  s/0 e/0 a/0 r/0 c/0 h/0 e/1 r/0 
@@ -3845,11 +3537,11 @@ Pred:  i/0 n/0 c/1 e/0 s/0 T/1
 
 word:  heuristic
 Gold:  h/0 e/0 u/0 r/1 i/0 s/0 t/1 i/0 c/0 
-Pred:  h/0 e/0 u/0 r/1 i/0 s/0 T/0 i/0 c/0 
+Pred:  h/0 e/0 u/0 R/0 I/1 s/0 T/0 i/0 c/0 
 
 word:  collusion
 Gold:  c/0 o/0 l/0 l/1 u/0 s/1 i/0 o/0 n/0 
-Pred:  c/0 o/0 l/0 l/1 u/0 S/0 I/1 o/0 n/0 
+Pred:  c/0 o/0 l/0 l/1 u/0 S/0 i/0 o/0 n/0 
 
 word:  ethnically
 Gold:  e/0 t/0 h/0 n/1 i/0 c/1 a/0 l/0 l/1 y/0 
@@ -3859,13 +3551,9 @@ word:  insect
 Gold:  i/0 n/0 s/1 e/0 c/0 t/0 
 Pred:  i/0 n/0 s/1 e/0 c/0 T/1 
 
-word:  waterfall
-Gold:  w/0 a/0 t/1 e/0 r/0 f/1 a/0 l/0 l/0 
-Pred:  w/0 a/0 T/0 e/0 r/0 f/1 a/0 l/0 L/1 
-
-word:  extinguisher
-Gold:  e/0 x/0 t/1 i/0 n/0 g/1 u/0 i/0 s/0 h/0 e/1 r/0 
-Pred:  e/0 x/0 t/1 i/0 n/0 G/0 u/0 i/0 s/0 h/0 e/1 r/0 
+word:  watch
+Gold:  w/0 a/0 t/0 c/0 h/0 
+Pred:  w/0 a/0 T/1 c/0 h/0 
 
 word:  truer
 Gold:  t/0 r/0 u/0 e/1 r/0 
@@ -3873,43 +3561,43 @@ Pred:  t/0 r/0 u/0 E/0 r/0
 
 word:  dielectric
 Gold:  d/0 i/0 e/1 l/1 e/0 c/0 t/1 r/0 i/0 c/0 
-Pred:  d/0 i/0 E/0 L/0 e/0 c/0 t/1 r/0 i/0 c/0 
+Pred:  d/0 i/0 e/1 L/0 e/0 c/0 t/1 r/0 i/0 c/0 
 
 word:  derogation
 Gold:  d/0 e/0 r/0 o/1 g/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  d/0 e/0 r/0 o/1 G/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  d/0 e/0 r/0 O/0 G/0 A/1 t/1 i/0 o/0 n/0 
 
 word:  humiliated
 Gold:  h/0 u/0 m/1 i/0 l/0 i/1 a/1 t/0 e/1 d/0 
-Pred:  h/0 u/0 M/0 i/0 L/1 i/1 a/1 t/0 E/0 d/0 
+Pred:  h/0 u/0 m/1 i/0 l/0 i/1 a/1 t/0 E/0 d/0 
 
 word:  disturbance
 Gold:  d/0 i/0 s/0 t/1 u/0 r/0 b/0 a/1 n/0 c/0 e/0 
-Pred:  d/0 i/0 s/0 t/1 u/0 r/0 B/1 A/0 n/0 c/0 e/0 
+Pred:  d/0 i/0 s/0 t/1 u/0 r/0 b/0 A/0 n/0 c/0 e/0 
 
 word:  funniest
 Gold:  f/0 u/0 n/0 n/1 i/0 e/1 s/0 t/0 
 Pred:  f/0 u/0 n/0 n/1 i/0 E/0 s/0 t/0 
 
-word:  bottleneck
-Gold:  b/0 o/0 t/0 t/1 l/0 e/0 n/1 e/0 c/0 k/0 
-Pred:  b/0 o/0 t/0 t/1 l/0 e/0 N/0 e/0 c/0 k/0 
+word:  blasphemy
+Gold:  b/0 l/0 a/0 s/0 p/1 h/0 e/0 m/1 y/0 
+Pred:  b/0 l/0 a/0 s/0 P/0 h/0 e/0 m/1 y/0 
+
+word:  awe
+Gold:  a/0 w/0 e/0 
+Pred:  a/0 W/1 e/0 
 
 word:  swastika
 Gold:  s/0 w/0 a/0 s/0 t/1 i/0 k/1 a/0 
-Pred:  s/0 w/0 a/0 s/0 T/0 i/0 K/0 a/0 
+Pred:  s/0 w/0 a/0 s/0 T/0 I/1 K/0 a/0 
 
 word:  agave
 Gold:  a/0 g/1 a/0 v/1 e/0 
 Pred:  a/0 G/0 a/0 v/1 e/0 
 
-word:  schilling
-Gold:  s/0 c/0 h/0 i/0 l/0 l/1 i/0 n/0 g/0 
-Pred:  s/0 c/0 h/0 i/0 l/0 L/0 I/1 n/0 g/0 
-
 word:  dilatation
 Gold:  d/0 i/0 l/0 a/1 t/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  d/0 i/0 l/0 A/0 T/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  d/0 i/0 L/1 A/0 T/0 A/1 t/1 i/0 o/0 n/0 
 
 word:  coincided
 Gold:  c/0 o/0 i/1 n/0 c/1 i/0 d/0 e/1 d/0 
@@ -3917,19 +3605,23 @@ Pred:  c/0 o/0 I/0 n/0 c/1 i/0 d/0 E/0 d/0
 
 word:  magnesium
 Gold:  m/0 a/0 g/0 n/1 e/0 s/1 i/0 u/1 m/0 
-Pred:  m/0 a/0 g/0 n/1 e/0 S/0 i/0 U/0 m/0 
+Pred:  m/0 a/0 g/0 n/1 e/0 S/0 i/0 u/1 m/0 
+
+word:  kang
+Gold:  k/0 a/0 n/0 g/0 
+Pred:  k/0 a/0 n/0 G/1 
 
 word:  attempt
 Gold:  a/0 t/0 t/1 e/0 m/0 p/0 t/0 
 Pred:  a/0 t/0 t/1 e/0 m/0 P/1 t/0 
 
+word:  impediment
+Gold:  i/0 m/0 p/1 e/0 d/0 i/1 m/1 e/0 n/0 t/0 
+Pred:  i/0 m/0 p/1 e/0 D/1 I/0 m/1 e/0 n/0 t/0 
+
 word:  adjacent
 Gold:  a/0 d/0 j/1 a/0 c/1 e/0 n/0 t/0 
 Pred:  a/0 d/0 j/1 a/0 C/0 e/0 n/0 t/0 
-
-word:  parallel
-Gold:  p/0 a/0 r/0 a/1 l/0 l/1 e/0 l/0 
-Pred:  p/0 a/0 r/0 a/1 l/0 l/1 e/0 L/1 
 
 word:  rel
 Gold:  r/0 e/0 l/0 
@@ -3937,43 +3629,31 @@ Pred:  r/0 e/0 L/1
 
 word:  papaya
 Gold:  p/0 a/0 p/1 a/0 y/1 a/0 
-Pred:  p/0 a/0 P/0 a/0 Y/0 A/1 
+Pred:  p/0 a/0 p/1 a/0 Y/0 A/1 
 
 word:  mammalian
 Gold:  m/0 a/0 m/0 m/1 a/0 l/1 i/0 a/1 n/0 
-Pred:  m/0 a/0 m/0 m/1 a/0 L/0 I/1 a/1 n/0 
+Pred:  m/0 a/0 m/0 m/1 a/0 L/0 i/0 a/1 n/0 
 
 word:  extracellular
 Gold:  e/0 x/0 t/1 r/0 a/0 c/1 e/0 l/0 l/1 u/0 l/1 a/0 r/0 
-Pred:  e/0 x/0 t/1 r/0 a/0 C/0 e/0 l/0 l/1 u/0 L/0 a/0 r/0 
+Pred:  e/0 x/0 t/1 r/0 a/0 C/0 e/0 l/0 L/0 u/0 l/1 a/0 r/0 
 
 word:  approving
 Gold:  a/0 p/0 p/1 r/0 o/0 v/0 i/1 n/0 g/0 
-Pred:  a/0 p/0 p/1 r/0 o/0 V/1 i/1 n/0 g/0 
-
-word:  pancreas
-Gold:  p/0 a/0 n/0 c/1 r/0 e/0 a/1 s/0 
-Pred:  p/0 a/0 n/0 c/1 r/0 e/0 A/0 s/0 
+Pred:  a/0 p/0 p/1 r/0 o/0 v/0 I/0 n/0 g/0 
 
 word:  kahuna
 Gold:  k/0 a/0 h/1 u/0 n/1 a/0 
-Pred:  k/0 a/0 H/0 u/0 N/0 a/0 
+Pred:  k/0 a/0 h/1 u/0 N/0 a/0 
+
+word:  referring
+Gold:  r/0 e/0 f/1 e/0 r/0 r/1 i/0 n/0 g/0 
+Pred:  r/0 e/0 f/1 E/1 r/0 r/1 i/0 n/0 g/0 
 
 word:  chiropractor
 Gold:  c/0 h/0 i/0 r/1 o/0 p/1 r/0 a/0 c/0 t/1 o/0 r/0 
-Pred:  c/0 h/0 i/0 R/0 o/0 p/1 r/0 a/0 c/0 t/1 o/0 r/0 
-
-word:  expanded
-Gold:  e/0 x/0 p/1 a/0 n/0 d/0 e/1 d/0 
-Pred:  e/0 x/0 p/1 a/0 n/0 d/0 E/0 d/0 
-
-word:  repulsion
-Gold:  r/0 e/0 p/1 u/0 l/0 s/1 i/0 o/0 n/0 
-Pred:  r/0 e/0 p/1 u/0 l/0 S/0 i/0 o/0 n/0 
-
-word:  drafter
-Gold:  d/0 r/0 a/0 f/0 t/0 e/1 r/0 
-Pred:  d/0 r/0 a/0 f/0 t/0 E/0 r/0 
+Pred:  c/0 h/0 i/0 R/0 O/1 p/1 r/0 a/0 c/0 t/1 o/0 r/0 
 
 word:  hammock
 Gold:  h/0 a/0 m/0 m/1 o/0 c/0 k/0 
@@ -3981,43 +3661,55 @@ Pred:  h/0 a/0 m/0 m/1 o/0 C/1 k/0
 
 word:  dirty
 Gold:  d/0 i/0 r/0 t/0 y/1 
-Pred:  d/0 i/0 r/0 T/1 Y/0 
+Pred:  d/0 i/0 R/1 T/1 Y/0 
 
-word:  tabular
-Gold:  t/0 a/0 b/0 u/1 l/1 a/0 r/0 
-Pred:  t/0 a/0 b/0 U/0 l/1 a/0 r/0 
+word:  underpinned
+Gold:  u/0 n/0 d/1 e/0 r/0 p/1 i/0 n/0 n/0 e/0 d/0 
+Pred:  u/0 n/0 d/1 e/0 r/0 p/1 i/0 n/0 N/1 e/0 d/0 
 
-word:  wept
-Gold:  w/0 e/0 p/0 t/0 
-Pred:  w/0 e/0 p/0 T/1 
+word:  cuesta
+Gold:  c/0 u/0 e/0 s/0 t/1 a/0 
+Pred:  c/0 u/0 e/0 s/0 T/0 a/0 
 
 word:  apart
 Gold:  a/0 p/1 a/0 r/0 t/0 
 Pred:  a/0 P/0 a/0 r/0 t/0 
 
+word:  rousing
+Gold:  r/0 o/0 u/0 s/0 i/1 n/0 g/0 
+Pred:  r/0 o/0 u/0 s/0 I/0 n/0 g/0 
+
 word:  metronome
 Gold:  m/0 e/0 t/0 r/1 o/0 n/1 o/0 m/0 e/0 
-Pred:  m/0 e/0 t/0 r/1 o/0 N/0 o/0 m/0 e/0 
+Pred:  m/0 e/0 t/0 r/1 o/0 n/1 o/0 M/1 e/0 
 
-word:  mane
-Gold:  m/0 a/0 n/0 e/0 
-Pred:  m/0 a/0 n/0 E/1 
+word:  accident
+Gold:  a/0 c/0 c/1 i/0 d/1 e/0 n/0 t/0 
+Pred:  a/0 c/0 c/1 i/0 d/1 e/0 n/0 T/1 
 
 word:  biogeography
 Gold:  b/0 i/0 o/1 g/1 e/0 o/1 g/0 r/1 a/0 p/1 h/0 y/0 
-Pred:  b/0 i/0 o/1 G/0 e/0 o/1 G/1 R/0 a/0 P/0 h/0 y/0 
+Pred:  b/0 i/0 o/1 g/1 e/0 O/0 G/1 R/0 a/0 P/0 h/0 y/0 
 
 word:  intertidal
 Gold:  i/0 n/0 t/1 e/0 r/0 t/1 i/0 d/0 a/1 l/0 
-Pred:  i/0 n/0 t/1 e/0 r/0 t/1 i/0 d/0 A/0 l/0 
+Pred:  i/0 n/0 t/1 e/0 r/0 t/1 i/0 D/1 A/0 l/0 
 
 word:  troll
 Gold:  t/0 r/0 o/0 l/0 l/0 
 Pred:  t/0 r/0 o/0 l/0 L/1 
 
+word:  probe
+Gold:  p/0 r/0 o/0 b/0 e/0 
+Pred:  p/0 r/0 o/0 b/0 E/1 
+
 word:  mousse
 Gold:  m/0 o/0 u/0 s/0 s/0 e/0 
 Pred:  m/0 o/0 u/0 s/0 S/1 e/0 
+
+word:  locker
+Gold:  l/0 o/0 c/0 k/0 e/1 r/0 
+Pred:  l/0 o/0 C/1 k/0 e/1 r/0 
 
 word:  peptic
 Gold:  p/0 e/0 p/0 t/1 i/0 c/0 
@@ -4029,23 +3721,19 @@ Pred:  t/0 r/0 a/0 n/0 s/0 m/1 i/0 s/0 S/0 i/0 o/0 n/0
 
 word:  cement
 Gold:  c/0 e/0 m/1 e/0 n/0 t/0 
-Pred:  c/0 e/0 M/0 E/1 n/0 T/1 
+Pred:  c/0 e/0 M/0 E/1 n/0 t/0 
 
-word:  stabilized
-Gold:  s/0 t/0 a/0 b/1 i/0 l/1 i/0 z/0 e/0 d/0 
-Pred:  s/0 t/0 a/0 b/1 i/0 L/0 I/1 z/0 e/0 d/0 
+word:  association
+Gold:  a/0 s/0 s/1 o/0 c/1 i/0 a/1 t/1 i/0 o/0 n/0 
+Pred:  a/0 s/0 s/1 o/0 c/1 i/0 A/0 T/0 i/0 o/0 n/0 
 
 word:  peculiarly
 Gold:  p/0 e/0 c/1 u/0 l/1 i/0 a/0 r/0 l/1 y/0 
-Pred:  p/0 e/0 C/0 U/1 l/1 i/0 A/1 r/0 l/1 y/0 
+Pred:  p/0 e/0 C/0 u/0 l/1 i/0 a/0 r/0 l/1 y/0 
 
 word:  bidder
 Gold:  b/0 i/0 d/0 d/1 e/0 r/0 
 Pred:  b/0 i/0 D/1 d/1 e/0 r/0 
-
-word:  alluvial
-Gold:  a/0 l/0 l/1 u/0 v/1 i/0 a/1 l/0 
-Pred:  a/0 l/0 l/1 u/0 v/1 I/1 a/1 l/0 
 
 word:  baton
 Gold:  b/0 a/0 t/1 o/0 n/0 
@@ -4059,29 +3747,21 @@ word:  flaps
 Gold:  f/0 l/0 a/0 p/0 s/0 
 Pred:  f/0 l/0 a/0 p/0 S/1 
 
-word:  finder
-Gold:  f/0 i/0 n/0 d/0 e/1 r/0 
-Pred:  f/0 i/0 n/0 d/0 E/0 r/0 
-
-word:  teammate
-Gold:  t/0 e/0 a/0 m/0 m/1 a/0 t/0 e/0 
-Pred:  t/0 e/0 a/0 m/0 m/1 a/0 T/1 e/0 
-
-word:  artic
-Gold:  a/0 r/0 t/1 i/0 c/0 
-Pred:  a/0 r/0 t/1 i/0 C/1 
-
-word:  jazzy
-Gold:  j/0 a/0 z/0 z/0 y/1 
-Pred:  j/0 a/0 z/0 Z/1 Y/0 
-
 word:  leno
 Gold:  l/0 e/0 n/1 o/0 
-Pred:  l/0 e/0 N/0 O/1 
+Pred:  l/0 e/0 N/0 o/0 
+
+word:  fling
+Gold:  f/0 l/0 i/0 n/0 g/0 
+Pred:  f/0 l/0 i/0 n/0 G/1 
 
 word:  atelier
 Gold:  a/0 t/0 e/1 l/0 i/1 e/0 r/0 
 Pred:  a/0 t/0 E/0 L/1 I/0 e/0 r/0 
+
+word:  prose
+Gold:  p/0 r/0 o/0 s/0 e/0 
+Pred:  p/0 r/0 o/0 s/0 E/1 
 
 word:  privately
 Gold:  p/0 r/0 i/0 v/1 a/0 t/0 e/0 l/1 y/0 
@@ -4093,55 +3773,43 @@ Pred:  m/0 u/0 N/0 i/0 t/1 i/0 o/0 n/0 S/1
 
 word:  zirconium
 Gold:  z/0 i/0 r/0 c/1 o/0 n/1 i/0 u/1 m/0 
-Pred:  z/0 i/0 r/0 c/1 o/0 N/0 I/1 U/0 m/0 
-
-word:  winery
-Gold:  w/0 i/0 n/0 e/1 r/0 y/1 
-Pred:  w/0 i/0 n/0 E/0 r/0 y/1 
+Pred:  z/0 i/0 r/0 c/1 o/0 N/0 I/1 u/1 m/0 
 
 word:  accessory
 Gold:  a/0 c/0 c/1 e/0 s/0 s/1 o/0 r/1 y/0 
 Pred:  a/0 c/0 c/1 e/0 s/0 s/1 o/0 R/0 y/0 
 
-word:  instructions
-Gold:  i/0 n/0 s/1 t/0 r/0 u/0 c/0 t/1 i/0 o/0 n/0 s/0 
-Pred:  i/0 n/0 s/1 t/0 r/0 u/0 c/0 t/1 i/0 o/0 n/0 S/1 
-
-word:  plague
-Gold:  p/0 l/0 a/0 g/0 u/0 e/0 
-Pred:  p/0 l/0 a/0 g/0 U/1 e/0 
-
-word:  large
-Gold:  l/0 a/0 r/0 g/0 e/0 
-Pred:  l/0 a/0 r/0 G/1 e/0 
-
-word:  before
-Gold:  b/0 e/0 f/1 o/0 r/0 e/0 
-Pred:  b/0 e/0 F/0 o/0 r/0 e/0 
-
 word:  issuing
 Gold:  i/0 s/0 s/1 u/0 i/1 n/0 g/0 
-Pred:  i/0 s/0 s/1 u/0 I/0 n/0 g/0 
+Pred:  i/0 S/1 s/1 u/0 i/1 n/0 g/0 
 
 word:  promontory
 Gold:  p/0 r/0 o/0 m/0 o/1 n/0 t/1 o/0 r/1 y/0 
-Pred:  p/0 r/0 o/0 M/1 O/0 n/0 t/1 o/0 R/0 y/0 
+Pred:  p/0 r/0 o/0 m/0 O/0 N/1 t/1 o/0 R/0 y/0 
 
 word:  traveler
 Gold:  t/0 r/0 a/0 v/0 e/1 l/0 e/1 r/0 
-Pred:  t/0 r/0 a/0 v/0 E/0 l/0 E/0 r/0 
+Pred:  t/0 r/0 a/0 v/0 e/1 l/0 E/0 r/0 
+
+word:  motorway
+Gold:  m/0 o/0 t/1 o/0 r/0 w/1 a/0 y/0 
+Pred:  m/0 o/0 T/0 o/0 r/0 w/1 a/0 y/0 
 
 word:  thorium
 Gold:  t/0 h/0 o/0 r/1 i/0 u/1 m/0 
 Pred:  t/0 h/0 o/0 R/0 I/1 u/1 m/0 
 
-word:  cardinal
-Gold:  c/0 a/0 r/0 d/1 i/0 n/1 a/0 l/0 
-Pred:  c/0 a/0 r/0 d/1 i/0 N/0 a/0 l/0 
+word:  summertime
+Gold:  s/0 u/0 m/0 m/1 e/0 r/0 t/1 i/0 m/0 e/0 
+Pred:  s/0 u/0 m/0 m/1 e/0 r/0 T/0 i/0 M/1 e/0 
 
 word:  curing
 Gold:  c/0 u/0 r/0 i/1 n/0 g/0 
 Pred:  c/0 u/0 r/0 I/0 n/0 g/0 
+
+word:  modelled
+Gold:  m/0 o/0 d/0 e/1 l/0 l/0 e/0 d/0 
+Pred:  m/0 o/0 d/0 e/1 l/0 L/1 e/0 d/0 
 
 word:  trendy
 Gold:  t/0 r/0 e/0 n/0 d/0 y/1 
@@ -4155,21 +3823,13 @@ word:  computation
 Gold:  c/0 o/0 m/0 p/1 u/0 t/1 a/0 t/1 i/0 o/0 n/0 
 Pred:  c/0 o/0 m/0 p/1 u/0 T/0 a/0 t/1 i/0 o/0 n/0 
 
-word:  wonderful
-Gold:  w/0 o/0 n/0 d/1 e/0 r/0 f/1 u/0 l/0 
-Pred:  w/0 o/0 n/0 D/0 e/0 r/0 f/1 u/0 l/0 
-
-word:  remuneration
-Gold:  r/0 e/0 m/1 u/0 n/1 e/0 r/0 a/1 t/1 i/0 o/0 n/0 
-Pred:  r/0 e/0 m/1 u/0 N/0 e/0 r/0 a/1 t/1 i/0 o/0 n/0 
+word:  brunt
+Gold:  b/0 r/0 u/0 n/0 t/0 
+Pred:  b/0 r/0 u/0 n/0 T/1 
 
 word:  purr
 Gold:  p/0 u/0 r/0 r/0 
 Pred:  p/0 u/0 r/0 R/1 
-
-word:  eagle
-Gold:  e/0 a/0 g/1 l/0 e/0 
-Pred:  e/0 a/0 G/0 L/1 e/0 
 
 word:  weirdo
 Gold:  w/0 e/0 i/0 r/0 d/0 o/1 
@@ -4177,19 +3837,19 @@ Pred:  w/0 e/0 i/0 r/0 d/0 O/0
 
 word:  bunting
 Gold:  b/0 u/0 n/0 t/0 i/1 n/0 g/0 
-Pred:  b/0 u/0 n/0 T/1 I/0 n/0 g/0 
+Pred:  b/0 u/0 n/0 t/0 I/0 n/0 g/0 
 
 word:  embolism
 Gold:  e/0 m/0 b/1 o/0 l/1 i/0 s/0 m/0 
-Pred:  e/0 m/0 b/1 o/0 L/0 I/1 s/0 M/1 
+Pred:  e/0 m/0 b/1 o/0 L/0 I/1 s/0 m/0 
 
 word:  able
 Gold:  a/0 b/1 l/0 e/0 
-Pred:  a/0 b/1 L/1 e/0 
+Pred:  a/0 B/0 l/0 e/0 
 
-word:  second
-Gold:  s/0 e/0 c/0 o/1 n/0 d/0 
-Pred:  s/0 e/0 c/0 O/0 n/0 D/1 
+word:  encoded
+Gold:  e/0 n/0 c/1 o/0 d/0 e/1 d/0 
+Pred:  e/0 n/0 c/1 o/0 d/0 E/0 d/0 
 
 word:  centralization
 Gold:  c/0 e/0 n/0 t/1 r/0 a/0 l/0 i/1 z/1 a/0 t/1 i/0 o/0 n/0 
@@ -4197,27 +3857,27 @@ Pred:  c/0 e/0 n/0 t/1 r/0 a/0 l/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0
 
 word:  thirteen
 Gold:  t/0 h/0 i/0 r/0 t/1 e/0 e/0 n/0 
-Pred:  t/0 h/0 i/0 r/0 T/0 E/1 e/0 n/0 
+Pred:  t/0 h/0 i/0 r/0 T/0 e/0 e/0 n/0 
 
 word:  preferential
 Gold:  p/0 r/0 e/0 f/0 e/1 r/0 e/1 n/0 t/1 i/0 a/0 l/0 
-Pred:  p/0 r/0 e/0 F/1 E/0 r/0 e/1 n/0 T/0 i/0 a/0 l/0 
+Pred:  p/0 r/0 e/0 f/0 E/0 r/0 e/1 n/0 T/0 i/0 a/0 l/0 
 
 word:  elastomer
 Gold:  e/0 l/1 a/0 s/0 t/1 o/0 m/1 e/0 r/0 
-Pred:  e/0 L/0 a/0 s/0 t/1 o/0 M/0 e/0 r/0 
+Pred:  e/0 l/1 a/0 s/0 t/1 o/0 M/0 e/0 r/0 
 
 word:  monotonous
 Gold:  m/0 o/0 n/1 o/0 t/0 o/1 n/1 o/0 u/0 s/0 
-Pred:  m/0 o/0 N/0 O/1 T/1 O/0 N/0 o/0 u/0 s/0 
-
-word:  papyrus
-Gold:  p/0 a/0 p/1 y/0 r/1 u/0 s/0 
-Pred:  p/0 a/0 P/0 Y/1 R/0 u/0 s/0 
+Pred:  m/0 o/0 N/0 O/1 T/1 O/0 N/0 O/1 u/0 s/0 
 
 word:  div
 Gold:  d/0 i/0 v/0 
 Pred:  d/0 i/0 V/1 
+
+word:  mailed
+Gold:  m/0 a/0 i/0 l/0 e/0 d/0 
+Pred:  m/0 a/0 i/0 l/0 E/1 d/0 
 
 word:  capote
 Gold:  c/0 a/0 p/1 o/0 t/0 e/0 
@@ -4225,15 +3885,11 @@ Pred:  c/0 a/0 P/0 o/0 T/1 e/0
 
 word:  prejudiced
 Gold:  p/0 r/0 e/0 j/0 u/1 d/1 i/0 c/0 e/0 d/0 
-Pred:  p/0 r/0 e/0 J/1 U/0 D/0 I/1 C/1 e/0 d/0 
+Pred:  p/0 r/0 e/0 j/0 U/0 d/1 i/0 C/1 e/0 d/0 
 
 word:  hakeem
 Gold:  h/0 a/0 k/1 e/0 e/0 m/0 
-Pred:  h/0 a/0 K/0 e/0 e/0 m/0 
-
-word:  desist
-Gold:  d/0 e/0 s/1 i/0 s/0 t/0 
-Pred:  d/0 e/0 S/0 i/0 s/0 T/1 
+Pred:  h/0 a/0 K/0 e/0 e/0 M/1 
 
 word:  quadratic
 Gold:  q/0 u/0 a/0 d/0 r/1 a/0 t/0 i/1 c/0 
@@ -4241,7 +3897,7 @@ Pred:  q/0 u/0 a/0 d/0 r/1 a/0 t/0 I/0 c/0
 
 word:  traversal
 Gold:  t/0 r/0 a/0 v/1 e/0 r/0 s/0 a/1 l/0 
-Pred:  t/0 r/0 a/0 V/0 e/0 r/0 S/1 A/0 l/0 
+Pred:  t/0 r/0 a/0 V/0 E/1 r/0 s/0 A/0 l/0 
 
 word:  tutto
 Gold:  t/0 u/0 t/0 t/1 o/0 
@@ -4253,11 +3909,11 @@ Pred:  r/0 o/0 m/0 p/0 E/0 r/0
 
 word:  uterus
 Gold:  u/0 t/1 e/0 r/0 u/1 s/0 
-Pred:  u/0 T/0 e/0 r/0 u/1 s/0 
+Pred:  u/0 t/1 e/0 r/0 U/0 s/0 
 
 word:  procrastination
 Gold:  p/0 r/0 o/0 c/1 r/0 a/0 s/0 t/1 i/0 n/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  p/0 r/0 o/0 c/1 r/0 a/0 s/0 T/0 i/0 N/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  p/0 r/0 o/0 c/1 r/0 a/0 s/0 T/0 i/0 N/0 a/0 T/0 i/0 o/0 n/0 
 
 word:  devoted
 Gold:  d/0 e/0 v/1 o/0 t/0 e/1 d/0 
@@ -4265,15 +3921,19 @@ Pred:  d/0 e/0 v/1 o/0 t/0 E/0 d/0
 
 word:  colossal
 Gold:  c/0 o/0 l/1 o/0 s/0 s/1 a/0 l/0 
-Pred:  c/0 o/0 L/0 O/1 s/0 s/1 a/0 l/0 
+Pred:  c/0 o/0 L/0 o/0 s/0 s/1 a/0 l/0 
+
+word:  bobsled
+Gold:  b/0 o/0 b/0 s/1 l/0 e/0 d/0 
+Pred:  b/0 o/0 b/0 S/0 l/0 e/0 d/0 
 
 word:  chino
 Gold:  c/0 h/0 i/0 n/1 o/0 
-Pred:  c/0 h/0 i/0 N/0 O/1 
+Pred:  c/0 h/0 i/0 N/0 o/0 
 
 word:  disrespectful
 Gold:  d/0 i/0 s/0 r/1 e/0 s/1 p/0 e/0 c/0 t/0 f/1 u/0 l/0 
-Pred:  d/0 i/0 s/0 r/1 e/0 S/0 p/0 e/0 c/0 t/0 f/1 u/0 l/0 
+Pred:  d/0 i/0 s/0 r/1 e/0 S/0 p/0 e/0 c/0 T/1 f/1 u/0 l/0 
 
 word:  profiler
 Gold:  p/0 r/0 o/0 f/1 i/0 l/0 e/1 r/0 
@@ -4283,29 +3943,25 @@ word:  groceries
 Gold:  g/0 r/0 o/0 c/1 e/0 r/0 i/1 e/0 s/0 
 Pred:  g/0 r/0 o/0 C/0 e/0 r/0 i/1 e/0 s/0 
 
-word:  wrestling
-Gold:  w/0 r/0 e/0 s/0 t/1 l/0 i/0 n/0 g/0 
-Pred:  w/0 r/0 e/0 s/0 T/0 L/1 i/0 n/0 g/0 
-
 word:  aromatic
 Gold:  a/0 r/0 o/1 m/1 a/0 t/0 i/1 c/0 
-Pred:  a/0 r/0 O/0 m/1 a/0 T/1 I/0 c/0 
+Pred:  a/0 r/0 O/0 M/0 a/0 t/0 i/1 c/0 
 
 word:  juggernaut
 Gold:  j/0 u/0 g/0 g/1 e/0 r/0 n/1 a/0 u/0 t/0 
-Pred:  j/0 u/0 g/0 g/1 e/0 r/0 N/0 a/0 u/0 t/0 
+Pred:  j/0 u/0 g/0 g/1 e/0 r/0 N/0 a/0 u/0 T/1 
 
 word:  campanile
 Gold:  c/0 a/0 m/0 p/1 a/0 n/1 i/0 l/1 e/0 
 Pred:  c/0 a/0 m/0 p/1 a/0 N/0 I/1 L/0 e/0 
 
+word:  digitizing
+Gold:  d/0 i/0 g/0 i/1 t/1 i/0 z/0 i/1 n/0 g/0 
+Pred:  d/0 i/0 G/1 i/1 T/0 i/0 z/0 i/1 n/0 g/0 
+
 word:  biomedical
 Gold:  b/0 i/0 o/1 m/1 e/0 d/0 i/1 c/1 a/0 l/0 
-Pred:  b/0 i/0 o/1 M/0 e/0 d/0 i/1 C/0 a/0 l/0 
-
-word:  accompanied
-Gold:  a/0 c/0 c/1 o/0 m/0 p/1 a/0 n/1 i/0 e/0 d/0 
-Pred:  a/0 c/0 c/1 o/0 m/0 p/1 a/0 N/0 I/1 e/0 d/0 
+Pred:  b/0 i/0 o/1 m/1 e/0 d/0 I/0 C/0 a/0 l/0 
 
 word:  linden
 Gold:  l/0 i/0 n/0 d/1 e/0 n/0 
@@ -4313,11 +3969,15 @@ Pred:  l/0 i/0 n/0 D/0 E/1 n/0
 
 word:  saviour
 Gold:  s/0 a/0 v/0 i/1 o/0 u/0 r/0 
-Pred:  s/0 a/0 V/1 i/1 o/0 u/0 r/0 
+Pred:  s/0 a/0 V/1 I/0 o/0 u/0 r/0 
+
+word:  castor
+Gold:  c/0 a/0 s/0 t/1 o/0 r/0 
+Pred:  c/0 a/0 s/0 T/0 o/0 r/0 
 
 word:  sacrament
 Gold:  s/0 a/0 c/0 r/1 a/0 m/1 e/0 n/0 t/0 
-Pred:  s/0 a/0 c/0 R/0 a/0 m/1 e/0 n/0 t/0 
+Pred:  s/0 a/0 c/0 r/1 a/0 M/0 e/0 n/0 t/0 
 
 word:  attestation
 Gold:  a/0 t/0 t/1 e/0 s/0 t/1 a/0 t/1 i/0 o/0 n/0 
@@ -4325,15 +3985,15 @@ Pred:  a/0 t/0 t/1 e/0 s/0 T/0 a/0 t/1 i/0 o/0 n/0
 
 word:  secretory
 Gold:  s/0 e/0 c/1 r/0 e/0 t/1 o/0 r/1 y/0 
-Pred:  s/0 e/0 C/0 r/0 e/0 T/0 o/0 R/0 y/0 
-
-word:  managing
-Gold:  m/0 a/0 n/0 a/1 g/0 i/1 n/0 g/0 
-Pred:  m/0 a/0 n/0 a/1 G/1 I/0 n/0 g/0 
+Pred:  s/0 e/0 C/0 R/1 e/0 t/1 o/0 R/0 y/0 
 
 word:  beachcomber
 Gold:  b/0 e/0 a/0 c/0 h/0 c/1 o/0 m/0 b/0 e/1 r/0 
-Pred:  b/0 e/0 a/0 c/0 h/0 c/1 o/0 m/0 B/1 E/0 r/0 
+Pred:  b/0 e/0 a/0 c/0 h/0 c/1 o/0 m/0 b/0 E/0 r/0 
+
+word:  hostage
+Gold:  h/0 o/0 s/0 t/1 a/0 g/0 e/0 
+Pred:  h/0 o/0 s/0 T/0 a/0 g/0 e/0 
 
 word:  ascent
 Gold:  a/0 s/0 c/1 e/0 n/0 t/0 
@@ -4341,71 +4001,83 @@ Pred:  a/0 s/0 c/1 e/0 n/0 T/1
 
 word:  ocular
 Gold:  o/0 c/0 u/1 l/1 a/0 r/0 
-Pred:  o/0 C/1 U/0 l/1 a/0 r/0 
+Pred:  o/0 c/0 U/0 l/1 a/0 r/0 
 
 word:  adoption
 Gold:  a/0 d/1 o/0 p/0 t/1 i/0 o/0 n/0 
-Pred:  a/0 D/0 o/0 p/0 t/1 i/0 o/0 n/0 
+Pred:  a/0 D/0 o/0 p/0 T/0 i/0 o/0 n/0 
 
 word:  causing
 Gold:  c/0 a/0 u/0 s/0 i/1 n/0 g/0 
 Pred:  c/0 a/0 u/0 s/0 I/0 n/0 g/0 
 
+word:  unreadable
+Gold:  u/0 n/0 r/1 e/0 a/0 d/0 a/1 b/1 l/0 e/0 
+Pred:  u/0 n/0 r/1 e/0 A/1 d/0 a/1 b/1 l/0 e/0 
+
 word:  laminated
 Gold:  l/0 a/0 m/0 i/1 n/1 a/0 t/0 e/1 d/0 
-Pred:  l/0 a/0 m/0 i/1 n/1 a/0 T/1 E/0 d/0 
+Pred:  l/0 a/0 m/0 i/1 n/1 a/0 t/0 E/0 d/0 
+
+word:  dimly
+Gold:  d/0 i/0 m/0 l/1 y/0 
+Pred:  d/0 i/0 M/1 l/1 y/0 
 
 word:  lobo
 Gold:  l/0 o/0 b/1 o/0 
-Pred:  l/0 o/0 B/0 o/0 
+Pred:  l/0 o/0 B/0 O/1 
+
+word:  paltry
+Gold:  p/0 a/0 l/0 t/1 r/0 y/0 
+Pred:  p/0 a/0 l/0 T/0 r/0 y/0 
+
+word:  tuning
+Gold:  t/0 u/0 n/0 i/1 n/0 g/0 
+Pred:  t/0 u/0 n/0 I/0 n/0 g/0 
 
 word:  holiness
 Gold:  h/0 o/0 l/1 i/0 n/1 e/0 s/0 s/0 
-Pred:  h/0 o/0 L/0 I/1 N/0 e/0 s/0 s/0 
-
-word:  small
-Gold:  s/0 m/0 a/0 l/0 l/0 
-Pred:  s/0 m/0 a/0 l/0 L/1 
+Pred:  h/0 o/0 L/0 i/0 N/0 e/0 s/0 s/0 
 
 word:  alleviation
 Gold:  a/0 l/0 l/1 e/0 v/1 i/0 a/1 t/1 i/0 o/0 n/0 
-Pred:  a/0 l/0 l/1 e/0 V/0 I/1 a/1 t/1 i/0 o/0 n/0 
+Pred:  a/0 l/0 l/1 e/0 v/1 i/0 a/1 T/0 i/0 o/0 n/0 
 
 word:  fragrant
 Gold:  f/0 r/0 a/0 g/1 r/0 a/0 n/0 t/0 
 Pred:  f/0 r/0 a/0 G/0 r/0 a/0 n/0 t/0 
 
+word:  corkscrew
+Gold:  c/0 o/0 r/0 k/0 s/1 c/0 r/0 e/0 w/0 
+Pred:  c/0 o/0 r/0 k/0 S/0 c/0 r/0 e/0 w/0 
+
 word:  negligence
 Gold:  n/0 e/0 g/0 l/1 i/0 g/1 e/0 n/0 c/0 e/0 
-Pred:  n/0 e/0 g/0 l/1 i/0 G/0 e/0 n/0 c/0 e/0 
+Pred:  n/0 e/0 G/1 l/1 i/0 g/1 e/0 n/0 c/0 e/0 
 
 word:  colonialism
 Gold:  c/0 o/0 l/1 o/0 n/1 i/0 a/1 l/0 i/1 s/0 m/0 
-Pred:  c/0 o/0 L/0 O/1 N/0 I/1 a/1 l/0 i/1 s/0 m/0 
+Pred:  c/0 o/0 L/0 o/0 n/1 i/0 a/1 l/0 i/1 s/0 m/0 
+
+word:  overturn
+Gold:  o/0 v/1 e/0 r/0 t/1 u/0 r/0 n/0 
+Pred:  o/0 v/1 e/0 r/0 T/0 u/0 r/0 n/0 
 
 word:  bacterial
 Gold:  b/0 a/0 c/0 t/1 e/0 r/1 i/0 a/1 l/0 
-Pred:  b/0 a/0 c/0 t/1 e/0 R/0 I/1 a/1 l/0 
+Pred:  b/0 a/0 c/0 t/1 e/0 R/0 i/0 a/1 l/0 
 
 word:  beggar
 Gold:  b/0 e/0 g/0 g/1 a/0 r/0 
-Pred:  b/0 e/0 G/1 g/1 a/0 r/0 
-
-word:  tint
-Gold:  t/0 i/0 n/0 t/0 
-Pred:  t/0 i/0 n/0 T/1 
+Pred:  b/0 e/0 G/1 g/1 a/0 R/1 
 
 word:  obsoleted
 Gold:  o/0 b/0 s/1 o/0 l/1 e/0 t/0 e/1 d/0 
 Pred:  o/0 b/0 s/1 o/0 L/0 e/0 t/0 E/0 d/0 
 
-word:  categorized
-Gold:  c/0 a/0 t/0 e/1 g/1 o/0 r/1 i/0 z/0 e/0 d/0 
-Pred:  c/0 a/0 t/0 E/0 g/1 o/0 R/0 i/0 z/0 e/0 d/0 
-
 word:  taco
 Gold:  t/0 a/0 c/1 o/0 
-Pred:  t/0 a/0 C/0 o/0 
+Pred:  t/0 a/0 C/0 O/1 
 
 word:  derailleur
 Gold:  d/0 e/0 r/1 a/0 i/0 l/0 l/1 e/0 u/0 r/0 
@@ -4425,11 +4097,15 @@ Pred:  d/0 e/0 F/1 I/0 N/0 I/1 T/1 e/0
 
 word:  statistics
 Gold:  s/0 t/0 a/0 t/1 i/0 s/0 t/1 i/0 c/0 s/0 
-Pred:  s/0 t/0 a/0 T/0 i/0 s/0 T/0 i/0 c/0 s/0 
+Pred:  s/0 t/0 a/0 T/0 i/0 s/0 t/1 i/0 c/0 s/0 
 
 word:  diminutive
 Gold:  d/0 i/0 m/1 i/0 n/0 u/1 t/1 i/0 v/0 e/0 
-Pred:  d/0 i/0 M/0 I/1 N/1 U/0 T/0 i/0 v/0 e/0 
+Pred:  d/0 i/0 m/1 i/0 n/0 U/0 T/0 i/0 v/0 e/0 
+
+word:  fortune
+Gold:  f/0 o/0 r/0 t/1 u/0 n/0 e/0 
+Pred:  f/0 o/0 r/0 t/1 u/0 N/1 e/0 
 
 word:  regimen
 Gold:  r/0 e/0 g/0 i/1 m/1 e/0 n/0 
@@ -4437,19 +4113,15 @@ Pred:  r/0 e/0 G/1 I/0 M/0 e/0 n/0
 
 word:  clumsy
 Gold:  c/0 l/0 u/0 m/0 s/1 y/0 
-Pred:  c/0 l/0 u/0 m/0 S/0 y/0 
+Pred:  c/0 l/0 u/0 m/0 S/0 Y/1 
 
-word:  accumulated
-Gold:  a/0 c/0 c/1 u/0 m/1 u/0 l/1 a/0 t/0 e/1 d/0 
-Pred:  a/0 c/0 c/1 u/0 M/0 u/0 l/1 a/0 t/0 e/1 d/0 
+word:  flute
+Gold:  f/0 l/0 u/0 t/0 e/0 
+Pred:  f/0 l/0 u/0 t/0 E/1 
 
 word:  phenomena
 Gold:  p/0 h/0 e/0 n/1 o/0 m/0 e/1 n/1 a/0 
-Pred:  p/0 h/0 e/0 N/0 o/0 m/0 E/0 N/0 a/0 
-
-word:  francophone
-Gold:  f/0 r/0 a/0 n/0 c/1 o/0 p/1 h/0 o/0 n/0 e/0 
-Pred:  f/0 r/0 a/0 n/0 C/0 o/0 P/0 h/0 o/0 n/0 e/0 
+Pred:  p/0 h/0 e/0 n/1 o/0 m/0 E/0 N/0 a/0 
 
 word:  curative
 Gold:  c/0 u/0 r/0 a/1 t/1 i/0 v/0 e/0 
@@ -4461,27 +4133,31 @@ Pred:  a/0 t/0 t/1 e/0 n/0 T/0 i/0 v/0 e/0
 
 word:  elevation
 Gold:  e/0 l/0 e/1 v/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  e/0 l/0 E/0 V/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  e/0 L/1 E/0 v/1 a/0 T/0 I/1 o/0 n/0 
 
 word:  sorcerer
 Gold:  s/0 o/0 r/0 c/1 e/0 r/0 e/1 r/0 
 Pred:  s/0 o/0 r/0 c/1 e/0 r/0 E/0 r/0 
 
-word:  bong
-Gold:  b/0 o/0 n/0 g/0 
-Pred:  b/0 o/0 n/0 G/1 
+word:  inducement
+Gold:  i/0 n/0 d/1 u/0 c/0 e/0 m/1 e/0 n/0 t/0 
+Pred:  i/0 n/0 d/1 u/0 c/0 e/0 M/0 e/0 n/0 t/0 
 
 word:  enthusiasm
 Gold:  e/0 n/0 t/1 h/0 u/0 s/1 i/0 a/1 s/0 m/0 
-Pred:  e/0 n/0 t/1 h/0 u/0 S/0 I/1 a/1 s/0 m/0 
+Pred:  e/0 n/0 t/1 h/0 u/0 s/1 i/0 a/1 s/0 M/1 
 
 word:  unusable
 Gold:  u/0 n/0 u/1 s/0 a/1 b/1 l/0 e/0 
-Pred:  u/0 n/0 u/1 s/0 A/0 b/1 l/0 e/0 
+Pred:  u/0 n/0 u/1 S/1 A/0 b/1 l/0 e/0 
 
 word:  pyramid
 Gold:  p/0 y/0 r/0 a/1 m/1 i/0 d/0 
-Pred:  p/0 y/0 r/0 A/0 M/0 I/1 D/1 
+Pred:  p/0 y/0 R/1 A/0 M/0 I/1 d/0 
+
+word:  honda
+Gold:  h/0 o/0 n/0 d/1 a/0 
+Pred:  h/0 o/0 n/0 D/0 a/0 
 
 word:  pills
 Gold:  p/0 i/0 l/0 l/0 s/0 
@@ -4493,31 +4169,39 @@ Pred:  f/0 o/0 L/0 i/0 c/0
 
 word:  vagabond
 Gold:  v/0 a/0 g/0 a/1 b/1 o/0 n/0 d/0 
-Pred:  v/0 a/0 g/0 A/0 b/1 o/0 n/0 D/1 
-
-word:  beginning
-Gold:  b/0 e/0 g/1 i/0 n/0 n/1 i/0 n/0 g/0 
-Pred:  b/0 e/0 g/1 I/1 n/0 n/1 i/0 n/0 g/0 
+Pred:  v/0 a/0 g/0 A/0 b/1 o/0 n/0 d/0 
 
 word:  stiletto
 Gold:  s/0 t/0 i/0 l/1 e/0 t/0 t/1 o/0 
-Pred:  s/0 t/0 i/0 L/0 e/0 t/0 t/1 o/0 
+Pred:  s/0 t/0 i/0 L/0 e/0 t/0 T/0 o/0 
 
 word:  primer
 Gold:  p/0 r/0 i/0 m/0 e/1 r/0 
 Pred:  p/0 r/0 i/0 m/0 E/0 r/0 
 
-word:  judging
-Gold:  j/0 u/0 d/0 g/0 i/1 n/0 g/0 
-Pred:  j/0 u/0 d/0 g/0 I/0 n/0 g/0 
+word:  bribe
+Gold:  b/0 r/0 i/0 b/0 e/0 
+Pred:  b/0 r/0 i/0 b/0 E/1 
 
 word:  expresso
 Gold:  e/0 x/0 p/1 r/0 e/0 s/0 s/0 o/1 
-Pred:  e/0 x/0 p/1 r/0 e/0 s/0 s/0 O/0 
+Pred:  e/0 x/0 p/1 r/0 e/0 s/0 S/1 O/0 
+
+word:  lambert
+Gold:  l/0 a/0 m/0 b/1 e/0 r/0 t/0 
+Pred:  l/0 a/0 m/0 b/1 e/0 r/0 T/1 
+
+word:  tourist
+Gold:  t/0 o/0 u/0 r/0 i/1 s/0 t/0 
+Pred:  t/0 o/0 u/0 r/0 i/1 s/0 T/1 
+
+word:  recording
+Gold:  r/0 e/0 c/1 o/0 r/0 d/0 i/1 n/0 g/0 
+Pred:  r/0 e/0 C/0 o/0 r/0 d/0 i/1 n/0 g/0 
 
 word:  agglomeration
 Gold:  a/0 g/0 g/1 l/0 o/0 m/0 e/1 r/0 a/1 t/1 i/0 o/0 n/0 
-Pred:  a/0 g/0 g/1 l/0 o/0 m/0 E/0 r/0 a/1 t/1 i/0 o/0 n/0 
+Pred:  a/0 g/0 g/1 l/0 o/0 m/0 E/0 r/0 a/1 T/0 i/0 o/0 n/0 
 
 word:  combination
 Gold:  c/0 o/0 m/0 b/1 i/0 n/1 a/0 t/1 i/0 o/0 n/0 
@@ -4529,11 +4213,11 @@ Pred:  f/0 a/0 C/0 i/0 A/0
 
 word:  measurable
 Gold:  m/0 e/0 a/0 s/0 u/1 r/0 a/1 b/1 l/0 e/0 
-Pred:  m/0 e/0 a/0 s/0 U/0 r/0 a/1 b/1 l/0 e/0 
+Pred:  m/0 e/0 a/0 s/0 u/1 r/0 A/0 b/1 l/0 e/0 
 
 word:  salivary
 Gold:  s/0 a/0 l/0 i/1 v/1 a/0 r/0 y/1 
-Pred:  s/0 a/0 l/0 i/1 V/0 a/0 r/0 y/1 
+Pred:  s/0 a/0 l/0 I/0 V/0 a/0 r/0 Y/0 
 
 word:  transformer
 Gold:  t/0 r/0 a/0 n/0 s/0 f/1 o/0 r/0 m/0 e/1 r/0 
@@ -4545,11 +4229,11 @@ Pred:  g/0 a/0 u/0 d/0 Y/0
 
 word:  humanist
 Gold:  h/0 u/0 m/1 a/0 n/0 i/1 s/0 t/0 
-Pred:  h/0 u/0 M/0 a/0 n/0 i/1 s/0 t/0 
+Pred:  h/0 u/0 m/1 a/0 n/0 i/1 s/0 T/1 
 
 word:  impedance
 Gold:  i/0 m/0 p/1 e/0 d/0 a/1 n/0 c/0 e/0 
-Pred:  i/0 m/0 p/1 e/0 d/0 A/0 n/0 c/0 e/0 
+Pred:  i/0 m/0 p/1 e/0 D/1 A/0 n/0 c/0 e/0 
 
 word:  parkin
 Gold:  p/0 a/0 r/0 k/1 i/0 n/0 
@@ -4559,29 +4243,33 @@ word:  stetson
 Gold:  s/0 t/0 e/0 t/0 s/1 o/0 n/0 
 Pred:  s/0 t/0 e/0 t/0 S/0 o/0 n/0 
 
+word:  overthrow
+Gold:  o/0 v/1 e/0 r/0 t/1 h/0 r/0 o/0 w/0 
+Pred:  o/0 v/1 e/0 r/0 T/0 h/0 r/0 o/0 w/0 
+
 word:  insurer
 Gold:  i/0 n/0 s/1 u/0 r/0 e/1 r/0 
 Pred:  i/0 n/0 s/1 u/0 r/0 E/0 r/0 
+
+word:  cute
+Gold:  c/0 u/0 t/0 e/0 
+Pred:  c/0 u/0 t/0 E/1 
 
 word:  lichen
 Gold:  l/0 i/0 c/1 h/0 e/0 n/0 
 Pred:  l/0 i/0 C/0 h/0 e/0 n/0 
 
+word:  chamois
+Gold:  c/0 h/0 a/0 m/0 o/1 i/0 s/0 
+Pred:  c/0 h/0 a/0 m/0 O/0 i/0 s/0 
+
 word:  tropical
 Gold:  t/0 r/0 o/0 p/0 i/1 c/1 a/0 l/0 
 Pred:  t/0 r/0 o/0 p/0 i/1 C/0 a/0 l/0 
 
-word:  entanglement
-Gold:  e/0 n/0 t/1 a/0 n/0 g/1 l/0 e/0 m/1 e/0 n/0 t/0 
-Pred:  e/0 n/0 t/1 a/0 n/0 G/0 l/0 e/0 M/0 e/0 n/0 t/0 
-
-word:  profusely
-Gold:  p/0 r/0 o/0 f/1 u/0 s/0 e/0 l/1 y/0 
-Pred:  p/0 r/0 o/0 f/1 u/0 s/0 e/0 L/0 y/0 
-
 word:  litigation
 Gold:  l/0 i/0 t/0 i/1 g/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  l/0 i/0 t/0 i/1 G/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  l/0 i/0 t/0 i/1 g/1 a/0 T/0 i/0 o/0 n/0 
 
 word:  sent
 Gold:  s/0 e/0 n/0 t/0 
@@ -4589,19 +4277,23 @@ Pred:  s/0 e/0 n/0 T/1
 
 word:  preferentially
 Gold:  p/0 r/0 e/0 f/0 e/1 r/0 e/1 n/0 t/1 i/0 a/0 l/0 l/1 y/0 
-Pred:  p/0 r/0 e/0 F/1 E/0 r/0 e/1 n/0 T/0 i/0 a/0 l/0 l/1 y/0 
+Pred:  p/0 r/0 e/0 f/0 E/0 r/0 e/1 n/0 T/0 i/0 a/0 l/0 l/1 y/0 
 
-word:  environ
-Gold:  e/0 n/0 v/1 i/0 r/1 o/0 n/0 
-Pred:  e/0 n/0 v/1 i/0 R/0 o/0 n/0 
+word:  stability
+Gold:  s/0 t/0 a/0 b/1 i/0 l/0 i/1 t/1 y/0 
+Pred:  s/0 t/0 a/0 b/1 i/0 L/1 I/0 t/1 y/0 
 
 word:  graveyard
 Gold:  g/0 r/0 a/0 v/0 e/0 y/1 a/0 r/0 d/0 
 Pred:  g/0 r/0 a/0 v/0 e/0 Y/0 A/1 r/0 d/0 
 
+word:  shave
+Gold:  s/0 h/0 a/0 v/0 e/0 
+Pred:  s/0 h/0 a/0 v/0 E/1 
+
 word:  coefficient
 Gold:  c/0 o/0 e/1 f/0 f/1 i/0 c/1 i/0 e/0 n/0 t/0 
-Pred:  c/0 o/0 E/0 F/1 f/1 i/0 c/1 i/0 e/0 n/0 t/0 
+Pred:  c/0 o/0 e/1 F/1 f/1 i/0 c/1 i/0 e/0 n/0 t/0 
 
 word:  astrophysical
 Gold:  a/0 s/0 t/1 r/0 o/0 p/1 h/0 y/0 s/0 i/1 c/1 a/0 l/0 
@@ -4609,27 +4301,15 @@ Pred:  a/0 s/0 t/1 r/0 o/0 p/1 h/0 y/0 s/0 i/1 C/0 a/0 l/0
 
 word:  stylistic
 Gold:  s/0 t/0 y/0 l/1 i/0 s/0 t/1 i/0 c/0 
-Pred:  s/0 t/0 y/0 l/1 I/1 s/0 T/0 i/0 c/0 
+Pred:  s/0 t/0 y/0 L/0 I/1 s/0 t/1 i/0 c/0 
 
 word:  dialectic
 Gold:  d/0 i/0 a/1 l/1 e/0 c/0 t/1 i/0 c/0 
-Pred:  d/0 i/0 a/1 L/0 e/0 c/0 t/1 i/0 c/0 
-
-word:  seashell
-Gold:  s/0 e/0 a/0 s/1 h/0 e/0 l/0 l/0 
-Pred:  s/0 e/0 a/0 S/0 h/0 e/0 l/0 l/0 
-
-word:  corporal
-Gold:  c/0 o/0 r/0 p/1 o/0 r/1 a/0 l/0 
-Pred:  c/0 o/0 r/0 p/1 o/0 R/0 a/0 l/0 
+Pred:  d/0 i/0 a/1 l/1 e/0 c/0 t/1 i/0 C/1 
 
 word:  terrorism
 Gold:  t/0 e/0 r/0 r/1 o/0 r/0 i/1 s/0 m/0 
 Pred:  t/0 e/0 r/0 r/1 o/0 r/0 I/0 s/0 m/0 
-
-word:  deficient
-Gold:  d/0 e/0 f/1 i/0 c/1 i/0 e/0 n/0 t/0 
-Pred:  d/0 e/0 f/1 i/0 C/0 i/0 e/0 n/0 t/0 
 
 word:  revolutionaries
 Gold:  r/0 e/0 v/0 o/1 l/1 u/0 t/1 i/0 o/0 n/0 a/1 r/0 i/1 e/0 s/0 
@@ -4637,23 +4317,35 @@ Pred:  r/0 e/0 V/1 O/0 L/0 u/0 t/1 i/0 o/0 n/0 a/1 r/0 i/1 e/0 s/0
 
 word:  recognizable
 Gold:  r/0 e/0 c/0 o/1 g/0 n/1 i/0 z/0 a/1 b/1 l/0 e/0 
-Pred:  r/0 e/0 C/1 O/0 g/0 n/1 i/0 z/0 A/0 b/1 l/0 e/0 
+Pred:  r/0 e/0 c/0 O/0 g/0 n/1 i/0 z/0 A/0 b/1 l/0 e/0 
 
 word:  peruse
 Gold:  p/0 e/0 r/1 u/0 s/0 e/0 
-Pred:  p/0 e/0 R/0 U/1 s/0 e/0 
+Pred:  p/0 e/0 R/0 u/0 s/0 e/0 
+
+word:  rallied
+Gold:  r/0 a/0 l/0 l/1 i/0 e/0 d/0 
+Pred:  r/0 a/0 l/0 L/0 i/0 e/0 d/0 
 
 word:  insecurity
 Gold:  i/0 n/0 s/1 e/0 c/1 u/0 r/1 i/0 t/1 y/0 
-Pred:  i/0 n/0 s/1 e/0 C/0 u/0 R/0 I/1 t/1 y/0 
+Pred:  i/0 n/0 s/1 e/0 C/0 U/1 R/0 i/0 t/1 y/0 
 
 word:  camellia
 Gold:  c/0 a/0 m/1 e/0 l/0 l/1 i/0 a/0 
-Pred:  c/0 a/0 M/0 e/0 L/1 l/1 i/0 A/1 
+Pred:  c/0 a/0 M/0 E/1 l/0 l/1 i/0 A/1 
 
 word:  coleoptera
 Gold:  c/0 o/0 l/1 e/0 o/1 p/0 t/1 e/0 r/0 a/1 
-Pred:  c/0 o/0 L/0 E/1 o/1 P/1 t/1 e/0 r/0 a/1 
+Pred:  c/0 o/0 L/0 e/0 o/1 P/1 t/1 e/0 r/0 a/1 
+
+word:  jaap
+Gold:  j/0 a/0 a/0 p/0 
+Pred:  j/0 a/0 a/0 P/1 
+
+word:  renew
+Gold:  r/0 e/0 n/1 e/0 w/0 
+Pred:  r/0 e/0 n/1 e/0 W/1 
 
 word:  notions
 Gold:  n/0 o/0 t/1 i/0 o/0 n/0 s/0 
@@ -4661,11 +4353,7 @@ Pred:  n/0 o/0 t/1 i/0 o/0 n/0 S/1
 
 word:  diving
 Gold:  d/0 i/0 v/0 i/1 n/0 g/0 
-Pred:  d/0 i/0 V/1 i/1 n/0 g/0 
-
-word:  intelligence
-Gold:  i/0 n/0 t/1 e/0 l/0 l/1 i/0 g/1 e/0 n/0 c/0 e/0 
-Pred:  i/0 n/0 t/1 e/0 l/0 l/1 i/0 G/0 e/0 n/0 c/0 e/0 
+Pred:  d/0 i/0 V/1 I/0 n/0 G/1 
 
 word:  foetus
 Gold:  f/0 o/0 e/0 t/1 u/0 s/0 
@@ -4675,21 +4363,17 @@ word:  simulate
 Gold:  s/0 i/0 m/0 u/1 l/1 a/0 t/0 e/0 
 Pred:  s/0 i/0 m/0 u/1 l/1 a/0 t/0 E/1 
 
-word:  byway
-Gold:  b/0 y/0 w/1 a/0 y/0 
-Pred:  b/0 y/0 W/0 a/0 y/0 
-
 word:  waders
 Gold:  w/0 a/0 d/0 e/1 r/0 s/0 
 Pred:  w/0 a/0 d/0 E/0 r/0 S/1 
 
-word:  quaint
-Gold:  q/0 u/0 a/0 i/0 n/0 t/0 
-Pred:  q/0 u/0 a/0 i/0 n/0 T/1 
+word:  intuitive
+Gold:  i/0 n/0 t/1 u/0 i/1 t/1 i/0 v/0 e/0 
+Pred:  i/0 n/0 t/1 u/0 i/1 T/0 i/0 v/0 e/0 
 
-word:  ibis
-Gold:  i/0 b/1 i/0 s/0 
-Pred:  i/0 B/0 I/1 s/0 
+word:  misunderstood
+Gold:  m/0 i/0 s/0 u/1 n/0 d/1 e/0 r/0 s/1 t/0 o/0 o/0 d/0 
+Pred:  m/0 i/0 s/0 u/1 n/0 d/1 e/0 r/0 S/0 t/0 o/0 o/0 d/0 
 
 word:  commando
 Gold:  c/0 o/0 m/0 m/1 a/0 n/0 d/1 o/0 
@@ -4701,39 +4385,31 @@ Pred:  c/0 i/0 t/0 E/1
 
 word:  larder
 Gold:  l/0 a/0 r/0 d/1 e/0 r/0 
-Pred:  l/0 a/0 r/0 D/0 e/0 r/0 
-
-word:  warp
-Gold:  w/0 a/0 r/0 p/0 
-Pred:  w/0 a/0 r/0 P/1 
+Pred:  l/0 a/0 r/0 D/0 E/1 r/0 
 
 word:  statistician
 Gold:  s/0 t/0 a/0 t/0 i/1 s/0 t/1 i/0 c/1 i/0 a/0 n/0 
-Pred:  s/0 t/0 a/0 t/0 I/0 s/0 T/0 i/0 C/0 i/0 a/0 n/0 
+Pred:  s/0 t/0 a/0 t/0 I/0 s/0 t/1 i/0 C/0 I/1 a/0 n/0 
 
-word:  tongued
-Gold:  t/0 o/0 n/0 g/0 u/0 e/0 d/0 
-Pred:  t/0 o/0 n/0 G/1 u/0 e/0 d/0 
+word:  motoring
+Gold:  m/0 o/0 t/1 o/0 r/0 i/1 n/0 g/0 
+Pred:  m/0 o/0 T/0 o/0 r/0 i/1 n/0 g/0 
 
 word:  gasoline
 Gold:  g/0 a/0 s/0 o/1 l/1 i/0 n/0 e/0 
-Pred:  g/0 a/0 s/0 O/0 L/0 I/1 n/0 e/0 
-
-word:  bursa
-Gold:  b/0 u/0 r/0 s/1 a/0 
-Pred:  b/0 u/0 r/0 S/0 a/0 
+Pred:  g/0 a/0 s/0 O/0 L/0 i/0 n/0 e/0 
 
 word:  analog
 Gold:  a/0 n/0 a/1 l/1 o/0 g/0 
-Pred:  a/0 n/0 a/1 L/0 o/0 g/0 
+Pred:  a/0 n/0 a/1 L/0 o/0 G/1 
 
 word:  cogent
 Gold:  c/0 o/0 g/1 e/0 n/0 t/0 
-Pred:  c/0 o/0 G/0 E/1 n/0 T/1 
+Pred:  c/0 o/0 G/0 e/0 n/0 t/0 
 
 word:  metabolism
 Gold:  m/0 e/0 t/1 a/0 b/0 o/1 l/1 i/0 s/0 m/0 
-Pred:  m/0 e/0 T/0 a/0 B/1 O/0 L/0 I/1 s/0 m/0 
+Pred:  m/0 e/0 T/0 A/1 B/1 O/0 L/0 i/0 s/0 m/0 
 
 word:  caller
 Gold:  c/0 a/0 l/0 l/0 e/1 r/0 
@@ -4747,21 +4423,21 @@ word:  coincident
 Gold:  c/0 o/0 i/1 n/0 c/1 i/0 d/1 e/0 n/0 t/0 
 Pred:  c/0 o/0 I/0 n/0 c/1 i/0 D/0 e/0 n/0 t/0 
 
+word:  pinto
+Gold:  p/0 i/0 n/0 t/1 o/0 
+Pred:  p/0 i/0 n/0 T/0 o/0 
+
 word:  legion
 Gold:  l/0 e/0 g/1 i/0 o/0 n/0 
 Pred:  l/0 e/0 G/0 I/1 o/0 n/0 
 
 word:  civilisation
 Gold:  c/0 i/0 v/0 i/1 l/1 i/0 s/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  c/0 i/0 v/0 i/1 l/1 I/1 S/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  c/0 i/0 v/0 i/1 l/1 i/0 S/0 a/0 t/1 i/0 o/0 n/0 
 
 word:  faq
 Gold:  f/0 a/0 q/0 
 Pred:  f/0 a/0 Q/1 
-
-word:  quarantine
-Gold:  q/0 u/0 a/0 r/0 a/1 n/0 t/1 i/0 n/0 e/0 
-Pred:  q/0 u/0 a/0 r/0 a/1 n/0 T/0 i/0 n/0 e/0 
 
 word:  chippendale
 Gold:  c/0 h/0 i/0 p/0 p/1 e/0 n/0 d/1 a/0 l/0 e/0 
@@ -4771,25 +4447,17 @@ word:  butte
 Gold:  b/0 u/0 t/0 t/0 e/0 
 Pred:  b/0 u/0 t/0 T/1 e/0 
 
-word:  sawdust
-Gold:  s/0 a/0 w/0 d/1 u/0 s/0 t/0 
-Pred:  s/0 a/0 w/0 D/0 u/0 s/0 t/0 
-
 word:  maharaja
 Gold:  m/0 a/0 h/1 a/0 r/1 a/0 j/1 a/0 
 Pred:  m/0 a/0 h/1 a/0 R/0 a/0 j/1 a/0 
 
 word:  neither
 Gold:  n/0 e/0 i/0 t/1 h/0 e/0 r/0 
-Pred:  n/0 e/0 i/0 T/0 h/0 E/1 r/0 
+Pred:  n/0 e/0 i/0 T/0 h/0 e/0 r/0 
 
 word:  sporadically
 Gold:  s/0 p/0 o/0 r/1 a/0 d/0 i/1 c/1 a/0 l/0 l/1 y/0 
 Pred:  s/0 p/0 o/0 R/0 a/0 d/0 i/1 C/0 a/0 l/0 l/1 y/0 
-
-word:  one
-Gold:  o/0 n/0 e/0 
-Pred:  o/0 n/0 E/1 
 
 word:  flatiron
 Gold:  f/0 l/0 a/0 t/0 i/1 r/1 o/0 n/0 
@@ -4797,27 +4465,27 @@ Pred:  f/0 l/0 a/0 t/0 i/1 R/0 o/0 n/0
 
 word:  interrogate
 Gold:  i/0 n/0 t/1 e/0 r/0 r/1 o/0 g/1 a/0 t/0 e/0 
-Pred:  i/0 n/0 t/1 e/0 r/0 r/1 o/0 g/1 a/0 T/1 e/0 
+Pred:  i/0 n/0 t/1 e/0 r/0 r/1 o/0 g/1 a/0 t/0 E/1 
 
 word:  rhinestone
 Gold:  r/0 h/0 i/0 n/0 e/0 s/1 t/0 o/0 n/0 e/0 
-Pred:  r/0 h/0 i/0 n/0 e/0 S/0 t/0 o/0 n/0 e/0 
+Pred:  r/0 h/0 i/0 N/1 E/1 S/0 t/0 o/0 n/0 e/0 
 
 word:  transitory
 Gold:  t/0 r/0 a/0 n/0 s/1 i/0 t/1 o/0 r/1 y/0 
-Pred:  t/0 r/0 a/0 n/0 S/0 I/1 t/1 o/0 R/0 y/0 
+Pred:  t/0 r/0 a/0 n/0 S/0 i/0 t/1 o/0 R/0 y/0 
 
-word:  custody
-Gold:  c/0 u/0 s/0 t/1 o/0 d/1 y/0 
-Pred:  c/0 u/0 s/0 t/1 o/0 D/0 Y/1 
+word:  horde
+Gold:  h/0 o/0 r/0 d/0 e/0 
+Pred:  h/0 o/0 r/0 d/0 E/1 
 
-word:  housekeeper
-Gold:  h/0 o/0 u/0 s/0 e/0 k/1 e/0 e/0 p/0 e/1 r/0 
-Pred:  h/0 o/0 u/0 s/0 e/0 K/0 e/0 e/0 p/0 E/0 r/0 
+word:  famed
+Gold:  f/0 a/0 m/0 e/0 d/0 
+Pred:  f/0 a/0 M/1 e/0 d/0 
 
-word:  daman
-Gold:  d/0 a/0 m/0 a/1 n/0 
-Pred:  d/0 a/0 m/0 A/0 n/0 
+word:  blessing
+Gold:  b/0 l/0 e/0 s/0 s/0 i/1 n/0 g/0 
+Pred:  b/0 l/0 e/0 s/0 s/0 I/0 n/0 g/0 
 
 word:  assuming
 Gold:  a/0 s/0 s/1 u/0 m/0 i/1 n/0 g/0 
@@ -4831,6 +4499,10 @@ word:  congruent
 Gold:  c/0 o/0 n/0 g/1 r/0 u/0 e/1 n/0 t/0 
 Pred:  c/0 o/0 n/0 g/1 r/0 u/0 E/0 n/0 t/0 
 
+word:  lobster
+Gold:  l/0 o/0 b/0 s/1 t/0 e/0 r/0 
+Pred:  l/0 o/0 b/0 S/0 t/0 e/0 r/0 
+
 word:  ligand
 Gold:  l/0 i/0 g/0 a/1 n/0 d/0 
 Pred:  l/0 i/0 g/0 A/0 n/0 d/0 
@@ -4839,13 +4511,9 @@ word:  mandibular
 Gold:  m/0 a/0 n/0 d/1 i/0 b/0 u/1 l/1 a/0 r/0 
 Pred:  m/0 a/0 n/0 d/1 i/0 B/1 U/0 L/0 a/0 r/0 
 
-word:  unwarranted
-Gold:  u/0 n/0 w/1 a/0 r/0 r/1 a/0 n/0 t/0 e/1 d/0 
-Pred:  u/0 n/0 w/1 a/0 r/0 R/0 a/0 n/0 t/0 E/0 d/0 
-
 word:  experiential
 Gold:  e/0 x/0 p/1 e/0 r/1 i/0 e/1 n/0 t/1 i/0 a/0 l/0 
-Pred:  e/0 x/0 p/1 e/0 R/0 I/1 E/0 n/0 T/0 i/0 a/0 l/0 
+Pred:  e/0 x/0 p/1 e/0 R/0 i/0 e/1 n/0 T/0 i/0 a/0 l/0 
 
 word:  gene
 Gold:  g/0 e/0 n/0 e/0 
@@ -4853,19 +4521,19 @@ Pred:  g/0 e/0 n/0 E/1
 
 word:  holiday
 Gold:  h/0 o/0 l/0 i/1 d/1 a/0 y/0 
-Pred:  h/0 o/0 l/0 i/1 D/0 a/0 y/0 
+Pred:  h/0 o/0 l/0 I/0 D/0 a/0 y/0 
 
 word:  pluralism
 Gold:  p/0 l/0 u/0 r/1 a/0 l/0 i/1 s/0 m/0 
 Pred:  p/0 l/0 u/0 R/0 a/0 l/0 i/1 s/0 m/0 
 
-word:  lated
-Gold:  l/0 a/0 t/0 e/1 d/0 
-Pred:  l/0 a/0 t/0 E/0 d/0 
-
 word:  ann
 Gold:  a/0 n/0 n/0 
 Pred:  a/0 n/0 N/1 
+
+word:  pap
+Gold:  p/0 a/0 p/0 
+Pred:  p/0 a/0 P/1 
 
 word:  newsprint
 Gold:  n/0 e/0 w/0 s/0 p/1 r/0 i/0 n/0 t/0 
@@ -4873,75 +4541,79 @@ Pred:  n/0 e/0 w/0 s/0 P/0 r/0 i/0 n/0 t/0
 
 word:  imperialist
 Gold:  i/0 m/0 p/1 e/0 r/1 i/0 a/1 l/0 i/1 s/0 t/0 
-Pred:  i/0 m/0 p/1 e/0 R/0 I/1 a/1 l/0 i/1 s/0 t/0 
+Pred:  i/0 m/0 p/1 e/0 R/0 i/0 a/1 l/0 i/1 s/0 t/0 
 
 word:  molestation
 Gold:  m/0 o/0 l/1 e/0 s/0 t/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  m/0 o/0 L/0 e/0 s/0 t/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  m/0 o/0 L/0 e/0 S/1 T/0 a/0 T/0 i/0 o/0 n/0 
 
 word:  octopus
 Gold:  o/0 c/0 t/1 o/0 p/1 u/0 s/0 
-Pred:  o/0 C/1 t/1 o/0 p/1 U/1 s/0 
+Pred:  o/0 c/0 t/1 o/0 P/0 U/1 s/0 
 
 word:  olfactory
 Gold:  o/0 l/0 f/1 a/0 c/0 t/1 o/0 r/1 y/0 
-Pred:  o/0 l/0 f/1 a/0 c/0 t/1 o/0 R/0 y/0 
+Pred:  o/0 l/0 F/0 a/0 c/0 t/1 o/0 R/0 y/0 
 
 word:  silencer
 Gold:  s/0 i/0 l/1 e/0 n/0 c/0 e/1 r/0 
 Pred:  s/0 i/0 L/0 e/0 n/0 c/0 E/0 r/0 
 
+word:  bismuth
+Gold:  b/0 i/0 s/0 m/1 u/0 t/0 h/0 
+Pred:  b/0 i/0 s/0 M/0 u/0 t/0 h/0 
+
 word:  fedora
 Gold:  f/0 e/0 d/1 o/0 r/1 a/0 
-Pred:  f/0 e/0 D/0 O/1 R/0 a/0 
+Pred:  f/0 e/0 D/0 o/0 R/0 a/0 
 
 word:  lotion
 Gold:  l/0 o/0 t/1 i/0 o/0 n/0 
 Pred:  l/0 o/0 T/0 i/0 o/0 n/0 
 
+word:  blizzard
+Gold:  b/0 l/0 i/0 z/0 z/1 a/0 r/0 d/0 
+Pred:  b/0 l/0 i/0 z/0 z/1 a/0 R/1 d/0 
+
 word:  pullover
 Gold:  p/0 u/0 l/0 l/0 o/1 v/1 e/0 r/0 
 Pred:  p/0 u/0 l/0 L/1 O/0 V/0 e/0 r/0 
-
-word:  virtuous
-Gold:  v/0 i/0 r/0 t/1 u/0 o/1 u/0 s/0 
-Pred:  v/0 i/0 r/0 T/0 u/0 o/1 u/0 s/0 
 
 word:  caving
 Gold:  c/0 a/0 v/0 i/1 n/0 g/0 
 Pred:  c/0 a/0 V/1 i/1 n/0 g/0 
 
-word:  pragmatic
-Gold:  p/0 r/0 a/0 g/0 m/1 a/0 t/0 i/1 c/0 
-Pred:  p/0 r/0 a/0 g/0 m/1 a/0 T/1 I/0 c/0 
-
 word:  prestigious
 Gold:  p/0 r/0 e/0 s/0 t/1 i/0 g/0 i/1 o/0 u/0 s/0 
-Pred:  p/0 r/0 e/0 s/0 t/1 i/0 G/1 i/1 o/0 u/0 s/0 
+Pred:  p/0 r/0 e/0 S/1 T/0 i/0 G/1 I/0 o/0 u/0 s/0 
+
+word:  scenery
+Gold:  s/0 c/0 e/0 n/0 e/1 r/0 y/1 
+Pred:  s/0 c/0 e/0 n/0 E/0 r/0 y/1 
+
+word:  transported
+Gold:  t/0 r/0 a/0 n/0 s/0 p/1 o/0 r/0 t/0 e/1 d/0 
+Pred:  t/0 r/0 a/0 n/0 s/0 p/1 o/0 r/0 t/0 E/0 d/0 
 
 word:  categorization
 Gold:  c/0 a/0 t/0 e/1 g/1 o/0 r/1 i/0 z/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  c/0 a/0 t/0 E/0 g/1 o/0 R/0 i/0 Z/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  c/0 a/0 t/0 e/1 g/1 o/0 r/1 i/0 Z/0 a/0 t/1 i/0 o/0 n/0 
 
 word:  cavendish
 Gold:  c/0 a/0 v/0 e/1 n/0 d/1 i/0 s/0 h/0 
-Pred:  c/0 a/0 V/1 E/0 n/0 D/0 i/0 s/0 h/0 
+Pred:  c/0 a/0 V/1 E/0 N/1 d/1 i/0 s/0 h/0 
 
 word:  ivory
 Gold:  i/0 v/1 o/0 r/1 y/0 
-Pred:  i/0 v/1 o/0 R/0 Y/1 
+Pred:  i/0 v/1 o/0 R/0 y/0 
 
 word:  anecdote
 Gold:  a/0 n/0 e/1 c/0 d/1 o/0 t/0 e/0 
-Pred:  a/0 n/0 e/1 c/0 D/0 o/0 T/1 e/0 
+Pred:  a/0 n/0 e/1 c/0 d/1 o/0 T/1 e/0 
 
 word:  collision
 Gold:  c/0 o/0 l/0 l/1 i/0 s/1 i/0 o/0 n/0 
 Pred:  c/0 o/0 l/0 l/1 i/0 S/0 I/1 o/0 n/0 
-
-word:  painted
-Gold:  p/0 a/0 i/0 n/0 t/0 e/1 d/0 
-Pred:  p/0 a/0 i/0 n/0 T/1 E/0 d/0 
 
 word:  lire
 Gold:  l/0 i/0 r/1 e/0 
@@ -4949,83 +4621,59 @@ Pred:  l/0 i/0 R/0 e/0
 
 word:  educate
 Gold:  e/0 d/0 u/1 c/1 a/0 t/0 e/0 
-Pred:  e/0 d/0 U/0 C/0 a/0 T/1 e/0 
+Pred:  e/0 d/0 U/0 c/1 a/0 t/0 e/0 
 
 word:  arteriosclerosis
 Gold:  a/0 r/0 t/1 e/0 r/1 i/0 o/1 s/1 c/0 l/0 e/0 r/1 o/0 s/1 i/0 s/0 
-Pred:  a/0 r/0 t/1 e/0 R/0 I/1 o/1 S/0 C/1 l/0 e/0 R/0 O/1 S/0 i/0 s/0 
+Pred:  a/0 r/0 t/1 e/0 R/0 i/0 o/1 s/1 c/0 l/0 e/0 R/0 o/0 s/1 i/0 s/0 
 
 word:  scientist
 Gold:  s/0 c/0 i/0 e/1 n/0 t/1 i/0 s/0 t/0 
-Pred:  s/0 c/0 i/0 E/0 n/0 t/1 i/0 s/0 t/0 
+Pred:  s/0 c/0 i/0 E/0 n/0 t/1 i/0 s/0 T/1 
 
 word:  tamarack
 Gold:  t/0 a/0 m/0 a/1 r/1 a/0 c/0 k/0 
-Pred:  t/0 a/0 m/0 A/0 R/0 a/0 c/0 k/0 
-
-word:  nuclei
-Gold:  n/0 u/0 c/1 l/0 e/0 i/1 
-Pred:  n/0 u/0 C/0 l/0 e/0 i/1 
+Pred:  t/0 a/0 m/0 A/0 r/1 a/0 C/1 k/0 
 
 word:  principled
 Gold:  p/0 r/0 i/0 n/0 c/1 i/0 p/1 l/0 e/0 d/0 
-Pred:  p/0 r/0 i/0 n/0 C/0 i/0 P/0 l/0 e/0 d/0 
+Pred:  p/0 r/0 i/0 n/0 C/0 i/0 p/1 l/0 e/0 d/0 
 
 word:  giro
 Gold:  g/0 i/0 r/1 o/0 
 Pred:  g/0 i/0 R/0 o/0 
 
-word:  multidimensional
-Gold:  m/0 u/0 l/0 t/1 i/0 d/1 i/0 m/1 e/0 n/0 s/1 i/0 o/0 n/0 a/1 l/0 
-Pred:  m/0 u/0 l/0 t/1 i/0 d/1 I/1 m/1 e/0 n/0 S/0 i/0 o/0 n/0 a/1 l/0 
-
 word:  horizontally
 Gold:  h/0 o/0 r/0 i/1 z/1 o/0 n/0 t/1 a/0 l/0 l/1 y/0 
-Pred:  h/0 o/0 r/0 i/1 Z/0 o/0 n/0 T/0 a/0 l/0 l/1 y/0 
-
-word:  threefold
-Gold:  t/0 h/0 r/0 e/0 e/0 f/1 o/0 l/0 d/0 
-Pred:  t/0 h/0 r/0 e/0 e/0 F/0 o/0 l/0 d/0 
+Pred:  h/0 o/0 r/0 I/0 z/1 o/0 n/0 t/1 a/0 l/0 L/0 y/0 
 
 word:  uniformity
 Gold:  u/0 n/1 i/0 f/1 o/0 r/0 m/0 i/1 t/1 y/0 
-Pred:  u/0 N/0 I/1 f/1 o/0 r/0 m/0 i/1 t/1 y/0 
+Pred:  u/0 N/0 I/1 f/1 o/0 r/0 m/0 i/1 T/0 y/0 
 
 word:  distinct
 Gold:  d/0 i/0 s/0 t/1 i/0 n/0 c/0 t/0 
 Pred:  d/0 i/0 s/0 t/1 i/0 n/0 c/0 T/1 
 
-word:  photograph
-Gold:  p/0 h/0 o/0 t/1 o/0 g/1 r/0 a/0 p/0 h/0 
-Pred:  p/0 h/0 o/0 t/1 o/0 g/1 r/0 a/0 P/1 h/0 
-
 word:  grantee
 Gold:  g/0 r/0 a/0 n/0 t/0 e/1 e/0 
 Pred:  g/0 r/0 a/0 n/0 t/0 E/0 e/0 
 
-word:  symposium
-Gold:  s/0 y/0 m/0 p/1 o/0 s/1 i/0 u/1 m/0 
-Pred:  s/0 y/0 m/0 p/1 o/0 S/0 i/0 U/0 m/0 
-
-word:  nonpublic
-Gold:  n/0 o/0 n/0 p/1 u/0 b/0 l/1 i/0 c/0 
-Pred:  n/0 o/0 n/0 p/1 u/0 B/1 L/0 i/0 C/1 
-
 word:  intercollegiate
 Gold:  i/0 n/0 t/1 e/0 r/0 c/1 o/0 l/0 l/1 e/0 g/1 i/0 a/0 t/0 e/0 
-Pred:  i/0 n/0 t/1 e/0 r/0 c/1 o/0 l/0 l/1 e/0 G/0 I/1 A/1 t/0 e/0 
+Pred:  i/0 n/0 t/1 e/0 r/0 c/1 o/0 l/0 l/1 e/0 g/1 i/0 A/1 T/1 e/0 
 
 word:  fabric
 Gold:  f/0 a/0 b/0 r/1 i/0 c/0 
-Pred:  f/0 a/0 B/1 R/0 i/0 C/1 
-
-word:  irrespective
-Gold:  i/0 r/0 r/1 e/0 s/1 p/0 e/0 c/0 t/1 i/0 v/0 e/0 
-Pred:  i/0 r/0 r/1 e/0 S/0 p/0 e/0 c/0 T/0 i/0 v/0 e/0 
+Pred:  f/0 a/0 b/0 r/1 i/0 C/1 
 
 word:  aureus
 Gold:  a/0 u/0 r/1 e/0 u/1 s/0 
-Pred:  a/0 u/0 R/0 e/0 U/0 s/0 
+Pred:  a/0 u/0 r/1 e/0 U/0 s/0 
+
+word:  regeneration
+Gold:  r/0 e/0 g/1 e/0 n/0 e/1 r/0 a/1 t/1 i/0 o/0 n/0 
+Pred:  r/0 e/0 g/1 e/0 n/0 e/1 r/0 a/1 T/0 i/0 o/0 n/0 
 
 word:  squall
 Gold:  s/0 q/0 u/0 a/0 l/0 l/0 
@@ -5035,29 +4683,17 @@ word:  deacon
 Gold:  d/0 e/0 a/0 c/1 o/0 n/0 
 Pred:  d/0 e/0 a/0 C/0 o/0 n/0 
 
-word:  gelatin
-Gold:  g/0 e/0 l/0 a/1 t/1 i/0 n/0 
-Pred:  g/0 e/0 l/0 A/0 T/0 i/0 n/0 
-
 word:  geriatric
 Gold:  g/0 e/0 r/0 i/1 a/1 t/0 r/1 i/0 c/0 
 Pred:  g/0 e/0 r/0 i/1 a/1 t/0 R/0 i/0 c/0 
 
-word:  donating
-Gold:  d/0 o/0 n/1 a/0 t/0 i/1 n/0 g/0 
-Pred:  d/0 o/0 N/0 A/1 T/1 I/0 n/0 g/0 
-
 word:  choruses
 Gold:  c/0 h/0 o/0 r/1 u/0 s/0 e/1 s/0 
-Pred:  c/0 h/0 o/0 R/0 u/0 s/0 E/0 s/0 
-
-word:  leave
-Gold:  l/0 e/0 a/0 v/0 e/0 
-Pred:  l/0 e/0 a/0 v/0 E/1 
+Pred:  c/0 h/0 o/0 r/1 u/0 s/0 E/0 s/0 
 
 word:  secretly
 Gold:  s/0 e/0 c/1 r/0 e/0 t/0 l/1 y/0 
-Pred:  s/0 e/0 C/0 r/0 e/0 t/0 l/1 y/0 
+Pred:  s/0 e/0 C/0 R/1 e/0 T/1 l/1 y/0 
 
 word:  pausing
 Gold:  p/0 a/0 u/0 s/0 i/1 n/0 g/0 
@@ -5067,17 +4703,17 @@ word:  puritan
 Gold:  p/0 u/0 r/1 i/0 t/1 a/0 n/0 
 Pred:  p/0 u/0 R/0 i/0 t/1 a/0 n/0 
 
+word:  glue
+Gold:  g/0 l/0 u/0 e/0 
+Pred:  g/0 l/0 u/0 E/1 
+
 word:  reunification
 Gold:  r/0 e/0 u/1 n/1 i/0 f/1 i/0 c/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  r/0 e/0 U/0 N/0 i/0 f/1 i/0 c/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  r/0 e/0 u/1 N/0 i/0 f/1 i/0 c/1 a/0 t/1 i/0 o/0 n/0 
 
 word:  alchemist
 Gold:  a/0 l/0 c/1 h/0 e/0 m/1 i/0 s/0 t/0 
-Pred:  a/0 l/0 c/1 h/0 e/0 m/1 I/1 s/0 t/0 
-
-word:  hypersensitivity
-Gold:  h/0 y/0 p/1 e/0 r/0 s/1 e/0 n/0 s/1 i/0 t/1 i/0 v/0 i/1 t/1 y/0 
-Pred:  h/0 y/0 p/1 e/0 r/0 s/1 e/0 n/0 S/0 i/0 t/1 i/0 v/0 i/1 t/1 y/0 
+Pred:  a/0 l/0 c/1 h/0 e/0 M/0 I/1 s/0 T/1 
 
 word:  impoverished
 Gold:  i/0 m/0 p/1 o/0 v/0 e/1 r/0 i/1 s/0 h/0 e/0 d/0 
@@ -5087,17 +4723,17 @@ word:  canned
 Gold:  c/0 a/0 n/0 n/0 e/0 d/0 
 Pred:  c/0 a/0 n/0 N/1 e/0 d/0 
 
+word:  habitation
+Gold:  h/0 a/0 b/0 i/1 t/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  h/0 a/0 b/0 i/1 T/0 a/0 t/1 i/0 o/0 n/0 
+
 word:  planter
 Gold:  p/0 l/0 a/0 n/0 t/0 e/1 r/0 
 Pred:  p/0 l/0 a/0 n/0 T/1 E/0 r/0 
 
-word:  decorum
-Gold:  d/0 e/0 c/1 o/0 r/1 u/0 m/0 
-Pred:  d/0 e/0 c/1 o/0 R/0 u/0 M/1 
-
 word:  untranslated
 Gold:  u/0 n/0 t/1 r/0 a/0 n/0 s/0 l/1 a/0 t/0 e/1 d/0 
-Pred:  u/0 n/0 t/1 r/0 a/0 n/0 s/0 l/1 a/0 t/0 E/0 d/0 
+Pred:  u/0 n/0 t/1 r/0 a/0 n/0 S/1 L/0 a/0 t/0 E/0 d/0 
 
 word:  blurb
 Gold:  b/0 l/0 u/0 r/0 b/0 
@@ -5105,15 +4741,15 @@ Pred:  b/0 l/0 u/0 r/0 B/1
 
 word:  piety
 Gold:  p/0 i/0 e/1 t/1 y/0 
-Pred:  p/0 i/0 E/0 T/0 y/0 
+Pred:  p/0 i/0 E/0 T/0 Y/1 
 
 word:  variety
 Gold:  v/0 a/0 r/1 i/0 e/1 t/1 y/0 
-Pred:  v/0 a/0 R/0 I/1 E/0 T/0 y/0 
+Pred:  v/0 a/0 R/0 I/1 e/1 T/0 y/0 
 
 word:  comet
 Gold:  c/0 o/0 m/0 e/1 t/0 
-Pred:  c/0 o/0 m/0 e/1 T/1 
+Pred:  c/0 o/0 m/0 E/0 T/1 
 
 word:  midget
 Gold:  m/0 i/0 d/0 g/0 e/1 t/0 
@@ -5121,23 +4757,19 @@ Pred:  m/0 i/0 d/0 g/0 E/0 t/0
 
 word:  dilute
 Gold:  d/0 i/0 l/1 u/0 t/0 e/0 
-Pred:  d/0 i/0 L/0 u/0 t/0 e/0 
-
-word:  theory
-Gold:  t/0 h/0 e/0 o/1 r/1 y/0 
-Pred:  t/0 h/0 e/0 o/1 R/0 y/0 
+Pred:  d/0 i/0 l/1 u/0 t/0 E/1 
 
 word:  encyclopedia
 Gold:  e/0 n/0 c/1 y/0 c/1 l/0 o/0 p/1 e/0 d/1 i/0 a/1 
-Pred:  e/0 n/0 c/1 y/0 c/1 l/0 o/0 p/1 e/0 D/0 I/1 a/1 
+Pred:  e/0 n/0 c/1 y/0 c/1 l/0 o/0 p/1 e/0 D/0 i/0 a/1 
 
 word:  alignment
 Gold:  a/0 l/1 i/0 g/0 n/0 m/1 e/0 n/0 t/0 
-Pred:  a/0 L/0 I/1 g/0 N/1 m/1 e/0 n/0 t/0 
+Pred:  a/0 L/0 i/0 g/0 n/0 m/1 e/0 n/0 t/0 
 
-word:  biceps
-Gold:  b/0 i/0 c/1 e/0 p/0 s/0 
-Pred:  b/0 i/0 C/0 e/0 p/0 S/1 
+word:  glove
+Gold:  g/0 l/0 o/0 v/0 e/0 
+Pred:  g/0 l/0 o/0 v/0 E/1 
 
 word:  banker
 Gold:  b/0 a/0 n/0 k/0 e/1 r/0 
@@ -5145,23 +4777,23 @@ Pred:  b/0 a/0 n/0 k/0 E/0 r/0
 
 word:  polypeptide
 Gold:  p/0 o/0 l/0 y/1 p/1 e/0 p/0 t/1 i/0 d/0 e/0 
-Pred:  p/0 o/0 l/0 Y/0 p/1 e/0 p/0 t/1 i/0 d/0 e/0 
+Pred:  p/0 o/0 l/0 y/1 p/1 e/0 p/0 T/0 i/0 d/0 e/0 
 
 word:  anaconda
 Gold:  a/0 n/0 a/1 c/1 o/0 n/0 d/1 a/0 
 Pred:  a/0 n/0 a/1 C/0 o/0 n/0 d/1 a/0 
 
+word:  auditor
+Gold:  a/0 u/0 d/1 i/0 t/1 o/0 r/0 
+Pred:  a/0 u/0 d/1 i/0 t/1 o/0 R/1 
+
 word:  baccarat
 Gold:  b/0 a/0 c/0 c/1 a/0 r/1 a/0 t/0 
-Pred:  b/0 a/0 c/0 c/1 a/0 R/0 A/1 T/1 
+Pred:  b/0 a/0 c/0 c/1 a/0 r/1 a/0 T/1 
 
-word:  balancing
-Gold:  b/0 a/0 l/0 a/1 n/0 c/0 i/1 n/0 g/0 
-Pred:  b/0 a/0 l/0 A/0 n/0 c/0 I/0 n/0 g/0 
-
-word:  hypothermia
-Gold:  h/0 y/0 p/1 o/0 t/1 h/0 e/0 r/0 m/1 i/0 a/1 
-Pred:  h/0 y/0 p/1 o/0 T/0 h/0 e/0 r/0 m/1 i/0 a/1 
+word:  turntable
+Gold:  t/0 u/0 r/0 n/0 t/1 a/0 b/1 l/0 e/0 
+Pred:  t/0 u/0 r/0 n/0 T/0 a/0 b/1 l/0 e/0 
 
 word:  immunologic
 Gold:  i/0 m/0 m/1 u/0 n/1 o/0 l/1 o/0 g/0 i/1 c/0 
@@ -5173,79 +4805,79 @@ Pred:  p/0 a/0 r/0 S/1
 
 word:  specialized
 Gold:  s/0 p/0 e/0 c/1 i/0 a/0 l/0 i/1 z/0 e/0 d/0 
-Pred:  s/0 p/0 e/0 C/0 i/0 A/1 l/0 i/1 z/0 e/0 d/0 
+Pred:  s/0 p/0 e/0 C/0 i/0 a/0 l/0 i/1 z/0 e/0 d/0 
 
-word:  studying
-Gold:  s/0 t/0 u/0 d/0 y/1 i/1 n/0 g/0 
-Pred:  s/0 t/0 u/0 d/0 Y/0 i/1 n/0 g/0 
+word:  warbler
+Gold:  w/0 a/0 r/0 b/1 l/0 e/0 r/0 
+Pred:  w/0 a/0 r/0 B/0 l/0 e/0 r/0 
 
-word:  influenced
-Gold:  i/0 n/0 f/1 l/0 u/0 e/1 n/0 c/0 e/0 d/0 
-Pred:  i/0 n/0 f/1 l/0 u/0 E/0 n/0 c/0 e/0 d/0 
-
-word:  fluoride
-Gold:  f/0 l/0 u/0 o/1 r/1 i/0 d/0 e/0 
-Pred:  f/0 l/0 u/0 o/1 R/0 I/1 d/0 e/0 
+word:  optical
+Gold:  o/0 p/0 t/1 i/0 c/1 a/0 l/0 
+Pred:  o/0 p/0 t/1 i/0 C/0 a/0 l/0 
 
 word:  hairdressing
 Gold:  h/0 a/0 i/0 r/0 d/1 r/0 e/0 s/0 s/0 i/1 n/0 g/0 
-Pred:  h/0 a/0 i/0 r/0 D/0 r/0 e/0 s/0 s/0 i/1 n/0 g/0 
+Pred:  h/0 a/0 i/0 r/0 D/0 r/0 e/0 s/0 s/0 I/0 n/0 g/0 
 
-word:  theism
-Gold:  t/0 h/0 e/0 i/1 s/0 m/0 
-Pred:  t/0 h/0 e/0 I/0 s/0 m/0 
+word:  anabolic
+Gold:  a/0 n/0 a/1 b/1 o/0 l/0 i/1 c/0 
+Pred:  a/0 n/0 a/1 b/1 o/0 l/0 I/0 c/0 
 
 word:  belting
 Gold:  b/0 e/0 l/0 t/0 i/1 n/0 g/0 
 Pred:  b/0 e/0 l/0 t/0 I/0 n/0 g/0 
 
-word:  bachelor
-Gold:  b/0 a/0 c/0 h/0 e/1 l/1 o/0 r/0 
-Pred:  b/0 a/0 c/0 h/0 E/0 l/1 o/0 r/0 
+word:  tragically
+Gold:  t/0 r/0 a/0 g/0 i/1 c/1 a/0 l/0 l/1 y/0 
+Pred:  t/0 r/0 a/0 g/0 i/1 C/0 a/0 l/0 l/1 y/0 
 
 word:  burying
 Gold:  b/0 u/0 r/0 y/1 i/1 n/0 g/0 
 Pred:  b/0 u/0 r/0 Y/0 i/1 n/0 g/0 
 
-word:  gauche
-Gold:  g/0 a/0 u/0 c/0 h/0 e/0 
-Pred:  g/0 a/0 u/0 c/0 h/0 E/1 
-
 word:  camper
 Gold:  c/0 a/0 m/0 p/0 e/1 r/0 
 Pred:  c/0 a/0 m/0 P/1 E/0 r/0 
 
+word:  discography
+Gold:  d/0 i/0 s/0 c/1 o/0 g/0 r/1 a/0 p/1 h/0 y/0 
+Pred:  d/0 i/0 s/0 c/1 o/0 g/0 r/1 a/0 P/0 h/0 y/0 
+
 word:  foothill
 Gold:  f/0 o/0 o/0 t/0 h/1 i/0 l/0 l/0 
-Pred:  f/0 o/0 o/0 t/0 H/0 I/1 l/0 l/0 
+Pred:  f/0 o/0 o/0 t/0 H/0 I/1 L/1 l/0 
 
 word:  lucida
 Gold:  l/0 u/0 c/1 i/0 d/1 a/0 
-Pred:  l/0 u/0 C/0 i/0 D/0 a/0 
+Pred:  l/0 u/0 c/1 i/0 D/0 A/1 
 
 word:  gooey
 Gold:  g/0 o/0 o/0 e/1 y/0 
-Pred:  g/0 o/0 o/0 E/0 y/0 
+Pred:  g/0 o/0 o/0 E/0 Y/1 
+
+word:  imbued
+Gold:  i/0 m/0 b/1 u/0 e/0 d/0 
+Pred:  i/0 m/0 b/1 u/0 E/1 d/0 
+
+word:  radios
+Gold:  r/0 a/0 d/1 i/0 o/1 s/0 
+Pred:  r/0 a/0 d/1 i/0 o/1 S/1 
 
 word:  neutrino
 Gold:  n/0 e/0 u/0 t/1 r/0 i/0 n/1 o/0 
-Pred:  n/0 e/0 u/0 t/1 r/0 i/0 N/0 o/0 
+Pred:  n/0 e/0 u/0 t/1 r/0 i/0 N/0 O/1 
 
-word:  bronchial
-Gold:  b/0 r/0 o/0 n/0 c/1 h/0 i/0 a/1 l/0 
-Pred:  b/0 r/0 o/0 n/0 C/0 h/0 i/0 a/1 l/0 
-
-word:  isolate
-Gold:  i/0 s/1 o/0 l/1 a/0 t/0 e/0 
-Pred:  i/0 S/0 o/0 l/1 a/0 T/1 e/0 
+word:  procuring
+Gold:  p/0 r/0 o/0 c/1 u/0 r/0 i/1 n/0 g/0 
+Pred:  p/0 r/0 o/0 c/1 u/0 r/0 I/0 n/0 g/0 
 
 word:  urn
 Gold:  u/0 r/0 n/0 
-Pred:  u/0 r/0 N/1 
+Pred:  u/0 R/1 N/1 
 
 word:  commercialization
 Gold:  c/0 o/0 m/0 m/1 e/0 r/0 c/1 i/0 a/0 l/0 i/1 z/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  c/0 o/0 m/0 m/1 e/0 r/0 c/1 i/0 a/0 l/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0 
+Pred:  c/0 o/0 m/0 m/1 e/0 r/0 C/0 i/0 a/0 l/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0 
 
 word:  randomly
 Gold:  r/0 a/0 n/0 d/1 o/0 m/0 l/1 y/0 
@@ -5257,11 +4889,11 @@ Pred:  a/0 S/0 k/0 e/0 w/0
 
 word:  suitably
 Gold:  s/0 u/0 i/0 t/0 a/1 b/1 l/0 y/0 
-Pred:  s/0 u/0 i/0 T/1 A/0 b/1 l/0 y/0 
+Pred:  s/0 u/0 i/0 t/0 A/0 b/1 l/0 y/0 
 
 word:  marauder
 Gold:  m/0 a/0 r/1 a/0 u/0 d/0 e/1 r/0 
-Pred:  m/0 a/0 R/0 A/1 u/0 D/1 E/0 r/0 
+Pred:  m/0 a/0 R/0 A/1 u/0 d/0 E/0 r/0 
 
 word:  moniker
 Gold:  m/0 o/0 n/0 i/1 k/1 e/0 r/0 
@@ -5269,19 +4901,27 @@ Pred:  m/0 o/0 n/0 i/1 K/0 e/0 r/0
 
 word:  motel
 Gold:  m/0 o/0 t/1 e/0 l/0 
-Pred:  m/0 o/0 t/1 e/0 L/1 
+Pred:  m/0 o/0 T/0 e/0 l/0 
+
+word:  darling
+Gold:  d/0 a/0 r/0 l/1 i/0 n/0 g/0 
+Pred:  d/0 a/0 r/0 L/0 i/0 n/0 g/0 
+
+word:  cook
+Gold:  c/0 o/0 o/0 k/0 
+Pred:  c/0 o/0 O/1 k/0 
 
 word:  aged
 Gold:  a/0 g/1 e/0 d/0 
-Pred:  a/0 G/0 e/0 d/0 
+Pred:  a/0 G/0 e/0 D/1 
 
 word:  prophesy
 Gold:  p/0 r/0 o/0 p/0 h/0 e/1 s/1 y/0 
 Pred:  p/0 r/0 o/0 P/1 h/0 E/0 S/0 y/0 
 
-word:  dietetics
-Gold:  d/0 i/0 e/1 t/1 e/0 t/0 i/1 c/0 s/0 
-Pred:  d/0 i/0 E/0 T/0 e/0 t/0 i/1 c/0 s/0 
+word:  woman
+Gold:  w/0 o/0 m/0 a/1 n/0 
+Pred:  w/0 o/0 m/0 A/0 n/0 
 
 word:  palisades
 Gold:  p/0 a/0 l/0 i/1 s/1 a/0 d/0 e/0 s/0 
@@ -5290,10 +4930,6 @@ Pred:  p/0 a/0 l/0 i/1 S/0 a/0 d/0 e/0 s/0
 word:  internationalization
 Gold:  i/0 n/0 t/1 e/0 r/0 n/1 a/0 t/1 i/0 o/0 n/0 a/1 l/0 i/1 z/1 a/0 t/1 i/0 o/0 n/0 
 Pred:  i/0 n/0 t/1 e/0 r/0 n/1 a/0 t/1 i/0 o/0 n/0 a/1 l/0 i/1 Z/0 a/0 t/1 i/0 o/0 n/0 
-
-word:  altruistic
-Gold:  a/0 l/0 t/1 r/0 u/0 i/1 s/0 t/1 i/0 c/0 
-Pred:  a/0 l/0 t/1 r/0 u/0 i/1 s/0 T/0 i/0 c/0 
 
 word:  archer
 Gold:  a/0 r/0 c/0 h/0 e/1 r/0 
@@ -5305,23 +4941,15 @@ Pred:  b/0 o/0 T/0 a/0 n/0 i/1 c/0
 
 word:  evaporative
 Gold:  e/0 v/1 a/0 p/0 o/1 r/1 a/0 t/1 i/0 v/0 e/0 
-Pred:  e/0 v/1 a/0 p/0 O/0 R/0 a/0 t/1 i/0 v/0 e/0 
+Pred:  e/0 v/1 a/0 p/0 o/1 r/1 a/0 T/0 i/0 v/0 e/0 
 
-word:  momentarily
-Gold:  m/0 o/0 m/1 e/0 n/0 t/1 a/0 r/0 i/1 l/1 y/0 
-Pred:  m/0 o/0 M/0 e/0 n/0 t/1 a/0 r/0 i/1 L/0 y/0 
-
-word:  scorecard
-Gold:  s/0 c/0 o/0 r/0 e/0 c/1 a/0 r/0 d/0 
-Pred:  s/0 c/0 o/0 r/0 e/0 C/0 a/0 r/0 d/0 
+word:  levelling
+Gold:  l/0 e/0 v/0 e/1 l/0 l/1 i/0 n/0 g/0 
+Pred:  l/0 e/0 v/0 e/1 l/0 L/0 I/1 n/0 g/0 
 
 word:  foreign
 Gold:  f/0 o/0 r/0 e/1 i/0 g/0 n/0 
 Pred:  f/0 o/0 r/0 E/0 I/1 g/0 n/0 
-
-word:  snips
-Gold:  s/0 n/0 i/0 p/0 s/0 
-Pred:  s/0 n/0 i/0 p/0 S/1 
 
 word:  carter
 Gold:  c/0 a/0 r/0 t/0 e/1 r/0 
@@ -5329,11 +4957,11 @@ Pred:  c/0 a/0 r/0 T/1 E/0 r/0
 
 word:  socialite
 Gold:  s/0 o/0 c/1 i/0 a/0 l/0 i/1 t/0 e/0 
-Pred:  s/0 o/0 c/1 i/0 A/1 l/0 i/1 T/1 e/0 
+Pred:  s/0 o/0 c/1 i/0 a/0 l/0 i/1 T/1 e/0 
 
 word:  eschatology
 Gold:  e/0 s/0 c/1 h/0 a/0 t/1 o/0 l/0 o/1 g/1 y/0 
-Pred:  e/0 s/0 c/1 h/0 a/0 T/0 o/0 L/1 O/0 g/1 y/0 
+Pred:  e/0 s/0 c/1 h/0 a/0 T/0 o/0 l/0 o/1 g/1 y/0 
 
 word:  tut
 Gold:  t/0 u/0 t/0 
@@ -5343,17 +4971,21 @@ word:  taut
 Gold:  t/0 a/0 u/0 t/0 
 Pred:  t/0 a/0 u/0 T/1 
 
+word:  activator
+Gold:  a/0 c/0 t/1 i/0 v/1 a/0 t/1 o/0 r/0 
+Pred:  a/0 c/0 t/1 i/0 V/0 a/0 T/0 o/0 r/0 
+
 word:  funds
 Gold:  f/0 u/0 n/0 d/0 s/0 
 Pred:  f/0 u/0 n/0 D/1 s/0 
 
-word:  nineteen
-Gold:  n/0 i/0 n/0 e/0 t/1 e/0 e/0 n/0 
-Pred:  n/0 i/0 n/0 e/0 T/0 e/0 e/0 n/0 
+word:  commercial
+Gold:  c/0 o/0 m/0 m/1 e/0 r/0 c/1 i/0 a/0 l/0 
+Pred:  c/0 o/0 m/0 m/1 e/0 r/0 C/0 i/0 a/0 l/0 
 
 word:  phonology
 Gold:  p/0 h/0 o/0 n/1 o/0 l/0 o/1 g/1 y/0 
-Pred:  p/0 h/0 o/0 N/0 o/0 l/0 o/1 g/1 y/0 
+Pred:  p/0 h/0 o/0 n/1 o/0 L/1 O/0 g/1 y/0 
 
 word:  hiller
 Gold:  h/0 i/0 l/0 l/0 e/1 r/0 
@@ -5361,4 +4993,4 @@ Pred:  h/0 i/0 l/0 l/0 E/0 r/0
 
 word:  lily
 Gold:  l/0 i/0 l/0 y/1 
-Pred:  l/0 i/0 l/0 Y/0 
+Pred:  l/0 i/0 L/1 Y/0 
