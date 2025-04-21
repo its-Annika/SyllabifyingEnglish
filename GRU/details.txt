@@ -1,5 +1,5 @@
-Paramters: 32, 96, 0.01, 1
-Test Accuracy: 0.9231065186325162
+Paramters: 96, 96, 0.001, 15
+Test Accuracy: 0.9658678685280861
 Confusion Matrix:  
-13749 719
-680 3046
+14155 313
+308 3418
