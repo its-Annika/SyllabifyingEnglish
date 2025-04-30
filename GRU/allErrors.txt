@@ -1,1364 +1,1372 @@
 
-word:  rawhide
-Gold:  r/0 a/0 w/0 h/1 i/0 d/0 e/0 
-Pred:  r/0 a/0 W/1 H/0 i/0 d/0 e/0 
-
 word:  rental
-Gold:  r/0 e/0 n/0 t/0 a/1 l/0 
-Pred:  r/0 e/0 n/0 T/1 A/0 l/0 
+Gold:  r/1 e/0 n/0 t/0 a/1 l/0 
+Pred:  r/1 e/0 n/0 T/1 A/0 l/0 
 
-word:  salvia
-Gold:  s/0 a/0 l/0 v/1 i/0 a/1 
-Pred:  s/0 a/0 l/0 v/1 i/0 A/0 
-
-word:  omit
-Gold:  o/0 m/1 i/0 t/0 
-Pred:  o/0 M/0 i/0 t/0 
-
-word:  speedometer
-Gold:  s/0 p/0 e/0 e/0 d/0 o/1 m/0 e/1 t/1 e/0 r/0 
-Pred:  s/0 p/0 e/0 e/0 D/1 O/0 m/0 e/1 t/1 e/0 r/0 
+word:  polarizing
+Gold:  p/1 o/0 l/1 a/0 r/0 i/1 z/0 i/1 n/0 g/0 
+Pred:  p/1 o/0 L/0 A/1 r/0 i/1 z/0 i/1 n/0 g/0 
 
 word:  intercity
-Gold:  i/0 n/0 t/1 e/0 r/0 c/1 i/0 t/0 y/1 
-Pred:  i/0 n/0 t/1 e/0 r/0 c/1 i/0 T/1 Y/0 
+Gold:  i/1 n/0 t/1 e/0 r/0 c/1 i/0 t/0 y/1 
+Pred:  i/1 n/0 t/1 e/0 r/0 c/1 i/0 T/1 Y/0 
 
 word:  endemic
-Gold:  e/0 n/0 d/0 e/0 m/0 i/0 c/0 
-Pred:  e/0 n/0 D/1 e/0 m/0 I/1 c/0 
+Gold:  e/1 n/0 d/0 e/0 m/0 i/0 c/0 
+Pred:  e/1 n/0 D/1 e/0 m/0 I/1 c/0 
 
 word:  cine
-Gold:  c/0 i/0 n/0 e/1 
-Pred:  c/0 i/0 n/0 E/0 
+Gold:  c/1 i/0 n/0 e/1 
+Pred:  c/1 i/0 n/0 E/0 
 
 word:  vengeance
-Gold:  v/0 e/0 n/0 g/0 e/0 a/1 n/0 c/0 e/0 
-Pred:  v/0 e/0 n/0 G/1 e/0 A/0 n/0 c/0 e/0 
+Gold:  v/1 e/0 n/0 g/0 e/0 a/1 n/0 c/0 e/0 
+Pred:  v/1 e/0 n/0 G/1 e/0 a/1 n/0 c/0 e/0 
 
 word:  epos
-Gold:  e/0 p/0 o/1 s/0 
-Pred:  e/0 P/1 O/0 s/0 
+Gold:  e/1 p/0 o/1 s/0 
+Pred:  e/1 P/1 O/0 s/0 
 
 word:  penitentiary
-Gold:  p/0 e/0 n/0 i/1 t/1 e/0 n/0 t/1 i/0 a/0 r/1 y/0 
-Pred:  p/0 e/0 n/0 i/1 t/1 e/0 n/0 t/1 i/0 a/0 R/0 Y/1 
+Gold:  p/1 e/0 n/0 i/1 t/1 e/0 n/0 t/1 i/0 a/0 r/1 y/0 
+Pred:  p/1 e/0 n/0 i/1 t/1 e/0 n/0 t/1 i/0 a/0 R/0 Y/1 
+
+word:  meow
+Gold:  m/1 e/0 o/1 w/0 
+Pred:  m/1 e/0 O/0 w/0 
 
 word:  paprika
-Gold:  p/0 a/0 p/0 r/1 i/0 k/1 a/0 
-Pred:  p/0 a/0 P/1 R/0 i/0 k/1 a/0 
+Gold:  p/1 a/0 p/0 r/1 i/0 k/1 a/0 
+Pred:  p/1 a/0 P/1 R/0 i/0 k/1 a/0 
 
-word:  watery
-Gold:  w/0 a/0 t/1 e/0 r/0 y/1 
-Pred:  w/0 a/0 T/0 E/1 r/0 y/1 
+word:  androgen
+Gold:  a/1 n/0 d/1 r/0 o/0 g/1 e/0 n/0 
+Pred:  a/1 n/0 d/1 r/0 o/0 G/0 E/1 n/0 
 
 word:  saucer
-Gold:  s/0 a/0 u/0 c/1 e/0 r/0 
-Pred:  s/0 a/0 u/0 C/0 E/1 r/0 
+Gold:  s/1 a/0 u/0 c/1 e/0 r/0 
+Pred:  s/1 a/0 u/0 C/0 E/1 r/0 
 
-word:  antistatic
-Gold:  a/0 n/0 t/1 i/0 s/1 t/0 a/0 t/0 i/1 c/0 
-Pred:  a/0 n/0 t/1 i/0 S/0 T/1 a/0 t/0 i/1 c/0 
-
-word:  socialization
-Gold:  s/0 o/0 c/1 i/0 a/0 l/0 i/1 z/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  s/0 o/0 c/1 i/0 A/1 l/0 i/1 z/1 a/0 t/1 i/0 o/0 n/0 
-
-word:  mesmerizing
-Gold:  m/0 e/0 s/0 m/1 e/0 r/0 i/1 z/0 i/1 n/0 g/0 
-Pred:  m/0 e/0 s/0 m/1 e/0 R/1 I/0 z/0 i/1 n/0 g/0 
+word:  gooseneck
+Gold:  g/1 o/0 o/0 s/0 e/0 n/1 e/0 c/0 k/0 
+Pred:  g/1 o/0 o/0 s/0 E/1 n/1 e/0 c/0 k/0 
 
 word:  stardust
-Gold:  s/0 t/0 a/0 r/0 d/1 u/0 s/0 t/0 
-Pred:  s/0 t/0 a/0 r/0 D/0 U/1 s/0 t/0 
+Gold:  s/1 t/0 a/0 r/0 d/1 u/0 s/0 t/0 
+Pred:  s/1 t/0 a/0 r/0 D/0 U/1 s/0 t/0 
+
+word:  notwithstanding
+Gold:  n/1 o/0 t/0 w/1 i/0 t/0 h/0 s/1 t/0 a/0 n/0 d/0 i/1 n/0 g/0 
+Pred:  n/1 o/0 T/1 W/0 i/0 t/0 h/0 s/1 t/0 a/0 n/0 d/0 i/1 n/0 g/0 
 
 word:  fixation
-Gold:  f/0 i/0 x/0 a/1 t/1 i/0 o/0 n/0 
-Pred:  f/0 i/0 X/1 A/0 t/1 i/0 o/0 n/0 
+Gold:  f/1 i/0 x/0 a/1 t/1 i/0 o/0 n/0 
+Pred:  f/1 i/0 X/1 a/1 t/1 i/0 o/0 n/0 
+
+word:  repetition
+Gold:  r/1 e/0 p/0 e/1 t/1 i/0 t/1 i/0 o/0 n/0 
+Pred:  r/1 e/0 P/1 E/0 t/1 i/0 t/1 i/0 o/0 n/0 
 
 word:  damages
-Gold:  d/0 a/0 m/0 a/1 g/0 e/1 s/0 
-Pred:  d/0 a/0 m/0 a/1 g/0 E/0 s/0 
-
-word:  cunnilingus
-Gold:  c/0 u/0 n/0 n/1 i/0 l/1 i/0 n/0 g/1 u/0 s/0 
-Pred:  c/0 u/0 n/0 n/1 i/0 L/0 I/1 n/0 g/1 u/0 s/0 
+Gold:  d/1 a/0 m/0 a/1 g/0 e/1 s/0 
+Pred:  d/1 a/0 m/0 a/1 G/1 E/0 s/0 
 
 word:  pierce
-Gold:  p/0 i/0 e/0 r/0 c/0 e/0 
-Pred:  p/0 i/0 E/1 r/0 c/0 e/0 
+Gold:  p/1 i/0 e/0 r/0 c/0 e/0 
+Pred:  p/1 i/0 E/1 r/0 c/0 e/0 
+
+word:  calender
+Gold:  c/1 a/0 l/0 e/1 n/0 d/1 e/0 r/0 
+Pred:  c/1 a/0 l/0 e/1 n/0 D/0 E/1 r/0 
+
+word:  bourgeoisie
+Gold:  b/1 o/0 u/0 r/0 g/1 e/0 o/0 i/0 s/1 i/0 e/0 
+Pred:  b/1 o/0 u/0 r/0 g/1 e/0 o/0 I/1 s/1 i/0 e/0 
 
 word:  cavernous
-Gold:  c/0 a/0 v/0 e/1 r/0 n/0 o/1 u/0 s/0 
-Pred:  c/0 a/0 v/0 e/1 r/0 N/1 O/0 u/0 s/0 
+Gold:  c/1 a/0 v/0 e/1 r/0 n/0 o/1 u/0 s/0 
+Pred:  c/1 a/0 v/0 e/1 r/0 N/1 O/0 u/0 s/0 
 
 word:  thanksgiving
-Gold:  t/0 h/0 a/0 n/0 k/0 s/0 g/1 i/0 v/0 i/1 n/0 g/0 
-Pred:  t/0 h/0 a/0 n/0 k/0 S/1 G/0 i/0 v/0 i/1 n/0 g/0 
+Gold:  t/1 h/0 a/0 n/0 k/0 s/0 g/1 i/0 v/0 i/1 n/0 g/0 
+Pred:  t/1 h/0 a/0 n/0 k/0 S/1 G/0 i/0 v/0 i/1 n/0 g/0 
 
-word:  thereon
-Gold:  t/0 h/0 e/0 r/0 e/0 o/1 n/0 
-Pred:  t/0 h/0 e/0 R/1 e/0 o/1 n/0 
+word:  halter
+Gold:  h/1 a/0 l/0 t/0 e/1 r/0 
+Pred:  h/1 a/0 l/0 T/1 E/0 r/0 
 
-word:  tracheal
-Gold:  t/0 r/0 a/0 c/1 h/0 e/0 a/1 l/0 
-Pred:  t/0 r/0 a/0 c/1 h/0 e/0 A/0 l/0 
+word:  maybe
+Gold:  m/1 a/0 y/0 b/1 e/0 
+Pred:  m/1 a/0 y/0 B/0 e/0 
 
-word:  mobilisation
-Gold:  m/0 o/0 b/1 i/0 l/1 i/0 s/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  m/0 o/0 b/1 i/0 L/0 I/1 s/1 a/0 t/1 i/0 o/0 n/0 
+word:  doctrinal
+Gold:  d/1 o/0 c/0 t/1 r/0 i/0 n/1 a/0 l/0 
+Pred:  d/1 o/0 c/0 t/1 r/0 i/0 N/0 A/1 l/0 
+
+word:  banyan
+Gold:  b/1 a/0 n/0 y/1 a/0 n/0 
+Pred:  b/1 a/0 n/0 y/1 A/1 n/0 
+
+word:  bandits
+Gold:  b/1 a/0 n/0 d/1 i/0 t/0 s/0 
+Pred:  b/1 a/0 n/0 D/0 I/1 t/0 s/0 
 
 word:  eavesdropping
-Gold:  e/0 a/0 v/0 e/0 s/0 d/1 r/0 o/0 p/0 p/1 i/0 n/0 g/0 
-Pred:  e/0 a/0 v/0 E/1 s/0 d/1 r/0 o/0 p/0 p/1 i/0 n/0 g/0 
+Gold:  e/1 a/0 v/0 e/0 s/0 d/1 r/0 o/0 p/0 p/1 i/0 n/0 g/0 
+Pred:  e/1 a/0 v/0 E/1 s/0 d/1 r/0 o/0 p/0 p/1 i/0 n/0 g/0 
 
-word:  icebreaker
-Gold:  i/0 c/0 e/0 b/1 r/0 e/0 a/0 k/0 e/1 r/0 
-Pred:  i/0 C/1 e/0 b/1 r/0 e/0 a/0 k/0 e/1 r/0 
-
-word:  exponent
-Gold:  e/0 x/0 p/1 o/0 n/1 e/0 n/0 t/0 
-Pred:  e/0 x/0 p/1 o/0 N/0 E/1 n/0 t/0 
+word:  inaudible
+Gold:  i/1 n/0 a/1 u/0 d/1 i/0 b/1 l/0 e/0 
+Pred:  i/1 n/0 a/1 u/0 D/0 I/1 b/1 l/0 e/0 
 
 word:  brigadier
-Gold:  b/0 r/0 i/0 g/0 a/1 d/1 i/0 e/0 r/0 
-Pred:  b/0 r/0 i/0 G/1 A/0 D/0 I/1 E/1 r/0 
+Gold:  b/1 r/0 i/0 g/0 a/1 d/1 i/0 e/0 r/0 
+Pred:  b/1 r/0 i/0 G/1 A/0 d/1 i/0 E/1 r/0 
 
 word:  gestalt
-Gold:  g/0 e/0 s/1 t/0 a/0 l/0 t/0 
-Pred:  g/0 e/0 S/0 T/1 a/0 l/0 t/0 
+Gold:  g/1 e/0 s/1 t/0 a/0 l/0 t/0 
+Pred:  g/1 e/0 S/0 T/1 a/0 l/0 t/0 
 
 word:  engender
-Gold:  e/0 n/0 g/1 e/0 n/0 d/1 e/0 r/0 
-Pred:  e/0 n/0 g/1 e/0 n/0 D/0 E/1 r/0 
+Gold:  e/1 n/0 g/1 e/0 n/0 d/1 e/0 r/0 
+Pred:  e/1 n/0 g/1 e/0 n/0 D/0 E/1 r/0 
 
 word:  paleontology
-Gold:  p/0 a/0 l/1 e/0 o/1 n/0 t/1 o/0 l/0 o/1 g/1 y/0 
-Pred:  p/0 a/0 L/0 e/0 o/1 n/0 t/1 o/0 l/0 o/1 g/1 y/0 
+Gold:  p/1 a/0 l/1 e/0 o/1 n/0 t/1 o/0 l/0 o/1 g/1 y/0 
+Pred:  p/1 a/0 L/0 E/1 o/1 n/0 t/1 o/0 l/0 o/1 g/1 y/0 
 
 word:  fussy
-Gold:  f/0 u/0 s/0 s/0 y/1 
-Pred:  f/0 u/0 s/0 S/1 Y/0 
+Gold:  f/1 u/0 s/0 s/0 y/1 
+Pred:  f/1 u/0 s/0 S/1 y/1 
 
 word:  linac
-Gold:  l/0 i/0 n/0 a/1 c/0 
-Pred:  l/0 i/0 n/0 A/0 c/0 
+Gold:  l/1 i/0 n/0 a/1 c/0 
+Pred:  l/1 i/0 N/1 a/1 c/0 
+
+word:  china
+Gold:  c/1 h/0 i/0 n/1 a/0 
+Pred:  c/1 h/0 i/0 n/1 A/1 
+
+word:  thrilling
+Gold:  t/1 h/0 r/0 i/0 l/0 l/0 i/1 n/0 g/0 
+Pred:  t/1 h/0 r/0 i/0 l/0 L/1 I/0 n/0 g/0 
 
 word:  bullish
-Gold:  b/0 u/0 l/0 l/0 i/1 s/0 h/0 
-Pred:  b/0 u/0 l/0 L/1 I/0 s/0 h/0 
+Gold:  b/1 u/0 l/0 l/0 i/1 s/0 h/0 
+Pred:  b/1 u/0 l/0 L/1 I/0 s/0 h/0 
 
 word:  perturbative
-Gold:  p/0 e/0 r/0 t/1 u/0 r/0 b/1 a/0 t/1 i/0 v/0 e/0 
-Pred:  p/0 e/0 r/0 t/1 u/0 r/0 B/0 A/1 t/1 i/0 v/0 e/0 
+Gold:  p/1 e/0 r/0 t/1 u/0 r/0 b/1 a/0 t/1 i/0 v/0 e/0 
+Pred:  p/1 e/0 r/0 t/1 u/0 r/0 B/0 A/1 t/1 i/0 v/0 e/0 
 
 word:  primavera
-Gold:  p/0 r/0 i/0 m/1 a/0 v/1 e/0 r/1 a/0 
-Pred:  p/0 r/0 i/0 m/1 a/0 V/0 E/1 R/0 A/1 
-
-word:  yogi
-Gold:  y/0 o/0 g/1 i/0 
-Pred:  y/0 O/1 g/1 i/0 
+Gold:  p/1 r/0 i/0 m/1 a/0 v/1 e/0 r/1 a/0 
+Pred:  p/1 r/0 i/0 m/1 a/0 V/0 E/1 R/0 A/1 
 
 word:  kaiser
-Gold:  k/0 a/0 i/0 s/1 e/0 r/0 
-Pred:  k/0 a/0 i/0 S/0 E/1 r/0 
+Gold:  k/1 a/0 i/0 s/1 e/0 r/0 
+Pred:  k/1 a/0 i/0 S/0 E/1 r/0 
+
+word:  metastasis
+Gold:  m/1 e/0 t/1 a/0 s/0 t/1 a/0 s/1 i/0 s/0 
+Pred:  m/1 e/0 t/1 A/1 s/0 t/1 a/0 s/1 i/0 s/0 
 
 word:  dynamism
-Gold:  d/0 y/0 n/1 a/0 m/1 i/0 s/0 m/0 
-Pred:  d/0 y/0 n/1 a/0 M/0 I/1 s/0 m/0 
+Gold:  d/1 y/0 n/1 a/0 m/1 i/0 s/0 m/0 
+Pred:  d/1 y/0 n/1 a/0 M/0 I/1 s/0 m/0 
 
 word:  corticosteroid
-Gold:  c/0 o/0 r/0 t/1 i/0 c/1 o/0 s/1 t/0 e/0 r/0 o/1 i/0 d/0 
-Pred:  c/0 o/0 r/0 t/1 i/0 c/1 o/0 S/0 T/1 e/0 r/0 o/1 i/0 d/0 
+Gold:  c/1 o/0 r/0 t/1 i/0 c/1 o/0 s/1 t/0 e/0 r/0 o/1 i/0 d/0 
+Pred:  c/1 o/0 r/0 t/1 i/0 c/1 o/0 S/0 T/1 e/0 r/0 o/1 i/0 d/0 
 
 word:  basil
-Gold:  b/0 a/0 s/0 i/1 l/0 
-Pred:  b/0 a/0 S/1 I/0 l/0 
+Gold:  b/1 a/0 s/0 i/1 l/0 
+Pred:  b/1 a/0 S/1 I/0 l/0 
 
 word:  vintage
-Gold:  v/0 i/0 n/0 t/1 a/0 g/0 e/0 
-Pred:  v/0 i/0 n/0 T/0 A/1 g/0 e/0 
+Gold:  v/1 i/0 n/0 t/1 a/0 g/0 e/0 
+Pred:  v/1 i/0 n/0 t/1 A/1 g/0 e/0 
 
-word:  silex
-Gold:  s/0 i/0 l/1 e/0 x/0 
-Pred:  s/0 i/0 L/0 e/0 x/0 
+word:  everyday
+Gold:  e/1 v/0 e/0 r/1 y/0 d/1 a/0 y/0 
+Pred:  e/1 v/0 E/1 r/1 y/0 d/1 a/0 y/0 
 
-word:  coherent
-Gold:  c/0 o/0 h/1 e/0 r/0 e/1 n/0 t/0 
-Pred:  c/0 o/0 H/0 e/0 r/0 e/1 n/0 t/0 
+word:  dysphagia
+Gold:  d/1 y/0 s/0 p/1 h/0 a/0 g/1 i/0 a/0 
+Pred:  d/1 y/0 s/0 p/1 h/0 a/0 g/1 i/0 A/1 
 
 word:  fuselage
-Gold:  f/0 u/0 s/1 e/0 l/1 a/0 g/0 e/0 
-Pred:  f/0 u/0 S/0 e/0 L/0 a/0 g/0 e/0 
-
-word:  buoyancy
-Gold:  b/0 u/0 o/0 y/0 a/1 n/0 c/1 y/0 
-Pred:  b/0 u/0 O/1 y/0 a/1 n/0 c/1 y/0 
+Gold:  f/1 u/0 s/1 e/0 l/1 a/0 g/0 e/0 
+Pred:  f/1 u/0 s/1 e/0 L/0 A/1 g/0 e/0 
 
 word:  trumpeter
-Gold:  t/0 r/0 u/0 m/0 p/1 e/0 t/0 e/1 r/0 
-Pred:  t/0 r/0 u/0 m/0 p/1 e/0 T/1 E/0 r/0 
+Gold:  t/1 r/0 u/0 m/0 p/1 e/0 t/0 e/1 r/0 
+Pred:  t/1 r/0 u/0 m/0 p/1 e/0 T/1 E/0 r/0 
 
 word:  finesse
-Gold:  f/0 i/0 n/1 e/0 s/0 s/0 e/0 
-Pred:  f/0 i/0 n/1 e/0 s/0 S/1 e/0 
-
-word:  pleural
-Gold:  p/0 l/0 e/0 u/0 r/1 a/0 l/0 
-Pred:  p/0 l/0 e/0 U/1 r/1 a/0 l/0 
+Gold:  f/1 i/0 n/1 e/0 s/0 s/0 e/0 
+Pred:  f/1 i/0 n/1 e/0 s/0 S/1 e/0 
 
 word:  landowner
-Gold:  l/0 a/0 n/0 d/0 o/1 w/0 n/0 e/1 r/0 
-Pred:  l/0 a/0 n/0 D/1 O/0 w/0 n/0 e/1 r/0 
+Gold:  l/1 a/0 n/0 d/0 o/1 w/0 n/0 e/1 r/0 
+Pred:  l/1 a/0 n/0 D/1 O/0 w/0 n/0 e/1 r/0 
 
 word:  ream
-Gold:  r/0 e/0 a/0 m/0 
-Pred:  r/0 e/0 A/1 m/0 
+Gold:  r/1 e/0 a/0 m/0 
+Pred:  r/1 e/0 A/1 m/0 
 
 word:  product
-Gold:  p/0 r/0 o/0 d/0 u/1 c/0 t/0 
-Pred:  p/0 r/0 o/0 D/1 U/0 c/0 t/0 
+Gold:  p/1 r/0 o/0 d/0 u/1 c/0 t/0 
+Pred:  p/1 r/0 o/0 D/1 U/0 c/0 t/0 
 
-word:  ilia
-Gold:  i/0 l/0 i/1 a/1 
-Pred:  i/0 L/1 I/0 a/1 
+word:  gosling
+Gold:  g/1 o/0 s/0 l/1 i/0 n/0 g/0 
+Pred:  g/1 o/0 s/0 L/0 I/1 n/0 g/0 
+
+word:  courtroom
+Gold:  c/1 o/0 u/0 r/0 t/0 r/1 o/0 o/0 m/0 
+Pred:  c/1 o/0 u/0 r/0 T/1 R/0 o/0 o/0 m/0 
 
 word:  shaman
-Gold:  s/0 h/0 a/0 m/0 a/1 n/0 
-Pred:  s/0 h/0 a/0 M/1 A/0 n/0 
+Gold:  s/1 h/0 a/0 m/0 a/1 n/0 
+Pred:  s/1 h/0 a/0 M/1 a/1 n/0 
 
 word:  lawyer
-Gold:  l/0 a/0 w/0 y/1 e/0 r/0 
-Pred:  l/0 a/0 w/0 y/1 E/1 r/0 
+Gold:  l/1 a/0 w/0 y/1 e/0 r/0 
+Pred:  l/1 a/0 w/0 y/1 E/1 r/0 
 
 word:  predecessor
-Gold:  p/0 r/0 e/0 d/0 e/1 c/1 e/0 s/0 s/1 o/0 r/0 
-Pred:  p/0 r/0 e/0 D/1 E/0 c/1 e/0 s/0 s/1 o/0 r/0 
+Gold:  p/1 r/0 e/0 d/0 e/1 c/1 e/0 s/0 s/1 o/0 r/0 
+Pred:  p/1 r/0 e/0 D/1 E/0 c/1 e/0 s/0 s/1 o/0 r/0 
+
+word:  maverick
+Gold:  m/1 a/0 v/0 e/1 r/0 i/1 c/0 k/0 
+Pred:  m/1 a/0 v/0 e/1 R/1 I/0 c/0 k/0 
 
 word:  relativistic
-Gold:  r/0 e/0 l/0 a/1 t/1 i/0 v/0 i/1 s/0 t/1 i/0 c/0 
-Pred:  r/0 e/0 l/0 a/1 t/1 i/0 V/1 I/0 s/0 t/1 i/0 c/0 
+Gold:  r/1 e/0 l/0 a/1 t/1 i/0 v/0 i/1 s/0 t/1 i/0 c/0 
+Pred:  r/1 e/0 L/1 A/0 T/0 I/1 V/1 I/0 s/0 t/1 i/0 c/0 
+
+word:  affirmatively
+Gold:  a/1 f/0 f/1 i/0 r/0 m/0 a/1 t/1 i/0 v/0 e/0 l/1 y/0 
+Pred:  a/1 f/0 f/1 i/0 r/0 M/1 a/1 t/1 i/0 v/0 e/0 l/1 y/0 
 
 word:  newsreader
-Gold:  n/0 e/0 w/0 s/0 r/1 e/0 a/0 d/0 e/1 r/0 
-Pred:  n/0 e/0 w/0 S/1 R/0 e/0 a/0 d/0 e/1 r/0 
-
-word:  baryon
-Gold:  b/0 a/0 r/0 y/1 o/1 n/0 
-Pred:  b/0 a/0 r/0 y/1 O/0 n/0 
+Gold:  n/1 e/0 w/0 s/0 r/1 e/0 a/0 d/0 e/1 r/0 
+Pred:  n/1 e/0 w/0 S/1 R/0 e/0 a/0 d/0 e/1 r/0 
 
 word:  reservoir
-Gold:  r/0 e/0 s/0 e/1 r/0 v/1 o/0 i/0 r/0 
-Pred:  r/0 e/0 S/1 E/0 r/0 v/1 o/0 i/0 r/0 
+Gold:  r/1 e/0 s/0 e/1 r/0 v/1 o/0 i/0 r/0 
+Pred:  r/1 e/0 S/1 E/0 r/0 v/1 o/0 i/0 r/0 
 
-word:  victimization
-Gold:  v/0 i/0 c/0 t/1 i/0 m/0 i/1 z/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  v/0 i/0 c/0 t/1 i/0 M/1 I/0 z/1 a/0 t/1 i/0 o/0 n/0 
-
-word:  impartial
-Gold:  i/0 m/0 p/1 a/0 r/0 t/1 i/0 a/0 l/0 
-Pred:  i/0 m/0 p/1 a/0 r/0 t/1 i/0 A/1 l/0 
+word:  engineer
+Gold:  e/1 n/0 g/1 i/0 n/1 e/0 e/0 r/0 
+Pred:  e/1 n/0 g/1 i/0 N/0 E/1 e/0 r/0 
 
 word:  amorous
-Gold:  a/0 m/0 o/1 r/1 o/0 u/0 s/0 
-Pred:  a/0 M/1 O/0 R/0 O/1 u/0 s/0 
+Gold:  a/1 m/0 o/1 r/1 o/0 u/0 s/0 
+Pred:  a/1 M/1 o/1 r/1 O/1 u/0 s/0 
 
 word:  divestiture
-Gold:  d/0 i/0 v/1 e/0 s/0 t/0 i/1 t/1 u/0 r/0 e/0 
-Pred:  d/0 i/0 v/1 e/0 s/0 T/1 I/0 t/1 u/0 r/0 e/0 
-
-word:  cloudy
-Gold:  c/0 l/0 o/0 u/0 d/0 y/1 
-Pred:  c/0 l/0 o/0 u/0 D/1 Y/0 
+Gold:  d/1 i/0 v/1 e/0 s/0 t/0 i/1 t/1 u/0 r/0 e/0 
+Pred:  d/1 i/0 v/1 e/0 s/0 T/1 I/0 t/1 u/0 r/0 e/0 
 
 word:  tyrant
-Gold:  t/0 y/0 r/0 a/0 n/0 t/0 
-Pred:  t/0 y/0 r/0 A/1 n/0 t/0 
-
-word:  timid
-Gold:  t/0 i/0 m/0 i/1 d/0 
-Pred:  t/0 i/0 m/0 I/0 d/0 
+Gold:  t/1 y/0 r/0 a/0 n/0 t/0 
+Pred:  t/1 y/0 R/1 a/0 n/0 t/0 
 
 word:  developer
-Gold:  d/0 e/0 v/1 e/0 l/0 o/1 p/0 e/1 r/0 
-Pred:  d/0 e/0 v/1 e/0 l/0 o/1 P/1 E/0 r/0 
+Gold:  d/1 e/0 v/1 e/0 l/0 o/1 p/0 e/1 r/0 
+Pred:  d/1 e/0 V/0 E/1 l/0 o/1 p/0 e/1 r/0 
 
 word:  career
-Gold:  c/0 a/0 r/1 e/0 e/0 r/0 
-Pred:  c/0 a/0 R/0 e/0 E/1 r/0 
+Gold:  c/1 a/0 r/1 e/0 e/0 r/0 
+Pred:  c/1 a/0 R/0 e/0 E/1 r/0 
 
 word:  proclamation
-Gold:  p/0 r/0 o/0 c/0 l/1 a/0 m/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  p/0 r/0 o/0 C/1 L/0 a/0 m/1 a/0 t/1 i/0 o/0 n/0 
+Gold:  p/1 r/0 o/0 c/0 l/1 a/0 m/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  p/1 r/0 o/0 C/1 L/0 a/0 m/1 a/0 t/1 i/0 o/0 n/0 
 
 word:  impala
-Gold:  i/0 m/0 p/1 a/0 l/0 a/1 
-Pred:  i/0 m/0 p/1 a/0 L/1 A/0 
-
-word:  pyramidal
-Gold:  p/0 y/0 r/1 a/0 m/0 i/1 d/1 a/0 l/0 
-Pred:  p/0 y/0 r/1 a/0 M/1 I/0 d/1 a/0 l/0 
+Gold:  i/1 m/0 p/1 a/0 l/0 a/1 
+Pred:  i/1 m/0 p/1 a/0 L/1 a/1 
 
 word:  polygonal
-Gold:  p/0 o/0 l/1 y/0 g/0 o/1 n/1 a/0 l/0 
-Pred:  p/0 o/0 l/1 y/0 G/1 O/0 n/1 a/0 l/0 
+Gold:  p/1 o/0 l/1 y/0 g/0 o/1 n/1 a/0 l/0 
+Pred:  p/1 o/0 L/0 Y/1 G/1 O/0 N/0 A/1 l/0 
 
 word:  acetyl
-Gold:  a/0 c/0 e/1 t/1 y/0 l/0 
-Pred:  a/0 C/1 E/0 t/1 y/0 l/0 
+Gold:  a/1 c/0 e/1 t/1 y/0 l/0 
+Pred:  a/1 C/1 E/0 t/1 Y/1 l/0 
 
 word:  budgeted
-Gold:  b/0 u/0 d/0 g/0 e/1 t/0 e/1 d/0 
-Pred:  b/0 u/0 d/0 G/1 E/0 t/0 e/1 d/0 
+Gold:  b/1 u/0 d/0 g/0 e/1 t/0 e/1 d/0 
+Pred:  b/1 u/0 d/0 G/1 E/0 t/0 e/1 d/0 
 
 word:  synonymous
-Gold:  s/0 y/0 n/0 o/1 n/0 y/1 m/1 o/0 u/0 s/0 
-Pred:  s/0 y/0 N/1 O/0 n/0 y/1 m/1 o/0 u/0 s/0 
-
-word:  amortization
-Gold:  a/0 m/0 o/1 r/0 t/1 i/0 z/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  a/0 M/1 O/0 r/0 t/1 i/0 z/1 a/0 t/1 i/0 o/0 n/0 
+Gold:  s/1 y/0 n/0 o/1 n/0 y/1 m/1 o/0 u/0 s/0 
+Pred:  s/1 y/0 N/1 O/0 n/0 y/1 m/1 o/0 u/0 s/0 
 
 word:  oyez
-Gold:  o/0 y/1 e/0 z/0 
-Pred:  o/0 Y/0 E/1 z/0 
+Gold:  o/1 y/1 e/0 z/0 
+Pred:  o/1 Y/0 e/0 z/0 
 
-word:  blatantly
-Gold:  b/0 l/0 a/0 t/1 a/0 n/0 t/0 l/1 y/0 
-Pred:  b/0 l/0 a/0 T/0 A/1 n/0 t/0 l/1 y/0 
+word:  cylinder
+Gold:  c/1 y/0 l/0 i/1 n/0 d/1 e/0 r/0 
+Pred:  c/1 y/0 L/1 I/0 n/0 d/1 E/1 r/0 
 
-word:  digitally
-Gold:  d/0 i/0 g/0 i/1 t/0 a/1 l/0 l/1 y/0 
-Pred:  d/0 i/0 g/0 i/1 T/1 A/0 l/0 l/1 y/0 
+word:  guanine
+Gold:  g/1 u/0 a/0 n/1 i/0 n/0 e/0 
+Pred:  g/1 u/0 a/0 n/1 I/1 n/0 e/0 
 
 word:  chevalier
-Gold:  c/0 h/0 e/0 v/0 a/1 l/1 i/0 e/0 r/0 
-Pred:  c/0 h/0 e/0 v/0 a/1 L/0 i/0 e/0 r/0 
+Gold:  c/1 h/0 e/0 v/0 a/1 l/1 i/0 e/0 r/0 
+Pred:  c/1 h/0 e/0 v/0 a/1 l/1 i/0 E/1 r/0 
+
+word:  carte
+Gold:  c/1 a/0 r/0 t/0 e/0 
+Pred:  c/1 a/0 r/0 T/1 e/0 
 
 word:  corolla
-Gold:  c/0 o/0 r/1 o/0 l/0 l/1 a/0 
-Pred:  c/0 o/0 R/0 O/1 l/0 l/1 a/0 
+Gold:  c/1 o/0 r/1 o/0 l/0 l/1 a/0 
+Pred:  c/1 o/0 R/0 O/1 l/0 l/1 a/0 
+
+word:  buffer
+Gold:  b/1 u/0 f/0 f/0 e/1 r/0 
+Pred:  b/1 u/0 f/0 F/1 E/0 r/0 
+
+word:  newsletter
+Gold:  n/1 e/0 w/0 s/0 l/1 e/0 t/0 t/1 e/0 r/0 
+Pred:  n/1 e/0 w/0 S/1 L/0 e/0 t/0 t/1 e/0 r/0 
+
+word:  itchy
+Gold:  i/1 t/0 c/0 h/0 y/1 
+Pred:  i/1 t/0 C/1 h/0 Y/0 
 
 word:  psychic
-Gold:  p/0 s/0 y/0 c/1 h/0 i/0 c/0 
-Pred:  p/0 s/0 y/0 C/0 h/0 I/1 c/0 
+Gold:  p/1 s/0 y/0 c/1 h/0 i/0 c/0 
+Pred:  p/1 s/0 y/0 C/0 h/0 I/1 c/0 
 
 word:  ep
-Gold:  e/0 p/1 
-Pred:  e/0 P/0 
+Gold:  e/1 p/1 
+Pred:  e/1 P/0 
 
-word:  somber
-Gold:  s/0 o/0 m/0 b/1 e/0 r/0 
-Pred:  s/0 o/0 m/0 B/0 E/1 r/0 
+word:  phosphorylated
+Gold:  p/1 h/0 o/0 s/0 p/1 h/0 o/0 r/1 y/0 l/0 a/1 t/0 e/1 d/0 
+Pred:  p/1 h/0 o/0 s/0 p/1 h/0 o/0 r/1 Y/1 L/1 a/1 t/0 e/1 d/0 
 
 word:  cashier
-Gold:  c/0 a/0 s/0 h/0 i/1 e/0 r/0 
-Pred:  c/0 a/0 s/0 h/0 i/1 E/1 r/0 
-
-word:  stamina
-Gold:  s/0 t/0 a/0 m/0 i/1 n/1 a/0 
-Pred:  s/0 t/0 a/0 M/1 I/0 n/1 a/0 
-
-word:  colliery
-Gold:  c/0 o/0 l/0 l/1 i/0 e/0 r/0 y/1 
-Pred:  c/0 o/0 l/0 l/1 i/0 E/1 r/0 y/1 
+Gold:  c/1 a/0 s/0 h/0 i/1 e/0 r/0 
+Pred:  c/1 a/0 s/0 h/0 i/1 E/1 r/0 
 
 word:  miller
-Gold:  m/0 i/0 l/0 l/1 e/0 r/0 
-Pred:  m/0 i/0 l/0 L/0 E/1 r/0 
+Gold:  m/1 i/0 l/0 l/1 e/0 r/0 
+Pred:  m/1 i/0 l/0 L/0 E/1 r/0 
 
 word:  parapsychology
-Gold:  p/0 a/0 r/0 a/1 p/1 s/0 y/0 c/1 h/0 o/0 l/0 o/1 g/1 y/0 
-Pred:  p/0 a/0 r/0 a/1 P/0 S/1 y/0 c/1 h/0 o/0 l/0 o/1 g/1 y/0 
+Gold:  p/1 a/0 r/0 a/1 p/1 s/0 y/0 c/1 h/0 o/0 l/0 o/1 g/1 y/0 
+Pred:  p/1 a/0 r/0 a/1 P/0 S/1 y/0 c/1 h/0 o/0 l/0 o/1 g/1 y/0 
 
 word:  piano
-Gold:  p/0 i/0 a/0 n/1 o/0 
-Pred:  p/0 i/0 A/1 n/1 o/0 
+Gold:  p/1 i/0 a/0 n/1 o/0 
+Pred:  p/1 i/0 A/1 n/1 O/1 
+
+word:  nomad
+Gold:  n/1 o/0 m/1 a/0 d/0 
+Pred:  n/1 o/0 M/0 A/1 d/0 
+
+word:  noticing
+Gold:  n/1 o/0 t/1 i/0 c/0 i/1 n/0 g/0 
+Pred:  n/1 o/0 t/1 I/1 c/0 i/1 n/0 g/0 
 
 word:  nanometer
-Gold:  n/0 a/0 n/1 o/0 m/1 e/0 t/1 e/0 r/0 
-Pred:  n/0 a/0 n/1 o/0 M/0 E/1 t/1 e/0 r/0 
+Gold:  n/1 a/0 n/1 o/0 m/1 e/0 t/1 e/0 r/0 
+Pred:  n/1 a/0 n/1 o/0 M/0 E/1 t/1 e/0 r/0 
 
 word:  bandwagon
-Gold:  b/0 a/0 n/0 d/0 w/1 a/0 g/0 o/1 n/0 
-Pred:  b/0 a/0 n/0 d/0 w/1 a/0 G/1 O/0 n/0 
+Gold:  b/1 a/0 n/0 d/0 w/1 a/0 g/0 o/1 n/0 
+Pred:  b/1 a/0 n/0 d/0 w/1 a/0 G/1 O/0 n/0 
 
 word:  imagines
-Gold:  i/0 m/1 a/0 g/1 i/0 n/1 e/0 s/0 
-Pred:  i/0 M/0 A/1 G/0 I/1 n/1 e/0 s/0 
+Gold:  i/1 m/1 a/0 g/1 i/0 n/1 e/0 s/0 
+Pred:  i/1 M/0 A/1 G/0 I/1 n/1 e/0 s/0 
 
-word:  corduroy
-Gold:  c/0 o/0 r/0 d/1 u/0 r/1 o/0 y/0 
-Pred:  c/0 o/0 r/0 d/1 u/0 R/0 O/1 y/0 
-
-word:  nonviolence
-Gold:  n/0 o/0 n/0 v/1 i/0 o/1 l/1 e/0 n/0 c/0 e/0 
-Pred:  n/0 o/0 n/0 v/1 i/0 o/1 l/1 E/1 n/0 c/0 e/0 
+word:  jesse
+Gold:  j/1 e/0 s/0 s/0 e/0 
+Pred:  j/1 e/0 s/0 S/1 e/0 
 
 word:  sharia
-Gold:  s/0 h/0 a/0 r/1 i/0 a/1 
-Pred:  s/0 h/0 a/0 R/0 I/1 a/1 
+Gold:  s/1 h/0 a/0 r/1 i/0 a/1 
+Pred:  s/1 h/0 a/0 R/0 I/1 a/1 
 
 word:  fulfilling
-Gold:  f/0 u/0 l/0 f/1 i/0 l/0 l/1 i/0 n/0 g/0 
-Pred:  f/0 u/0 l/0 f/1 i/0 l/0 L/0 I/1 n/0 g/0 
+Gold:  f/1 u/0 l/0 f/1 i/0 l/0 l/1 i/0 n/0 g/0 
+Pred:  f/1 u/0 l/0 f/1 i/0 l/0 L/0 I/1 n/0 g/0 
 
-word:  turnip
-Gold:  t/0 u/0 r/0 n/1 i/0 p/0 
-Pred:  t/0 u/0 r/0 N/0 I/1 p/0 
+word:  coincide
+Gold:  c/1 o/0 i/1 n/0 c/1 i/0 d/0 e/0 
+Pred:  c/1 o/0 I/0 n/0 c/1 i/0 d/0 e/0 
+
+word:  histamine
+Gold:  h/1 i/0 s/0 t/1 a/0 m/1 i/0 n/0 e/0 
+Pred:  h/1 i/0 s/0 t/1 a/0 M/0 I/1 n/0 e/0 
 
 word:  render
-Gold:  r/0 e/0 n/0 d/0 e/1 r/0 
-Pred:  r/0 e/0 n/0 D/1 E/0 r/0 
-
-word:  equities
-Gold:  e/0 q/0 u/1 i/0 t/1 i/0 e/0 s/0 
-Pred:  e/0 Q/1 U/0 i/0 t/1 i/0 e/0 s/0 
-
-word:  sanctity
-Gold:  s/0 a/0 n/0 c/0 t/1 i/0 t/1 y/0 
-Pred:  s/0 a/0 n/0 C/1 t/1 i/0 t/1 y/0 
+Gold:  r/1 e/0 n/0 d/0 e/1 r/0 
+Pred:  r/1 e/0 n/0 D/1 E/0 r/0 
 
 word:  promising
-Gold:  p/0 r/0 o/0 m/0 i/1 s/0 i/1 n/0 g/0 
-Pred:  p/0 r/0 o/0 M/1 I/0 s/0 i/1 n/0 g/0 
+Gold:  p/1 r/0 o/0 m/0 i/1 s/0 i/1 n/0 g/0 
+Pred:  p/1 r/0 o/0 M/1 i/1 s/0 i/1 n/0 g/0 
 
 word:  bureaucratic
-Gold:  b/0 u/0 r/1 e/0 a/0 u/0 c/1 r/0 a/0 t/0 i/1 c/0 
-Pred:  b/0 u/0 r/1 e/0 A/1 u/0 c/1 r/0 a/0 t/0 i/1 c/0 
+Gold:  b/1 u/0 r/1 e/0 a/0 u/0 c/1 r/0 a/0 t/0 i/1 c/0 
+Pred:  b/1 u/0 r/1 e/0 A/1 U/1 c/1 r/0 a/0 t/0 i/1 c/0 
+
+word:  bigotry
+Gold:  b/1 i/0 g/0 o/1 t/0 r/1 y/0 
+Pred:  b/1 i/0 g/0 o/1 T/1 R/0 y/0 
 
 word:  stanhope
-Gold:  s/0 t/0 a/0 n/0 h/1 o/0 p/0 e/0 
-Pred:  s/0 t/0 a/0 n/0 H/0 o/0 p/0 e/0 
-
-word:  astronaut
-Gold:  a/0 s/0 t/1 r/0 o/0 n/1 a/0 u/0 t/0 
-Pred:  a/0 s/0 t/1 r/0 o/0 N/0 a/0 u/0 t/0 
+Gold:  s/1 t/0 a/0 n/0 h/1 o/0 p/0 e/0 
+Pred:  s/1 t/0 a/0 n/0 H/0 o/0 p/0 e/0 
 
 word:  doughty
-Gold:  d/0 o/0 u/0 g/0 h/0 t/1 y/0 
-Pred:  d/0 o/0 u/0 g/0 h/0 T/0 Y/1 
-
-word:  rhinoplasty
-Gold:  r/0 h/0 i/0 n/1 o/0 p/1 l/0 a/0 s/0 t/1 y/0 
-Pred:  r/0 h/0 i/0 n/1 o/0 P/0 L/1 a/0 s/0 t/1 y/0 
+Gold:  d/1 o/0 u/0 g/0 h/0 t/1 y/0 
+Pred:  d/1 o/0 u/0 g/0 h/0 T/0 Y/1 
 
 word:  adept
-Gold:  a/0 d/0 e/1 p/0 t/0 
-Pred:  a/0 D/1 E/0 p/0 t/0 
+Gold:  a/1 d/0 e/1 p/0 t/0 
+Pred:  a/1 D/1 E/0 p/0 t/0 
 
 word:  favorite
-Gold:  f/0 a/0 v/1 o/0 r/0 i/1 t/0 e/0 
-Pred:  f/0 a/0 V/0 O/1 R/1 I/0 t/0 e/0 
+Gold:  f/1 a/0 v/1 o/0 r/0 i/1 t/0 e/0 
+Pred:  f/1 a/0 v/1 o/0 R/1 I/0 t/0 e/0 
+
+word:  adage
+Gold:  a/1 d/0 a/1 g/0 e/0 
+Pred:  a/1 d/0 A/0 g/0 e/0 
 
 word:  acyl
-Gold:  a/0 c/0 y/1 l/0 
-Pred:  a/0 C/1 Y/0 l/0 
+Gold:  a/1 c/0 y/1 l/0 
+Pred:  a/1 C/1 y/1 l/0 
+
+word:  turtleneck
+Gold:  t/1 u/0 r/0 t/1 l/0 e/0 n/1 e/0 c/0 k/0 
+Pred:  t/1 u/0 r/0 T/0 L/1 e/0 n/1 e/0 c/0 k/0 
 
 word:  dowry
-Gold:  d/0 o/0 w/0 r/1 y/0 
-Pred:  d/0 o/0 w/0 R/0 Y/1 
-
-word:  forbearance
-Gold:  f/0 o/0 r/0 b/1 e/0 a/0 r/0 a/1 n/0 c/0 e/0 
-Pred:  f/0 o/0 r/0 b/1 e/0 A/1 r/0 a/1 n/0 c/0 e/0 
+Gold:  d/1 o/0 w/0 r/1 y/0 
+Pred:  d/1 o/0 w/0 R/0 Y/1 
 
 word:  erasure
-Gold:  e/0 r/1 a/0 s/0 u/1 r/0 e/0 
-Pred:  e/0 r/1 a/0 S/1 U/0 r/0 e/0 
+Gold:  e/1 r/1 a/0 s/0 u/1 r/0 e/0 
+Pred:  e/1 r/1 a/0 S/1 U/0 r/0 e/0 
 
 word:  peavey
-Gold:  p/0 e/0 a/0 v/1 e/0 y/0 
-Pred:  p/0 e/0 a/0 V/0 E/1 Y/1 
+Gold:  p/1 e/0 a/0 v/1 e/0 y/0 
+Pred:  p/1 e/0 a/0 V/0 E/1 y/0 
+
+word:  jordan
+Gold:  j/1 o/0 r/0 d/1 a/0 n/0 
+Pred:  j/1 o/0 r/0 d/1 A/1 n/0 
+
+word:  finitely
+Gold:  f/1 i/0 n/1 i/0 t/0 e/0 l/1 y/0 
+Pred:  f/1 i/0 N/0 I/1 t/0 e/0 l/1 y/0 
 
 word:  savant
-Gold:  s/0 a/0 v/1 a/0 n/0 t/0 
-Pred:  s/0 a/0 V/0 A/1 n/0 t/0 
+Gold:  s/1 a/0 v/1 a/0 n/0 t/0 
+Pred:  s/1 a/0 V/0 A/1 n/0 t/0 
 
 word:  matador
-Gold:  m/0 a/0 t/0 a/1 d/1 o/0 r/0 
-Pred:  m/0 a/0 T/1 A/0 d/1 o/0 r/0 
+Gold:  m/1 a/0 t/0 a/1 d/1 o/0 r/0 
+Pred:  m/1 a/0 T/1 A/0 d/1 o/0 r/0 
+
+word:  maduro
+Gold:  m/1 a/0 d/1 u/0 r/1 o/0 
+Pred:  m/1 a/0 D/0 U/1 r/1 o/0 
 
 word:  randy
-Gold:  r/0 a/0 n/0 d/0 y/1 
-Pred:  r/0 a/0 n/0 D/1 Y/0 
+Gold:  r/1 a/0 n/0 d/0 y/1 
+Pred:  r/1 a/0 n/0 D/1 y/1 
+
+word:  renter
+Gold:  r/1 e/0 n/0 t/0 e/1 r/0 
+Pred:  r/1 e/0 n/0 T/1 E/0 r/0 
 
 word:  promissory
-Gold:  p/0 r/0 o/0 m/0 i/1 s/0 s/1 o/0 r/1 y/0 
-Pred:  p/0 r/0 o/0 M/1 I/0 s/0 s/1 o/0 r/1 y/0 
+Gold:  p/1 r/0 o/0 m/0 i/1 s/0 s/1 o/0 r/1 y/0 
+Pred:  p/1 r/0 o/0 m/0 I/0 s/0 s/1 o/0 r/1 y/0 
 
 word:  doublet
-Gold:  d/0 o/0 u/0 b/1 l/0 e/0 t/0 
-Pred:  d/0 o/0 u/0 B/0 L/1 e/0 t/0 
+Gold:  d/1 o/0 u/0 b/1 l/0 e/0 t/0 
+Pred:  d/1 o/0 u/0 B/0 L/1 e/0 t/0 
 
-word:  superhighway
-Gold:  s/0 u/0 p/1 e/0 r/0 h/1 i/0 g/0 h/0 w/1 a/0 y/0 
-Pred:  s/0 u/0 P/0 e/0 r/0 h/1 i/0 g/0 h/0 w/1 a/0 y/0 
+word:  messy
+Gold:  m/1 e/0 s/0 s/0 y/1 
+Pred:  m/1 e/0 s/0 S/1 y/1 
 
 word:  bailey
-Gold:  b/0 a/0 i/0 l/1 e/0 y/0 
-Pred:  b/0 a/0 i/0 L/0 E/1 y/0 
+Gold:  b/1 a/0 i/0 l/1 e/0 y/0 
+Pred:  b/1 a/0 i/0 L/0 E/1 y/0 
 
 word:  auxiliary
-Gold:  a/0 u/0 x/0 i/1 l/0 i/1 a/0 r/1 y/0 
-Pred:  a/0 u/0 x/0 i/1 l/0 i/1 a/0 R/0 Y/1 
+Gold:  a/1 u/0 x/0 i/1 l/0 i/1 a/0 r/1 y/0 
+Pred:  a/1 u/0 x/0 i/1 l/0 i/1 A/1 R/0 Y/1 
 
-word:  amiss
-Gold:  a/0 m/1 i/0 s/0 s/0 
-Pred:  a/0 M/0 i/0 s/0 s/0 
+word:  zealot
+Gold:  z/1 e/0 a/0 l/0 o/1 t/0 
+Pred:  z/1 e/0 a/0 L/1 o/1 t/0 
 
 word:  preparatory
-Gold:  p/0 r/0 e/0 p/1 a/0 r/0 a/1 t/1 o/0 r/1 y/0 
-Pred:  p/0 r/0 e/0 P/0 A/1 r/0 a/1 t/1 o/0 r/1 y/0 
+Gold:  p/1 r/0 e/0 p/1 a/0 r/0 a/1 t/1 o/0 r/1 y/0 
+Pred:  p/1 r/0 e/0 P/0 A/1 R/1 A/0 t/1 o/0 r/1 y/0 
 
 word:  lanai
-Gold:  l/0 a/0 n/1 a/0 i/1 
-Pred:  l/0 a/0 n/1 a/0 I/0 
+Gold:  l/1 a/0 n/1 a/0 i/1 
+Pred:  l/1 a/0 n/1 a/0 I/0 
 
 word:  copilot
-Gold:  c/0 o/0 p/1 i/0 l/1 o/0 t/0 
-Pred:  c/0 o/0 P/0 I/1 l/1 o/0 t/0 
+Gold:  c/1 o/0 p/1 i/0 l/1 o/0 t/0 
+Pred:  c/1 o/0 p/1 I/1 l/1 o/0 t/0 
+
+word:  palazzo
+Gold:  p/1 a/0 l/1 a/0 z/0 z/1 o/0 
+Pred:  p/1 a/0 L/0 A/1 z/0 z/1 o/0 
 
 word:  abr
-Gold:  a/0 b/0 r/0 
-Pred:  a/0 B/1 r/0 
+Gold:  a/1 b/0 r/0 
+Pred:  a/1 B/1 r/0 
 
 word:  prairie
-Gold:  p/0 r/0 a/0 i/0 r/1 i/0 e/0 
-Pred:  p/0 r/0 a/0 i/0 r/1 I/1 e/0 
+Gold:  p/1 r/0 a/0 i/0 r/1 i/0 e/0 
+Pred:  p/1 r/0 a/0 i/0 R/0 I/1 e/0 
 
 word:  preposterous
-Gold:  p/0 r/0 e/0 p/1 o/0 s/0 t/1 e/0 r/0 o/1 u/0 s/0 
-Pred:  p/0 r/0 e/0 p/1 o/0 s/0 T/0 E/1 r/0 o/1 u/0 s/0 
+Gold:  p/1 r/0 e/0 p/1 o/0 s/0 t/1 e/0 r/0 o/1 u/0 s/0 
+Pred:  p/1 r/0 e/0 p/1 o/0 s/0 t/1 E/1 r/0 o/1 u/0 s/0 
 
 word:  maranatha
-Gold:  m/0 a/0 r/0 a/1 n/1 a/0 t/0 h/0 a/1 
-Pred:  m/0 a/0 r/0 a/1 n/1 a/0 T/1 h/0 A/0 
+Gold:  m/1 a/0 r/0 a/1 n/1 a/0 t/0 h/0 a/1 
+Pred:  m/1 a/0 R/1 A/0 n/1 a/0 T/1 h/0 A/0 
 
 word:  photocopier
-Gold:  p/0 h/0 o/0 t/1 o/0 c/1 o/0 p/0 i/1 e/1 r/0 
-Pred:  p/0 h/0 o/0 t/1 o/0 c/1 o/0 P/1 I/0 e/1 r/0 
-
-word:  jeopardize
-Gold:  j/0 e/0 o/0 p/0 a/1 r/0 d/0 i/1 z/0 e/0 
-Pred:  j/0 e/0 o/0 P/1 A/0 r/0 d/0 i/1 z/0 e/0 
+Gold:  p/1 h/0 o/0 t/1 o/0 c/1 o/0 p/0 i/1 e/1 r/0 
+Pred:  p/1 h/0 o/0 t/1 o/0 c/1 o/0 P/1 i/1 e/1 r/0 
 
 word:  gazebo
-Gold:  g/0 a/0 z/1 e/0 b/1 o/0 
-Pred:  g/0 a/0 Z/0 e/0 b/1 o/0 
+Gold:  g/1 a/0 z/1 e/0 b/1 o/0 
+Pred:  g/1 a/0 Z/0 e/0 b/1 o/0 
+
+word:  seldom
+Gold:  s/1 e/0 l/0 d/1 o/0 m/0 
+Pred:  s/1 e/0 l/0 D/0 O/1 m/0 
 
 word:  snorkel
-Gold:  s/0 n/0 o/0 r/0 k/1 e/0 l/0 
-Pred:  s/0 n/0 o/0 r/0 K/0 E/1 l/0 
-
-word:  unusual
-Gold:  u/0 n/0 u/1 s/1 u/0 a/1 l/0 
-Pred:  u/0 N/1 U/0 s/1 u/0 a/1 l/0 
+Gold:  s/1 n/0 o/0 r/0 k/1 e/0 l/0 
+Pred:  s/1 n/0 o/0 r/0 K/0 E/1 l/0 
 
 word:  deportation
-Gold:  d/0 e/0 p/1 o/0 r/0 t/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  d/0 e/0 P/0 O/1 r/0 t/1 a/0 t/1 i/0 o/0 n/0 
-
-word:  philosophically
-Gold:  p/0 h/0 i/0 l/0 o/1 s/1 o/0 p/0 h/0 i/1 c/1 a/0 l/0 l/1 y/0 
-Pred:  p/0 h/0 i/0 L/1 O/0 s/1 o/0 p/0 h/0 i/1 c/1 a/0 l/0 l/1 y/0 
-
-word:  demonstrator
-Gold:  d/0 e/0 m/0 o/1 n/0 s/1 t/0 r/0 a/0 t/1 o/0 r/0 
-Pred:  d/0 e/0 M/1 O/0 n/0 s/1 t/0 r/0 a/0 t/1 o/0 r/0 
+Gold:  d/1 e/0 p/1 o/0 r/0 t/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  d/1 e/0 P/0 O/1 r/0 t/1 a/0 t/1 i/0 o/0 n/0 
 
 word:  gubernatorial
-Gold:  g/0 u/0 b/1 e/0 r/0 n/1 a/0 t/1 o/0 r/1 i/0 a/1 l/0 
-Pred:  g/0 u/0 B/0 E/1 r/0 n/1 a/0 t/1 o/0 r/1 i/0 a/1 l/0 
+Gold:  g/1 u/0 b/1 e/0 r/0 n/1 a/0 t/1 o/0 r/1 i/0 a/1 l/0 
+Pred:  g/1 u/0 B/0 E/1 r/0 n/1 A/1 t/1 o/0 r/1 i/0 a/1 l/0 
 
 word:  frontier
-Gold:  f/0 r/0 o/0 n/0 t/1 i/0 e/0 r/0 
-Pred:  f/0 r/0 o/0 n/0 T/0 I/1 E/1 r/0 
+Gold:  f/1 r/0 o/0 n/0 t/1 i/0 e/0 r/0 
+Pred:  f/1 r/0 o/0 n/0 t/1 i/0 E/1 r/0 
 
 word:  sugary
-Gold:  s/0 u/0 g/0 a/1 r/0 y/1 
-Pred:  s/0 u/0 g/0 a/1 R/1 Y/0 
+Gold:  s/1 u/0 g/0 a/1 r/0 y/1 
+Pred:  s/1 u/0 g/0 a/1 R/1 Y/0 
 
-word:  racy
-Gold:  r/0 a/0 c/0 y/1 
-Pred:  r/0 a/0 C/1 Y/0 
+word:  homogenous
+Gold:  h/1 o/0 m/1 o/0 g/0 e/1 n/1 o/0 u/0 s/0 
+Pred:  h/1 o/0 m/1 o/0 G/1 E/0 n/1 o/0 u/0 s/0 
 
 word:  autism
-Gold:  a/0 u/0 t/1 i/0 s/0 m/0 
-Pred:  a/0 u/0 T/0 i/0 s/0 m/0 
+Gold:  a/1 u/0 t/1 i/0 s/0 m/0 
+Pred:  a/1 u/0 T/0 I/1 s/0 m/0 
 
 word:  semis
-Gold:  s/0 e/0 m/1 i/0 s/0 
-Pred:  s/0 e/0 M/0 I/1 s/0 
+Gold:  s/1 e/0 m/1 i/0 s/0 
+Pred:  s/1 e/0 M/0 I/1 s/0 
 
 word:  olivet
-Gold:  o/0 l/0 i/1 v/1 e/0 t/0 
-Pred:  o/0 L/1 I/0 v/1 e/0 t/0 
+Gold:  o/1 l/0 i/1 v/1 e/0 t/0 
+Pred:  o/1 L/1 I/0 v/1 e/0 t/0 
 
 word:  alert
-Gold:  a/0 l/1 e/0 r/0 t/0 
-Pred:  a/0 L/0 E/1 r/0 t/0 
+Gold:  a/1 l/1 e/0 r/0 t/0 
+Pred:  a/1 L/0 E/1 r/0 t/0 
 
-word:  percentage
-Gold:  p/0 e/0 r/0 c/1 e/0 n/0 t/0 a/1 g/0 e/0 
-Pred:  p/0 e/0 r/0 c/1 e/0 n/0 T/1 A/0 g/0 e/0 
+word:  orthodoxy
+Gold:  o/1 r/0 t/1 h/0 o/0 d/1 o/0 x/0 y/1 
+Pred:  o/1 r/0 t/1 h/0 o/0 D/0 O/1 x/0 y/1 
 
 word:  acidosis
-Gold:  a/0 c/0 i/1 d/1 o/0 s/1 i/0 s/0 
-Pred:  a/0 C/1 I/0 d/1 o/0 s/1 i/0 s/0 
+Gold:  a/1 c/0 i/1 d/1 o/0 s/1 i/0 s/0 
+Pred:  a/1 C/1 I/0 D/0 O/1 s/1 i/0 s/0 
 
 word:  rattlesnake
-Gold:  r/0 a/0 t/0 t/1 l/0 e/0 s/1 n/0 a/0 k/0 e/0 
-Pred:  r/0 a/0 t/0 t/1 l/0 e/0 S/0 N/1 a/0 k/0 e/0 
+Gold:  r/1 a/0 t/0 t/1 l/0 e/0 s/1 n/0 a/0 k/0 e/0 
+Pred:  r/1 a/0 t/0 t/1 l/0 e/0 S/0 N/1 a/0 k/0 e/0 
 
 word:  boson
-Gold:  b/0 o/0 s/0 o/1 n/0 
-Pred:  b/0 o/0 S/1 O/0 n/0 
+Gold:  b/1 o/0 s/0 o/1 n/0 
+Pred:  b/1 o/0 S/1 O/0 n/0 
 
 word:  seascape
-Gold:  s/0 e/0 a/0 s/1 c/0 a/0 p/0 e/0 
-Pred:  s/0 e/0 a/0 S/0 C/1 a/0 p/0 e/0 
+Gold:  s/1 e/0 a/0 s/1 c/0 a/0 p/0 e/0 
+Pred:  s/1 e/0 a/0 S/0 C/1 a/0 p/0 e/0 
 
 word:  hadith
-Gold:  h/0 a/0 d/1 i/0 t/0 h/0 
-Pred:  h/0 a/0 D/0 I/1 t/0 h/0 
+Gold:  h/1 a/0 d/1 i/0 t/0 h/0 
+Pred:  h/1 a/0 D/0 I/1 t/0 h/0 
 
 word:  bookseller
-Gold:  b/0 o/0 o/0 k/0 s/1 e/0 l/0 l/1 e/0 r/0 
-Pred:  b/0 o/0 o/0 k/0 s/1 e/0 l/0 L/0 E/1 r/0 
+Gold:  b/1 o/0 o/0 k/0 s/1 e/0 l/0 l/1 e/0 r/0 
+Pred:  b/1 o/0 o/0 k/0 s/1 e/0 l/0 L/0 E/1 r/0 
 
 word:  hyperbole
-Gold:  h/0 y/0 p/1 e/0 r/0 b/1 o/0 l/1 e/0 
-Pred:  h/0 y/0 p/1 e/0 r/0 b/1 o/0 L/0 e/0 
-
-word:  cowardice
-Gold:  c/0 o/0 w/0 a/1 r/0 d/0 i/1 c/0 e/0 
-Pred:  c/0 o/0 w/0 a/1 r/0 D/1 I/0 c/0 e/0 
-
-word:  prescriber
-Gold:  p/0 r/0 e/0 s/1 c/0 r/0 i/0 b/0 e/1 r/0 
-Pred:  p/0 r/0 e/0 S/0 C/1 r/0 i/0 b/0 e/1 r/0 
-
-word:  impersonation
-Gold:  i/0 m/0 p/1 e/0 r/0 s/1 o/0 n/0 a/1 t/1 i/0 o/0 n/0 
-Pred:  i/0 m/0 p/1 e/0 r/0 s/1 o/0 N/1 A/0 t/1 i/0 o/0 n/0 
-
-word:  ecologically
-Gold:  e/0 c/0 o/1 l/1 o/0 g/0 i/1 c/1 a/0 l/0 l/1 y/0 
-Pred:  e/0 C/1 O/0 l/1 o/0 g/0 i/1 c/1 a/0 l/0 l/1 y/0 
+Gold:  h/1 y/0 p/1 e/0 r/0 b/1 o/0 l/1 e/0 
+Pred:  h/1 y/0 p/1 e/0 r/0 b/1 o/0 L/0 e/0 
 
 word:  hypocrite
-Gold:  h/0 y/0 p/0 o/1 c/1 r/0 i/0 t/0 e/0 
-Pred:  h/0 y/0 P/1 O/0 c/1 r/0 i/0 t/0 e/0 
+Gold:  h/1 y/0 p/0 o/1 c/1 r/0 i/0 t/0 e/0 
+Pred:  h/1 y/0 P/1 o/1 c/1 r/0 i/0 t/0 e/0 
+
+word:  quiescent
+Gold:  q/1 u/0 i/0 e/1 s/0 c/1 e/0 n/0 t/0 
+Pred:  q/1 u/0 i/0 E/0 s/0 c/1 e/0 n/0 t/0 
 
 word:  remit
-Gold:  r/0 e/0 m/1 i/0 t/0 
-Pred:  r/0 e/0 M/0 I/1 t/0 
+Gold:  r/1 e/0 m/1 i/0 t/0 
+Pred:  r/1 e/0 M/0 I/1 t/0 
 
 word:  gossamer
-Gold:  g/0 o/0 s/0 s/1 a/0 m/1 e/0 r/0 
-Pred:  g/0 o/0 s/0 s/1 a/0 M/0 E/1 r/0 
+Gold:  g/1 o/0 s/0 s/1 a/0 m/1 e/0 r/0 
+Pred:  g/1 o/0 s/0 s/1 a/0 m/1 E/1 r/0 
 
 word:  scenic
-Gold:  s/0 c/0 e/0 n/1 i/0 c/0 
-Pred:  s/0 c/0 e/0 N/0 I/1 c/0 
+Gold:  s/1 c/0 e/0 n/1 i/0 c/0 
+Pred:  s/1 c/0 e/0 N/0 I/1 c/0 
 
 word:  espionage
-Gold:  e/0 s/0 p/1 i/0 o/1 n/1 a/0 g/0 e/0 
-Pred:  e/0 s/0 p/1 i/0 o/1 N/0 A/1 g/0 e/0 
-
-word:  hideout
-Gold:  h/0 i/0 d/0 e/0 o/1 u/0 t/0 
-Pred:  h/0 i/0 d/0 E/1 o/1 u/0 t/0 
+Gold:  e/1 s/0 p/1 i/0 o/1 n/1 a/0 g/0 e/0 
+Pred:  e/1 s/0 p/1 i/0 o/1 N/0 A/1 g/0 e/0 
 
 word:  arisen
-Gold:  a/0 r/1 i/0 s/0 e/1 n/0 
-Pred:  a/0 R/0 I/1 S/1 E/0 n/0 
+Gold:  a/1 r/1 i/0 s/0 e/1 n/0 
+Pred:  a/1 R/0 I/1 S/1 E/0 n/0 
 
 word:  esu
-Gold:  e/0 s/0 u/0 
-Pred:  e/0 S/1 u/0 
+Gold:  e/1 s/0 u/0 
+Pred:  e/1 S/1 u/0 
+
+word:  budget
+Gold:  b/1 u/0 d/0 g/0 e/1 t/0 
+Pred:  b/1 u/0 d/0 G/1 E/0 t/0 
 
 word:  elev
-Gold:  e/0 l/0 e/0 v/0 
-Pred:  e/0 L/1 e/0 v/0 
+Gold:  e/1 l/0 e/0 v/0 
+Pred:  e/1 L/1 e/0 v/0 
 
 word:  juxtaposition
-Gold:  j/0 u/0 x/0 t/1 a/0 p/1 o/0 s/1 i/0 t/1 i/0 o/0 n/0 
-Pred:  j/0 u/0 x/0 t/1 a/0 P/0 O/1 s/1 i/0 t/1 i/0 o/0 n/0 
+Gold:  j/1 u/0 x/0 t/1 a/0 p/1 o/0 s/1 i/0 t/1 i/0 o/0 n/0 
+Pred:  j/1 u/0 x/0 t/1 a/0 P/0 O/1 s/1 i/0 t/1 i/0 o/0 n/0 
 
 word:  savior
-Gold:  s/0 a/0 v/0 i/1 o/0 r/0 
-Pred:  s/0 a/0 V/1 I/0 o/0 r/0 
-
-word:  mater
-Gold:  m/0 a/0 t/1 e/0 r/0 
-Pred:  m/0 a/0 T/0 E/1 r/0 
+Gold:  s/1 a/0 v/0 i/1 o/0 r/0 
+Pred:  s/1 a/0 V/1 I/0 o/0 r/0 
 
 word:  interrogatories
-Gold:  i/0 n/0 t/1 e/0 r/0 r/1 o/0 g/0 a/1 t/1 o/0 r/1 i/0 e/0 s/0 
-Pred:  i/0 n/0 t/1 e/0 r/0 r/1 o/0 G/1 A/0 t/1 o/0 r/1 i/0 e/0 s/0 
+Gold:  i/1 n/0 t/1 e/0 r/0 r/1 o/0 g/0 a/1 t/1 o/0 r/1 i/0 e/0 s/0 
+Pred:  i/1 n/0 t/1 e/0 r/0 r/1 o/0 G/1 A/0 t/1 o/0 r/1 i/0 e/0 s/0 
 
 word:  foster
-Gold:  f/0 o/0 s/0 t/1 e/0 r/0 
-Pred:  f/0 o/0 s/0 T/0 E/1 r/0 
+Gold:  f/1 o/0 s/0 t/1 e/0 r/0 
+Pred:  f/1 o/0 s/0 T/0 E/1 r/0 
+
+word:  scriptural
+Gold:  s/1 c/0 r/0 i/0 p/0 t/1 u/0 r/0 a/1 l/0 
+Pred:  s/1 c/0 r/0 i/0 p/0 t/1 u/0 R/1 a/1 l/0 
 
 word:  anticoagulant
-Gold:  a/0 n/0 t/1 i/0 c/1 o/0 a/1 g/0 u/1 l/1 a/0 n/0 t/0 
-Pred:  a/0 n/0 t/1 i/0 c/1 o/0 A/0 g/0 u/1 l/1 a/0 n/0 t/0 
+Gold:  a/1 n/0 t/1 i/0 c/1 o/0 a/1 g/0 u/1 l/1 a/0 n/0 t/0 
+Pred:  a/1 n/0 t/1 i/0 c/1 o/0 A/0 g/0 u/1 l/1 a/0 n/0 t/0 
 
 word:  beyond
-Gold:  b/0 e/0 y/1 o/0 n/0 d/0 
-Pred:  b/0 e/0 Y/0 O/1 n/0 d/0 
-
-word:  chagrin
-Gold:  c/0 h/0 a/0 g/1 r/0 i/0 n/0 
-Pred:  c/0 h/0 a/0 G/0 R/1 i/0 n/0 
+Gold:  b/1 e/0 y/1 o/0 n/0 d/0 
+Pred:  b/1 e/0 Y/0 O/1 n/0 d/0 
 
 word:  missy
-Gold:  m/0 i/0 s/0 s/0 y/1 
-Pred:  m/0 i/0 s/0 S/1 Y/0 
-
-word:  blowout
-Gold:  b/0 l/0 o/0 w/0 o/1 u/0 t/0 
-Pred:  b/0 l/0 o/0 W/1 O/0 u/0 t/0 
-
-word:  metrology
-Gold:  m/0 e/0 t/1 r/0 o/0 l/0 o/1 g/1 y/0 
-Pred:  m/0 e/0 T/0 r/0 o/0 l/0 o/1 g/1 y/0 
+Gold:  m/1 i/0 s/0 s/0 y/1 
+Pred:  m/1 i/0 s/0 S/1 Y/0 
 
 word:  ar
-Gold:  a/0 r/1 
-Pred:  a/0 R/0 
-
-word:  endoscopic
-Gold:  e/0 n/0 d/1 o/0 s/1 c/0 o/0 p/0 i/1 c/0 
-Pred:  e/0 n/0 d/1 o/0 S/0 C/1 o/0 p/0 i/1 c/0 
-
-word:  flexibly
-Gold:  f/0 l/0 e/0 x/0 i/1 b/1 l/0 y/0 
-Pred:  f/0 l/0 e/0 x/0 i/1 b/1 L/1 y/0 
+Gold:  a/1 r/1 
+Pred:  a/1 R/0 
 
 word:  cliche
-Gold:  c/0 l/0 i/0 c/1 h/0 e/0 
-Pred:  c/0 l/0 i/0 C/0 h/0 e/0 
+Gold:  c/1 l/0 i/0 c/1 h/0 e/0 
+Pred:  c/1 l/0 i/0 C/0 h/0 e/0 
 
-word:  daughter
-Gold:  d/0 a/0 u/0 g/0 h/0 t/1 e/0 r/0 
-Pred:  d/0 a/0 u/0 g/0 h/0 T/0 e/0 r/0 
+word:  comedian
+Gold:  c/1 o/0 m/1 e/0 d/1 i/0 a/1 n/0 
+Pred:  c/1 o/0 M/0 e/0 d/1 i/0 a/1 n/0 
 
 word:  maximized
-Gold:  m/0 a/0 x/0 i/1 m/1 i/0 z/0 e/0 d/0 
-Pred:  m/0 a/0 x/0 i/1 M/0 I/1 z/0 e/0 d/0 
+Gold:  m/1 a/0 x/0 i/1 m/1 i/0 z/0 e/0 d/0 
+Pred:  m/1 a/0 x/0 i/1 M/0 I/1 z/0 e/0 d/0 
+
+word:  thievery
+Gold:  t/1 h/0 i/0 e/0 v/0 e/1 r/0 y/1 
+Pred:  t/1 h/0 i/0 E/1 v/0 e/1 r/0 y/1 
 
 word:  onion
-Gold:  o/0 n/0 i/1 o/0 n/0 
-Pred:  o/0 n/0 I/0 o/0 n/0 
+Gold:  o/1 n/0 i/1 o/0 n/0 
+Pred:  o/1 n/0 i/1 O/1 n/0 
 
 word:  booby
-Gold:  b/0 o/0 o/0 b/1 y/0 
-Pred:  b/0 o/0 o/0 B/0 Y/1 
-
-word:  mayonnaise
-Gold:  m/0 a/0 y/0 o/1 n/0 n/1 a/0 i/0 s/0 e/0 
-Pred:  m/0 a/0 Y/1 O/0 n/0 n/1 a/0 i/0 s/0 e/0 
+Gold:  b/1 o/0 o/0 b/1 y/0 
+Pred:  b/1 o/0 o/0 b/1 Y/1 
 
 word:  myelin
-Gold:  m/0 y/0 e/1 l/1 i/0 n/0 
-Pred:  m/0 y/0 E/0 l/1 i/0 n/0 
-
-word:  elucidate
-Gold:  e/0 l/1 u/0 c/1 i/0 d/1 a/0 t/0 e/0 
-Pred:  e/0 l/1 u/0 C/0 I/1 d/1 a/0 t/0 e/0 
-
-word:  punishable
-Gold:  p/0 u/0 n/0 i/1 s/0 h/0 a/1 b/1 l/0 e/0 
-Pred:  p/0 u/0 N/1 I/0 s/0 h/0 a/1 b/1 l/0 e/0 
+Gold:  m/1 y/0 e/1 l/1 i/0 n/0 
+Pred:  m/1 y/0 E/0 l/1 i/0 n/0 
 
 word:  father
-Gold:  f/0 a/0 t/1 h/0 e/0 r/0 
-Pred:  f/0 a/0 T/0 h/0 E/1 r/0 
-
-word:  arrowhead
-Gold:  a/0 r/0 r/1 o/0 w/0 h/1 e/0 a/0 d/0 
-Pred:  a/0 r/0 r/1 o/0 W/1 h/1 e/0 a/0 d/0 
+Gold:  f/1 a/0 t/1 h/0 e/0 r/0 
+Pred:  f/1 a/0 T/0 h/0 E/1 r/0 
 
 word:  mythological
-Gold:  m/0 y/0 t/0 h/0 o/1 l/1 o/0 g/0 i/1 c/1 a/0 l/0 
-Pred:  m/0 y/0 T/1 h/0 O/0 l/1 o/0 g/0 i/1 c/1 a/0 l/0 
+Gold:  m/1 y/0 t/0 h/0 o/1 l/1 o/0 g/0 i/1 c/1 a/0 l/0 
+Pred:  m/1 y/0 T/1 h/0 O/0 l/1 o/0 g/0 i/1 c/1 a/0 l/0 
 
-word:  arrhythmia
-Gold:  a/0 r/0 r/1 h/0 y/0 t/0 h/0 m/1 i/0 a/1 
-Pred:  a/0 r/0 r/1 h/0 y/0 T/1 h/0 m/1 i/0 a/1 
+word:  cabriolet
+Gold:  c/1 a/0 b/0 r/1 i/0 o/1 l/1 e/0 t/0 
+Pred:  c/1 a/0 B/1 R/0 i/0 o/1 l/1 e/0 t/0 
 
 word:  girly
-Gold:  g/0 i/0 r/0 l/0 y/1 
-Pred:  g/0 i/0 r/0 L/1 Y/0 
+Gold:  g/1 i/0 r/0 l/0 y/1 
+Pred:  g/1 i/0 r/0 L/1 y/1 
 
-word:  advisory
-Gold:  a/0 d/0 v/1 i/0 s/1 o/0 r/1 y/0 
-Pred:  a/0 d/0 v/1 i/0 s/1 o/0 R/0 y/0 
+word:  coinsurance
+Gold:  c/1 o/0 i/1 n/0 s/1 u/0 r/0 a/1 n/0 c/0 e/0 
+Pred:  c/1 o/0 I/0 n/0 s/1 u/0 R/1 a/1 n/0 c/0 e/0 
+
+word:  varied
+Gold:  v/1 a/0 r/0 i/1 e/0 d/0 
+Pred:  v/1 a/0 R/1 i/1 e/0 d/0 
 
 word:  syrup
-Gold:  s/0 y/0 r/0 u/1 p/0 
-Pred:  s/0 y/0 R/1 U/0 p/0 
+Gold:  s/1 y/0 r/0 u/1 p/0 
+Pred:  s/1 y/0 R/1 U/0 p/0 
 
 word:  crescendo
-Gold:  c/0 r/0 e/0 s/1 c/0 e/0 n/0 d/1 o/0 
-Pred:  c/0 r/0 e/0 S/0 C/1 e/0 n/0 d/1 o/0 
+Gold:  c/1 r/0 e/0 s/1 c/0 e/0 n/0 d/1 o/0 
+Pred:  c/1 r/0 e/0 S/0 C/1 e/0 n/0 d/1 o/0 
+
+word:  injustice
+Gold:  i/1 n/0 j/1 u/0 s/0 t/1 i/0 c/0 e/0 
+Pred:  i/1 n/0 j/1 u/0 S/1 T/0 i/0 c/0 e/0 
 
 word:  militarism
-Gold:  m/0 i/0 l/0 i/1 t/1 a/0 r/1 i/0 s/0 m/0 
-Pred:  m/0 i/0 l/0 i/1 t/1 a/0 R/0 I/1 s/0 m/0 
+Gold:  m/1 i/0 l/0 i/1 t/1 a/0 r/1 i/0 s/0 m/0 
+Pred:  m/1 i/0 l/0 i/1 t/1 a/0 R/0 I/1 s/0 m/0 
 
 word:  dalles
-Gold:  d/0 a/0 l/0 l/0 e/0 s/0 
-Pred:  d/0 a/0 l/0 L/1 e/0 s/0 
+Gold:  d/1 a/0 l/0 l/0 e/0 s/0 
+Pred:  d/1 a/0 l/0 L/1 e/0 s/0 
 
-word:  scavenger
-Gold:  s/0 c/0 a/0 v/0 e/1 n/0 g/1 e/0 r/0 
-Pred:  s/0 c/0 a/0 v/0 e/1 n/0 G/0 E/1 r/0 
+word:  ephedrine
+Gold:  e/1 p/1 h/0 e/0 d/0 r/1 i/0 n/0 e/0 
+Pred:  e/1 P/0 h/0 E/1 d/0 r/1 i/0 n/0 e/0 
 
-word:  nomenclature
-Gold:  n/0 o/0 m/1 e/0 n/0 c/1 l/0 a/0 t/1 u/0 r/0 e/0 
-Pred:  n/0 o/0 m/1 e/0 n/0 c/1 l/0 a/0 T/0 U/1 r/0 e/0 
+word:  coincidental
+Gold:  c/1 o/0 i/1 n/0 c/1 i/0 d/1 e/0 n/0 t/1 a/0 l/0 
+Pred:  c/1 o/0 I/0 n/0 c/1 i/0 d/1 e/0 n/0 t/1 a/0 l/0 
 
-word:  companion
-Gold:  c/0 o/0 m/0 p/1 a/0 n/0 i/1 o/0 n/0 
-Pred:  c/0 o/0 m/0 p/1 a/0 N/1 i/1 o/0 n/0 
+word:  analyzer
+Gold:  a/1 n/0 a/1 l/1 y/0 z/0 e/1 r/0 
+Pred:  a/1 n/0 a/1 l/1 y/0 Z/1 E/0 r/0 
 
-word:  tragedy
-Gold:  t/0 r/0 a/0 g/0 e/1 d/1 y/0 
-Pred:  t/0 r/0 a/0 g/0 E/0 d/1 y/0 
+word:  timothy
+Gold:  t/1 i/0 m/0 o/1 t/1 h/0 y/0 
+Pred:  t/1 i/0 m/0 o/1 t/1 h/0 Y/1 
+
+word:  bonanza
+Gold:  b/1 o/0 n/1 a/0 n/0 z/1 a/0 
+Pred:  b/1 o/0 N/0 A/1 n/0 z/1 a/0 
+
+word:  macadamia
+Gold:  m/1 a/0 c/0 a/1 d/1 a/0 m/1 i/0 a/1 
+Pred:  m/1 a/0 c/0 a/1 d/1 a/0 M/0 I/1 a/1 
+
+word:  avion
+Gold:  a/1 v/1 i/0 o/0 n/0 
+Pred:  a/1 V/0 I/1 o/0 n/0 
+
+word:  hedonism
+Gold:  h/1 e/0 d/1 o/0 n/0 i/1 s/0 m/0 
+Pred:  h/1 e/0 D/0 O/1 n/0 i/1 s/0 m/0 
+
+word:  brazen
+Gold:  b/1 r/0 a/0 z/1 e/0 n/0 
+Pred:  b/1 r/0 a/0 Z/0 E/1 n/0 
 
 word:  nuances
-Gold:  n/0 u/0 a/1 n/0 c/0 e/1 s/0 
-Pred:  n/0 u/0 a/1 n/0 C/1 E/0 s/0 
+Gold:  n/1 u/0 a/1 n/0 c/0 e/1 s/0 
+Pred:  n/1 u/0 a/1 n/0 C/1 E/0 s/0 
 
 word:  advantage
-Gold:  a/0 d/0 v/1 a/0 n/0 t/1 a/0 g/0 e/0 
-Pred:  a/0 d/0 v/1 a/0 n/0 T/0 A/1 g/0 e/0 
+Gold:  a/1 d/0 v/1 a/0 n/0 t/1 a/0 g/0 e/0 
+Pred:  a/1 d/0 v/1 a/0 n/0 T/0 A/1 g/0 e/0 
 
 word:  budgetary
-Gold:  b/0 u/0 d/0 g/0 e/1 t/0 a/1 r/0 y/1 
-Pred:  b/0 u/0 d/0 G/1 E/0 T/1 A/0 r/0 y/1 
+Gold:  b/1 u/0 d/0 g/0 e/1 t/0 a/1 r/0 y/1 
+Pred:  b/1 u/0 d/0 G/1 E/0 T/1 A/0 r/0 y/1 
 
 word:  copolymer
-Gold:  c/0 o/0 p/1 o/0 l/0 y/1 m/1 e/0 r/0 
-Pred:  c/0 o/0 P/0 O/1 L/1 Y/0 m/1 e/0 r/0 
+Gold:  c/1 o/0 p/1 o/0 l/0 y/1 m/1 e/0 r/0 
+Pred:  c/1 o/0 P/0 O/1 L/1 Y/0 m/1 e/0 r/0 
 
-word:  solder
-Gold:  s/0 o/0 l/0 d/1 e/0 r/0 
-Pred:  s/0 o/0 l/0 D/0 E/1 r/0 
+word:  dinette
+Gold:  d/1 i/0 n/1 e/0 t/0 t/0 e/0 
+Pred:  d/1 i/0 n/1 E/1 t/0 t/0 e/0 
+
+word:  rolling
+Gold:  r/1 o/0 l/0 l/0 i/1 n/0 g/0 
+Pred:  r/1 o/0 l/0 L/1 I/0 n/0 g/0 
 
 word:  requiem
-Gold:  r/0 e/0 q/0 u/1 i/0 e/1 m/0 
-Pred:  r/0 e/0 Q/1 U/0 i/0 e/1 m/0 
+Gold:  r/1 e/0 q/0 u/1 i/0 e/1 m/0 
+Pred:  r/1 e/0 Q/1 U/0 i/0 e/1 m/0 
 
 word:  abrupt
-Gold:  a/0 b/0 r/1 u/0 p/0 t/0 
-Pred:  a/0 B/1 R/0 u/0 p/0 t/0 
+Gold:  a/1 b/0 r/1 u/0 p/0 t/0 
+Pred:  a/1 B/1 R/0 u/0 p/0 t/0 
 
 word:  recommend
-Gold:  r/0 e/0 c/0 o/1 m/0 m/1 e/0 n/0 d/0 
-Pred:  r/0 e/0 C/1 O/0 m/0 m/1 e/0 n/0 d/0 
+Gold:  r/1 e/0 c/0 o/1 m/0 m/1 e/0 n/0 d/0 
+Pred:  r/1 e/0 C/1 O/0 m/0 m/1 e/0 n/0 d/0 
 
 word:  difficulties
-Gold:  d/0 i/0 f/0 f/0 i/0 c/0 u/0 l/0 t/1 i/0 e/0 s/0 
-Pred:  d/0 i/0 f/0 F/1 i/0 C/1 u/0 l/0 T/0 i/0 e/0 s/0 
+Gold:  d/1 i/0 f/0 f/0 i/0 c/0 u/0 l/0 t/1 i/0 e/0 s/0 
+Pred:  d/1 i/0 f/0 F/1 i/0 C/1 u/0 l/0 t/1 i/0 e/0 s/0 
 
 word:  ingenious
-Gold:  i/0 n/0 g/1 e/0 n/0 i/1 o/0 u/0 s/0 
-Pred:  i/0 n/0 g/1 e/0 N/1 I/0 o/0 u/0 s/0 
+Gold:  i/1 n/0 g/1 e/0 n/0 i/1 o/0 u/0 s/0 
+Pred:  i/1 n/0 g/1 e/0 N/1 I/0 o/0 u/0 s/0 
 
 word:  hazelnut
-Gold:  h/0 a/0 z/1 e/0 l/0 n/1 u/0 t/0 
-Pred:  h/0 a/0 Z/0 E/1 l/0 n/1 u/0 t/0 
-
-word:  glycogen
-Gold:  g/0 l/0 y/0 c/1 o/0 g/1 e/0 n/0 
-Pred:  g/0 l/0 y/0 C/0 O/1 g/1 e/0 n/0 
+Gold:  h/1 a/0 z/1 e/0 l/0 n/1 u/0 t/0 
+Pred:  h/1 a/0 Z/0 E/1 l/0 n/1 u/0 t/0 
 
 word:  clover
-Gold:  c/0 l/0 o/0 v/1 e/0 r/0 
-Pred:  c/0 l/0 o/0 V/0 E/1 r/0 
+Gold:  c/1 l/0 o/0 v/1 e/0 r/0 
+Pred:  c/1 l/0 o/0 V/0 E/1 r/0 
 
 word:  jello
-Gold:  j/0 e/0 l/0 l/0 o/1 
-Pred:  j/0 e/0 l/0 L/1 O/0 
+Gold:  j/1 e/0 l/0 l/0 o/1 
+Pred:  j/1 e/0 l/0 L/1 O/0 
 
 word:  covers
-Gold:  c/0 o/0 v/1 e/0 r/0 s/0 
-Pred:  c/0 o/0 V/0 E/1 r/0 s/0 
+Gold:  c/1 o/0 v/1 e/0 r/0 s/0 
+Pred:  c/1 o/0 V/0 E/1 r/0 s/0 
 
 word:  assistive
-Gold:  a/0 s/0 s/1 i/0 s/0 t/0 i/1 v/0 e/0 
-Pred:  a/0 s/0 s/1 i/0 s/0 T/1 I/0 v/0 e/0 
+Gold:  a/1 s/0 s/1 i/0 s/0 t/0 i/1 v/0 e/0 
+Pred:  a/1 s/0 s/1 i/0 s/0 T/1 I/0 v/0 e/0 
 
 word:  piecemeal
-Gold:  p/0 i/0 e/0 c/0 e/0 m/1 e/0 a/0 l/0 
-Pred:  p/0 i/0 E/1 C/1 e/0 m/1 e/0 a/0 l/0 
+Gold:  p/1 i/0 e/0 c/0 e/0 m/1 e/0 a/0 l/0 
+Pred:  p/1 i/0 e/0 c/0 e/0 m/1 e/0 A/1 l/0 
 
 word:  panache
-Gold:  p/0 a/0 n/1 a/0 c/0 h/0 e/0 
-Pred:  p/0 a/0 N/0 A/1 c/0 h/0 e/0 
-
-word:  tonal
-Gold:  t/0 o/0 n/0 a/1 l/0 
-Pred:  t/0 o/0 N/1 A/0 l/0 
+Gold:  p/1 a/0 n/1 a/0 c/0 h/0 e/0 
+Pred:  p/1 a/0 N/0 A/1 c/0 h/0 e/0 
 
 word:  lullaby
-Gold:  l/0 u/0 l/0 l/0 a/1 b/1 y/0 
-Pred:  l/0 u/0 l/0 L/1 A/0 b/1 y/0 
+Gold:  l/1 u/0 l/0 l/0 a/1 b/1 y/0 
+Pred:  l/1 u/0 l/0 L/1 A/0 b/1 y/0 
 
-word:  hungry
-Gold:  h/0 u/0 n/0 g/1 r/0 y/0 
-Pred:  h/0 u/0 n/0 G/0 R/1 y/0 
+word:  refurbish
+Gold:  r/1 e/0 f/1 u/0 r/0 b/1 i/0 s/0 h/0 
+Pred:  r/1 e/0 f/1 U/1 r/0 b/1 i/0 s/0 h/0 
 
 word:  karoo
-Gold:  k/0 a/0 r/1 o/0 o/0 
-Pred:  k/0 a/0 r/1 o/0 O/1 
+Gold:  k/1 a/0 r/1 o/0 o/0 
+Pred:  k/1 a/0 r/1 o/0 O/1 
 
 word:  peculiar
-Gold:  p/0 e/0 c/1 u/0 l/1 i/0 a/0 r/0 
-Pred:  p/0 e/0 c/1 u/0 l/1 i/0 A/1 r/0 
+Gold:  p/1 e/0 c/1 u/0 l/1 i/0 a/0 r/0 
+Pred:  p/1 e/0 c/1 u/0 l/1 i/0 A/1 r/0 
 
 word:  cloister
-Gold:  c/0 l/0 o/0 i/0 s/0 t/1 e/0 r/0 
-Pred:  c/0 l/0 o/0 i/0 s/0 T/0 E/1 r/0 
+Gold:  c/1 l/0 o/0 i/0 s/0 t/1 e/0 r/0 
+Pred:  c/1 l/0 o/0 i/0 s/0 T/0 E/1 r/0 
 
 word:  bier
-Gold:  b/0 i/0 e/0 r/0 
-Pred:  b/0 i/0 E/1 r/0 
+Gold:  b/1 i/0 e/0 r/0 
+Pred:  b/1 i/0 E/1 r/0 
 
 word:  atmospheric
-Gold:  a/0 t/0 m/1 o/0 s/0 p/1 h/0 e/0 r/0 i/1 c/0 
-Pred:  a/0 t/0 m/1 o/0 S/1 P/0 h/0 e/0 r/0 i/1 c/0 
+Gold:  a/1 t/0 m/1 o/0 s/0 p/1 h/0 e/0 r/0 i/1 c/0 
+Pred:  a/1 t/0 m/1 o/0 S/1 P/0 h/0 e/0 r/0 i/1 c/0 
 
 word:  psychotherapist
-Gold:  p/0 s/0 y/0 c/1 h/0 o/0 t/1 h/0 e/0 r/0 a/1 p/1 i/0 s/0 t/0 
-Pred:  p/0 s/0 y/0 c/1 h/0 o/0 t/1 h/0 E/1 r/0 a/1 p/1 i/0 s/0 t/0 
+Gold:  p/1 s/0 y/0 c/1 h/0 o/0 t/1 h/0 e/0 r/0 a/1 p/1 i/0 s/0 t/0 
+Pred:  p/1 s/0 y/0 c/1 h/0 o/0 T/0 h/0 E/1 r/0 a/1 p/1 i/0 s/0 t/0 
 
 word:  debtor
-Gold:  d/0 e/0 b/0 t/0 o/1 r/0 
-Pred:  d/0 e/0 b/0 T/1 O/0 r/0 
+Gold:  d/1 e/0 b/0 t/0 o/1 r/0 
+Pred:  d/1 e/0 b/0 T/1 O/0 r/0 
 
 word:  phenotype
-Gold:  p/0 h/0 e/0 n/1 o/0 t/1 y/0 p/0 e/0 
-Pred:  p/0 h/0 e/0 N/0 O/1 t/1 y/0 p/0 e/0 
+Gold:  p/1 h/0 e/0 n/1 o/0 t/1 y/0 p/0 e/0 
+Pred:  p/1 h/0 e/0 N/0 O/1 t/1 y/0 p/0 e/0 
+
+word:  hirsute
+Gold:  h/1 i/0 r/0 s/1 u/0 t/0 e/0 
+Pred:  h/1 i/0 r/0 S/0 U/1 t/0 e/0 
 
 word:  equivalently
-Gold:  e/0 q/1 u/0 i/0 v/0 a/1 l/1 e/0 n/0 t/0 l/1 y/0 
-Pred:  e/0 q/1 u/0 i/0 V/1 A/0 l/1 e/0 n/0 t/0 l/1 y/0 
+Gold:  e/1 q/1 u/0 i/0 v/0 a/1 l/1 e/0 n/0 t/0 l/1 y/0 
+Pred:  e/1 Q/0 U/1 i/0 v/0 a/1 l/1 e/0 n/0 t/0 l/1 y/0 
 
 word:  typist
-Gold:  t/0 y/0 p/0 i/1 s/0 t/0 
-Pred:  t/0 y/0 P/1 I/0 s/0 t/0 
+Gold:  t/1 y/0 p/0 i/1 s/0 t/0 
+Pred:  t/1 y/0 P/1 i/1 s/0 t/0 
+
+word:  privacy
+Gold:  p/1 r/0 i/0 v/1 a/0 c/1 y/0 
+Pred:  p/1 r/0 i/0 V/0 A/1 c/1 y/0 
+
+word:  sarcoma
+Gold:  s/1 a/0 r/0 c/1 o/0 m/1 a/0 
+Pred:  s/1 a/0 r/0 c/1 o/0 m/1 A/1 
+
+word:  armament
+Gold:  a/1 r/0 m/1 a/0 m/1 e/0 n/0 t/0 
+Pred:  a/1 r/0 M/0 A/1 m/1 e/0 n/0 t/0 
 
 word:  paves
-Gold:  p/0 a/0 v/1 e/0 s/0 
-Pred:  p/0 a/0 V/0 e/0 s/0 
+Gold:  p/1 a/0 v/1 e/0 s/0 
+Pred:  p/1 a/0 V/0 e/0 s/0 
 
-word:  heretical
-Gold:  h/0 e/0 r/1 e/0 t/0 i/1 c/1 a/0 l/0 
-Pred:  h/0 e/0 r/1 e/0 T/1 I/0 c/1 a/0 l/0 
-
-word:  drapes
-Gold:  d/0 r/0 a/0 p/0 e/0 s/0 
-Pred:  d/0 r/0 a/0 p/0 E/1 s/0 
+word:  audible
+Gold:  a/1 u/0 d/1 i/0 b/1 l/0 e/0 
+Pred:  a/1 u/0 D/0 I/1 b/1 l/0 e/0 
 
 word:  spiral
-Gold:  s/0 p/0 i/0 r/0 a/1 l/0 
-Pred:  s/0 p/0 i/0 R/1 A/0 l/0 
+Gold:  s/1 p/0 i/0 r/0 a/1 l/0 
+Pred:  s/1 p/0 i/0 R/1 A/0 l/0 
 
 word:  reposition
-Gold:  r/0 e/0 p/1 o/0 s/1 i/0 t/1 i/0 o/0 n/0 
-Pred:  r/0 e/0 P/0 O/1 s/1 i/0 t/1 i/0 o/0 n/0 
+Gold:  r/1 e/0 p/1 o/0 s/1 i/0 t/1 i/0 o/0 n/0 
+Pred:  r/1 e/0 P/0 O/1 s/1 i/0 t/1 i/0 o/0 n/0 
+
+word:  shamanism
+Gold:  s/1 h/0 a/0 m/1 a/0 n/0 i/1 s/0 m/0 
+Pred:  s/1 h/0 a/0 M/0 A/1 n/0 i/1 s/0 m/0 
 
 word:  premature
-Gold:  p/0 r/0 e/0 m/0 a/1 t/1 u/0 r/0 e/0 
-Pred:  p/0 r/0 e/0 M/1 A/0 t/1 u/0 r/0 e/0 
-
-word:  elsewhere
-Gold:  e/0 l/0 s/0 e/0 w/1 h/0 e/0 r/0 e/0 
-Pred:  e/0 l/0 S/1 e/0 w/1 h/0 e/0 r/0 e/0 
+Gold:  p/1 r/0 e/0 m/0 a/1 t/1 u/0 r/0 e/0 
+Pred:  p/1 r/0 e/0 M/1 A/0 t/1 u/0 r/0 e/0 
 
 word:  choral
-Gold:  c/0 h/0 o/0 r/1 a/0 l/0 
-Pred:  c/0 h/0 o/0 R/0 A/1 l/0 
+Gold:  c/1 h/0 o/0 r/1 a/0 l/0 
+Pred:  c/1 h/0 o/0 R/0 A/1 l/0 
 
 word:  isle
-Gold:  i/0 s/0 l/0 e/0 
-Pred:  i/0 S/1 l/0 e/0 
-
-word:  distributable
-Gold:  d/0 i/0 s/0 t/1 r/0 i/0 b/0 u/1 t/0 a/1 b/1 l/0 e/0 
-Pred:  d/0 i/0 s/0 t/1 r/0 i/0 b/0 u/1 t/0 A/0 b/1 l/0 e/0 
+Gold:  i/1 s/0 l/0 e/0 
+Pred:  i/1 S/1 l/0 e/0 
 
 word:  reputable
-Gold:  r/0 e/0 p/0 u/1 t/1 a/0 b/1 l/0 e/0 
-Pred:  r/0 e/0 P/1 U/0 T/0 A/1 b/1 l/0 e/0 
+Gold:  r/1 e/0 p/0 u/1 t/1 a/0 b/1 l/0 e/0 
+Pred:  r/1 e/0 P/1 U/0 T/0 A/1 b/1 l/0 e/0 
+
+word:  reissue
+Gold:  r/1 e/0 i/1 s/0 s/1 u/0 e/0 
+Pred:  r/1 e/0 I/0 s/0 s/1 u/0 e/0 
+
+word:  blasphemy
+Gold:  b/1 l/0 a/0 s/0 p/1 h/0 e/0 m/1 y/0 
+Pred:  b/1 l/0 a/0 s/0 p/1 h/0 e/0 M/0 Y/1 
 
 word:  agave
-Gold:  a/0 g/1 a/0 v/1 e/0 
-Pred:  a/0 g/1 a/0 V/0 e/0 
+Gold:  a/1 g/1 a/0 v/1 e/0 
+Pred:  a/1 g/1 a/0 V/0 e/0 
 
-word:  schilling
-Gold:  s/0 c/0 h/0 i/0 l/0 l/1 i/0 n/0 g/0 
-Pred:  s/0 c/0 h/0 i/0 l/0 L/0 I/1 n/0 g/0 
+word:  coincided
+Gold:  c/1 o/0 i/1 n/0 c/1 i/0 d/0 e/1 d/0 
+Pred:  c/1 o/0 I/0 n/0 c/1 i/0 d/0 e/1 d/0 
+
+word:  panier
+Gold:  p/1 a/0 n/0 i/1 e/0 r/0 
+Pred:  p/1 a/0 n/0 i/1 E/1 r/0 
 
 word:  mammalian
-Gold:  m/0 a/0 m/0 m/1 a/0 l/1 i/0 a/1 n/0 
-Pred:  m/0 a/0 m/0 m/1 a/0 L/0 I/1 a/1 n/0 
+Gold:  m/1 a/0 m/0 m/1 a/0 l/1 i/0 a/1 n/0 
+Pred:  m/1 a/0 m/0 m/1 a/0 l/1 I/1 a/1 n/0 
 
-word:  zoo
-Gold:  z/0 o/0 o/0 
-Pred:  z/0 o/0 O/1 
-
-word:  dirty
-Gold:  d/0 i/0 r/0 t/0 y/1 
-Pred:  d/0 i/0 r/0 T/1 Y/0 
+word:  relaxation
+Gold:  r/1 e/0 l/1 a/0 x/0 a/1 t/1 i/0 o/0 n/0 
+Pred:  r/1 e/0 L/0 A/1 X/1 a/1 t/1 i/0 o/0 n/0 
 
 word:  cuesta
-Gold:  c/0 u/0 e/0 s/0 t/1 a/0 
-Pred:  c/0 u/0 E/1 s/0 t/1 a/0 
+Gold:  c/1 u/0 e/0 s/0 t/1 a/0 
+Pred:  c/1 u/0 E/1 s/0 t/1 a/0 
 
 word:  biogeography
-Gold:  b/0 i/0 o/1 g/1 e/0 o/1 g/0 r/1 a/0 p/1 h/0 y/0 
-Pred:  b/0 i/0 o/1 g/1 e/0 O/0 g/0 r/1 a/0 p/1 h/0 y/0 
+Gold:  b/1 i/0 o/1 g/1 e/0 o/1 g/0 r/1 a/0 p/1 h/0 y/0 
+Pred:  b/1 i/0 o/1 g/1 e/0 O/0 g/0 r/1 a/0 p/1 h/0 y/0 
+
+word:  intertidal
+Gold:  i/1 n/0 t/1 e/0 r/0 t/1 i/0 d/0 a/1 l/0 
+Pred:  i/1 n/0 t/1 e/0 r/0 t/1 i/0 D/1 A/0 l/0 
+
+word:  cement
+Gold:  c/1 e/0 m/1 e/0 n/0 t/0 
+Pred:  c/1 e/0 M/0 E/1 n/0 t/0 
 
 word:  peculiarly
-Gold:  p/0 e/0 c/1 u/0 l/1 i/0 a/0 r/0 l/1 y/0 
-Pred:  p/0 e/0 c/1 u/0 l/1 i/0 A/1 r/0 l/1 y/0 
+Gold:  p/1 e/0 c/1 u/0 l/1 i/0 a/0 r/0 l/1 y/0 
+Pred:  p/1 e/0 c/1 u/0 l/1 i/0 A/1 r/0 l/1 y/0 
 
 word:  finder
-Gold:  f/0 i/0 n/0 d/0 e/1 r/0 
-Pred:  f/0 i/0 n/0 D/1 E/0 r/0 
+Gold:  f/1 i/0 n/0 d/0 e/1 r/0 
+Pred:  f/1 i/0 n/0 D/1 E/0 r/0 
 
 word:  jazzy
-Gold:  j/0 a/0 z/0 z/0 y/1 
-Pred:  j/0 a/0 z/0 Z/1 Y/0 
+Gold:  j/1 a/0 z/0 z/0 y/1 
+Pred:  j/1 a/0 z/0 Z/1 Y/0 
 
 word:  atelier
-Gold:  a/0 t/0 e/1 l/0 i/1 e/0 r/0 
-Pred:  a/0 t/0 E/0 L/1 I/0 e/0 r/0 
+Gold:  a/1 t/0 e/1 l/0 i/1 e/0 r/0 
+Pred:  a/1 t/0 E/0 L/1 I/0 E/1 r/0 
 
-word:  rayon
-Gold:  r/0 a/0 y/0 o/1 n/0 
-Pred:  r/0 a/0 Y/1 O/0 n/0 
-
-word:  promontory
-Gold:  p/0 r/0 o/0 m/0 o/1 n/0 t/1 o/0 r/1 y/0 
-Pred:  p/0 r/0 o/0 M/1 O/0 n/0 t/1 o/0 r/1 y/0 
-
-word:  trendy
-Gold:  t/0 r/0 e/0 n/0 d/0 y/1 
-Pred:  t/0 r/0 e/0 n/0 D/1 Y/0 
+word:  thorium
+Gold:  t/1 h/0 o/0 r/1 i/0 u/1 m/0 
+Pred:  t/1 h/0 o/0 r/1 I/1 u/1 m/0 
 
 word:  remuneration
-Gold:  r/0 e/0 m/1 u/0 n/1 e/0 r/0 a/1 t/1 i/0 o/0 n/0 
-Pred:  r/0 e/0 m/1 u/0 N/0 E/1 r/0 a/1 t/1 i/0 o/0 n/0 
+Gold:  r/1 e/0 m/1 u/0 n/1 e/0 r/0 a/1 t/1 i/0 o/0 n/0 
+Pred:  r/1 e/0 m/1 u/0 N/0 E/1 r/0 a/1 t/1 i/0 o/0 n/0 
 
 word:  weirdo
-Gold:  w/0 e/0 i/0 r/0 d/0 o/1 
-Pred:  w/0 e/0 i/0 r/0 D/1 O/0 
+Gold:  w/1 e/0 i/0 r/0 d/0 o/1 
+Pred:  w/1 e/0 i/0 r/0 D/1 O/0 
 
 word:  embolism
-Gold:  e/0 m/0 b/1 o/0 l/1 i/0 s/0 m/0 
-Pred:  e/0 m/0 b/1 o/0 L/0 I/1 s/0 m/0 
+Gold:  e/1 m/0 b/1 o/0 l/1 i/0 s/0 m/0 
+Pred:  e/1 m/0 b/1 o/0 L/0 I/1 s/0 m/0 
 
 word:  elastomer
-Gold:  e/0 l/1 a/0 s/0 t/1 o/0 m/1 e/0 r/0 
-Pred:  e/0 l/1 a/0 s/0 t/1 o/0 M/0 E/1 r/0 
+Gold:  e/1 l/1 a/0 s/0 t/1 o/0 m/1 e/0 r/0 
+Pred:  e/1 l/1 a/0 s/0 t/1 o/0 M/0 E/1 r/0 
 
 word:  monotonous
-Gold:  m/0 o/0 n/1 o/0 t/0 o/1 n/1 o/0 u/0 s/0 
-Pred:  m/0 o/0 n/1 o/0 T/1 O/0 n/1 o/0 u/0 s/0 
+Gold:  m/1 o/0 n/1 o/0 t/0 o/1 n/1 o/0 u/0 s/0 
+Pred:  m/1 o/0 n/1 O/1 T/1 O/0 n/1 o/0 u/0 s/0 
 
 word:  papyrus
-Gold:  p/0 a/0 p/1 y/0 r/1 u/0 s/0 
-Pred:  p/0 a/0 P/0 Y/1 r/1 u/0 s/0 
+Gold:  p/1 a/0 p/1 y/0 r/1 u/0 s/0 
+Pred:  p/1 a/0 P/0 Y/1 r/1 u/0 s/0 
 
 word:  hakeem
-Gold:  h/0 a/0 k/1 e/0 e/0 m/0 
-Pred:  h/0 a/0 K/0 E/1 e/0 m/0 
+Gold:  h/1 a/0 k/1 e/0 e/0 m/0 
+Pred:  h/1 a/0 K/0 E/1 e/0 m/0 
 
 word:  traversal
-Gold:  t/0 r/0 a/0 v/1 e/0 r/0 s/0 a/1 l/0 
-Pred:  t/0 r/0 a/0 V/0 E/1 r/0 S/1 A/0 l/0 
-
-word:  uterus
-Gold:  u/0 t/1 e/0 r/0 u/1 s/0 
-Pred:  u/0 T/0 E/1 r/0 u/1 s/0 
+Gold:  t/1 r/0 a/0 v/1 e/0 r/0 s/0 a/1 l/0 
+Pred:  t/1 r/0 a/0 V/0 E/1 r/0 S/1 A/0 l/0 
 
 word:  groceries
-Gold:  g/0 r/0 o/0 c/1 e/0 r/0 i/1 e/0 s/0 
-Pred:  g/0 r/0 o/0 C/0 E/1 r/0 i/1 e/0 s/0 
+Gold:  g/1 r/0 o/0 c/1 e/0 r/0 i/1 e/0 s/0 
+Pred:  g/1 r/0 o/0 C/0 E/1 r/0 i/1 e/0 s/0 
 
 word:  campanile
-Gold:  c/0 a/0 m/0 p/1 a/0 n/1 i/0 l/1 e/0 
-Pred:  c/0 a/0 m/0 p/1 a/0 n/1 i/0 L/0 e/0 
+Gold:  c/1 a/0 m/0 p/1 a/0 n/1 i/0 l/1 e/0 
+Pred:  c/1 a/0 m/0 p/1 a/0 n/1 i/0 L/0 e/0 
 
-word:  linden
-Gold:  l/0 i/0 n/0 d/1 e/0 n/0 
-Pred:  l/0 i/0 n/0 D/0 E/1 n/0 
+word:  digitizing
+Gold:  d/1 i/0 g/0 i/1 t/1 i/0 z/0 i/1 n/0 g/0 
+Pred:  d/1 i/0 g/0 i/1 t/1 I/1 z/0 i/1 n/0 g/0 
 
 word:  saviour
-Gold:  s/0 a/0 v/0 i/1 o/0 u/0 r/0 
-Pred:  s/0 a/0 V/1 I/0 o/0 u/0 r/0 
+Gold:  s/1 a/0 v/0 i/1 o/0 u/0 r/0 
+Pred:  s/1 a/0 V/1 I/0 o/0 u/0 r/0 
+
+word:  fluidity
+Gold:  f/1 l/0 u/0 i/1 d/0 i/1 t/1 y/0 
+Pred:  f/1 l/0 u/0 I/0 d/0 i/1 t/1 y/0 
 
 word:  secretory
-Gold:  s/0 e/0 c/1 r/0 e/0 t/1 o/0 r/1 y/0 
-Pred:  s/0 e/0 C/0 R/1 e/0 t/1 o/0 r/1 y/0 
+Gold:  s/1 e/0 c/1 r/0 e/0 t/1 o/0 r/1 y/0 
+Pred:  s/1 e/0 C/0 R/1 e/0 t/1 o/0 r/1 y/0 
 
 word:  beachcomber
-Gold:  b/0 e/0 a/0 c/0 h/0 c/1 o/0 m/0 b/0 e/1 r/0 
-Pred:  b/0 e/0 a/0 c/0 h/0 c/1 o/0 m/0 b/0 E/0 r/0 
+Gold:  b/1 e/0 a/0 c/0 h/0 c/1 o/0 m/0 b/0 e/1 r/0 
+Pred:  b/1 e/0 a/0 c/0 h/0 c/1 o/0 m/0 B/1 E/0 r/0 
 
 word:  hostage
-Gold:  h/0 o/0 s/0 t/1 a/0 g/0 e/0 
-Pred:  h/0 o/0 s/0 T/0 A/1 g/0 e/0 
-
-word:  dimly
-Gold:  d/0 i/0 m/0 l/1 y/0 
-Pred:  d/0 i/0 M/1 L/0 y/0 
+Gold:  h/1 o/0 s/0 t/1 a/0 g/0 e/0 
+Pred:  h/1 o/0 s/0 T/0 A/1 g/0 e/0 
 
 word:  guardian
-Gold:  g/0 u/0 a/0 r/0 d/0 i/1 a/1 n/0 
-Pred:  g/0 u/0 a/0 r/0 D/1 I/0 a/1 n/0 
-
-word:  granddaughter
-Gold:  g/0 r/0 a/0 n/0 d/0 d/1 a/0 u/0 g/0 h/0 t/1 e/0 r/0 
-Pred:  g/0 r/0 a/0 n/0 d/0 d/1 a/0 u/0 g/0 h/0 T/0 e/0 r/0 
+Gold:  g/1 u/0 a/0 r/0 d/0 i/1 a/1 n/0 
+Pred:  g/1 u/0 a/0 r/0 D/1 I/0 a/1 n/0 
 
 word:  diminutive
-Gold:  d/0 i/0 m/1 i/0 n/0 u/1 t/1 i/0 v/0 e/0 
-Pred:  d/0 i/0 m/1 i/0 N/1 U/0 t/1 i/0 v/0 e/0 
+Gold:  d/1 i/0 m/1 i/0 n/0 u/1 t/1 i/0 v/0 e/0 
+Pred:  d/1 i/0 M/0 I/1 N/1 U/0 t/1 i/0 v/0 e/0 
 
 word:  clumsy
-Gold:  c/0 l/0 u/0 m/0 s/1 y/0 
-Pred:  c/0 l/0 u/0 m/0 S/0 y/0 
+Gold:  c/1 l/0 u/0 m/0 s/1 y/0 
+Pred:  c/1 l/0 u/0 m/0 S/0 Y/1 
 
 word:  phenomena
-Gold:  p/0 h/0 e/0 n/1 o/0 m/0 e/1 n/1 a/0 
-Pred:  p/0 h/0 e/0 n/1 o/0 M/1 E/0 n/1 a/0 
+Gold:  p/1 h/0 e/0 n/1 o/0 m/0 e/1 n/1 a/0 
+Pred:  p/1 h/0 e/0 n/1 o/0 M/1 E/0 n/1 a/0 
 
 word:  curative
-Gold:  c/0 u/0 r/0 a/1 t/1 i/0 v/0 e/0 
-Pred:  c/0 u/0 R/1 A/0 t/1 i/0 v/0 e/0 
+Gold:  c/1 u/0 r/0 a/1 t/1 i/0 v/0 e/0 
+Pred:  c/1 u/0 R/1 A/0 t/1 i/0 v/0 e/0 
 
 word:  unusable
-Gold:  u/0 n/0 u/1 s/0 a/1 b/1 l/0 e/0 
-Pred:  u/0 N/1 U/0 s/0 a/1 b/1 l/0 e/0 
+Gold:  u/1 n/0 u/1 s/0 a/1 b/1 l/0 e/0 
+Pred:  u/1 n/0 u/1 S/1 A/0 b/1 l/0 e/0 
 
 word:  pyramid
-Gold:  p/0 y/0 r/0 a/1 m/1 i/0 d/0 
-Pred:  p/0 y/0 R/1 A/0 m/1 i/0 d/0 
+Gold:  p/1 y/0 r/0 a/1 m/1 i/0 d/0 
+Pred:  p/1 y/0 R/1 A/0 M/0 I/1 d/0 
 
 word:  folic
-Gold:  f/0 o/0 l/1 i/0 c/0 
-Pred:  f/0 o/0 L/0 I/1 c/0 
+Gold:  f/1 o/0 l/1 i/0 c/0 
+Pred:  f/1 o/0 L/0 I/1 c/0 
+
+word:  synaptic
+Gold:  s/1 y/0 n/0 a/1 p/0 t/1 i/0 c/0 
+Pred:  s/1 y/0 N/1 a/1 p/0 t/1 i/0 c/0 
 
 word:  expresso
-Gold:  e/0 x/0 p/1 r/0 e/0 s/0 s/0 o/1 
-Pred:  e/0 x/0 p/1 r/0 e/0 s/0 S/1 O/0 
-
-word:  salivary
-Gold:  s/0 a/0 l/0 i/1 v/1 a/0 r/0 y/1 
-Pred:  s/0 a/0 l/0 I/0 v/1 a/0 r/0 y/1 
-
-word:  gaudy
-Gold:  g/0 a/0 u/0 d/0 y/1 
-Pred:  g/0 a/0 u/0 D/1 Y/0 
+Gold:  e/1 x/0 p/1 r/0 e/0 s/0 s/0 o/1 
+Pred:  e/1 x/0 p/1 r/0 e/0 s/0 S/1 O/0 
 
 word:  impedance
-Gold:  i/0 m/0 p/1 e/0 d/0 a/1 n/0 c/0 e/0 
-Pred:  i/0 m/0 p/1 e/0 d/0 A/0 n/0 c/0 e/0 
+Gold:  i/1 m/0 p/1 e/0 d/0 a/1 n/0 c/0 e/0 
+Pred:  i/1 m/0 p/1 e/0 D/1 A/0 n/0 c/0 e/0 
 
 word:  lichen
-Gold:  l/0 i/0 c/1 h/0 e/0 n/0 
-Pred:  l/0 i/0 c/1 h/0 E/1 n/0 
+Gold:  l/1 i/0 c/1 h/0 e/0 n/0 
+Pred:  l/1 i/0 C/0 h/0 E/1 n/0 
 
 word:  chamois
-Gold:  c/0 h/0 a/0 m/0 o/1 i/0 s/0 
-Pred:  c/0 h/0 a/0 M/1 O/0 i/0 s/0 
+Gold:  c/1 h/0 a/0 m/0 o/1 i/0 s/0 
+Pred:  c/1 h/0 a/0 M/1 O/0 i/0 s/0 
 
 word:  wigan
-Gold:  w/0 i/0 g/0 a/1 n/0 
-Pred:  w/0 i/0 G/1 A/0 n/0 
+Gold:  w/1 i/0 g/0 a/1 n/0 
+Pred:  w/1 i/0 G/1 A/0 n/0 
+
+word:  stylistic
+Gold:  s/1 t/0 y/0 l/1 i/0 s/0 t/1 i/0 c/0 
+Pred:  s/1 t/0 y/0 L/0 I/1 s/0 t/1 i/0 c/0 
+
+word:  seashell
+Gold:  s/1 e/0 a/0 s/1 h/0 e/0 l/0 l/0 
+Pred:  s/1 e/0 a/0 S/0 h/0 E/1 l/0 l/0 
 
 word:  recognizable
-Gold:  r/0 e/0 c/0 o/1 g/0 n/1 i/0 z/0 a/1 b/1 l/0 e/0 
-Pred:  r/0 e/0 C/1 o/1 g/0 n/1 i/0 Z/1 A/0 b/1 l/0 e/0 
+Gold:  r/1 e/0 c/0 o/1 g/0 n/1 i/0 z/0 a/1 b/1 l/0 e/0 
+Pred:  r/1 e/0 C/1 O/0 g/0 n/1 i/0 Z/1 A/0 b/1 l/0 e/0 
+
+word:  peruse
+Gold:  p/1 e/0 r/1 u/0 s/0 e/0 
+Pred:  p/1 e/0 R/0 U/1 s/0 e/0 
 
 word:  camellia
-Gold:  c/0 a/0 m/1 e/0 l/0 l/1 i/0 a/0 
-Pred:  c/0 a/0 m/1 e/0 l/0 l/1 i/0 A/1 
+Gold:  c/1 a/0 m/1 e/0 l/0 l/1 i/0 a/0 
+Pred:  c/1 a/0 m/1 e/0 l/0 l/1 i/0 A/1 
+
+word:  foetus
+Gold:  f/1 o/0 e/0 t/1 u/0 s/0 
+Pred:  f/1 o/0 E/1 t/1 u/0 s/0 
+
+word:  waders
+Gold:  w/1 a/0 d/0 e/1 r/0 s/0 
+Pred:  w/1 a/0 D/1 E/0 r/0 s/0 
 
 word:  pamper
-Gold:  p/0 a/0 m/0 p/1 e/0 r/0 
-Pred:  p/0 a/0 m/0 P/0 E/1 r/0 
+Gold:  p/1 a/0 m/0 p/1 e/0 r/0 
+Pred:  p/1 a/0 m/0 p/1 E/1 r/0 
 
 word:  larder
-Gold:  l/0 a/0 r/0 d/1 e/0 r/0 
-Pred:  l/0 a/0 r/0 D/0 e/0 r/0 
+Gold:  l/1 a/0 r/0 d/1 e/0 r/0 
+Pred:  l/1 a/0 r/0 D/0 E/1 r/0 
 
-word:  statistician
-Gold:  s/0 t/0 a/0 t/0 i/1 s/0 t/1 i/0 c/1 i/0 a/0 n/0 
-Pred:  s/0 t/0 a/0 T/1 I/0 s/0 t/1 i/0 c/1 i/0 a/0 n/0 
-
-word:  tongued
-Gold:  t/0 o/0 n/0 g/0 u/0 e/0 d/0 
-Pred:  t/0 o/0 n/0 G/1 u/0 e/0 d/0 
+word:  metabolism
+Gold:  m/1 e/0 t/1 a/0 b/0 o/1 l/1 i/0 s/0 m/0 
+Pred:  m/1 e/0 T/0 A/1 B/1 O/0 L/0 I/1 s/0 m/0 
 
 word:  licensing
-Gold:  l/0 i/0 c/1 e/0 n/0 s/0 i/1 n/0 g/0 
-Pred:  l/0 i/0 c/1 e/0 n/0 S/1 I/0 n/0 g/0 
+Gold:  l/1 i/0 c/1 e/0 n/0 s/0 i/1 n/0 g/0 
+Pred:  l/1 i/0 c/1 e/0 n/0 S/1 I/0 n/0 g/0 
 
-word:  civilisation
-Gold:  c/0 i/0 v/0 i/1 l/1 i/0 s/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  c/0 i/0 V/1 I/0 L/0 I/1 s/1 a/0 t/1 i/0 o/0 n/0 
+word:  coincident
+Gold:  c/1 o/0 i/1 n/0 c/1 i/0 d/1 e/0 n/0 t/0 
+Pred:  c/1 o/0 I/0 n/0 c/1 i/0 d/1 e/0 n/0 t/0 
 
 word:  maharaja
-Gold:  m/0 a/0 h/1 a/0 r/1 a/0 j/1 a/0 
-Pred:  m/0 a/0 h/1 a/0 R/0 A/1 j/1 a/0 
+Gold:  m/1 a/0 h/1 a/0 r/1 a/0 j/1 a/0 
+Pred:  m/1 a/0 h/1 a/0 R/0 A/1 j/1 a/0 
 
 word:  neither
-Gold:  n/0 e/0 i/0 t/1 h/0 e/0 r/0 
-Pred:  n/0 e/0 i/0 T/0 h/0 E/1 r/0 
+Gold:  n/1 e/0 i/0 t/1 h/0 e/0 r/0 
+Pred:  n/1 e/0 i/0 T/0 h/0 E/1 r/0 
 
 word:  flatiron
-Gold:  f/0 l/0 a/0 t/0 i/1 r/1 o/0 n/0 
-Pred:  f/0 l/0 a/0 T/1 I/0 r/1 o/0 n/0 
+Gold:  f/1 l/0 a/0 t/0 i/1 r/1 o/0 n/0 
+Pred:  f/1 l/0 a/0 T/1 I/0 r/1 o/0 n/0 
+
+word:  transitory
+Gold:  t/1 r/0 a/0 n/0 s/1 i/0 t/1 o/0 r/1 y/0 
+Pred:  t/1 r/0 a/0 n/0 s/1 i/0 t/1 o/0 r/1 Y/1 
 
 word:  daman
-Gold:  d/0 a/0 m/0 a/1 n/0 
-Pred:  d/0 a/0 M/1 A/0 n/0 
+Gold:  d/1 a/0 m/0 a/1 n/0 
+Pred:  d/1 a/0 M/1 A/0 n/0 
 
 word:  ligand
-Gold:  l/0 i/0 g/0 a/1 n/0 d/0 
-Pred:  l/0 i/0 G/1 A/0 n/0 d/0 
+Gold:  l/1 i/0 g/0 a/1 n/0 d/0 
+Pred:  l/1 i/0 G/1 A/0 n/0 d/0 
 
 word:  newsprint
-Gold:  n/0 e/0 w/0 s/0 p/1 r/0 i/0 n/0 t/0 
-Pred:  n/0 e/0 w/0 S/1 P/0 r/0 i/0 n/0 t/0 
+Gold:  n/1 e/0 w/0 s/0 p/1 r/0 i/0 n/0 t/0 
+Pred:  n/1 e/0 w/0 S/1 P/0 r/0 i/0 n/0 t/0 
 
 word:  molestation
-Gold:  m/0 o/0 l/1 e/0 s/0 t/1 a/0 t/1 i/0 o/0 n/0 
-Pred:  m/0 o/0 L/0 E/1 s/0 t/1 a/0 t/1 i/0 o/0 n/0 
+Gold:  m/1 o/0 l/1 e/0 s/0 t/1 a/0 t/1 i/0 o/0 n/0 
+Pred:  m/1 o/0 L/0 E/1 S/1 T/0 A/1 t/1 i/0 o/0 n/0 
+
+word:  fedora
+Gold:  f/1 e/0 d/1 o/0 r/1 a/0 
+Pred:  f/1 e/0 D/0 O/1 r/1 a/0 
 
 word:  pullover
-Gold:  p/0 u/0 l/0 l/0 o/1 v/1 e/0 r/0 
-Pred:  p/0 u/0 l/0 L/1 O/0 v/1 e/0 r/0 
+Gold:  p/1 u/0 l/0 l/0 o/1 v/1 e/0 r/0 
+Pred:  p/1 u/0 l/0 L/1 O/0 v/1 E/1 r/0 
+
+word:  ascribe
+Gold:  a/1 s/0 c/1 r/0 i/0 b/0 e/0 
+Pred:  a/1 S/1 c/1 r/0 i/0 b/0 e/0 
 
 word:  prestigious
-Gold:  p/0 r/0 e/0 s/0 t/1 i/0 g/0 i/1 o/0 u/0 s/0 
-Pred:  p/0 r/0 e/0 s/0 t/1 i/0 G/1 I/0 o/0 u/0 s/0 
-
-word:  ivory
-Gold:  i/0 v/1 o/0 r/1 y/0 
-Pred:  i/0 v/1 o/0 R/0 Y/1 
+Gold:  p/1 r/0 e/0 s/0 t/1 i/0 g/0 i/1 o/0 u/0 s/0 
+Pred:  p/1 r/0 e/0 s/0 t/1 i/0 G/1 I/0 o/0 u/0 s/0 
 
 word:  lire
-Gold:  l/0 i/0 r/1 e/0 
-Pred:  l/0 i/0 R/0 e/0 
+Gold:  l/1 i/0 r/1 e/0 
+Pred:  l/1 i/0 R/0 e/0 
 
 word:  multidimensional
-Gold:  m/0 u/0 l/0 t/1 i/0 d/1 i/0 m/1 e/0 n/0 s/1 i/0 o/0 n/0 a/1 l/0 
-Pred:  m/0 u/0 l/0 t/1 i/0 D/0 I/1 m/1 e/0 n/0 s/1 i/0 o/0 n/0 a/1 l/0 
+Gold:  m/1 u/0 l/0 t/1 i/0 d/1 i/0 m/1 e/0 n/0 s/1 i/0 o/0 n/0 a/1 l/0 
+Pred:  m/1 u/0 l/0 t/1 i/0 D/0 I/1 m/1 e/0 n/0 s/1 i/0 o/0 n/0 a/1 l/0 
 
 word:  uniformity
-Gold:  u/0 n/1 i/0 f/1 o/0 r/0 m/0 i/1 t/1 y/0 
-Pred:  u/0 n/1 i/0 f/1 o/0 r/0 M/1 I/0 t/1 y/0 
+Gold:  u/1 n/1 i/0 f/1 o/0 r/0 m/0 i/1 t/1 y/0 
+Pred:  u/1 n/1 i/0 f/1 o/0 r/0 M/1 i/1 t/1 y/0 
 
 word:  grantee
-Gold:  g/0 r/0 a/0 n/0 t/0 e/1 e/0 
-Pred:  g/0 r/0 a/0 n/0 T/1 E/0 e/0 
+Gold:  g/1 r/0 a/0 n/0 t/0 e/1 e/0 
+Pred:  g/1 r/0 a/0 n/0 T/1 E/0 e/0 
 
 word:  fabric
-Gold:  f/0 a/0 b/0 r/1 i/0 c/0 
-Pred:  f/0 a/0 b/0 R/0 i/0 c/0 
+Gold:  f/1 a/0 b/0 r/1 i/0 c/0 
+Pred:  f/1 a/0 B/1 R/0 i/0 c/0 
 
-word:  legged
-Gold:  l/0 e/0 g/0 g/1 e/0 d/0 
-Pred:  l/0 e/0 g/0 G/0 e/0 d/0 
+word:  kitsch
+Gold:  k/1 i/0 t/0 s/0 c/0 h/0 
+Pred:  k/1 i/0 t/0 S/1 c/0 h/0 
 
-word:  proclaim
-Gold:  p/0 r/0 o/0 c/1 l/0 a/0 i/0 m/0 
-Pred:  p/0 r/0 o/0 C/0 L/1 a/0 i/0 m/0 
+word:  planter
+Gold:  p/1 l/0 a/0 n/0 t/0 e/1 r/0 
+Pred:  p/1 l/0 a/0 n/0 T/1 E/0 r/0 
 
-word:  geriatric
-Gold:  g/0 e/0 r/0 i/1 a/1 t/0 r/1 i/0 c/0 
-Pred:  g/0 e/0 R/1 I/0 a/1 t/0 r/1 i/0 c/0 
-
-word:  choruses
-Gold:  c/0 h/0 o/0 r/1 u/0 s/0 e/1 s/0 
-Pred:  c/0 h/0 o/0 R/0 U/1 s/0 e/1 s/0 
-
-word:  alchemist
-Gold:  a/0 l/0 c/1 h/0 e/0 m/1 i/0 s/0 t/0 
-Pred:  a/0 l/0 c/1 h/0 e/0 M/0 I/1 s/0 t/0 
-
-word:  canned
-Gold:  c/0 a/0 n/0 n/0 e/0 d/0 
-Pred:  c/0 a/0 n/0 N/1 e/0 d/0 
+word:  decorum
+Gold:  d/1 e/0 c/1 o/0 r/1 u/0 m/0 
+Pred:  d/1 e/0 C/0 O/1 r/1 u/0 m/0 
 
 word:  variety
-Gold:  v/0 a/0 r/1 i/0 e/1 t/1 y/0 
-Pred:  v/0 a/0 R/0 I/1 e/1 t/1 y/0 
+Gold:  v/1 a/0 r/1 i/0 e/1 t/1 y/0 
+Pred:  v/1 a/0 R/0 I/1 e/1 t/1 y/0 
+
+word:  midget
+Gold:  m/1 i/0 d/0 g/0 e/1 t/0 
+Pred:  m/1 i/0 d/0 G/1 E/0 t/0 
 
 word:  turntable
-Gold:  t/0 u/0 r/0 n/0 t/1 a/0 b/1 l/0 e/0 
-Pred:  t/0 u/0 r/0 n/0 T/0 A/1 b/1 l/0 e/0 
+Gold:  t/1 u/0 r/0 n/0 t/1 a/0 b/1 l/0 e/0 
+Pred:  t/1 u/0 r/0 n/0 T/0 A/1 b/1 l/0 e/0 
 
-word:  balancing
-Gold:  b/0 a/0 l/0 a/1 n/0 c/0 i/1 n/0 g/0 
-Pred:  b/0 a/0 L/1 A/0 n/0 c/0 i/1 n/0 g/0 
+word:  charitable
+Gold:  c/1 h/0 a/0 r/0 i/1 t/1 a/0 b/1 l/0 e/0 
+Pred:  c/1 h/0 a/0 r/0 i/1 t/1 A/1 b/1 l/0 e/0 
 
-word:  bachelor
-Gold:  b/0 a/0 c/0 h/0 e/1 l/1 o/0 r/0 
-Pred:  b/0 a/0 C/1 h/0 E/0 l/1 o/0 r/0 
+word:  studying
+Gold:  s/1 t/0 u/0 d/0 y/1 i/1 n/0 g/0 
+Pred:  s/1 t/0 u/0 d/0 Y/0 i/1 n/0 g/0 
 
 word:  camper
-Gold:  c/0 a/0 m/0 p/0 e/1 r/0 
-Pred:  c/0 a/0 m/0 P/1 E/0 r/0 
+Gold:  c/1 a/0 m/0 p/0 e/1 r/0 
+Pred:  c/1 a/0 m/0 P/1 E/0 r/0 
+
+word:  foothill
+Gold:  f/1 o/0 o/0 t/0 h/1 i/0 l/0 l/0 
+Pred:  f/1 o/0 o/0 t/0 H/0 I/1 l/0 l/0 
+
+word:  gooey
+Gold:  g/1 o/0 o/0 e/1 y/0 
+Pred:  g/1 o/0 o/0 E/0 Y/1 
 
 word:  askew
-Gold:  a/0 s/1 k/0 e/0 w/0 
-Pred:  a/0 S/0 K/1 e/0 w/0 
-
-word:  suitably
-Gold:  s/0 u/0 i/0 t/0 a/1 b/1 l/0 y/0 
-Pred:  s/0 u/0 i/0 t/0 A/0 b/1 l/0 y/0 
+Gold:  a/1 s/1 k/0 e/0 w/0 
+Pred:  a/1 S/0 K/1 e/0 w/0 
 
 word:  marauder
-Gold:  m/0 a/0 r/1 a/0 u/0 d/0 e/1 r/0 
-Pred:  m/0 a/0 R/0 A/1 u/0 D/1 E/0 r/0 
+Gold:  m/1 a/0 r/1 a/0 u/0 d/0 e/1 r/0 
+Pred:  m/1 a/0 R/0 A/1 u/0 D/1 e/1 r/0 
 
 word:  moniker
-Gold:  m/0 o/0 n/0 i/1 k/1 e/0 r/0 
-Pred:  m/0 o/0 N/1 I/0 k/1 e/0 r/0 
+Gold:  m/1 o/0 n/0 i/1 k/1 e/0 r/0 
+Pred:  m/1 o/0 N/1 I/0 K/0 E/1 r/0 
 
 word:  aged
-Gold:  a/0 g/1 e/0 d/0 
-Pred:  a/0 G/0 e/0 d/0 
+Gold:  a/1 g/1 e/0 d/0 
+Pred:  a/1 G/0 e/0 d/0 
 
-word:  palisades
-Gold:  p/0 a/0 l/0 i/1 s/1 a/0 d/0 e/0 s/0 
-Pred:  p/0 a/0 l/0 i/1 s/1 a/0 d/0 E/1 s/0 
+word:  archer
+Gold:  a/1 r/0 c/0 h/0 e/1 r/0 
+Pred:  a/1 r/0 C/1 h/0 E/0 r/0 
 
 word:  aver
-Gold:  a/0 v/1 e/0 r/0 
-Pred:  a/0 V/0 E/1 r/0 
+Gold:  a/1 v/1 e/0 r/0 
+Pred:  a/1 V/0 E/1 r/0 
 
 word:  carter
-Gold:  c/0 a/0 r/0 t/0 e/1 r/0 
-Pred:  c/0 a/0 r/0 T/1 E/0 r/0 
+Gold:  c/1 a/0 r/0 t/0 e/1 r/0 
+Pred:  c/1 a/0 r/0 T/1 E/0 r/0 
 
-word:  eschatology
-Gold:  e/0 s/0 c/1 h/0 a/0 t/1 o/0 l/0 o/1 g/1 y/0 
-Pred:  e/0 s/0 c/1 h/0 a/0 T/0 O/1 l/0 o/1 g/1 y/0 
+word:  nineteen
+Gold:  n/1 i/0 n/0 e/0 t/1 e/0 e/0 n/0 
+Pred:  n/1 i/0 n/0 E/1 t/1 e/0 e/0 n/0 
 
 word:  lily
-Gold:  l/0 i/0 l/0 y/1 
-Pred:  l/0 i/0 L/1 Y/0 
+Gold:  l/1 i/0 l/0 y/1 
+Pred:  l/1 i/0 L/1 Y/0 
