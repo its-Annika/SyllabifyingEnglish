@@ -455,15 +455,10 @@ def main():
     test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False, collate_fn=collate_fn)
 
     #adding a manual gridSearch loop:
-    # embedding_dims = [32, 64, 96]
-    # hidden_dims = [96, 128, 192]
-    # l_rs = [0.01, 0.001, 0.0001]
-    # epochs = [5,10,15]
-
-    embedding_dims = [96]
-    hidden_dims = [96]
-    l_rs = [0.001]
-    epochs = [15]
+    embedding_dims = [32, 64, 96]
+    hidden_dims = [96, 128, 192]
+    l_rs = [0.01, 0.001, 0.0001]
+    epochs = [5,10,15]
 
     best_acc = 0
     best_config = None
