@@ -1,97 +1,97 @@
-Overall:
+overall:
               precision    recall  f1-score   support
 
-           0   0.400000  0.300842  0.343407      1662
-           1   0.906584  0.937640  0.921851     12027
+           0     0.8697    0.8116    0.8396      6167
+           1     0.9066    0.9376    0.9219     12027
 
-    accuracy                       0.860326     13689
-   macro avg   0.653292  0.619241  0.632629     13689
-weighted avg   0.845079  0.860326  0.851621     13689
+    accuracy                         0.8949     18194
+   macro avg     0.8881    0.8746    0.8807     18194
+weighted avg     0.8941    0.8949    0.8940     18194
 
 Classification Report for 4 syllables:
 
               precision    recall  f1-score   support
 
-           0   0.854587  0.937123  0.893954      1988
-           1   0.887993  0.757645  0.817657      1308
+           0     0.8546    0.9371    0.8940      1988
+           1     0.8880    0.7576    0.8177      1308
 
-    accuracy                       0.865898      3296
-   macro avg   0.871290  0.847384  0.855805      3296
-weighted avg   0.867844  0.865898  0.863676      3296
+    accuracy                         0.8659      3296
+   macro avg     0.8713    0.8474    0.8558      3296
+weighted avg     0.8678    0.8659    0.8637      3296
 
 Classification Report for 3 syllables:
 
               precision    recall  f1-score   support
 
-           0   0.893641  0.949761  0.920847      3344
-           1   0.896296  0.793443  0.841739      1830
+           0     0.8936    0.9498    0.9208      3344
+           1     0.8963    0.7934    0.8417      1830
 
-    accuracy                       0.894472      5174
-   macro avg   0.894969  0.871602  0.881293      5174
-weighted avg   0.894580  0.894472  0.892867      5174
+    accuracy                         0.8945      5174
+   macro avg     0.8950    0.8716    0.8813      5174
+weighted avg     0.8946    0.8945    0.8929      5174
 
 Classification Report for 2 syllables:
 
               precision    recall  f1-score   support
 
-           0   0.930411  0.941840  0.936091      3989
-           1   0.863449  0.839245  0.851175      1748
+           0     0.9304    0.9418    0.9361      3989
+           1     0.8634    0.8392    0.8512      1748
 
-    accuracy                       0.910580      5737
-   macro avg   0.896930  0.890542  0.893633      5737
-weighted avg   0.910009  0.910580  0.910218      5737
+    accuracy                         0.9106      5737
+   macro avg     0.8969    0.8905    0.8936      5737
+weighted avg     0.9100    0.9106    0.9102      5737
 
 Classification Report for 1 syllables:
 
               precision    recall  f1-score   support
 
-           0   1.000000  0.898990  0.946809      1584
-           1   0.749216  1.000000  0.856631       478
+           0     1.0000    0.8990    0.9468      1584
+           1     0.7492    1.0000    0.8566       478
 
-    accuracy                       0.922405      2062
-   macro avg   0.874608  0.949495  0.901720      2062
-weighted avg   0.941865  0.922405  0.925904      2062
+    accuracy                         0.9224      2062
+   macro avg     0.8746    0.9495    0.9017      2062
+weighted avg     0.9419    0.9224    0.9259      2062
 
 Classification Report for 5 syllables:
 
               precision    recall  f1-score   support
 
-           0   0.845225  0.940171  0.890173       819
-           1   0.900609  0.758974  0.823748       585
+           0     0.8452    0.9402    0.8902       819
+           1     0.9006    0.7590    0.8237       585
 
-    accuracy                       0.864672      1404
-   macro avg   0.872917  0.849573  0.856961      1404
-weighted avg   0.868301  0.864672  0.862496      1404
+    accuracy                         0.8647      1404
+   macro avg     0.8729    0.8496    0.8570      1404
+weighted avg     0.8683    0.8647    0.8625      1404
 
 Classification Report for 6 syllables:
 
               precision    recall  f1-score   support
 
-           0   0.861004  0.948936  0.902834       235
-           1   0.916667  0.785714  0.846154       168
+           0     0.8610    0.9489    0.9028       235
+           1     0.9167    0.7857    0.8462       168
 
-    accuracy                       0.880893       403
-   macro avg   0.888835  0.867325  0.874494       403
-weighted avg   0.884208  0.880893  0.879206       403
+    accuracy                         0.8809       403
+   macro avg     0.8888    0.8673    0.8745       403
+weighted avg     0.8842    0.8809    0.8792       403
 
 Classification Report for 7 syllables:
 
               precision    recall  f1-score   support
 
-           0   0.866667  0.928571  0.896552        56
-           1   0.894737  0.809524  0.850000        42
+           0     0.8667    0.9286    0.8966        56
+           1     0.8947    0.8095    0.8500        42
 
-    accuracy                       0.877551        98
-   macro avg   0.880702  0.869048  0.873276        98
-weighted avg   0.878697  0.877551  0.876601        98
+    accuracy                         0.8776        98
+   macro avg     0.8807    0.8690    0.8733        98
+weighted avg     0.8787    0.8776    0.8766        98
 
 Classification Report for 8 syllables:
 
               precision    recall  f1-score   support
 
-           0   0.923077  1.000000  0.960000        12
-           1   1.000000  0.875000  0.933333         8
+           0     0.9231    1.0000    0.9600        12
+           1     1.0000    0.8750    0.9333         8
 
-    accuracy                       0.950000        20
-   macro avg   0.961538  0.937500  0.946667        20
-weighted avg   0.953846  0.950000  0.949333        20
+    accuracy                         0.9500        20
+   macro avg     0.9615    0.9375    0.9467        20
+weighted avg     0.9538    0.9500    0.9493        20
