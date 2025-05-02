@@ -1,0 +1,5 @@
+The Elman model made 1281 errors.
+The GRU model made 341 errors.
+The elman model and gru model made errors on 269 of the same words
+In 53 cases, the models made identical errors.
+In 216 cases, the models made different errors.
