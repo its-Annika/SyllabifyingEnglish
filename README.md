@@ -29,10 +29,10 @@ et al. 2024 liken it to a sequence labeling task (where graphemes within an inpu
 * epochs = [5, 10, 15]
 
 ## File Structure
-* 25000-syllabified-words-list-master: the raw dataset
-* Elman: the Elman model
-* GRU: the GRU model
-* Analysis: scripts to assess model error
-* dataProcessing: script for data preprocessing
-* processedData: the training, development, and testing sets
-* relevantLiterature: papers related to the project
+* **25000-syllabified-words-list-master**: the raw dataset
+* **Elman**: the Elman model
+* **GRU**: the GRU model
+* **Analysis**: scripts to assess model error
+* **dataProcessing**: script for data preprocessing
+* **processedData**: the training, development, and testing sets
+* **relevantLiterature**: papers related to the project
