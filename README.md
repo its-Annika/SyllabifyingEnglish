@@ -36,3 +36,4 @@ et al. 2024 liken it to a sequence labeling task (where graphemes within an inpu
 * **dataProcessing**: script for data preprocessing
 * **processedData**: the training, development, and testing sets
 * **relevantLiterature**: papers related to the project
+* **finalMaterials**: project presentation and report
