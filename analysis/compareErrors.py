@@ -24,8 +24,6 @@ def overlap(elmanDict, gruDict):
 
     print(f"The elman model and gru model made errors on {len(common)} of the same words")
 
-    errrordf = pd.DataFrame(columns=["item", 'gold', 'gru', 'elman', 'type'])
-
     sameErrordf = pd.DataFrame(columns=["item", 'gold', 'gru', 'elman'])
     differentErrordf = pd.DataFrame(columns=["item", 'gold', 'gru', 'elman'])
     
