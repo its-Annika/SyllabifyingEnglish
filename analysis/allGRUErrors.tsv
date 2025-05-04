@@ -1,0 +1,344 @@
+	word	gold	gru pred	earlyBoundary	lateBoundary	missedBoundary	addedBoundary	totalErrors
+0	ental	r/1 e/0 n/0 t/0 a/1 l/0	/1 e/0 n/0 T/1 A/0 l/0	1	0	0	0	1
+1	polarizing	p/1 o/0 l/1 a/0 r/0 i/1 z/0 i/1 n/0 g/0	p/1 o/0 L/0 A/1 r/0 i/1 z/0 i/1 n/0 g/0	0	1	0	0	1
+2	intercity	i/1 n/0 t/1 e/0 r/0 c/1 i/0 t/0 y/1	i/1 n/0 t/1 e/0 r/0 c/1 i/0 T/1 Y/0	1	0	0	0	1
+3	endemic	e/1 n/0 d/0 e/0 m/0 i/0 c/0	/1 n/0 D/1 e/0 m/0 I/1 c/0	0	0	0	2	2
+4	cine	c/1 i/0 n/0 e/1	c/1 i/0 n/0 E/0	0	0	1	0	1
+5	vengeance	v/1 e/0 n/0 g/0 e/0 a/1 n/0 c/0 e/0	v/1 e/0 n/0 G/1 e/0 a/1 n/0 c/0 e/0	0	0	0	1	1
+6	epos	e/1 p/0 o/1 s/0	/1 P/1 O/0 s/0	1	0	0	0	1
+7	penitentiary	p/1 e/0 n/0 i/1 t/1 e/0 n/0 t/1 i/0 a/0 r/1 y/0	p/1 e/0 n/0 i/1 t/1 e/0 n/0 t/1 i/0 a/0 R/0 Y/1	0	1	0	0	1
+8	me	m/1 e/0 o/1 w/0	m/1 e/0 O/0 w/0	0	0	1	0	1
+9	paprika	p/1 a/0 p/0 r/1 i/0 k/1 a/0	p/1 a/0 P/1 R/0 i/0 k/1 a/0	1	0	0	0	1
+10	androgen	a/1 n/0 d/1 r/0 o/0 g/1 e/0 n/0	a/1 n/0 d/1 r/0 o/0 G/0 E/1 n/0	0	1	0	0	1
+11	sauce	s/1 a/0 u/0 c/1 e/0 r/0	s/1 a/0 u/0 C/0 E/1 r/0	0	1	0	0	1
+12	gooseneck	g/1 o/0 o/0 s/0 e/0 n/1 e/0 c/0 k/0	g/1 o/0 o/0 s/0 E/1 n/1 e/0 c/0 k/0	0	0	0	1	1
+13	stardust	s/1 t/0 a/0 r/0 d/1 u/0 s/0 t/0	s/1 t/0 a/0 r/0 D/0 U/1 s/0 t/0	0	1	0	0	1
+14	notwithstanding	n/1 o/0 t/0 w/1 i/0 t/0 h/0 s/1 t/0 a/0 n/0 d/0 i/1 n/0 g/0	n/1 o/0 T/1 W/0 i/0 t/0 h/0 s/1 t/0 a/0 n/0 d/0 i/1 n/0 g/0	1	0	0	0	1
+15	fixation	f/1 i/0 x/0 a/1 t/1 i/0 o/0 n/0	f/1 i/0 X/1 a/1 t/1 i/0 o/0 n/0	0	0	0	1	1
+16	epetition	r/1 e/0 p/0 e/1 t/1 i/0 t/1 i/0 o/0 n/0	/1 e/0 P/1 E/0 t/1 i/0 t/1 i/0 o/0 n/0	1	0	0	0	1
+17	amages	/1 a/0 m/0 a/1 g/0 e/1 s/0	/1 a/0 m/0 a/1 G/1 E/0 s/0	1	0	0	0	1
+18	pierce	p/1 i/0 e/0 r/0 c/0 e/0	p/1 i/0 E/1 r/0 c/0 e/0	0	0	0	1	1
+19	calende	c/1 a/0 l/0 e/1 n/0 d/1 e/0 r/0	c/1 a/0 l/0 e/1 n/0 D/0 E/1 r/0	0	1	0	0	1
+20	bourgeoisie	b/1 o/0 u/0 r/0 g/1 e/0 o/0 i/0 s/1 i/0 e/0	b/1 o/0 u/0 r/0 g/1 e/0 o/0 I/1 s/1 i/0 e/0	0	0	0	1	1
+21	cavernous	c/1 a/0 v/0 e/1 r/0 n/0 o/1 u/0 s/0	c/1 a/0 v/0 e/1 r/0 N/1 O/0 u/0 s/0	1	0	0	0	1
+22	thanksgiving	t/1 h/0 a/0 n/0 k/0 s/0 g/1 i/0 v/0 i/1 n/0 g/0	t/1 h/0 a/0 n/0 k/0 S/1 G/0 i/0 v/0 i/1 n/0 g/0	1	0	0	0	1
+23	halte	h/1 a/0 l/0 t/0 e/1 r/0	h/1 a/0 l/0 T/1 E/0 r/0	1	0	0	0	1
+24	maybe	m/1 a/0 y/0 b/1 e/0	m/1 a/0 y/0 B/0 e/0	0	0	1	0	1
+25	ctrinal	/1 o/0 c/0 t/1 r/0 i/0 n/1 a/0 l/0	/1 o/0 c/0 t/1 r/0 i/0 N/0 A/1 l/0	0	1	0	0	1
+26	banyan	b/1 a/0 n/0 y/1 a/0 n/0	b/1 a/0 n/0 y/1 A/1 n/0	0	0	0	1	1
+27	bandits	b/1 a/0 n/0 d/1 i/0 t/0 s/0	b/1 a/0 n/0 D/0 I/1 t/0 s/0	0	1	0	0	1
+28	eavesdropping	e/1 a/0 v/0 e/0 s/0 d/1 r/0 o/0 p/0 p/1 i/0 n/0 g/0	/1 a/0 v/0 E/1 s/0 d/1 r/0 o/0 p/0 p/1 i/0 n/0 g/0	0	0	0	1	1
+29	inaudible	i/1 n/0 a/1 u/0 d/1 i/0 b/1 l/0 e/0	i/1 n/0 a/1 u/0 D/0 I/1 b/1 l/0 e/0	0	1	0	0	1
+30	brigadie	b/1 r/0 i/0 g/0 a/1 d/1 i/0 e/0 r/0	b/1 r/0 i/0 G/1 A/0 d/1 i/0 E/1 r/0	1	0	0	1	2
+31	gestalt	g/1 e/0 s/1 t/0 a/0 l/0 t/0	g/1 e/0 S/0 T/1 a/0 l/0 t/0	0	1	0	0	1
+32	engende	e/1 n/0 g/1 e/0 n/0 d/1 e/0 r/0	/1 n/0 g/1 e/0 n/0 D/0 E/1 r/0	0	1	0	0	1
+33	paleontology	p/1 a/0 l/1 e/0 o/1 n/0 t/1 o/0 l/0 o/1 g/1 y/0	p/1 a/0 L/0 E/1 o/1 n/0 t/1 o/0 l/0 o/1 g/1 y/0	0	1	0	0	1
+34	fussy	f/1 u/0 s/0 s/0 y/1	f/1 u/0 s/0 S/1 y/1	0	0	0	1	1
+35	linac	/1 i/0 n/0 a/1 c/0	l/1 i/0 N/1 a/1 c/0	0	0	0	1	1
+36	china	c/1 h/0 i/0 n/1 a/0	c/1 h/0 i/0 n/1 A/1	0	0	0	1	1
+37	thrilling	t/1 h/0 r/0 i/0 l/0 l/0 i/1 n/0 g/0	t/1 h/0 r/0 i/0 l/0 L/1 I/0 n/0 g/0	1	0	0	0	1
+38	bullish	b/1 u/0 l/0 l/0 i/1 s/0 h/0	b/1 u/0 l/0 L/1 I/0 s/0 h/0	1	0	0	0	1
+39	perturbative	p/1 e/0 r/0 t/1 u/0 r/0 b/1 a/0 t/1 i/0 v/0 e/0	p/1 e/0 r/0 t/1 u/0 r/0 B/0 A/1 t/1 i/0 v/0 e/0	0	1	0	0	1
+40	primavera	p/1 r/0 i/0 m/1 a/0 v/1 e/0 r/1 a/0	p/1 r/0 i/0 m/1 a/0 V/0 E/1 R/0 A/1	1	1	0	0	2
+41	kaise	k/1 a/0 i/0 s/1 e/0 r/0	k/1 a/0 i/0 S/0 E/1 r/0	0	1	0	0	1
+42	metastasis	m/1 e/0 t/1 a/0 s/0 t/1 a/0 s/1 i/0 s/0	m/1 e/0 t/1 A/1 s/0 t/1 a/0 s/1 i/0 s/0	0	0	0	1	1
+43	ynamism	/1 y/0 n/1 a/0 m/1 i/0 s/0 m/0	/1 y/0 n/1 a/0 M/0 I/1 s/0 m/0	0	1	0	0	1
+44	corticosteroi	c/1 o/0 r/0 t/1 i/0 c/1 o/0 s/1 t/0 e/0 r/0 o/1 i/0 d/0	c/1 o/0 r/0 t/1 i/0 c/1 o/0 S/0 T/1 e/0 r/0 o/1 i/0 d/0	0	1	0	0	1
+45	basil	b/1 a/0 s/0 i/1 l/0	b/1 a/0 S/1 I/0 l/0	1	0	0	0	1
+46	vintage	v/1 i/0 n/0 t/1 a/0 g/0 e/0	v/1 i/0 n/0 t/1 A/1 g/0 e/0	0	0	0	1	1
+47	everyday	e/1 v/0 e/0 r/1 y/0 d/1 a/0 y/0	/1 v/0 E/1 r/1 y/0 d/1 a/0 y/0	0	0	0	1	1
+48	ysphagia	/1 y/0 s/0 p/1 h/0 a/0 g/1 i/0 a/0	/1 y/0 s/0 p/1 h/0 a/0 g/1 i/0 A/1	0	0	0	1	1
+49	fuselage	f/1 u/0 s/1 e/0 l/1 a/0 g/0 e/0	f/1 u/0 s/1 e/0 L/0 A/1 g/0 e/0	0	1	0	0	1
+50	trumpete	t/1 r/0 u/0 m/0 p/1 e/0 t/0 e/1 r/0	t/1 r/0 u/0 m/0 p/1 e/0 T/1 E/0 r/0	1	0	0	0	1
+51	finesse	f/1 i/0 n/1 e/0 s/0 s/0 e/0	f/1 i/0 n/1 e/0 s/0 S/1 e/0	0	0	0	1	1
+52	landowne	/1 a/0 n/0 d/0 o/1 w/0 n/0 e/1 r/0	l/1 a/0 n/0 D/1 O/0 w/0 n/0 e/1 r/0	1	0	0	0	1
+53	eam	r/1 e/0 a/0 m/0	/1 e/0 A/1 m/0	0	0	0	1	1
+54	product	p/1 r/0 o/0 d/0 u/1 c/0 t/0	p/1 r/0 o/0 D/1 U/0 c/0 t/0	1	0	0	0	1
+55	gosling	g/1 o/0 s/0 l/1 i/0 n/0 g/0	g/1 o/0 s/0 L/0 I/1 n/0 g/0	0	1	0	0	1
+56	courtroom	c/1 o/0 u/0 r/0 t/0 r/1 o/0 o/0 m/0	c/1 o/0 u/0 r/0 T/1 R/0 o/0 o/0 m/0	1	0	0	0	1
+57	shaman	s/1 h/0 a/0 m/0 a/1 n/0	s/1 h/0 a/0 M/1 a/1 n/0	0	0	0	1	1
+58	lawye	/1 a/0 w/0 y/1 e/0 r/0	l/1 a/0 w/0 y/1 E/1 r/0	0	0	0	1	1
+59	predecess	p/1 r/0 e/0 d/0 e/1 c/1 e/0 s/0 s/1 o/0 r/0	p/1 r/0 e/0 D/1 E/0 c/1 e/0 s/0 s/1 o/0 r/0	1	0	0	0	1
+60	maverick	m/1 a/0 v/0 e/1 r/0 i/1 c/0 k/0	m/1 a/0 v/0 e/1 R/1 I/0 c/0 k/0	1	0	0	0	1
+61	elativistic	r/1 e/0 l/0 a/1 t/1 i/0 v/0 i/1 s/0 t/1 i/0 c/0	/1 e/0 L/1 A/0 T/0 I/1 V/1 I/0 s/0 t/1 i/0 c/0	2	1	0	0	3
+62	affirmatively	a/1 f/0 f/1 i/0 r/0 m/0 a/1 t/1 i/0 v/0 e/0 l/1 y/0	a/1 f/0 f/1 i/0 r/0 M/1 a/1 t/1 i/0 v/0 e/0 l/1 y/0	0	0	0	1	1
+63	newsreade	n/1 e/0 w/0 s/0 r/1 e/0 a/0 d/0 e/1 r/0	n/1 e/0 w/0 S/1 R/0 e/0 a/0 d/0 e/1 r/0	1	0	0	0	1
+64	eservoi	r/1 e/0 s/0 e/1 r/0 v/1 o/0 i/0 r/0	/1 e/0 S/1 E/0 r/0 v/1 o/0 i/0 r/0	1	0	0	0	1
+65	enginee	e/1 n/0 g/1 i/0 n/1 e/0 e/0 r/0	/1 n/0 g/1 i/0 N/0 E/1 e/0 r/0	0	1	0	0	1
+66	amorous	a/1 m/0 o/1 r/1 o/0 u/0 s/0	a/1 M/1 o/1 r/1 O/1 u/0 s/0	0	0	0	2	2
+67	ivestiture	/1 i/0 v/1 e/0 s/0 t/0 i/1 t/1 u/0 r/0 e/0	/1 i/0 v/1 e/0 s/0 T/1 I/0 t/1 u/0 r/0 e/0	1	0	0	0	1
+68	tyrant	t/1 y/0 r/0 a/0 n/0 t/0	t/1 y/0 R/1 a/0 n/0 t/0	0	0	0	1	1
+69	evelope	/1 e/0 v/1 e/0 l/0 o/1 p/0 e/1 r/0	/1 e/0 V/0 E/1 l/0 o/1 p/0 e/1 r/0	0	1	0	0	1
+70	caree	c/1 a/0 r/1 e/0 e/0 r/0	c/1 a/0 R/0 e/0 E/1 r/0	0	0	1	0	1
+71	proclamation	p/1 r/0 o/0 c/0 l/1 a/0 m/1 a/0 t/1 i/0 o/0 n/0	p/1 r/0 o/0 C/1 L/0 a/0 m/1 a/0 t/1 i/0 o/0 n/0	1	0	0	0	1
+72	impala	i/1 m/0 p/1 a/0 l/0 a/1	i/1 m/0 p/1 a/0 L/1 a/1	0	0	0	1	1
+73	polygonal	p/1 o/0 l/1 y/0 g/0 o/1 n/1 a/0 l/0	p/1 o/0 L/0 Y/1 G/1 O/0 N/0 A/1 l/0	1	2	0	0	3
+74	acetyl	a/1 c/0 e/1 t/1 y/0 l/0	a/1 C/1 E/0 t/1 Y/1 l/0	1	0	0	1	2
+75	budgete	b/1 u/0 d/0 g/0 e/1 t/0 e/1 d/0	b/1 u/0 d/0 G/1 E/0 t/0 e/1 d/0	1	0	0	0	1
+76	synonymous	s/1 y/0 n/0 o/1 n/0 y/1 m/1 o/0 u/0 s/0	s/1 y/0 N/1 O/0 n/0 y/1 m/1 o/0 u/0 s/0	1	0	0	0	1
+77	yez	/1 y/1 e/0 z/0	o/1 Y/0 e/0 z/0	1	0	0	0	1
+78	cylinde	c/1 y/0 l/0 i/1 n/0 d/1 e/0 r/0	c/1 y/0 L/1 I/0 n/0 d/1 E/1 r/0	1	0	0	1	2
+79	guanine	g/1 u/0 a/0 n/1 i/0 n/0 e/0	g/1 u/0 a/0 n/1 I/1 n/0 e/0	0	0	0	1	1
+80	chevalie	c/1 h/0 e/0 v/0 a/1 l/1 i/0 e/0 r/0	c/1 h/0 e/0 v/0 a/1 l/1 i/0 E/1 r/0	0	0	0	1	1
+81	carte	c/1 a/0 r/0 t/0 e/0	c/1 a/0 r/0 T/1 e/0	0	0	0	1	1
+82	corolla	c/1 o/0 r/1 o/0 l/0 l/1 a/0	c/1 o/0 R/0 O/1 l/0 l/1 a/0	0	1	0	0	1
+83	buffe	b/1 u/0 f/0 f/0 e/1 r/0	b/1 u/0 f/0 F/1 E/0 r/0	1	0	0	0	1
+84	newslette	n/1 e/0 w/0 s/0 l/1 e/0 t/0 t/1 e/0 r/0	n/1 e/0 w/0 S/1 L/0 e/0 t/0 t/1 e/0 r/0	1	0	0	0	1
+85	itchy	i/1 t/0 c/0 h/0 y/1	i/1 t/0 C/1 h/0 Y/0	0	0	1	0	1
+86	psychic	p/1 s/0 y/0 c/1 h/0 i/0 c/0	p/1 s/0 y/0 C/0 h/0 I/1 c/0	0	0	1	0	1
+87	ep	e/1 p/1	/1 P/0	1	0	0	0	1
+88	phosphorylate	p/1 h/0 o/0 s/0 p/1 h/0 o/0 r/1 y/0 l/0 a/1 t/0 e/1 d/0	p/1 h/0 o/0 s/0 p/1 h/0 o/0 r/1 Y/1 L/1 a/1 t/0 e/1 d/0	0	0	0	2	2
+89	cashie	c/1 a/0 s/0 h/0 i/1 e/0 r/0	c/1 a/0 s/0 h/0 i/1 E/1 r/0	0	0	0	1	1
+90	mille	m/1 i/0 l/0 l/1 e/0 r/0	m/1 i/0 l/0 L/0 E/1 r/0	0	1	0	0	1
+91	parapsychology	p/1 a/0 r/0 a/1 p/1 s/0 y/0 c/1 h/0 o/0 l/0 o/1 g/1 y/0	p/1 a/0 r/0 a/1 P/0 S/1 y/0 c/1 h/0 o/0 l/0 o/1 g/1 y/0	1	0	0	0	1
+92	pian	p/1 i/0 a/0 n/1 o/0	p/1 i/0 A/1 n/1 O/1	0	0	0	2	2
+93	noma	n/1 o/0 m/1 a/0 d/0	n/1 o/0 M/0 A/1 d/0	0	1	0	0	1
+94	noticing	n/1 o/0 t/1 i/0 c/0 i/1 n/0 g/0	n/1 o/0 t/1 I/1 c/0 i/1 n/0 g/0	0	0	0	1	1
+95	nanomete	n/1 a/0 n/1 o/0 m/1 e/0 t/1 e/0 r/0	n/1 a/0 n/1 o/0 M/0 E/1 t/1 e/0 r/0	0	1	0	0	1
+96	bandwagon	b/1 a/0 n/0 d/0 w/1 a/0 g/0 o/1 n/0	b/1 a/0 n/0 d/0 w/1 a/0 G/1 O/0 n/0	1	0	0	0	1
+97	imagines	i/1 m/1 a/0 g/1 i/0 n/1 e/0 s/0	i/1 M/0 A/1 G/0 I/1 n/1 e/0 s/0	2	0	0	0	2
+98	jesse	j/1 e/0 s/0 s/0 e/0	j/1 e/0 s/0 S/1 e/0	0	0	0	1	1
+99	sharia	s/1 h/0 a/0 r/1 i/0 a/1	s/1 h/0 a/0 R/0 I/1 a/1	0	1	0	0	1
+100	fulfilling	f/1 u/0 l/0 f/1 i/0 l/0 l/1 i/0 n/0 g/0	f/1 u/0 l/0 f/1 i/0 l/0 L/0 I/1 n/0 g/0	0	1	0	0	1
+101	coincide	c/1 o/0 i/1 n/0 c/1 i/0 d/0 e/0	c/1 o/0 I/0 n/0 c/1 i/0 d/0 e/0	0	0	1	0	1
+102	histamine	h/1 i/0 s/0 t/1 a/0 m/1 i/0 n/0 e/0	h/1 i/0 s/0 t/1 a/0 M/0 I/1 n/0 e/0	0	1	0	0	1
+103	ende	r/1 e/0 n/0 d/0 e/1 r/0	/1 e/0 n/0 D/1 E/0 r/0	1	0	0	0	1
+104	promising	p/1 r/0 o/0 m/0 i/1 s/0 i/1 n/0 g/0	p/1 r/0 o/0 M/1 i/1 s/0 i/1 n/0 g/0	0	0	0	1	1
+105	bureaucratic	b/1 u/0 r/1 e/0 a/0 u/0 c/1 r/0 a/0 t/0 i/1 c/0	b/1 u/0 r/1 e/0 A/1 U/1 c/1 r/0 a/0 t/0 i/1 c/0	0	0	0	2	2
+106	bigotry	b/1 i/0 g/0 o/1 t/0 r/1 y/0	b/1 i/0 g/0 o/1 T/1 R/0 y/0	1	0	0	0	1
+107	stanhope	s/1 t/0 a/0 n/0 h/1 o/0 p/0 e/0	s/1 t/0 a/0 n/0 H/0 o/0 p/0 e/0	0	0	1	0	1
+108	ughty	/1 o/0 u/0 g/0 h/0 t/1 y/0	/1 o/0 u/0 g/0 h/0 T/0 Y/1	0	1	0	0	1
+109	adept	a/1 d/0 e/1 p/0 t/0	a/1 D/1 E/0 p/0 t/0	1	0	0	0	1
+110	favorite	f/1 a/0 v/1 o/0 r/0 i/1 t/0 e/0	f/1 a/0 v/1 o/0 R/1 I/0 t/0 e/0	1	0	0	0	1
+111	adage	a/1 d/0 a/1 g/0 e/0	a/1 d/0 A/0 g/0 e/0	0	0	1	0	1
+112	acyl	a/1 c/0 y/1 l/0	a/1 C/1 y/1 l/0	0	0	0	1	1
+113	turtleneck	t/1 u/0 r/0 t/1 l/0 e/0 n/1 e/0 c/0 k/0	t/1 u/0 r/0 T/0 L/1 e/0 n/1 e/0 c/0 k/0	0	1	0	0	1
+114	y	/1 o/0 w/0 r/1 y/0	/1 o/0 w/0 R/0 Y/1	0	1	0	0	1
+115	erasure	e/1 r/1 a/0 s/0 u/1 r/0 e/0	/1 r/1 a/0 S/1 U/0 r/0 e/0	1	0	0	0	1
+116	peavey	p/1 e/0 a/0 v/1 e/0 y/0	p/1 e/0 a/0 V/0 E/1 y/0	0	1	0	0	1
+117	jordan	j/1 o/0 r/0 d/1 a/0 n/0	j/1 o/0 r/0 d/1 A/1 n/0	0	0	0	1	1
+118	finitely	f/1 i/0 n/1 i/0 t/0 e/0 l/1 y/0	f/1 i/0 N/0 I/1 t/0 e/0 l/1 y/0	0	1	0	0	1
+119	savant	s/1 a/0 v/1 a/0 n/0 t/0	s/1 a/0 V/0 A/1 n/0 t/0	0	1	0	0	1
+120	mata	m/1 a/0 t/0 a/1 d/1 o/0 r/0	m/1 a/0 T/1 A/0 d/1 o/0 r/0	1	0	0	0	1
+121	madu	m/1 a/0 d/1 u/0 r/1 o/0	m/1 a/0 D/0 U/1 r/1 o/0	0	1	0	0	1
+122	andy	r/1 a/0 n/0 d/0 y/1	/1 a/0 n/0 D/1 y/1	0	0	0	1	1
+123	ente	r/1 e/0 n/0 t/0 e/1 r/0	/1 e/0 n/0 T/1 E/0 r/0	1	0	0	0	1
+124	promissory	p/1 r/0 o/0 m/0 i/1 s/0 s/1 o/0 r/1 y/0	p/1 r/0 o/0 m/0 I/0 s/0 s/1 o/0 r/1 y/0	0	0	1	0	1
+125	ublet	/1 o/0 u/0 b/1 l/0 e/0 t/0	/1 o/0 u/0 B/0 L/1 e/0 t/0	0	1	0	0	1
+126	messy	m/1 e/0 s/0 s/0 y/1	m/1 e/0 s/0 S/1 y/1	0	0	0	1	1
+127	bailey	b/1 a/0 i/0 l/1 e/0 y/0	b/1 a/0 i/0 L/0 E/1 y/0	0	1	0	0	1
+128	auxiliary	a/1 u/0 x/0 i/1 l/0 i/1 a/0 r/1 y/0	a/1 u/0 x/0 i/1 l/0 i/1 A/1 R/0 Y/1	1	0	0	1	2
+129	zealot	z/1 e/0 a/0 l/0 o/1 t/0	z/1 e/0 a/0 L/1 o/1 t/0	0	0	0	1	1
+130	preparatory	p/1 r/0 e/0 p/1 a/0 r/0 a/1 t/1 o/0 r/1 y/0	p/1 r/0 e/0 P/0 A/1 R/1 A/0 t/1 o/0 r/1 y/0	1	1	0	0	2
+131	lanai	/1 a/0 n/1 a/0 i/1	l/1 a/0 n/1 a/0 I/0	0	0	1	0	1
+132	copilot	c/1 o/0 p/1 i/0 l/1 o/0 t/0	c/1 o/0 p/1 I/1 l/1 o/0 t/0	0	0	0	1	1
+133	palazz	p/1 a/0 l/1 a/0 z/0 z/1 o/0	p/1 a/0 L/0 A/1 z/0 z/1 o/0	0	1	0	0	1
+134	ab	a/1 b/0 r/0	a/1 B/1 r/0	0	0	0	1	1
+135	prairie	p/1 r/0 a/0 i/0 r/1 i/0 e/0	p/1 r/0 a/0 i/0 R/0 I/1 e/0	0	1	0	0	1
+136	preposterous	p/1 r/0 e/0 p/1 o/0 s/0 t/1 e/0 r/0 o/1 u/0 s/0	p/1 r/0 e/0 p/1 o/0 s/0 t/1 E/1 r/0 o/1 u/0 s/0	0	0	0	1	1
+137	maranatha	m/1 a/0 r/0 a/1 n/1 a/0 t/0 h/0 a/1	m/1 a/0 R/1 A/0 n/1 a/0 T/1 h/0 A/0	1	0	1	0	2
+138	photocopie	p/1 h/0 o/0 t/1 o/0 c/1 o/0 p/0 i/1 e/1 r/0	p/1 h/0 o/0 t/1 o/0 c/1 o/0 P/1 i/1 e/1 r/0	0	0	0	1	1
+139	gazeb	g/1 a/0 z/1 e/0 b/1 o/0	g/1 a/0 Z/0 e/0 b/1 o/0	0	0	1	0	1
+140	seldom	s/1 e/0 l/0 d/1 o/0 m/0	s/1 e/0 l/0 D/0 O/1 m/0	0	1	0	0	1
+141	snorkel	s/1 n/0 o/0 r/0 k/1 e/0 l/0	s/1 n/0 o/0 r/0 K/0 E/1 l/0	0	1	0	0	1
+142	eportation	/1 e/0 p/1 o/0 r/0 t/1 a/0 t/1 i/0 o/0 n/0	/1 e/0 P/0 O/1 r/0 t/1 a/0 t/1 i/0 o/0 n/0	0	1	0	0	1
+143	gubernatorial	g/1 u/0 b/1 e/0 r/0 n/1 a/0 t/1 o/0 r/1 i/0 a/1 l/0	g/1 u/0 B/0 E/1 r/0 n/1 A/1 t/1 o/0 r/1 i/0 a/1 l/0	0	1	0	1	2
+144	frontie	f/1 r/0 o/0 n/0 t/1 i/0 e/0 r/0	f/1 r/0 o/0 n/0 t/1 i/0 E/1 r/0	0	0	0	1	1
+145	sugary	s/1 u/0 g/0 a/1 r/0 y/1	s/1 u/0 g/0 a/1 R/1 Y/0	1	0	0	0	1
+146	homogenous	h/1 o/0 m/1 o/0 g/0 e/1 n/1 o/0 u/0 s/0	h/1 o/0 m/1 o/0 G/1 E/0 n/1 o/0 u/0 s/0	1	0	0	0	1
+147	autism	a/1 u/0 t/1 i/0 s/0 m/0	a/1 u/0 T/0 I/1 s/0 m/0	0	1	0	0	1
+148	semis	s/1 e/0 m/1 i/0 s/0	s/1 e/0 M/0 I/1 s/0	0	1	0	0	1
+149	livet	/1 l/0 i/1 v/1 e/0 t/0	o/1 L/1 I/0 v/1 e/0 t/0	1	0	0	0	1
+150	alert	a/1 l/1 e/0 r/0 t/0	a/1 L/0 E/1 r/0 t/0	1	0	0	0	1
+151	thodoxy	/1 r/0 t/1 h/0 o/0 d/1 o/0 x/0 y/1	o/1 r/0 t/1 h/0 o/0 D/0 O/1 x/0 y/1	0	1	0	0	1
+152	acidosis	a/1 c/0 i/1 d/1 o/0 s/1 i/0 s/0	a/1 C/1 I/0 D/0 O/1 s/1 i/0 s/0	1	1	0	0	2
+153	attlesnake	r/1 a/0 t/0 t/1 l/0 e/0 s/1 n/0 a/0 k/0 e/0	/1 a/0 t/0 t/1 l/0 e/0 S/0 N/1 a/0 k/0 e/0	0	1	0	0	1
+154	boson	b/1 o/0 s/0 o/1 n/0	b/1 o/0 S/1 O/0 n/0	1	0	0	0	1
+155	seascape	s/1 e/0 a/0 s/1 c/0 a/0 p/0 e/0	s/1 e/0 a/0 S/0 C/1 a/0 p/0 e/0	0	1	0	0	1
+156	hadith	h/1 a/0 d/1 i/0 t/0 h/0	h/1 a/0 D/0 I/1 t/0 h/0	0	1	0	0	1
+157	bookselle	b/1 o/0 o/0 k/0 s/1 e/0 l/0 l/1 e/0 r/0	b/1 o/0 o/0 k/0 s/1 e/0 l/0 L/0 E/1 r/0	0	1	0	0	1
+158	hyperbole	h/1 y/0 p/1 e/0 r/0 b/1 o/0 l/1 e/0	h/1 y/0 p/1 e/0 r/0 b/1 o/0 L/0 e/0	0	0	1	0	1
+159	hypocrite	h/1 y/0 p/0 o/1 c/1 r/0 i/0 t/0 e/0	h/1 y/0 P/1 o/1 c/1 r/0 i/0 t/0 e/0	0	0	0	1	1
+160	quiescent	q/1 u/0 i/0 e/1 s/0 c/1 e/0 n/0 t/0	q/1 u/0 i/0 E/0 s/0 c/1 e/0 n/0 t/0	0	0	1	0	1
+161	emit	r/1 e/0 m/1 i/0 t/0	/1 e/0 M/0 I/1 t/0	0	1	0	0	1
+162	gossame	g/1 o/0 s/0 s/1 a/0 m/1 e/0 r/0	g/1 o/0 s/0 s/1 a/0 m/1 E/1 r/0	0	0	0	1	1
+163	scenic	s/1 c/0 e/0 n/1 i/0 c/0	s/1 c/0 e/0 N/0 I/1 c/0	0	1	0	0	1
+164	espionage	e/1 s/0 p/1 i/0 o/1 n/1 a/0 g/0 e/0	/1 s/0 p/1 i/0 o/1 N/0 A/1 g/0 e/0	1	0	0	0	1
+165	arisen	a/1 r/1 i/0 s/0 e/1 n/0	a/1 R/0 I/1 S/1 E/0 n/0	2	0	0	0	2
+166	esu	e/1 s/0 u/0	/1 S/1 u/0	0	0	0	1	1
+167	budget	b/1 u/0 d/0 g/0 e/1 t/0	b/1 u/0 d/0 G/1 E/0 t/0	1	0	0	0	1
+168	elev	e/1 l/0 e/0 v/0	/1 L/1 e/0 v/0	0	0	0	1	1
+169	juxtaposition	j/1 u/0 x/0 t/1 a/0 p/1 o/0 s/1 i/0 t/1 i/0 o/0 n/0	j/1 u/0 x/0 t/1 a/0 P/0 O/1 s/1 i/0 t/1 i/0 o/0 n/0	0	1	0	0	1
+170	savi	s/1 a/0 v/0 i/1 o/0 r/0	s/1 a/0 V/1 I/0 o/0 r/0	1	0	0	0	1
+171	interrogatories	i/1 n/0 t/1 e/0 r/0 r/1 o/0 g/0 a/1 t/1 o/0 r/1 i/0 e/0 s/0	i/1 n/0 t/1 e/0 r/0 r/1 o/0 G/1 A/0 t/1 o/0 r/1 i/0 e/0 s/0	1	0	0	0	1
+172	foste	f/1 o/0 s/0 t/1 e/0 r/0	f/1 o/0 s/0 T/0 E/1 r/0	0	1	0	0	1
+173	scriptural	s/1 c/0 r/0 i/0 p/0 t/1 u/0 r/0 a/1 l/0	s/1 c/0 r/0 i/0 p/0 t/1 u/0 R/1 a/1 l/0	0	0	0	1	1
+174	anticoagulant	a/1 n/0 t/1 i/0 c/1 o/0 a/1 g/0 u/1 l/1 a/0 n/0 t/0	a/1 n/0 t/1 i/0 c/1 o/0 A/0 g/0 u/1 l/1 a/0 n/0 t/0	0	0	1	0	1
+175	beyon	b/1 e/0 y/1 o/0 n/0 d/0	b/1 e/0 Y/0 O/1 n/0 d/0	0	1	0	0	1
+176	missy	m/1 i/0 s/0 s/0 y/1	m/1 i/0 s/0 S/1 Y/0	1	0	0	0	1
+177	a	a/1 r/1	a/1 R/0	1	0	0	0	1
+178	cliche	c/1 l/0 i/0 c/1 h/0 e/0	c/1 l/0 i/0 C/0 h/0 e/0	0	0	1	0	1
+179	comedian	c/1 o/0 m/1 e/0 d/1 i/0 a/1 n/0	c/1 o/0 M/0 e/0 d/1 i/0 a/1 n/0	0	0	1	0	1
+180	maximize	m/1 a/0 x/0 i/1 m/1 i/0 z/0 e/0 d/0	m/1 a/0 x/0 i/1 M/0 I/1 z/0 e/0 d/0	1	0	0	0	1
+181	thievery	t/1 h/0 i/0 e/0 v/0 e/1 r/0 y/1	t/1 h/0 i/0 E/1 v/0 e/1 r/0 y/1	0	0	0	1	1
+182	nion	/1 n/0 i/1 o/0 n/0	o/1 n/0 i/1 O/1 n/0	0	0	0	1	1
+183	booby	b/1 o/0 o/0 b/1 y/0	b/1 o/0 o/0 b/1 Y/1	0	0	0	1	1
+184	myelin	m/1 y/0 e/1 l/1 i/0 n/0	m/1 y/0 E/0 l/1 i/0 n/0	0	1	0	0	1
+185	fathe	f/1 a/0 t/1 h/0 e/0 r/0	f/1 a/0 T/0 h/0 E/1 r/0	0	0	1	0	1
+186	mythological	m/1 y/0 t/0 h/0 o/1 l/1 o/0 g/0 i/1 c/1 a/0 l/0	m/1 y/0 T/1 h/0 O/0 l/1 o/0 g/0 i/1 c/1 a/0 l/0	0	1	0	0	1
+187	cabriolet	c/1 a/0 b/0 r/1 i/0 o/1 l/1 e/0 t/0	c/1 a/0 B/1 R/0 i/0 o/1 l/1 e/0 t/0	1	0	0	0	1
+188	girly	g/1 i/0 r/0 l/0 y/1	g/1 i/0 r/0 L/1 y/1	0	0	0	1	1
+189	coinsurance	c/1 o/0 i/1 n/0 s/1 u/0 r/0 a/1 n/0 c/0 e/0	c/1 o/0 I/0 n/0 s/1 u/0 R/1 a/1 n/0 c/0 e/0	0	0	1	0	1
+190	varie	v/1 a/0 r/0 i/1 e/0 d/0	v/1 a/0 R/1 i/1 e/0 d/0	0	0	0	1	1
+191	syrup	s/1 y/0 r/0 u/1 p/0	s/1 y/0 R/1 U/0 p/0	1	0	0	0	1
+192	crescen	c/1 r/0 e/0 s/1 c/0 e/0 n/0 d/1 o/0	c/1 r/0 e/0 S/0 C/1 e/0 n/0 d/1 o/0	0	1	0	0	1
+193	injustice	i/1 n/0 j/1 u/0 s/0 t/1 i/0 c/0 e/0	i/1 n/0 j/1 u/0 S/1 T/0 i/0 c/0 e/0	1	0	0	0	1
+194	militarism	m/1 i/0 l/0 i/1 t/1 a/0 r/1 i/0 s/0 m/0	m/1 i/0 l/0 i/1 t/1 a/0 R/0 I/1 s/0 m/0	0	1	0	0	1
+195	alles	/1 a/0 l/0 l/0 e/0 s/0	/1 a/0 l/0 L/1 e/0 s/0	0	0	0	1	1
+196	ephedrine	e/1 p/1 h/0 e/0 d/0 r/1 i/0 n/0 e/0	/1 P/0 h/0 E/1 d/0 r/1 i/0 n/0 e/0	1	0	0	0	1
+197	coincidental	c/1 o/0 i/1 n/0 c/1 i/0 d/1 e/0 n/0 t/1 a/0 l/0	c/1 o/0 I/0 n/0 c/1 i/0 d/1 e/0 n/0 t/1 a/0 l/0	0	0	1	0	1
+198	analyze	a/1 n/0 a/1 l/1 y/0 z/0 e/1 r/0	a/1 n/0 a/1 l/1 y/0 Z/1 E/0 r/0	1	0	0	0	1
+199	timothy	t/1 i/0 m/0 o/1 t/1 h/0 y/0	t/1 i/0 m/0 o/1 t/1 h/0 Y/1	0	0	0	1	1
+200	bonanza	b/1 o/0 n/1 a/0 n/0 z/1 a/0	b/1 o/0 N/0 A/1 n/0 z/1 a/0	0	1	0	0	1
+201	macadamia	m/1 a/0 c/0 a/1 d/1 a/0 m/1 i/0 a/1	m/1 a/0 c/0 a/1 d/1 a/0 M/0 I/1 a/1	0	1	0	0	1
+202	avion	a/1 v/1 i/0 o/0 n/0	a/1 V/0 I/1 o/0 n/0	1	0	0	0	1
+203	hedonism	h/1 e/0 d/1 o/0 n/0 i/1 s/0 m/0	h/1 e/0 D/0 O/1 n/0 i/1 s/0 m/0	0	1	0	0	1
+204	brazen	b/1 r/0 a/0 z/1 e/0 n/0	b/1 r/0 a/0 Z/0 E/1 n/0	0	1	0	0	1
+205	nuances	n/1 u/0 a/1 n/0 c/0 e/1 s/0	n/1 u/0 a/1 n/0 C/1 E/0 s/0	1	0	0	0	1
+206	advantage	a/1 d/0 v/1 a/0 n/0 t/1 a/0 g/0 e/0	a/1 d/0 v/1 a/0 n/0 T/0 A/1 g/0 e/0	0	1	0	0	1
+207	budgetary	b/1 u/0 d/0 g/0 e/1 t/0 a/1 r/0 y/1	b/1 u/0 d/0 G/1 E/0 T/1 A/0 r/0 y/1	2	0	0	0	2
+208	copolyme	c/1 o/0 p/1 o/0 l/0 y/1 m/1 e/0 r/0	c/1 o/0 P/0 O/1 L/1 Y/0 m/1 e/0 r/0	1	1	0	0	2
+209	inette	/1 i/0 n/1 e/0 t/0 t/0 e/0	/1 i/0 n/1 E/1 t/0 t/0 e/0	0	0	0	1	1
+210	lling	r/1 o/0 l/0 l/0 i/1 n/0 g/0	/1 o/0 l/0 L/1 I/0 n/0 g/0	1	0	0	0	1
+211	equiem	r/1 e/0 q/0 u/1 i/0 e/1 m/0	/1 e/0 Q/1 U/0 i/0 e/1 m/0	1	0	0	0	1
+212	abrupt	a/1 b/0 r/1 u/0 p/0 t/0	a/1 B/1 R/0 u/0 p/0 t/0	1	0	0	0	1
+213	ecommen	r/1 e/0 c/0 o/1 m/0 m/1 e/0 n/0 d/0	/1 e/0 C/1 O/0 m/0 m/1 e/0 n/0 d/0	1	0	0	0	1
+214	ifficulties	/1 i/0 f/0 f/0 i/0 c/0 u/0 l/0 t/1 i/0 e/0 s/0	/1 i/0 f/0 F/1 i/0 C/1 u/0 l/0 t/1 i/0 e/0 s/0	0	0	0	2	2
+215	ingenious	i/1 n/0 g/1 e/0 n/0 i/1 o/0 u/0 s/0	i/1 n/0 g/1 e/0 N/1 I/0 o/0 u/0 s/0	1	0	0	0	1
+216	hazelnut	h/1 a/0 z/1 e/0 l/0 n/1 u/0 t/0	h/1 a/0 Z/0 E/1 l/0 n/1 u/0 t/0	0	1	0	0	1
+217	clove	c/1 l/0 o/0 v/1 e/0 r/0	c/1 l/0 o/0 V/0 E/1 r/0	0	1	0	0	1
+218	jell	j/1 e/0 l/0 l/0 o/1	j/1 e/0 l/0 L/1 O/0	1	0	0	0	1
+219	covers	c/1 o/0 v/1 e/0 r/0 s/0	c/1 o/0 V/0 E/1 r/0 s/0	0	1	0	0	1
+220	assistive	a/1 s/0 s/1 i/0 s/0 t/0 i/1 v/0 e/0	a/1 s/0 s/1 i/0 s/0 T/1 I/0 v/0 e/0	1	0	0	0	1
+221	piecemeal	p/1 i/0 e/0 c/0 e/0 m/1 e/0 a/0 l/0	p/1 i/0 e/0 c/0 e/0 m/1 e/0 A/1 l/0	0	0	0	1	1
+222	panache	p/1 a/0 n/1 a/0 c/0 h/0 e/0	p/1 a/0 N/0 A/1 c/0 h/0 e/0	0	1	0	0	1
+223	lullaby	/1 u/0 l/0 l/0 a/1 b/1 y/0	l/1 u/0 l/0 L/1 A/0 b/1 y/0	1	0	0	0	1
+224	efurbish	r/1 e/0 f/1 u/0 r/0 b/1 i/0 s/0 h/0	/1 e/0 f/1 U/1 r/0 b/1 i/0 s/0 h/0	0	0	0	1	1
+225	ka	k/1 a/0 r/1 o/0 o/0	k/1 a/0 r/1 o/0 O/1	0	0	0	1	1
+226	peculia	p/1 e/0 c/1 u/0 l/1 i/0 a/0 r/0	p/1 e/0 c/1 u/0 l/1 i/0 A/1 r/0	0	0	0	1	1
+227	cloiste	c/1 l/0 o/0 i/0 s/0 t/1 e/0 r/0	c/1 l/0 o/0 i/0 s/0 T/0 E/1 r/0	0	1	0	0	1
+228	bie	b/1 i/0 e/0 r/0	b/1 i/0 E/1 r/0	0	0	0	1	1
+229	atmospheric	a/1 t/0 m/1 o/0 s/0 p/1 h/0 e/0 r/0 i/1 c/0	a/1 t/0 m/1 o/0 S/1 P/0 h/0 e/0 r/0 i/1 c/0	1	0	0	0	1
+230	psychotherapist	p/1 s/0 y/0 c/1 h/0 o/0 t/1 h/0 e/0 r/0 a/1 p/1 i/0 s/0 t/0	p/1 s/0 y/0 c/1 h/0 o/0 T/0 h/0 E/1 r/0 a/1 p/1 i/0 s/0 t/0	0	0	1	0	1
+231	ebt	/1 e/0 b/0 t/0 o/1 r/0	/1 e/0 b/0 T/1 O/0 r/0	1	0	0	0	1
+232	phenotype	p/1 h/0 e/0 n/1 o/0 t/1 y/0 p/0 e/0	p/1 h/0 e/0 N/0 O/1 t/1 y/0 p/0 e/0	0	1	0	0	1
+233	hirsute	h/1 i/0 r/0 s/1 u/0 t/0 e/0	h/1 i/0 r/0 S/0 U/1 t/0 e/0	0	1	0	0	1
+234	equivalently	e/1 q/1 u/0 i/0 v/0 a/1 l/1 e/0 n/0 t/0 l/1 y/0	/1 Q/0 U/1 i/0 v/0 a/1 l/1 e/0 n/0 t/0 l/1 y/0	1	0	0	0	1
+235	typist	t/1 y/0 p/0 i/1 s/0 t/0	t/1 y/0 P/1 i/1 s/0 t/0	0	0	0	1	1
+236	privacy	p/1 r/0 i/0 v/1 a/0 c/1 y/0	p/1 r/0 i/0 V/0 A/1 c/1 y/0	0	1	0	0	1
+237	sarcoma	s/1 a/0 r/0 c/1 o/0 m/1 a/0	s/1 a/0 r/0 c/1 o/0 m/1 A/1	0	0	0	1	1
+238	armament	a/1 r/0 m/1 a/0 m/1 e/0 n/0 t/0	a/1 r/0 M/0 A/1 m/1 e/0 n/0 t/0	0	1	0	0	1
+239	paves	p/1 a/0 v/1 e/0 s/0	p/1 a/0 V/0 e/0 s/0	0	0	1	0	1
+240	audible	a/1 u/0 d/1 i/0 b/1 l/0 e/0	a/1 u/0 D/0 I/1 b/1 l/0 e/0	0	1	0	0	1
+241	spiral	s/1 p/0 i/0 r/0 a/1 l/0	s/1 p/0 i/0 R/1 A/0 l/0	1	0	0	0	1
+242	eposition	r/1 e/0 p/1 o/0 s/1 i/0 t/1 i/0 o/0 n/0	/1 e/0 P/0 O/1 s/1 i/0 t/1 i/0 o/0 n/0	0	1	0	0	1
+243	shamanism	s/1 h/0 a/0 m/1 a/0 n/0 i/1 s/0 m/0	s/1 h/0 a/0 M/0 A/1 n/0 i/1 s/0 m/0	0	1	0	0	1
+244	premature	p/1 r/0 e/0 m/0 a/1 t/1 u/0 r/0 e/0	p/1 r/0 e/0 M/1 A/0 t/1 u/0 r/0 e/0	1	0	0	0	1
+245	choral	c/1 h/0 o/0 r/1 a/0 l/0	c/1 h/0 o/0 R/0 A/1 l/0	0	1	0	0	1
+246	isle	i/1 s/0 l/0 e/0	i/1 S/1 l/0 e/0	0	0	0	1	1
+247	eputable	r/1 e/0 p/0 u/1 t/1 a/0 b/1 l/0 e/0	/1 e/0 P/1 U/0 T/0 A/1 b/1 l/0 e/0	1	1	0	0	2
+248	eissue	r/1 e/0 i/1 s/0 s/1 u/0 e/0	/1 e/0 I/0 s/0 s/1 u/0 e/0	0	0	1	0	1
+249	blasphemy	b/1 l/0 a/0 s/0 p/1 h/0 e/0 m/1 y/0	b/1 l/0 a/0 s/0 p/1 h/0 e/0 M/0 Y/1	0	1	0	0	1
+250	agave	a/1 g/1 a/0 v/1 e/0	a/1 g/1 a/0 V/0 e/0	0	0	1	0	1
+251	coincide	c/1 o/0 i/1 n/0 c/1 i/0 d/0 e/1 d/0	c/1 o/0 I/0 n/0 c/1 i/0 d/0 e/1 d/0	0	0	1	0	1
+252	panie	p/1 a/0 n/0 i/1 e/0 r/0	p/1 a/0 n/0 i/1 E/1 r/0	0	0	0	1	1
+253	mammalian	m/1 a/0 m/0 m/1 a/0 l/1 i/0 a/1 n/0	m/1 a/0 m/0 m/1 a/0 l/1 I/1 a/1 n/0	0	0	0	1	1
+254	elaxation	r/1 e/0 l/1 a/0 x/0 a/1 t/1 i/0 o/0 n/0	/1 e/0 L/0 A/1 X/1 a/1 t/1 i/0 o/0 n/0	0	1	0	1	2
+255	cuesta	c/1 u/0 e/0 s/0 t/1 a/0	c/1 u/0 E/1 s/0 t/1 a/0	0	0	0	1	1
+256	biogeography	b/1 i/0 o/1 g/1 e/0 o/1 g/0 r/1 a/0 p/1 h/0 y/0	b/1 i/0 o/1 g/1 e/0 O/0 g/0 r/1 a/0 p/1 h/0 y/0	0	0	1	0	1
+257	intertidal	i/1 n/0 t/1 e/0 r/0 t/1 i/0 d/0 a/1 l/0	i/1 n/0 t/1 e/0 r/0 t/1 i/0 D/1 A/0 l/0	1	0	0	0	1
+258	cement	c/1 e/0 m/1 e/0 n/0 t/0	c/1 e/0 M/0 E/1 n/0 t/0	0	1	0	0	1
+259	peculiarly	p/1 e/0 c/1 u/0 l/1 i/0 a/0 r/0 l/1 y/0	p/1 e/0 c/1 u/0 l/1 i/0 A/1 r/0 l/1 y/0	0	0	0	1	1
+260	finde	f/1 i/0 n/0 d/0 e/1 r/0	f/1 i/0 n/0 D/1 E/0 r/0	1	0	0	0	1
+261	jazzy	j/1 a/0 z/0 z/0 y/1	j/1 a/0 z/0 Z/1 Y/0	1	0	0	0	1
+262	atelie	a/1 t/0 e/1 l/0 i/1 e/0 r/0	a/1 t/0 E/0 L/1 I/0 E/1 r/0	1	1	0	0	2
+263	thorium	t/1 h/0 o/0 r/1 i/0 u/1 m/0	t/1 h/0 o/0 r/1 I/1 u/1 m/0	0	0	0	1	1
+264	emuneration	r/1 e/0 m/1 u/0 n/1 e/0 r/0 a/1 t/1 i/0 o/0 n/0	/1 e/0 m/1 u/0 N/0 E/1 r/0 a/1 t/1 i/0 o/0 n/0	0	1	0	0	1
+265	ei	w/1 e/0 i/0 r/0 d/0 o/1	w/1 e/0 i/0 r/0 D/1 O/0	1	0	0	0	1
+266	embolism	e/1 m/0 b/1 o/0 l/1 i/0 s/0 m/0	/1 m/0 b/1 o/0 L/0 I/1 s/0 m/0	0	1	0	0	1
+267	elastome	e/1 l/1 a/0 s/0 t/1 o/0 m/1 e/0 r/0	/1 l/1 a/0 s/0 t/1 o/0 M/0 E/1 r/0	0	1	0	0	1
+268	monotonous	m/1 o/0 n/1 o/0 t/0 o/1 n/1 o/0 u/0 s/0	m/1 o/0 n/1 O/1 T/1 O/0 n/1 o/0 u/0 s/0	1	0	0	1	2
+269	papyrus	p/1 a/0 p/1 y/0 r/1 u/0 s/0	p/1 a/0 P/0 Y/1 r/1 u/0 s/0	0	1	0	0	1
+270	hakeem	h/1 a/0 k/1 e/0 e/0 m/0	h/1 a/0 K/0 E/1 e/0 m/0	0	1	0	0	1
+271	traversal	t/1 r/0 a/0 v/1 e/0 r/0 s/0 a/1 l/0	t/1 r/0 a/0 V/0 E/1 r/0 S/1 A/0 l/0	1	1	0	0	2
+272	groceries	g/1 r/0 o/0 c/1 e/0 r/0 i/1 e/0 s/0	g/1 r/0 o/0 C/0 E/1 r/0 i/1 e/0 s/0	0	1	0	0	1
+273	campanile	c/1 a/0 m/0 p/1 a/0 n/1 i/0 l/1 e/0	c/1 a/0 m/0 p/1 a/0 n/1 i/0 L/0 e/0	0	0	1	0	1
+274	igitizing	/1 i/0 g/0 i/1 t/1 i/0 z/0 i/1 n/0 g/0	/1 i/0 g/0 i/1 t/1 I/1 z/0 i/1 n/0 g/0	0	0	0	1	1
+275	saviou	s/1 a/0 v/0 i/1 o/0 u/0 r/0	s/1 a/0 V/1 I/0 o/0 u/0 r/0	1	0	0	0	1
+276	fluidity	f/1 l/0 u/0 i/1 d/0 i/1 t/1 y/0	f/1 l/0 u/0 I/0 d/0 i/1 t/1 y/0	0	0	1	0	1
+277	secretory	s/1 e/0 c/1 r/0 e/0 t/1 o/0 r/1 y/0	s/1 e/0 C/0 R/1 e/0 t/1 o/0 r/1 y/0	0	1	0	0	1
+278	beachcombe	b/1 e/0 a/0 c/0 h/0 c/1 o/0 m/0 b/0 e/1 r/0	b/1 e/0 a/0 c/0 h/0 c/1 o/0 m/0 B/1 E/0 r/0	1	0	0	0	1
+279	hostage	h/1 o/0 s/0 t/1 a/0 g/0 e/0	h/1 o/0 s/0 T/0 A/1 g/0 e/0	0	1	0	0	1
+280	guardian	g/1 u/0 a/0 r/0 d/0 i/1 a/1 n/0	g/1 u/0 a/0 r/0 D/1 I/0 a/1 n/0	1	0	0	0	1
+281	iminutive	/1 i/0 m/1 i/0 n/0 u/1 t/1 i/0 v/0 e/0	/1 i/0 M/0 I/1 N/1 U/0 t/1 i/0 v/0 e/0	1	1	0	0	2
+282	clumsy	c/1 l/0 u/0 m/0 s/1 y/0	c/1 l/0 u/0 m/0 S/0 Y/1	0	1	0	0	1
+283	phenomena	p/1 h/0 e/0 n/1 o/0 m/0 e/1 n/1 a/0	p/1 h/0 e/0 n/1 o/0 M/1 E/0 n/1 a/0	1	0	0	0	1
+284	curative	c/1 u/0 r/0 a/1 t/1 i/0 v/0 e/0	c/1 u/0 R/1 A/0 t/1 i/0 v/0 e/0	1	0	0	0	1
+285	unusable	u/1 n/0 u/1 s/0 a/1 b/1 l/0 e/0	u/1 n/0 u/1 S/1 A/0 b/1 l/0 e/0	1	0	0	0	1
+286	pyrami	p/1 y/0 r/0 a/1 m/1 i/0 d/0	p/1 y/0 R/1 A/0 M/0 I/1 d/0	1	1	0	0	2
+287	folic	f/1 o/0 l/1 i/0 c/0	f/1 o/0 L/0 I/1 c/0	0	1	0	0	1
+288	synaptic	s/1 y/0 n/0 a/1 p/0 t/1 i/0 c/0	s/1 y/0 N/1 a/1 p/0 t/1 i/0 c/0	0	0	0	1	1
+289	express	e/1 x/0 p/1 r/0 e/0 s/0 s/0 o/1	/1 x/0 p/1 r/0 e/0 s/0 S/1 O/0	1	0	0	0	1
+290	impedance	i/1 m/0 p/1 e/0 d/0 a/1 n/0 c/0 e/0	i/1 m/0 p/1 e/0 D/1 A/0 n/0 c/0 e/0	1	0	0	0	1
+291	lichen	/1 i/0 c/1 h/0 e/0 n/0	l/1 i/0 C/0 h/0 E/1 n/0	0	0	1	0	1
+292	chamois	c/1 h/0 a/0 m/0 o/1 i/0 s/0	c/1 h/0 a/0 M/1 O/0 i/0 s/0	1	0	0	0	1
+293	igan	w/1 i/0 g/0 a/1 n/0	w/1 i/0 G/1 A/0 n/0	1	0	0	0	1
+294	stylistic	s/1 t/0 y/0 l/1 i/0 s/0 t/1 i/0 c/0	s/1 t/0 y/0 L/0 I/1 s/0 t/1 i/0 c/0	0	1	0	0	1
+295	seashell	s/1 e/0 a/0 s/1 h/0 e/0 l/0 l/0	s/1 e/0 a/0 S/0 h/0 E/1 l/0 l/0	0	0	1	0	1
+296	ecognizable	r/1 e/0 c/0 o/1 g/0 n/1 i/0 z/0 a/1 b/1 l/0 e/0	/1 e/0 C/1 O/0 g/0 n/1 i/0 Z/1 A/0 b/1 l/0 e/0	2	0	0	0	2
+297	peruse	p/1 e/0 r/1 u/0 s/0 e/0	p/1 e/0 R/0 U/1 s/0 e/0	0	1	0	0	1
+298	camellia	c/1 a/0 m/1 e/0 l/0 l/1 i/0 a/0	c/1 a/0 m/1 e/0 l/0 l/1 i/0 A/1	0	0	0	1	1
+299	foetus	f/1 o/0 e/0 t/1 u/0 s/0	f/1 o/0 E/1 t/1 u/0 s/0	0	0	0	1	1
+300	aders	w/1 a/0 d/0 e/1 r/0 s/0	w/1 a/0 D/1 E/0 r/0 s/0	1	0	0	0	1
+301	pampe	p/1 a/0 m/0 p/1 e/0 r/0	p/1 a/0 m/0 p/1 E/1 r/0	0	0	0	1	1
+302	larde	/1 a/0 r/0 d/1 e/0 r/0	l/1 a/0 r/0 D/0 E/1 r/0	0	1	0	0	1
+303	metabolism	m/1 e/0 t/1 a/0 b/0 o/1 l/1 i/0 s/0 m/0	m/1 e/0 T/0 A/1 B/1 O/0 L/0 I/1 s/0 m/0	1	2	0	0	3
+304	licensing	/1 i/0 c/1 e/0 n/0 s/0 i/1 n/0 g/0	l/1 i/0 c/1 e/0 n/0 S/1 I/0 n/0 g/0	1	0	0	0	1
+305	coincident	c/1 o/0 i/1 n/0 c/1 i/0 d/1 e/0 n/0 t/0	c/1 o/0 I/0 n/0 c/1 i/0 d/1 e/0 n/0 t/0	0	0	1	0	1
+306	maharaja	m/1 a/0 h/1 a/0 r/1 a/0 j/1 a/0	m/1 a/0 h/1 a/0 R/0 A/1 j/1 a/0	0	1	0	0	1
+307	neithe	n/1 e/0 i/0 t/1 h/0 e/0 r/0	n/1 e/0 i/0 T/0 h/0 E/1 r/0	0	0	1	0	1
+308	flatiron	f/1 l/0 a/0 t/0 i/1 r/1 o/0 n/0	f/1 l/0 a/0 T/1 I/0 r/1 o/0 n/0	1	0	0	0	1
+309	transitory	t/1 r/0 a/0 n/0 s/1 i/0 t/1 o/0 r/1 y/0	t/1 r/0 a/0 n/0 s/1 i/0 t/1 o/0 r/1 Y/1	0	0	0	1	1
+310	aman	/1 a/0 m/0 a/1 n/0	/1 a/0 M/1 A/0 n/0	1	0	0	0	1
+311	ligan	/1 i/0 g/0 a/1 n/0 d/0	l/1 i/0 G/1 A/0 n/0 d/0	1	0	0	0	1
+312	newsprint	n/1 e/0 w/0 s/0 p/1 r/0 i/0 n/0 t/0	n/1 e/0 w/0 S/1 P/0 r/0 i/0 n/0 t/0	1	0	0	0	1
+313	molestation	m/1 o/0 l/1 e/0 s/0 t/1 a/0 t/1 i/0 o/0 n/0	m/1 o/0 L/0 E/1 S/1 T/0 A/1 t/1 i/0 o/0 n/0	1	1	0	1	3
+314	fedora	f/1 e/0 d/1 o/0 r/1 a/0	f/1 e/0 D/0 O/1 r/1 a/0	0	1	0	0	1
+315	pullove	p/1 u/0 l/0 l/0 o/1 v/1 e/0 r/0	p/1 u/0 l/0 L/1 O/0 v/1 E/1 r/0	1	0	0	1	2
+316	ascribe	a/1 s/0 c/1 r/0 i/0 b/0 e/0	a/1 S/1 c/1 r/0 i/0 b/0 e/0	0	0	0	1	1
+317	prestigious	p/1 r/0 e/0 s/0 t/1 i/0 g/0 i/1 o/0 u/0 s/0	p/1 r/0 e/0 s/0 t/1 i/0 G/1 I/0 o/0 u/0 s/0	1	0	0	0	1
+318	lire	/1 i/0 r/1 e/0	l/1 i/0 R/0 e/0	0	0	1	0	1
+319	multidimensional	m/1 u/0 l/0 t/1 i/0 d/1 i/0 m/1 e/0 n/0 s/1 i/0 o/0 n/0 a/1 l/0	m/1 u/0 l/0 t/1 i/0 D/0 I/1 m/1 e/0 n/0 s/1 i/0 o/0 n/0 a/1 l/0	0	1	0	0	1
+320	uniformity	u/1 n/1 i/0 f/1 o/0 r/0 m/0 i/1 t/1 y/0	u/1 n/1 i/0 f/1 o/0 r/0 M/1 i/1 t/1 y/0	0	0	0	1	1
+321	grantee	g/1 r/0 a/0 n/0 t/0 e/1 e/0	g/1 r/0 a/0 n/0 T/1 E/0 e/0	1	0	0	0	1
+322	fabric	f/1 a/0 b/0 r/1 i/0 c/0	f/1 a/0 B/1 R/0 i/0 c/0	1	0	0	0	1
+323	kitsch	k/1 i/0 t/0 s/0 c/0 h/0	k/1 i/0 t/0 S/1 c/0 h/0	0	0	0	1	1
+324	plante	p/1 l/0 a/0 n/0 t/0 e/1 r/0	p/1 l/0 a/0 n/0 T/1 E/0 r/0	1	0	0	0	1
+325	ecorum	/1 e/0 c/1 o/0 r/1 u/0 m/0	/1 e/0 C/0 O/1 r/1 u/0 m/0	0	1	0	0	1
+326	variety	v/1 a/0 r/1 i/0 e/1 t/1 y/0	v/1 a/0 R/0 I/1 e/1 t/1 y/0	0	1	0	0	1
+327	midget	m/1 i/0 d/0 g/0 e/1 t/0	m/1 i/0 d/0 G/1 E/0 t/0	1	0	0	0	1
+328	turntable	t/1 u/0 r/0 n/0 t/1 a/0 b/1 l/0 e/0	t/1 u/0 r/0 n/0 T/0 A/1 b/1 l/0 e/0	0	1	0	0	1
+329	charitable	c/1 h/0 a/0 r/0 i/1 t/1 a/0 b/1 l/0 e/0	c/1 h/0 a/0 r/0 i/1 t/1 A/1 b/1 l/0 e/0	0	0	0	1	1
+330	studying	s/1 t/0 u/0 d/0 y/1 i/1 n/0 g/0	s/1 t/0 u/0 d/0 Y/0 i/1 n/0 g/0	0	1	0	0	1
+331	campe	c/1 a/0 m/0 p/0 e/1 r/0	c/1 a/0 m/0 P/1 E/0 r/0	1	0	0	0	1
+332	foothill	f/1 o/0 o/0 t/0 h/1 i/0 l/0 l/0	f/1 o/0 o/0 t/0 H/0 I/1 l/0 l/0	0	1	0	0	1
+333	gooey	g/1 o/0 o/0 e/1 y/0	g/1 o/0 o/0 E/0 Y/1	0	1	0	0	1
+334	aske	a/1 s/1 k/0 e/0 w/0	a/1 S/0 K/1 e/0 w/0	1	0	0	0	1
+335	maraude	m/1 a/0 r/1 a/0 u/0 d/0 e/1 r/0	m/1 a/0 R/0 A/1 u/0 D/1 e/1 r/0	0	1	0	1	2
+336	monike	m/1 o/0 n/0 i/1 k/1 e/0 r/0	m/1 o/0 N/1 I/0 K/0 E/1 r/0	1	1	0	0	2
+337	age	a/1 g/1 e/0 d/0	a/1 G/0 e/0 d/0	1	0	0	0	1
+338	arche	a/1 r/0 c/0 h/0 e/1 r/0	a/1 r/0 C/1 h/0 E/0 r/0	0	0	1	0	1
+339	ave	a/1 v/1 e/0 r/0	a/1 V/0 E/1 r/0	1	0	0	0	1
+340	carte	c/1 a/0 r/0 t/0 e/1 r/0	c/1 a/0 r/0 T/1 E/0 r/0	1	0	0	0	1
+341	nineteen	n/1 i/0 n/0 e/0 t/1 e/0 e/0 n/0	n/1 i/0 n/0 E/1 t/1 e/0 e/0 n/0	0	0	0	1	1
+342	lily	/1 i/0 l/0 y/1	l/1 i/0 L/1 Y/0	1	0	0	0	1
