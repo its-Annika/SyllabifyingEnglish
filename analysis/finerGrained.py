@@ -44,8 +44,6 @@ def analyze(gold, pred):
         missed = 0
         added = 0
 
-        totalErrors = 0
-
         for i in range(len(gold)):
             if gold[i] == '1':
                 if pred[i] == '1':
