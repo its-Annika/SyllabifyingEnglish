@@ -1,7 +1,7 @@
 # SyllabifyingEnglish
 
 **Project Description/Goal**: Automatic syllabification refers to the task of adding syllable boundaries to forms. While there are many ways to approach this task, Dinu
-et al. 2024 liken it to a sequence labeling task (where graphemes within an inputted word are labeled as either beginning, or not beginning, a syllable), implement a bidirectional gated recurrent units model to perform classification, and achieve an impressive accuracy of 99.74% and F1-score of 99.69 when automatically syllabifying Italian orthographic forms. Italian, however, has a shallow orthography and simple syllable structure. English, by contrast, has a deep orthography and complex syllable structure (Seymour et al., 2003). The goal of the current project, then, was to determine how Dinu et al. 2024’s approach performs on English. 
+et al. 2024 liken it to a sequence labeling task (where graphemes within an inputted word are labeled as either beginning, or not beginning, a syllable), implement a bidirectional gated recurrent units model to perform classification, and achieve an impressive accuracy of 99.74% and F1-score of .9969 when automatically syllabifying Italian orthographic forms. Italian, however, has a shallow orthography and simple syllable structure. English, by contrast, has a deep orthography and complex syllable structure (Seymour et al., 2003). The goal of the current project, then, was to determine how Dinu et al. 2024’s approach performs on English. 
 
 ## Implementation 
 
@@ -15,7 +15,7 @@ et al. 2024 liken it to a sequence labeling task (where graphemes within an inpu
 
 **GRU Model**: A recurrent neural network consisting of ...
 * a character embedding layer, producing 96-dimensional vectors for each inputted character
-* a stacked bidirectional GRU with 3 layers, a 96-dimension hidden state, and 0.2-rate dropout between GRU layers
+* a stacked bidirectional GRU with 3 layers, a 192-dimension hidden state, and 0.2-rate dropout between GRU layers
 * 0.5-rate dropout applied to the GRU output
 * layer normalization applied to the GRU output
 * a time-distributed, fully-connected linear layer with ReLU activation, which projects each time step/inputted character onto the tag set 
@@ -34,6 +34,6 @@ et al. 2024 liken it to a sequence labeling task (where graphemes within an inpu
 * **GRU**: the GRU model
 * **Analysis**: scripts to assess model error
 * **dataProcessing**: script for data preprocessing
+* **finalMaterials**: project presentation and report
 * **processedData**: the training, development, and testing sets
 * **relevantLiterature**: papers related to the project
-* **finalMaterials**: project presentation and report
