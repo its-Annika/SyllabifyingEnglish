@@ -162,8 +162,13 @@ class SyllableRNN(nn.Module):
         mask = (graph_ids !=0).float()
         seq_lengths = mask.sum(dim=1).long()
 
+        #pack the batch
         packed_input = nn.utils.rnn.pack_padded_sequence(embeddings, seq_lengths.cpu(), batch_first=True, enforce_sorted=False)
-        packed_output, hidden = self.gru(packed_input)
+
+        #GRU
+        packed_output, _ = self.gru(packed_input)
+
+        #unpack the batch
         output, _ = nn.utils.rnn.pad_packed_sequence(packed_output, batch_first=True)
 
         #50% drop out
