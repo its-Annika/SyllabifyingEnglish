@@ -12,6 +12,7 @@ import pandas as pd
 from itertools import product
 
 #vocabulary class
+#edited
 class Vocabulary:
     #don't need an UNK, as the entire alphabet is in training
     def __init__(self, pad_token="[PAD]"):
@@ -70,7 +71,6 @@ def build_vocab(sentences, min_freq=2):
     
     return word_vocab, tag_vocab
 
-#data set class
 class graphDataset(Dataset):
     def __init__(self, graphemeForm, graph_vocab, tag_vocab):
         self.graphemeForms = graphemeForm
@@ -93,7 +93,6 @@ class graphDataset(Dataset):
             'lengths': len(tokens)
         }
 
-#function that does padding 
 def collate_fn(batch):
     #find the largest item in the batch
     max_len = max([item['lengths'] for item in batch])
@@ -123,6 +122,7 @@ def collate_fn(batch):
     }
 
 #the rnn class
+#written
 class SyllableRNN(nn.Module):
     def __init__(self, vocab_size, tagset_size, embedding_dim, hidden_dim):
         super(SyllableRNN, self).__init__()
@@ -172,7 +172,7 @@ class SyllableRNN(nn.Module):
             
         return outputs
 
-#trains the model
+#edited to work with grid search
 def train(model, train_loader, val_loader, args, device):
     # Very important! Providing ignore_index=0 will ignore the padding token
     criterion = nn.CrossEntropyLoss(ignore_index=0)
@@ -219,7 +219,6 @@ def train(model, train_loader, val_loader, args, device):
     
     return val_acc
 
-#test the model
 def evaluate(model, data_loader, device):
     model.eval()
     
@@ -246,7 +245,6 @@ def evaluate(model, data_loader, device):
     
     return correct / total if total > 0 else 0, (all_preds, all_targets)
 
-#find the numbers for the confusion matrix
 def generate_confusion_matrix(model, data_loader, tag_vocab, device):
     model.eval()
     
@@ -274,7 +272,7 @@ def generate_confusion_matrix(model, data_loader, tag_vocab, device):
     conf_matrix = conf_matrix[1:, 1:]
     return conf_matrix
 
-#plot the confusion matrix
+#edited to remove the pad tag
 def plot_confusion_matrix(conf_matrix, tag_vocab, normalize=True):
     if normalize:
         conf_matrix = conf_matrix.astype('float') / (conf_matrix.sum(axis=1, keepdims=True) + 1e-6)
@@ -297,7 +295,6 @@ def plot_confusion_matrix(conf_matrix, tag_vocab, normalize=True):
     plt.savefig('Elman/confusion_matrix.png', bbox_inches='tight')
     plt.close()
 
-#print the model errors
 def write_all_errors(model, data_loader, graph_vocab, tag_vocab, device):
 
     model.eval()
@@ -356,6 +353,7 @@ def write_all_errors(model, data_loader, graph_vocab, tag_vocab, device):
     f.close()
 
 #print all the model output
+#written
 def write_all_output(model, data_loader, graph_vocab, tag_vocab, device):
     
     model.eval()
@@ -395,7 +393,6 @@ def parse_args():
     
     return parser.parse_args()
 
-
 def main():
     args = parse_args()
     
@@ -404,13 +401,13 @@ def main():
     torch.manual_seed(42)
     torch.cuda.manual_seed_all(42)
 
- 
+    #check how to run it on my laptop
     if torch.backends.mps.is_available() and torch.backends.mps.is_built():
         device = torch.device("mps")
-        print("MPS is available -- Using Apple GPU.")
+        print("using Apple GPU")
     else:
         device = torch.device("cpu")
-        print("MPS not available -- Using CPU.")
+        print("using CPU")
     
     train_file = os.path.join(args.data_dir, 'train.tsv')
     dev_file = os.path.join(args.data_dir, 'dev.tsv')
@@ -438,7 +435,7 @@ def main():
     dev_loader = DataLoader(dev_dataset, batch_size=args.batch_size, shuffle=False, collate_fn=collate_fn)
     test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False, collate_fn=collate_fn)
 
-    #adding a manual gridSearch loop:
+    #new grid search loop
     embedding_dims = [32, 64, 96]
     hidden_dims = [96, 128, 192]
     l_rs = [0.01, 0.001, 0.0001]
@@ -498,6 +495,7 @@ def main():
     plot_confusion_matrix(conf_matrix, tag_vocab)
     print('Confusion matrix saved to confusion_matrix.png')
 
+    #write some details about the model
     with open("Elman/details.txt", "w") as d:
         d.write("Paramters: " + ", ".join(map(str, best_config)) + "\n")
         d.write("Test Accuracy: " + str(test_acc)+ '\n')
