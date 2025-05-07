@@ -18,7 +18,7 @@ et al. 2024 liken it to a sequence labeling task. To do so, they label graphemes
 * a stacked bidirectional GRU with 3 layers, a 192-dimension hidden state, and 0.2-rate dropout between GRU layers
 * 0.5-rate dropout applied to the GRU output
 * layer normalization applied to the GRU output
-* a time-distributed, fully-connected linear layer with ReLU activation, which projects each time step/inputted character onto the tag set 
+* a time-distributed, fully-connected linear layer with ReLU activation, which projects each time step onto the tag set 
 * a final linear layer which produces tag scores for each character
 * trained using Cross Entropy Loss with the Adam optimzer, a learning rate of 0.001, and 15 training epochs
 
